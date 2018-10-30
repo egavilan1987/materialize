@@ -1,0 +1,460 @@
+1
+00:00:00,510 --> 00:00:02,760
+All right it's you know we're going to take a look at modals.
+
+2
+00:00:02,790 --> 00:00:07,620
+So we've havock if you have experience with bootstrap then you know what imortal is basically where
+
+3
+00:00:07,620 --> 00:00:12,120
+we have a button we click and we have this nice little pop up with some content.
+
+4
+00:00:12,120 --> 00:00:17,690
+Now we can see the modal content right away I have that already here.
+
+5
+00:00:18,150 --> 00:00:26,040
+Just by taking the div right here and adding the class of modal and saving that will actually make the
+
+6
+00:00:26,040 --> 00:00:27,590
+content disappear.
+
+7
+00:00:27,980 --> 00:00:31,760
+OK and we can do the same thing for this down here.
+
+8
+00:00:32,010 --> 00:00:37,020
+So this div will give a class of modal and save.
+
+9
+00:00:37,020 --> 00:00:38,480
+That's going to go away.
+
+10
+00:00:38,820 --> 00:00:40,860
+And let's see did I have another one.
+
+11
+00:00:40,860 --> 00:00:42,420
+Bottom sheet motile.
+
+12
+00:00:42,480 --> 00:00:49,910
+So this right here also give a class of motile and it just sets it to hide by default.
+
+13
+00:00:49,920 --> 00:00:50,270
+All right.
+
+14
+00:00:50,280 --> 00:00:54,480
+Now we're going to do is go back up to the first one and we're going to work on the trigger.
+
+15
+00:00:54,480 --> 00:00:59,310
+OK so every modal needs to have some kind of trigger which is usually a button or a link.
+
+16
+00:00:59,460 --> 00:01:01,850
+So we're going to add of class here.
+
+17
+00:01:02,240 --> 00:01:03,270
+Let's make it look good.
+
+18
+00:01:03,270 --> 00:01:13,530
+Little push button put waves effect and waves dash lights and then we also need to put the class of
+
+19
+00:01:13,560 --> 00:01:15,760
+modal dash trigger.
+
+20
+00:01:16,320 --> 00:01:16,790
+OK.
+
+21
+00:01:16,800 --> 00:01:20,670
+In addition to that we need an H raft which is going to go to an ID.
+
+22
+00:01:20,670 --> 00:01:25,430
+So it's going to be a hash and then I'm going to call it modal one.
+
+23
+00:01:25,500 --> 00:01:25,940
+OK.
+
+24
+00:01:25,950 --> 00:01:29,940
+So that is going to look for a motile with the idea of modal one.
+
+25
+00:01:29,940 --> 00:01:35,610
+So we're going to go down here and give this an ID of modal one.
+
+26
+00:01:35,610 --> 00:01:38,540
+And that's how it knows to to use that modal.
+
+27
+00:01:38,860 --> 00:01:45,090
+OK and then there's just a couple of things you need to add here so this div should have a class of
+
+28
+00:01:45,780 --> 00:01:59,450
+modal dash content and this div right here should have a class of modal dash for her.
+
+29
+00:01:59,760 --> 00:02:00,110
+All right.
+
+30
+00:02:00,120 --> 00:02:00,620
+And then this.
+
+31
+00:02:00,630 --> 00:02:04,490
+OK right here I'm going to make this into a button.
+
+32
+00:02:04,830 --> 00:02:12,860
+So it's a actually it's going to be a modal action buttons so it will take a class of modal action sort
+
+33
+00:02:12,860 --> 00:02:15,950
+of kind of be built into the modal.
+
+34
+00:02:16,000 --> 00:02:20,840
+I'm also going to give it a class of modal close so that it closes when we click it.
+
+35
+00:02:21,050 --> 00:02:30,650
+Let's do a Wavves effect and let's do waves green and let's do DTN flat.
+
+36
+00:02:30,650 --> 00:02:31,100
+All right.
+
+37
+00:02:31,100 --> 00:02:32,790
+So let's see what that looks like.
+
+38
+00:02:33,050 --> 00:02:35,680
+OK so we have our button if I click it.
+
+39
+00:02:36,150 --> 00:02:41,000
+Hey it's not working because we actually have to initialize the motile.
+
+40
+00:02:41,180 --> 00:02:44,090
+So we're going to go down to the javascript
+
+41
+00:02:48,190 --> 00:02:59,750
+and we're going to put in our J query for the modal class and we're going to say Daut modal cadence
+
+42
+00:02:59,770 --> 00:03:00,880
+that should be enough.
+
+43
+00:03:00,880 --> 00:03:01,330
+There we go.
+
+44
+00:03:01,330 --> 00:03:07,920
+So now we have our modal never OK button if I click that that's going to close it automatically.
+
+45
+00:03:07,930 --> 00:03:10,800
+Now we have some options we can put in here.
+
+46
+00:03:10,960 --> 00:03:20,680
+So one is dismissable hand and that's true by default I believe because if I click and I click outside
+
+47
+00:03:20,680 --> 00:03:21,360
+it closes.
+
+48
+00:03:21,370 --> 00:03:24,210
+But if we don't want that we can set it to false.
+
+49
+00:03:24,340 --> 00:03:27,470
+That way if we click and I click outside it does not close.
+
+50
+00:03:27,480 --> 00:03:29,740
+I have to actually click OK.
+
+51
+00:03:29,740 --> 00:03:34,600
+All right but true is the default and that's what I'm going to leave it at.
+
+52
+00:03:34,600 --> 00:03:40,780
+Another thing we can do is change the speed at which it opens and closes so Indurain will be open.
+
+53
+00:03:40,990 --> 00:03:45,080
+So let's say two thousand and that should open pretty slow.
+
+54
+00:03:45,480 --> 00:03:47,610
+So you see it comes in it takes two seconds.
+
+55
+00:03:47,610 --> 00:03:50,810
+The default I think is 300.
+
+56
+00:03:51,460 --> 00:03:53,930
+And that's really quick.
+
+57
+00:03:53,960 --> 00:03:54,390
+All right.
+
+58
+00:03:54,460 --> 00:03:58,890
+And if we want the out duration we can do that as well.
+
+59
+00:03:58,930 --> 00:04:04,700
+So we'll say out duration 2000 just to test it out comes in quick.
+
+60
+00:04:04,750 --> 00:04:07,370
+Dismiss it and it goes out slow.
+
+61
+00:04:07,450 --> 00:04:10,880
+The default for that I think is 200.
+
+62
+00:04:10,900 --> 00:04:14,500
+We can also add a call back for one when it opens.
+
+63
+00:04:14,500 --> 00:04:26,620
+So if we say ready we can set that to a function and that function can take in the motile and trigger
+
+64
+00:04:27,880 --> 00:04:38,800
+and then inside here let's just say console door log and we'll just say motile opened and then let's
+
+65
+00:04:38,800 --> 00:04:43,220
+also see what we get for modal and for a trigger.
+
+66
+00:04:43,900 --> 00:04:44,250
+All right.
+
+67
+00:04:44,260 --> 00:04:47,820
+So we'll save that we'll open up our consul with F 12.
+
+68
+00:04:47,860 --> 00:04:52,660
+Make sure you're on the console and we'll click and you can see if we get motile opened and this is
+
+69
+00:04:52,660 --> 00:04:54,630
+what it gives us for the motile.
+
+70
+00:04:54,790 --> 00:05:02,860
+So basically gives us the div with the ID and all the attributes and stuff and then this would be the
+
+71
+00:05:02,860 --> 00:05:03,400
+trigger.
+
+72
+00:05:03,400 --> 00:05:08,700
+So this gives us the actual button that triggered it.
+
+73
+00:05:08,740 --> 00:05:11,720
+All right so if you wanted to do something with that you could.
+
+74
+00:05:12,220 --> 00:05:20,320
+So let's now go back up here and see.
+
+75
+00:05:20,440 --> 00:05:22,900
+So that's just a regular motile.
+
+76
+00:05:22,930 --> 00:05:26,190
+Now let's look at the fixed footer model.
+
+77
+00:05:26,620 --> 00:05:32,410
+So I'm going to close this up and let's add to the trigger here.
+
+78
+00:05:32,710 --> 00:05:47,260
+So I'll say class equals waves of fact waves slides between and we eat our motile trigger.
+
+79
+00:05:48,110 --> 00:05:48,740
+OK.
+
+80
+00:05:48,770 --> 00:05:55,490
+It also needs to know which motile to call so that's in the treffen it's going to be the idea of motile
+
+81
+00:05:55,580 --> 00:05:57,580
+too.
+
+82
+00:05:57,590 --> 00:06:07,070
+All right so we're going to go down to this div and let's add the ID of modal to and then we're going
+
+83
+00:06:07,070 --> 00:06:15,410
+to add to this class here modal dash fixed dash flooder.
+
+84
+00:06:15,490 --> 00:06:15,970
+OK.
+
+85
+00:06:15,980 --> 00:06:21,270
+And then this div will get the content the modal content.
+
+86
+00:06:22,810 --> 00:06:23,280
+OK.
+
+87
+00:06:23,300 --> 00:06:26,510
+And then let's go down to the bottom.
+
+88
+00:06:26,600 --> 00:06:33,890
+After all these paragraphs and go to this div and just like above we're going to give this a mobile
+
+89
+00:06:33,890 --> 00:06:47,360
+for and then for the button here say Tref equals a hash exclamation and then we're going to give this
+
+90
+00:06:47,520 --> 00:06:58,890
+class of modal Dasch action also modal close so that it closes say waves affect
+
+91
+00:07:01,840 --> 00:07:03,090
+waves.
+
+92
+00:07:03,300 --> 00:07:07,900
+Green and Button flat.
+
+93
+00:07:07,940 --> 00:07:13,100
+All right so let's save that and see what this does so if we click that we get our fix for motile what
+
+94
+00:07:13,100 --> 00:07:18,920
+this means is that the footer here that has the button is going to stay fixed and even if the content
+
+95
+00:07:18,920 --> 00:07:25,860
+stretches outside it's just going to give us a scroll bar rather than making it a large motile.
+
+96
+00:07:26,070 --> 00:07:26,500
+OK.
+
+97
+00:07:26,510 --> 00:07:33,140
+So this is good if you want to have like a like a poster or something maybe you want a whole blog post
+
+98
+00:07:33,140 --> 00:07:34,460
+inside the motile.
+
+99
+00:07:34,460 --> 00:07:37,660
+So that's what you would use that for.
+
+100
+00:07:37,700 --> 00:07:41,070
+Now we also have something called the ball bottom sheet motile.
+
+101
+00:07:41,150 --> 00:07:44,700
+So let's go ahead and add our trigger stuff here.
+
+102
+00:07:44,710 --> 00:07:48,600
+I'll actually just copy and see.
+
+103
+00:07:48,600 --> 00:07:58,350
+Scrap this whole a tag here and copy it and I'll paste it here.
+
+104
+00:07:58,880 --> 00:08:05,560
+Except we want to change the ID to model 3 and then give this an idea of model 3
+
+105
+00:08:08,930 --> 00:08:18,500
+and let's also give this class in addition to motile we want to add bottom Dasch sheet.
+
+106
+00:08:18,630 --> 00:08:22,850
+OK and then for the footer we will basically want to do kind of the same thing we did here so when the
+
+107
+00:08:22,850 --> 00:08:31,710
+copy this whole modal for Dev and just paste that here and then we can save that let's see what that
+
+108
+00:08:31,710 --> 00:08:32,750
+does.
+
+109
+00:08:32,760 --> 00:08:37,880
+So what that does is gives us a modal but not middle of the page it puts it at the bottom.
+
+110
+00:08:38,130 --> 00:08:40,760
+OK so it's a bottom sheet motile.
+
+111
+00:08:40,830 --> 00:08:41,070
+All right.
+
+112
+00:08:41,070 --> 00:08:49,030
+So you have some different options as far as how this displays so that's going to be it guys in the
+
+113
+00:08:49,030 --> 00:08:53,800
+next section we're going to I start to look at some other javascript's stuff some components we're going
+
+114
+00:08:53,800 --> 00:08:59,250
+to look at parallax and we'll move on to the side Nav. and some other cool stuff as well.
+
+115
+00:08:59,250 --> 00:09:01,160
+So I will see you in the next section.
+

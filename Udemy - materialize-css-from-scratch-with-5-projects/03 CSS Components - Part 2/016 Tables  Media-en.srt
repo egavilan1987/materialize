@@ -1,0 +1,324 @@
+1
+00:00:00,630 --> 00:00:05,880
+All right guys in this video we're going to take a look at tables and some media elements like images
+
+2
+00:00:05,880 --> 00:00:12,960
+and embedded videos so tables they actually look pretty good by default you can see that we have three
+
+3
+00:00:12,960 --> 00:00:13,760
+tables here.
+
+4
+00:00:13,770 --> 00:00:15,440
+No classes or anything.
+
+5
+00:00:15,450 --> 00:00:19,490
+This is just what they look like by default in materialize.
+
+6
+00:00:19,500 --> 00:00:21,240
+All right so that's the first table.
+
+7
+00:00:21,240 --> 00:00:27,600
+The second one I'm going to give it a class of striped and if you're familiar with bootstrap it basically
+
+8
+00:00:27,600 --> 00:00:28,680
+does the same thing.
+
+9
+00:00:28,680 --> 00:00:32,630
+It'll make every other row a light gray color.
+
+10
+00:00:32,790 --> 00:00:34,590
+OK so that looks pretty nice.
+
+11
+00:00:34,620 --> 00:00:35,700
+Nice and clean.
+
+12
+00:00:35,820 --> 00:00:38,910
+And then this third table I'm actually going to do a couple things too.
+
+13
+00:00:38,910 --> 00:00:44,210
+So first I'm going to give it a class of bordered and see what that does.
+
+14
+00:00:44,220 --> 00:00:48,770
+So what that does is it basically puts a line underneath each row.
+
+15
+00:00:48,840 --> 00:00:51,650
+OK so gives you a border for each row.
+
+16
+00:00:51,660 --> 00:00:54,760
+We can also give it a class of highlight.
+
+17
+00:00:55,020 --> 00:00:58,250
+If I do that initially you'll see it looks like there's no change.
+
+18
+00:00:58,260 --> 00:01:04,060
+But if I go in I highlight over a row it'll turn dark gray or light gray rather.
+
+19
+00:01:04,110 --> 00:01:04,400
+All right.
+
+20
+00:01:04,410 --> 00:01:06,470
+So it allows us to do that.
+
+21
+00:01:06,540 --> 00:01:11,180
+Another class we have is responsive table.
+
+22
+00:01:12,210 --> 00:01:16,110
+So it's a responsive Dasch table and save.
+
+23
+00:01:16,110 --> 00:01:22,320
+And notice that it completely changes the way it looks it basically puts the headings on the side here
+
+24
+00:01:22,680 --> 00:01:26,370
+and then it puts the data in a column.
+
+25
+00:01:26,370 --> 00:01:26,700
+All right.
+
+26
+00:01:26,700 --> 00:01:32,160
+That way no matter how small this is we can just have a scroll bar and we can see all the different
+
+27
+00:01:32,220 --> 00:01:33,990
+columns and all the data.
+
+28
+00:01:34,050 --> 00:01:34,370
+All right.
+
+29
+00:01:34,380 --> 00:01:39,890
+Now in this case these tables only have three columns so this doesn't look bad.
+
+30
+00:01:39,900 --> 00:01:42,540
+This actually looks better than this in my opinion.
+
+31
+00:01:42,540 --> 00:01:48,390
+But imagine if there were five six seven columns it would look horrible all squished together.
+
+32
+00:01:48,630 --> 00:01:53,480
+But if they're responsive you would have these nice rows and you can just scroll through.
+
+33
+00:01:53,730 --> 00:01:58,080
+All right so it doesn't look the best but it's very very difficult to get a table to look good on a
+
+34
+00:01:58,080 --> 00:01:59,960
+small screen.
+
+35
+00:02:00,000 --> 00:02:01,380
+OK so that's tables.
+
+36
+00:02:01,380 --> 00:02:04,420
+Next thing I want to do is look at responsive images.
+
+37
+00:02:04,590 --> 00:02:11,680
+So first thing I'm going to do right here is just put in an image let's say image slash image one dot
+
+38
+00:02:11,700 --> 00:02:14,720
+j peg and save it.
+
+39
+00:02:14,820 --> 00:02:18,930
+And by default it's just going to give us the full size image which is huge.
+
+40
+00:02:18,930 --> 00:02:22,080
+We have to scroll over to see the whole thing.
+
+41
+00:02:22,080 --> 00:02:27,130
+Now if we want to restrict this let's say we want to wrap this in a column.
+
+42
+00:02:27,290 --> 00:02:36,300
+So what we're going to do is put a let's do 6 column div and then just take this image here and let's
+
+43
+00:02:36,300 --> 00:02:42,890
+put that up here and save and it's still basically bursting out of its container.
+
+44
+00:02:42,890 --> 00:02:46,220
+A six column div ends like right here.
+
+45
+00:02:46,230 --> 00:02:49,630
+So what we want to do is constrain it into its container.
+
+46
+00:02:49,740 --> 00:02:59,880
+So to do that we give it a class of responsive dash I am g and save.
+
+47
+00:02:59,880 --> 00:03:03,800
+And now you see that it's restricted into its container.
+
+48
+00:03:03,840 --> 00:03:10,320
+OK if this was let's say a and 8 column actually will do a 12 we'll just do a full column and you see
+
+49
+00:03:10,320 --> 00:03:11,890
+it's constrained inside.
+
+50
+00:03:11,990 --> 00:03:12,980
+OK.
+
+51
+00:03:13,020 --> 00:03:24,120
+Now we can also make circular images so if I were to take this and just add a class of circle and save
+
+52
+00:03:24,750 --> 00:03:29,000
+it makes it a circle or an oval shape which looks really cool.
+
+53
+00:03:29,280 --> 00:03:36,510
+If we want to do a video or an embedded video rather I'm going to just paste in I-frame for a YouTube
+
+54
+00:03:36,510 --> 00:03:40,500
+video it's just my channel trailer and save it.
+
+55
+00:03:40,500 --> 00:03:47,070
+Now I have it set to 853 by for 80 and you'll see it just goes off the page I have to scroll over if
+
+56
+00:03:47,070 --> 00:03:53,610
+I wanted this to be responsive and restricted to its container I could wrap it in a class called video
+
+57
+00:03:53,610 --> 00:03:56,430
+dash container.
+
+58
+00:03:57,000 --> 00:03:57,330
+All right.
+
+59
+00:03:57,330 --> 00:04:04,860
+So I'll just grab this and we'll just move this up into here and save.
+
+60
+00:04:04,920 --> 00:04:10,860
+And now you can see it's restricted no matter how big or small I make this it's going to show the whole
+
+61
+00:04:10,860 --> 00:04:12,090
+video.
+
+62
+00:04:12,110 --> 00:04:12,800
+All right.
+
+63
+00:04:13,050 --> 00:04:18,480
+And then for this last one here the video element I don't actually have a local video to use but I'm
+
+64
+00:04:18,480 --> 00:04:20,160
+just going to show you the mark up.
+
+65
+00:04:20,340 --> 00:04:27,350
+So what we would do is have a video tag with the class of responsive dash video
+
+66
+00:04:30,010 --> 00:04:38,830
+and we wouldn't put the source here what we would do is inside the video we'll put a source tag and
+
+67
+00:04:38,830 --> 00:04:48,220
+then on that will put the source attribute and it would be set to some video it could be an MP 4 MP
+
+68
+00:04:48,220 --> 00:04:51,390
+4 or an API or something like that.
+
+69
+00:04:51,400 --> 00:04:51,760
+All right.
+
+70
+00:04:51,780 --> 00:05:00,730
+And we just want to give this a type of video slash and then whatever the type in this case an MP for.
+
+71
+00:05:00,730 --> 00:05:07,240
+All right so if I save that that nothing is going to show because I don't have the video.
+
+72
+00:05:07,390 --> 00:05:13,300
+But if we were to put a controls attribute here you know see the controls are in there.
+
+73
+00:05:13,360 --> 00:05:13,950
+All right.
+
+74
+00:05:14,010 --> 00:05:18,360
+And if you want to try putting a video locally inside your folder that's fine.
+
+75
+00:05:18,700 --> 00:05:19,000
+All right.
+
+76
+00:05:19,000 --> 00:05:21,580
+So not much to do here.
+
+77
+00:05:21,590 --> 00:05:23,680
+There's not too many different table classes.
+
+78
+00:05:23,680 --> 00:05:27,010
+Not as many as bootstrap media.
+
+79
+00:05:27,010 --> 00:05:29,080
+Pretty pretty self-explanatory.
+
+80
+00:05:29,080 --> 00:05:36,150
+Just use responsive image response video and they'll get restricted to their containers.
+
+81
+00:05:36,160 --> 00:05:42,030
+All right so in the next video we're going to take a look at chips and pagination.
+

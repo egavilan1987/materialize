@@ -1,0 +1,792 @@
+1
+00:00:00,440 --> 00:00:05,580
+All right so in the last video we created the nav bar and the side navigation.
+
+2
+00:00:05,580 --> 00:00:10,620
+Now we're going to do the stats on the dashboard and we're going to start off by just putting static
+
+3
+00:00:10,620 --> 00:00:18,410
+numbers and then we'll do the little jay query magic to make the numbers go from zero to whatever the
+
+4
+00:00:18,420 --> 00:00:19,560
+number is.
+
+5
+00:00:19,560 --> 00:00:26,840
+OK so let's go under the nav and I'm just going to put a comment here and we'll say Section stats.
+
+6
+00:00:27,390 --> 00:00:33,570
+OK so just like with all of our projects we're going to do a section with the classes section and then
+
+7
+00:00:33,570 --> 00:00:39,930
+a custom class of Section Dasch stats and we also want to center everything.
+
+8
+00:00:40,260 --> 00:00:42,780
+OK so in here we're going to do a row.
+
+9
+00:00:43,380 --> 00:00:50,860
+Use the grid system we're going to do actually different sizes for our different columns for each size.
+
+10
+00:00:50,870 --> 00:01:00,210
+So for a small we want a full width so as 12 for medium sized screens we want 6.
+
+11
+00:01:00,210 --> 00:01:07,060
+So we wanted to be basically split in half and then on large screens we're going to do three.
+
+12
+00:01:07,280 --> 00:01:07,670
+OK.
+
+13
+00:01:07,680 --> 00:01:09,540
+So three across.
+
+14
+00:01:09,540 --> 00:01:16,820
+So make sure you get that and then what we'll do is put in our card panel for the first one.
+
+15
+00:01:16,980 --> 00:01:18,540
+This is going to be for the post.
+
+16
+00:01:18,690 --> 00:01:20,900
+It's going to have a class of blue.
+
+17
+00:01:21,360 --> 00:01:24,560
+We're going to lighten by Warren.
+
+18
+00:01:24,660 --> 00:01:30,890
+We're going to have some white text and make sure that it's over.
+
+19
+00:01:31,370 --> 00:01:31,760
+All right.
+
+20
+00:01:31,770 --> 00:01:34,250
+And then inside here we're going to have an icon.
+
+21
+00:01:34,260 --> 00:01:46,080
+So we're going to do material icons and the icon name is insert underscore a motor car and that'll give
+
+22
+00:01:46,080 --> 00:01:48,250
+us a little alarm.
+
+23
+00:01:48,630 --> 00:01:52,350
+What is it I think it's a little pencil I think.
+
+24
+00:01:52,500 --> 00:01:54,560
+I'm not sure.
+
+25
+00:01:54,840 --> 00:01:56,350
+Oh this is the monthly visitors.
+
+26
+00:01:56,370 --> 00:01:58,950
+So it's like the little face.
+
+27
+00:01:58,950 --> 00:02:07,170
+All right sort of the icon will do an H5 and we're going to do monthly visitors and then we want an
+
+28
+00:02:07,170 --> 00:02:10,490
+H 3 and this is going to have a class of count.
+
+29
+00:02:10,500 --> 00:02:14,110
+OK we're going to use that in the Jay script that we're going to write.
+
+30
+00:02:14,550 --> 00:02:20,370
+And for the count we're going to say twenty thousand three hundred.
+
+31
+00:02:21,010 --> 00:02:21,490
+OK.
+
+32
+00:02:21,510 --> 00:02:26,330
+Under that we're going to have our progress bar so it's going to be a divot the class of progress if
+
+33
+00:02:26,360 --> 00:02:27,560
+you remember those.
+
+34
+00:02:27,870 --> 00:02:29,510
+And it's going to be gray.
+
+35
+00:02:30,030 --> 00:02:33,590
+And then we're going to do Litan one.
+
+36
+00:02:34,350 --> 00:02:34,830
+OK.
+
+37
+00:02:34,830 --> 00:02:40,980
+And then inside here it's going to be a determinant progress bar so it's not going to be the animated
+
+38
+00:02:40,980 --> 00:02:41,500
+one.
+
+39
+00:02:41,640 --> 00:02:47,770
+So we want to give it the class of determinant.
+
+40
+00:02:47,930 --> 00:02:48,730
+Spell out right.
+
+41
+00:02:48,780 --> 00:02:51,540
+Determinant and then it's going to be white.
+
+42
+00:02:52,320 --> 00:03:00,350
+OK and then we need to give it a style with the with that's how we can we can show how much it's filled.
+
+43
+00:03:00,350 --> 00:03:05,990
+So I'm going to say the width will be 40 percent.
+
+44
+00:03:06,710 --> 00:03:12,780
+What do they do here style equals should be with colon.
+
+45
+00:03:12,850 --> 00:03:16,460
+40 percent like that.
+
+46
+00:03:16,870 --> 00:03:22,820
+All right so let's save that and should look like this guy.
+
+47
+00:03:23,290 --> 00:03:26,470
+Now we're going to do is the blog posts.
+
+48
+00:03:26,470 --> 00:03:30,250
+So what I'll do is copy the column.
+
+49
+00:03:30,250 --> 00:03:34,660
+So the Stiv here we're going to grab that.
+
+50
+00:03:36,220 --> 00:03:41,690
+And let's go ahead and paste in.
+
+51
+00:03:42,220 --> 00:03:45,180
+That's two three and four.
+
+52
+00:03:45,520 --> 00:03:52,070
+So if I save that it'll be four cross OK.
+
+53
+00:03:52,450 --> 00:03:58,710
+And then once we get to medium screen you'll see it will be two across and then on small screens one.
+
+54
+00:03:58,720 --> 00:04:03,610
+So now let's change up these cards we're going to go to the second one which is going to be the blog
+
+55
+00:04:03,610 --> 00:04:04,600
+posts.
+
+56
+00:04:04,630 --> 00:04:09,460
+So I want to change the color from blue going to change it to.
+
+57
+00:04:09,610 --> 00:04:12,310
+Actually it's not going to have a color because it's going to be white.
+
+58
+00:04:12,310 --> 00:04:15,070
+So we want to get rid of these three classes.
+
+59
+00:04:15,430 --> 00:04:18,420
+So it's just Card panel and center.
+
+60
+00:04:19,510 --> 00:04:28,570
+And then the icon is going to be mode underscore and it will give us that pencil icon OK and then for
+
+61
+00:04:28,570 --> 00:04:38,380
+the text here we're going to say blog posts and then for that count we're going to do 1 0 5 ok for the
+
+62
+00:04:38,380 --> 00:04:41,560
+progress bar let's do 20 percent
+
+63
+00:04:44,550 --> 00:04:51,470
+ok except I'm going to change the C liten right here.
+
+64
+00:04:51,470 --> 00:04:58,370
+The class where a determinant is we're going to change it from white to blue because now it's on a white
+
+65
+00:04:58,370 --> 00:04:59,360
+background.
+
+66
+00:04:59,460 --> 00:05:03,650
+I'm going to light it by one I like that.
+
+67
+00:05:03,650 --> 00:05:03,940
+All right.
+
+68
+00:05:03,950 --> 00:05:07,570
+So if I save that it should look like that.
+
+69
+00:05:07,580 --> 00:05:11,390
+So the next one is going to be the comments.
+
+70
+00:05:11,390 --> 00:05:14,990
+And this one's going to be blue so we can leave all those styles and stuff.
+
+71
+00:05:14,990 --> 00:05:17,660
+We just want to change the content.
+
+72
+00:05:17,780 --> 00:05:29,870
+The actual comment is going to be mode underscore comment and then the text will change that two comments.
+
+73
+00:05:29,870 --> 00:05:39,930
+Let's change the number to twelve hundred and then we'll leave the with a 40 percent that's fine.
+
+74
+00:05:40,610 --> 00:05:42,610
+So if I save that there we go.
+
+75
+00:05:42,620 --> 00:05:48,020
+Now the last one is going to be the users and that's going to be white like this one.
+
+76
+00:05:48,020 --> 00:05:54,250
+So what I'm going to do is actually copy the blog post right here the blog post column.
+
+77
+00:05:54,500 --> 00:05:57,420
+And just to replace this one.
+
+78
+00:05:57,500 --> 00:06:01,200
+So enough to retype all the class color classes and stuff.
+
+79
+00:06:01,370 --> 00:06:12,440
+And then for the icon that's going to be supervisor account a supervisor underscore count some weird
+
+80
+00:06:12,440 --> 00:06:16,660
+names for these icons and then users.
+
+81
+00:06:17,060 --> 00:06:20,700
+And the number of users will be 350.
+
+82
+00:06:21,320 --> 00:06:24,890
+And for the progress bar let's say 10 percent.
+
+83
+00:06:25,400 --> 00:06:26,890
+So save.
+
+84
+00:06:26,990 --> 00:06:29,690
+And there we go.
+
+85
+00:06:29,690 --> 00:06:36,560
+All right so what's the one thing I want to do is make the icons bigger.
+
+86
+00:06:36,560 --> 00:06:41,810
+So for each material icons class I'm just going to add medium.
+
+87
+00:06:41,960 --> 00:06:45,270
+The medium class that will make them a little bigger.
+
+88
+00:06:54,990 --> 00:06:58,530
+And save and there we go so looks pretty good.
+
+89
+00:06:58,530 --> 00:07:01,760
+All right so now we're going to do is the counter effect.
+
+90
+00:07:01,890 --> 00:07:06,990
+Now we're going to be using Jay Querrey for this and a lot of you guys that know me that follow my YouTube
+
+91
+00:07:06,990 --> 00:07:14,850
+channel and other courses know that I'm not usually a fan of Jay Corey but the reason for that is because
+
+92
+00:07:14,850 --> 00:07:22,020
+I think it's over used for things like Dom manipulation for Ajax when you could use the GPI or you could
+
+93
+00:07:22,020 --> 00:07:27,900
+use Acciona or something but something like this is exactly what I think J.A.G. should be used for as
+
+94
+00:07:27,900 --> 00:07:31,400
+little widgets little animations things like that.
+
+95
+00:07:31,580 --> 00:07:32,280
+OK.
+
+96
+00:07:32,550 --> 00:07:37,110
+So the counter we're going to it's going to be a couple of lines of code we're going to use the anime
+
+97
+00:07:37,140 --> 00:07:39,170
+property or the animate method.
+
+98
+00:07:39,330 --> 00:07:44,470
+So let's go down to our javascript and let's say counter.
+
+99
+00:07:44,820 --> 00:07:50,850
+OK and I'm not going to go crazy with the explanation because this is not a J.A.G. course and it's just
+
+100
+00:07:50,850 --> 00:07:51,930
+a little snippet of code.
+
+101
+00:07:51,930 --> 00:07:58,230
+I would suggest taking this snippet and putting it somewhere in case you want to use it in another project.
+
+102
+00:07:58,240 --> 00:08:04,770
+OK so we're going to take the class of count because remember all of the H threes with these numbers
+
+103
+00:08:04,770 --> 00:08:10,710
+have a class of count and we're going to loop through them within each loop K and each takes in a callback
+
+104
+00:08:10,710 --> 00:08:12,140
+function.
+
+105
+00:08:13,830 --> 00:08:20,040
+And then what we're going to do is take this meaning whatever the current count Ron and then we're going
+
+106
+00:08:20,040 --> 00:08:23,910
+to call Propp and we want the counter
+
+107
+00:08:26,970 --> 00:08:30,600
+property and that's going to have a zero default.
+
+108
+00:08:30,720 --> 00:08:35,910
+And then we're going to call Daut animate and case this is what makes the magic happen.
+
+109
+00:08:36,030 --> 00:08:42,840
+So this animate we're going to pass in an object and we're going to pass in counter colon.
+
+110
+00:08:42,870 --> 00:08:48,550
+And then this dot text.
+
+111
+00:08:48,780 --> 00:08:53,170
+Ok this text is going to get whatever the text whatever the number is.
+
+112
+00:08:53,190 --> 00:08:58,080
+OK whatever's in that text and then it's going to take in a second parameter.
+
+113
+00:08:58,080 --> 00:09:03,150
+So after this curly brace we're going to put another we're going to put a comma and then another sort
+
+114
+00:09:03,150 --> 00:09:05,060
+of brackets or curly braces.
+
+115
+00:09:05,190 --> 00:09:06,940
+And this is the options.
+
+116
+00:09:07,140 --> 00:09:14,040
+So we have duration as an option which I'm going to set to one second which is a thousand milliseconds.
+
+117
+00:09:14,130 --> 00:09:19,650
+We can also do easing which is like the effect and that's going to be swing and you can look more on
+
+118
+00:09:19,650 --> 00:09:24,240
+the J.A.G. documentation if you want for other options.
+
+119
+00:09:24,240 --> 00:09:33,290
+And then we're going to do step which is going to be a function and that takes in a parameter of now
+
+120
+00:09:34,080 --> 00:09:36,360
+and then we're going to take the text.
+
+121
+00:09:36,360 --> 00:09:45,540
+So this was this Daut text and then we're going to round up so we're going to use the math object.
+
+122
+00:09:45,560 --> 00:09:50,990
+And then Seele which rounds up and then pass and now.
+
+123
+00:09:51,330 --> 00:09:51,750
+OK.
+
+124
+00:09:51,750 --> 00:09:52,320
+And that's it.
+
+125
+00:09:52,320 --> 00:09:53,580
+That should actually do it.
+
+126
+00:09:53,580 --> 00:09:55,650
+So let's save and there we go.
+
+127
+00:09:55,650 --> 00:09:59,730
+So now within one second it just counts upwards.
+
+128
+00:09:59,730 --> 00:10:05,700
+It starts at zero and counts upwards and if you wanted to take let's say three seconds we could change
+
+129
+00:10:05,700 --> 00:10:06,430
+that.
+
+130
+00:10:06,540 --> 00:10:09,140
+And now it will take three seconds to count up.
+
+131
+00:10:09,670 --> 00:10:11,160
+OK but that's way too long.
+
+132
+00:10:11,160 --> 00:10:14,710
+I think one second is good.
+
+133
+00:10:15,190 --> 00:10:15,440
+All right.
+
+134
+00:10:15,440 --> 00:10:20,120
+Now I think that we should also implement the preload or functionality as well.
+
+135
+00:10:20,120 --> 00:10:27,550
+Now the the way that this works is we're going to initially hide every section K on the dashboard every
+
+136
+00:10:27,980 --> 00:10:31,190
+every area is going to have a class of.
+
+137
+00:10:31,190 --> 00:10:37,130
+Right so what I'm going to do is go to the very top of the script tag right here.
+
+138
+00:10:37,130 --> 00:10:46,960
+Before we even do the document dart ready and I'm going to set all the section classes to hide and there's
+
+139
+00:10:46,970 --> 00:10:48,790
+a lot of different ways you could implement this.
+
+140
+00:10:48,800 --> 00:10:55,590
+But this is just the one I chose let's do let's say Hyde sections.
+
+141
+00:10:55,890 --> 00:10:59,120
+OK so if I save that everything's going to go away.
+
+142
+00:10:59,220 --> 00:11:02,380
+I mean right now we only have one section but it goes away.
+
+143
+00:11:02,510 --> 00:11:08,410
+And then what we're going to do is wrap everything including the document dart ready in a set time function.
+
+144
+00:11:08,660 --> 00:11:16,830
+Ok so if we say set time out and that takes in two things One is a function of what's going to happen.
+
+145
+00:11:17,060 --> 00:11:22,690
+And then the next is the amount of time we want to wait for this to happen so I'm going to say one second
+
+146
+00:11:22,710 --> 00:11:24,990
+or 1000 milliseconds.
+
+147
+00:11:25,190 --> 00:11:28,130
+All right and then we're going to take everything here.
+
+148
+00:11:29,390 --> 00:11:33,970
+So this all of this and cut it in we're going to put it in the set.
+
+149
+00:11:33,970 --> 00:11:35,180
+Time out.
+
+150
+00:11:38,170 --> 00:11:38,620
+All right.
+
+151
+00:11:38,630 --> 00:11:40,510
+And then inside the set time.
+
+152
+00:11:40,510 --> 00:11:45,620
+So we want to then fade in the sections.
+
+153
+00:11:45,650 --> 00:11:49,820
+OK so we're going to go right in the document ready.
+
+154
+00:11:49,820 --> 00:11:58,070
+We do want to do it when the documents ready and we're going to say show sections OK so we can do that
+
+155
+00:11:58,070 --> 00:12:04,950
+by simply saying DAW's section and we could do a show but I'm actually going to do fade.
+
+156
+00:12:04,970 --> 00:12:07,430
+And I think it's a better effect.
+
+157
+00:12:07,610 --> 00:12:08,710
+So we're going to do that.
+
+158
+00:12:08,750 --> 00:12:12,580
+So if we save it's going to wait a second and then it's going to fade in.
+
+159
+00:12:12,790 --> 00:12:13,460
+OK.
+
+160
+00:12:13,520 --> 00:12:19,130
+And then the count starts the count isn't going to start until it's actually finished until you can
+
+161
+00:12:19,130 --> 00:12:20,060
+see it.
+
+162
+00:12:20,600 --> 00:12:26,800
+OK now that's that's great but we don't have our preload yet so let's do that so at it.
+
+163
+00:12:26,810 --> 00:12:36,410
+We're going to go up to our mark up down the very bottom here and we'll say premotor.
+
+164
+00:12:37,550 --> 00:12:38,010
+OK.
+
+165
+00:12:38,030 --> 00:12:40,590
+So let's see.
+
+166
+00:12:41,510 --> 00:12:44,300
+Let's actually grab it from materialize
+
+167
+00:12:50,000 --> 00:12:50,610
+see.
+
+168
+00:12:50,610 --> 00:12:51,070
+Where is it.
+
+169
+00:12:51,090 --> 00:12:53,390
+Premotor.
+
+170
+00:12:53,410 --> 00:12:56,090
+So I'm going to grab.
+
+171
+00:12:56,680 --> 00:12:59,030
+I want it to be that big one.
+
+172
+00:12:59,870 --> 00:13:01,200
+It's going to get this right here
+
+173
+00:13:04,970 --> 00:13:05,460
+right.
+
+174
+00:13:05,570 --> 00:13:09,140
+So freeloader big active spinner.
+
+175
+00:13:09,200 --> 00:13:11,780
+Only this is fine so I'm going to use this.
+
+176
+00:13:11,870 --> 00:13:14,410
+Now if I save it and we take a look.
+
+177
+00:13:14,450 --> 00:13:19,840
+The freeloaders is going to be its relative right but we want to position it absolute.
+
+178
+00:13:19,980 --> 00:13:29,780
+So well we'll have to do is edit our CSSA So remember we have the main CSSA file for custom stuff and
+
+179
+00:13:29,840 --> 00:13:38,330
+I'm also going to give it a class of loader like that so that we can grab onto that civil say Dot loader
+
+180
+00:13:40,820 --> 00:13:43,880
+and then we're going to send it through position.
+
+181
+00:13:44,900 --> 00:13:58,070
+Absolute and I'm going to set it from the Top 40 percent and from the left 47 percent and we'll save
+
+182
+00:13:58,070 --> 00:14:00,590
+it and I can see it's in the middle.
+
+183
+00:14:01,070 --> 00:14:06,240
+OK so if I reload it waits a second and then loads.
+
+184
+00:14:06,260 --> 00:14:07,970
+But the freeloader is still there.
+
+185
+00:14:07,970 --> 00:14:14,470
+So what we need to do is when everything comes in when the section comes in we then want to hide the
+
+186
+00:14:14,500 --> 00:14:15,830
+freeloader.
+
+187
+00:14:16,430 --> 00:14:23,380
+All right so what we'll do is let's say hide freeloader
+
+188
+00:14:25,900 --> 00:14:34,100
+So remember it has a class of load so grab onto that and we'll say fade out.
+
+189
+00:14:34,130 --> 00:14:40,180
+All right so save it pre-loading there sections come in and the preload or fades out.
+
+190
+00:14:41,250 --> 00:14:43,040
+OK so it's as easy as that.
+
+191
+00:14:45,280 --> 00:14:48,190
+And like I said there's there's a million ways to do stuff like this.
+
+192
+00:14:48,190 --> 00:14:49,550
+This is just one of them.
+
+193
+00:14:49,600 --> 00:14:51,950
+If you have a different way that's fine.
+
+194
+00:14:52,300 --> 00:14:58,780
+I just want to get it working and and you know as long as it has good performance.
+
+195
+00:14:58,780 --> 00:15:03,850
+All right so that's going to be it for this section or the arms or this lecture or guys in the next
+
+196
+00:15:03,850 --> 00:15:06,990
+video we're going to start to work on the chart area.
+
+197
+00:15:07,060 --> 00:15:09,390
+We're going to work with canvas JSL a little bit.
+
+198
+00:15:09,430 --> 00:15:11,110
+So I will see you in the next video.
+

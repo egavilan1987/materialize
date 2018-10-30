@@ -1,0 +1,508 @@
+1
+00:00:00,630 --> 00:00:06,960
+All right guys in this video we're going to start to talk about typography and alignment things like
+
+2
+00:00:06,960 --> 00:00:08,690
+that things to do with text.
+
+3
+00:00:08,850 --> 00:00:15,570
+So in the material I sandbox I'm going to open up to underscore one to biography and we're going to
+
+4
+00:00:15,570 --> 00:00:17,380
+go to the top here.
+
+5
+00:00:17,460 --> 00:00:22,280
+Now like I said we're going to start where it's a start here in most cases.
+
+6
+00:00:22,290 --> 00:00:29,460
+But just for this one file I want to take a look at the container because everything in the sandbox
+
+7
+00:00:29,460 --> 00:00:32,750
+files is wrapped inside of a container class.
+
+8
+00:00:32,920 --> 00:00:33,300
+OK.
+
+9
+00:00:33,300 --> 00:00:39,300
+Now if you've ever worked with bootstrap or most other frameworks there's a container class which gives
+
+10
+00:00:39,730 --> 00:00:42,250
+your content that is within it.
+
+11
+00:00:42,330 --> 00:00:45,270
+It gives it a with usually a flexible with.
+
+12
+00:00:45,270 --> 00:00:51,080
+And it gives it margin auto and pushes basically pushes it into the middle and add spacing.
+
+13
+00:00:51,210 --> 00:00:53,790
+So let's open up this file I'm going to use open.
+
+14
+00:00:53,790 --> 00:00:55,390
+I'm going to use live server.
+
+15
+00:00:55,530 --> 00:01:00,660
+So when I say open with a live server but of course you can just open it on your file system or you
+
+16
+00:01:00,660 --> 00:01:04,890
+can use another server or however you want to open it just get it open.
+
+17
+00:01:05,430 --> 00:01:05,830
+All right.
+
+18
+00:01:05,830 --> 00:01:09,300
+Now as you can see there's spacing on the sides here.
+
+19
+00:01:09,300 --> 00:01:14,940
+Even if I were to make this bigger you'll see up to a certain point then it just stays at that with.
+
+20
+00:01:14,950 --> 00:01:17,880
+And I think the max with this 12 80.
+
+21
+00:01:17,880 --> 00:01:20,230
+So let's actually take a look.
+
+22
+00:01:20,370 --> 00:01:28,170
+If we open up our chrome tools here and we go to the container and we look over here you see that we
+
+23
+00:01:28,170 --> 00:01:32,040
+have a media query for the men with 993 pixels.
+
+24
+00:01:32,100 --> 00:01:38,240
+And at this stage at this screen size the width of the container is 70 percent.
+
+25
+00:01:38,250 --> 00:01:43,810
+If I were to make this smaller let's put it back to where we had it.
+
+26
+00:01:44,040 --> 00:01:45,620
+And look at the container.
+
+27
+00:01:45,620 --> 00:01:51,970
+Now it's 85 percent OK so that with is going to change based on these media queries.
+
+28
+00:01:52,080 --> 00:01:58,170
+And if we look down here the max with is 12 80 pixels so no matter how big your browser is that's the
+
+29
+00:01:58,170 --> 00:02:01,750
+max with It'll be ok it also has that margin.
+
+30
+00:02:01,770 --> 00:02:02,660
+Auto.
+
+31
+00:02:03,060 --> 00:02:04,610
+So that's the container.
+
+32
+00:02:04,620 --> 00:02:11,610
+And let's go down here now where it says Start here and we're going to start to look at some headings
+
+33
+00:02:11,610 --> 00:02:16,590
+and paragraphs and stuff like that so I'm going to put in an H1 here.
+
+34
+00:02:16,710 --> 00:02:21,840
+Actually I'm going to put in the heading of each size just so we can see what they look like.
+
+35
+00:02:22,030 --> 00:02:25,670
+So that will be heading to an amusing Amet here.
+
+36
+00:02:34,840 --> 00:02:46,380
+Each drive will be heading five and age 6 having sex or let's save that and see what we got.
+
+37
+00:02:46,380 --> 00:02:48,060
+So these are what the headings look like.
+
+38
+00:02:48,060 --> 00:02:54,630
+Now there's really no special classes in the materialized framework for headings for instance bootstrap
+
+39
+00:02:54,660 --> 00:02:58,540
+4 has the display one display two headings.
+
+40
+00:02:58,590 --> 00:03:05,310
+There's none of that materialized you just basically have ones one version of a heading and you can
+
+41
+00:03:05,310 --> 00:03:09,400
+add color classes but we'll get into that in the next video.
+
+42
+00:03:09,420 --> 00:03:13,100
+So let's take a look at the CSSA Ford H-1.
+
+43
+00:03:13,110 --> 00:03:20,290
+So if I just go ahead and inspect the each one you'll see you have a font sizes of four point two RAM.
+
+44
+00:03:20,340 --> 00:03:25,950
+Now a RAM unit if you don't know is a relative measurement in CSSA.
+
+45
+00:03:26,310 --> 00:03:32,520
+Basically one RAM is equal to the amount of pixels of the root h t m l element.
+
+46
+00:03:32,520 --> 00:03:39,690
+So if we go ahead and look at that and see what that is we'll go to the h l element and you see as a
+
+47
+00:03:39,690 --> 00:03:48,230
+font size of 14 pixels so in materialize if we use the unit 1 REM then we're using 14 pixels.
+
+48
+00:03:48,390 --> 00:03:52,860
+Now where the heading is four point two RAM.
+
+49
+00:03:52,950 --> 00:03:59,490
+It's going to be 4.2 times 14 pixels and that will be the amount of pixels so we can actually see that
+
+50
+00:03:59,520 --> 00:04:06,450
+under computed in the chrome tools if I were to go down here and you see that the actual size in pixels
+
+51
+00:04:06,450 --> 00:04:09,310
+is fifty eight point eight pixels.
+
+52
+00:04:09,600 --> 00:04:18,810
+Ok heading to is forty nine point eighty four pixels which is if we go back to Styles three point five
+
+53
+00:04:18,810 --> 00:04:26,640
+six ram OK and then every heading has a line height of 110 percent and it has these margins which are
+
+54
+00:04:26,640 --> 00:04:28,260
+also in RAM units.
+
+55
+00:04:28,510 --> 00:04:34,890
+OK one of the feedbacks that I got on my bootstrap course where we did the same thing we set up a sandbox
+
+56
+00:04:35,310 --> 00:04:42,710
+is some people said that I was just adding classes and not really talking about what they did.
+
+57
+00:04:42,720 --> 00:04:48,900
+So in this course I'm going to look more into the CSSA and actually see what it's doing OK but I don't
+
+58
+00:04:48,900 --> 00:04:54,180
+want to do that too too much because I think it will just take up a ton of time if we see every single
+
+59
+00:04:54,180 --> 00:04:56,920
+style for every single element in class.
+
+60
+00:04:57,000 --> 00:05:01,680
+But I will be doing it more often than I did in the bootstrap corps.
+
+61
+00:05:01,680 --> 00:05:07,850
+All right so now for a paragraph we're going to go ahead and just add a simple paragraph.
+
+62
+00:05:07,950 --> 00:05:12,780
+If we're using it you can just do Lorem you could do the word larm and then a number.
+
+63
+00:05:12,780 --> 00:05:18,070
+So let's say 20 and then tab and that will give me 20 words of sample text.
+
+64
+00:05:18,090 --> 00:05:23,880
+So if I save that you can see that this is the paragraph I just added and that's just what the standard
+
+65
+00:05:23,880 --> 00:05:26,960
+paragraph looks like and materialize.
+
+66
+00:05:26,970 --> 00:05:33,520
+And if we look at the see SS Basically it's just displayed as a block.
+
+67
+00:05:33,760 --> 00:05:37,030
+Not too much not too much style on a paragraph.
+
+68
+00:05:37,030 --> 00:05:39,100
+Nothing really special.
+
+69
+00:05:39,100 --> 00:05:42,720
+Now for a block quote Let's go ahead and add that.
+
+70
+00:05:42,760 --> 00:05:47,440
+So I'll go down here and we'll put in a block quote.
+
+71
+00:05:47,480 --> 00:05:48,490
+Whoops.
+
+72
+00:05:48,620 --> 00:05:52,740
+You know what caps will do.
+
+73
+00:05:52,750 --> 00:05:56,780
+Warm 10 tablets would give us 10 words and save.
+
+74
+00:05:56,950 --> 00:05:58,990
+And then this is what a block quote looks like.
+
+75
+00:05:58,990 --> 00:06:01,320
+So it basically gives you this red line.
+
+76
+00:06:01,330 --> 00:06:05,880
+This border on the left and it gives you some padding between attacks.
+
+77
+00:06:05,920 --> 00:06:06,410
+OK.
+
+78
+00:06:06,430 --> 00:06:10,450
+Looks like the text size is the same as a paragraph.
+
+79
+00:06:10,540 --> 00:06:11,850
+So that's a block quote.
+
+80
+00:06:12,040 --> 00:06:19,450
+Now in addition to just the standard paragraph we have a flow text paragraph so we can use this with
+
+81
+00:06:19,450 --> 00:06:27,670
+the class of flow dash text and save and you can see it does a couple of things one it makes the text
+
+82
+00:06:27,670 --> 00:06:28,640
+bigger.
+
+83
+00:06:28,660 --> 00:06:36,620
+So if we were to look at the font size you'll see it as a font size of 1.3 9 to ram.
+
+84
+00:06:36,620 --> 00:06:42,830
+Now that said this screen size flow text makes it so that this is completely responsive this text if
+
+85
+00:06:42,830 --> 00:06:46,360
+I make this bigger you'll see that text actually gets bigger.
+
+86
+00:06:46,370 --> 00:06:52,270
+So now if we look it is one way to change 1.6 a ram.
+
+87
+00:06:52,580 --> 00:06:52,840
+Yeah.
+
+88
+00:06:52,850 --> 00:06:56,560
+Now if we go down here it's 1.4 that it's 1.3.
+
+89
+00:06:56,600 --> 00:07:03,950
+So it changes based on the screen size or the device size which is really cool.
+
+90
+00:07:03,950 --> 00:07:07,190
+All right so that's what flow text does.
+
+91
+00:07:07,190 --> 00:07:09,100
+So now what I want to do is look at alignment.
+
+92
+00:07:09,110 --> 00:07:15,170
+We have these three H fives here I want to align them so we're going to add the first one we'll have
+
+93
+00:07:15,170 --> 00:07:23,630
+a class of line dash left and if I save there's going to be no difference because it's already aligned
+
+94
+00:07:23,630 --> 00:07:24,910
+to the left.
+
+95
+00:07:24,920 --> 00:07:33,440
+This one here lets out a class of a line right and save and that did nothing.
+
+96
+00:07:33,950 --> 00:07:35,780
+Let's see.
+
+97
+00:07:35,810 --> 00:07:41,950
+That's because it's supposed to be left align and right line not aligned left and right left.
+
+98
+00:07:44,160 --> 00:07:53,340
+Right so the write right align and save and you can see now that's lined to the right and for this 8:5
+
+99
+00:07:53,370 --> 00:08:01,880
+here let's do class and let's do center line and save and now that's aligned to the center.
+
+100
+00:08:01,920 --> 00:08:03,420
+Now vertical alignment.
+
+101
+00:08:03,450 --> 00:08:06,610
+What I'm going to do is this div that wraps to each five.
+
+102
+00:08:06,630 --> 00:08:13,770
+I'm just going to give an inline style and I'm going to give it a height of let's say 400 pixels and
+
+103
+00:08:13,770 --> 00:08:17,460
+then just a light gray background.
+
+104
+00:08:18,270 --> 00:08:18,780
+OK.
+
+105
+00:08:18,780 --> 00:08:22,990
+And then if I save that is see that it gives it the 400 pixels.
+
+106
+00:08:23,070 --> 00:08:26,920
+And what I want to do is I want this text to be in the middle vertically.
+
+107
+00:08:27,120 --> 00:08:32,520
+So what we would do is we would add a class not to the H5 but to the wrapper.
+
+108
+00:08:32,910 --> 00:08:38,830
+OK so there's actually a class called V a line dash wrapper.
+
+109
+00:08:39,090 --> 00:08:45,810
+And if I save that it'll move it down it'll center it vertically OK which can be helpful.
+
+110
+00:08:45,810 --> 00:08:47,310
+We also have quick floats.
+
+111
+00:08:47,310 --> 00:08:56,110
+So if we would just want to align to the right or left or real quick we can say class equals two left.
+
+112
+00:08:56,880 --> 00:09:00,230
+And then for this paragraph will do.
+
+113
+00:09:00,240 --> 00:09:03,540
+Class equals right.
+
+114
+00:09:03,830 --> 00:09:09,690
+Now if I say that it's going to look weird because what's happening is we're not clearing our floats.
+
+115
+00:09:09,690 --> 00:09:19,080
+So to do that we need to put a div here which I have and we're going to add a class of clear fix a just
+
+116
+00:09:19,080 --> 00:09:24,750
+like bootstrap if you're familiar with bootstrap and I'll be making references to bootstrap because
+
+117
+00:09:24,750 --> 00:09:31,770
+I'm sure a lot of you already know that framework just because it's so big and popular so it's save.
+
+118
+00:09:31,770 --> 00:09:34,540
+And now you can see that the floats are being cleared.
+
+119
+00:09:35,010 --> 00:09:41,510
+All right so I think that's going to do it for alignment and typography and stuff like that.
+
+120
+00:09:41,520 --> 00:09:47,730
+Notice that I can scroll down more that's because with some of these pages I just put this margin top
+
+121
+00:09:47,730 --> 00:09:49,170
+five hundred pixels.
+
+122
+00:09:49,320 --> 00:09:54,570
+That way you know you guys don't have to look at the bottom of the screen because that's what was happening.
+
+123
+00:09:54,570 --> 00:10:00,320
+So I decided to put that there so that I could put stuff in the middle even if it's at the bottom.
+
+124
+00:10:00,330 --> 00:10:00,660
+All right.
+
+125
+00:10:00,660 --> 00:10:04,900
+So the next video we're going to get started on text background colors.
+
+126
+00:10:04,920 --> 00:10:05,370
+OK.
+
+127
+00:10:05,370 --> 00:10:09,300
+Or I should say text colors and background colors.
+

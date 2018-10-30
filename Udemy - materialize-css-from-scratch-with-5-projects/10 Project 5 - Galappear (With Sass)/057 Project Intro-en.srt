@@ -1,0 +1,148 @@
+1
+00:00:00,730 --> 00:00:06,550
+Hey Guys welcome to your last project in this project we're going to build a graphic design portfolio.
+
+2
+00:00:06,550 --> 00:00:09,460
+It's a pretty simple site but we're going to do something different.
+
+3
+00:00:09,460 --> 00:00:11,050
+We're going to be using SAS.
+
+4
+00:00:11,050 --> 00:00:15,170
+OK if we go to the materialize get started right here.
+
+5
+00:00:15,340 --> 00:00:18,630
+You'll see that we have the regular source which we've been using.
+
+6
+00:00:18,640 --> 00:00:25,210
+And we also have the SAS files or SPSS files that we can use and we can actually change up different
+
+7
+00:00:25,210 --> 00:00:29,380
+variables like let's say the standard.
+
+8
+00:00:29,380 --> 00:00:32,070
+I don't know that the card shadow or something like that.
+
+9
+00:00:32,230 --> 00:00:36,520
+You can you can manipulate that and change it to your liking.
+
+10
+00:00:36,640 --> 00:00:41,470
+So I want to show you how to implement SAS and also how to create some variables where we can change
+
+11
+00:00:41,470 --> 00:00:44,410
+like the background color and stuff really easily.
+
+12
+00:00:44,410 --> 00:00:44,770
+All right.
+
+13
+00:00:44,770 --> 00:00:50,110
+Now we'll also be using scroll fire to have a fade in effect on scroll.
+
+14
+00:00:50,110 --> 00:00:53,780
+So notice that we see one project here if I scroll down a little.
+
+15
+00:00:53,860 --> 00:00:55,380
+Another one will appear.
+
+16
+00:00:55,450 --> 00:00:56,380
+Keep scrolling.
+
+17
+00:00:56,380 --> 00:01:01,450
+Another one will appear so a lot of people asked me how to get that effect and they don't realize that
+
+18
+00:01:01,450 --> 00:01:04,970
+it's built in with materialize with scroll fire.
+
+19
+00:01:04,990 --> 00:01:05,350
+All right.
+
+20
+00:01:05,350 --> 00:01:11,320
+Now for each project we have a card we have some star ratings and we have the little button here and
+
+21
+00:01:11,320 --> 00:01:15,080
+this will actually open a motel with that image inside.
+
+22
+00:01:15,190 --> 00:01:18,380
+OK with some text and the title and the star rating.
+
+23
+00:01:18,550 --> 00:01:20,950
+And we have different pages this is abstract.
+
+24
+00:01:20,950 --> 00:01:25,470
+We also have logos which is basically the same thing it's just different images.
+
+25
+00:01:25,540 --> 00:01:29,850
+And then we have gaming which again is the same thing different images.
+
+26
+00:01:29,980 --> 00:01:35,650
+And we have our Sidebar over here and if we were to make this smaller.
+
+27
+00:01:35,740 --> 00:01:40,650
+What I did is I hid the text on a very small mobile size screens.
+
+28
+00:01:40,660 --> 00:01:46,030
+See the text there disappears and we just see the image and we can open up the motile and that looks
+
+29
+00:01:46,030 --> 00:01:46,610
+good.
+
+30
+00:01:46,840 --> 00:01:49,790
+OK so everything looks pretty nice.
+
+31
+00:01:49,840 --> 00:01:50,760
+It's very simple.
+
+32
+00:01:50,770 --> 00:01:54,790
+But again I wanted to do something different and use SAS.
+
+33
+00:01:55,000 --> 00:01:59,740
+So in the next video what we'll do is get everything set up we're going to talk a little bit more about
+
+34
+00:01:59,740 --> 00:02:07,210
+SAS and we're going to install a program called Koala because we need our SAS to get compiled down to
+
+35
+00:02:07,210 --> 00:02:08,630
+regular CSSA.
+
+36
+00:02:08,800 --> 00:02:12,460
+And that's what we're going to use so we want to install that and get that set up.
+
+37
+00:02:12,460 --> 00:02:14,160
+All right so I'll see you in the next video.
+

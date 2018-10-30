@@ -1,0 +1,732 @@
+1
+00:00:00,390 --> 00:00:04,530
+All right guys who we're going to start to look at forms and inputs and we're going to be doing this
+
+2
+00:00:04,530 --> 00:00:06,680
+for this lecture and the next one.
+
+3
+00:00:06,780 --> 00:00:08,010
+The next one will do.
+
+4
+00:00:08,010 --> 00:00:14,770
+Some of the more fancy stuff but this is the file called Three underscore three forms dot HMO.
+
+5
+00:00:14,820 --> 00:00:19,350
+All right so we're going to close that up and we're going to go down to where it says Start here and
+
+6
+00:00:19,350 --> 00:00:25,750
+we just have a form with some divs and then inside those divs we have an input and a label.
+
+7
+00:00:25,770 --> 00:00:31,710
+OK now materializes one of those frameworks where the the the inputs actually look pretty decent without
+
+8
+00:00:31,710 --> 00:00:34,450
+having to do anything at all to them.
+
+9
+00:00:34,440 --> 00:00:40,200
+There's no materialized classes or anything it just looks like this by default with the exception of
+
+10
+00:00:40,200 --> 00:00:42,360
+the text area which doesn't.
+
+11
+00:00:42,540 --> 00:00:47,370
+But for these like for instance the textfield there's not really anything we really have to add here
+
+12
+00:00:47,370 --> 00:00:49,820
+as far as classes or anything like that.
+
+13
+00:00:49,860 --> 00:00:56,580
+We have an input with a placeholder an ID the label has a four attribute which should match the ID that's
+
+14
+00:00:56,580 --> 00:01:03,570
+not materialized It's just standard HVM owl so that if you click on the label it'll actually refer to
+
+15
+00:01:03,570 --> 00:01:05,460
+that of that field.
+
+16
+00:01:05,460 --> 00:01:12,930
+All right one thing we do want to do is wrap these divs or add to the divs the class of input field
+
+17
+00:01:12,960 --> 00:01:14,360
+and save.
+
+18
+00:01:14,550 --> 00:01:17,260
+And let's see what that did.
+
+19
+00:01:17,260 --> 00:01:25,170
+So if we go and we look at the input field div which is right here let's see what that includes It makes
+
+20
+00:01:25,170 --> 00:01:26,160
+it relative.
+
+21
+00:01:26,250 --> 00:01:27,900
+It gives it a margin top.
+
+22
+00:01:27,900 --> 00:01:33,290
+So it kind of moves it down a little bit but that's that's about it.
+
+23
+00:01:33,360 --> 00:01:40,200
+I think it may be used in job for javascript for something but I think that's about it.
+
+24
+00:01:40,200 --> 00:01:45,370
+So we just want to make sure that we add that class for all of these divs.
+
+25
+00:01:45,750 --> 00:01:50,610
+So this will be class input fields.
+
+26
+00:01:50,760 --> 00:01:56,070
+Now for this for this example I want to show you how to how we can add a value.
+
+27
+00:01:56,070 --> 00:01:57,680
+This is just standard reached him.
+
+28
+00:01:57,700 --> 00:02:06,570
+So let's say we wanted the value of whatever Jaun at gmail dot com save and that will be filled.
+
+29
+00:02:06,570 --> 00:02:10,380
+And then to disable it we just want to add a disabled
+
+30
+00:02:12,660 --> 00:02:16,960
+disabled attribute like that in a class with an attribute and save.
+
+31
+00:02:17,010 --> 00:02:23,110
+And now we can't edit that but that's not materialize I'm just showing you how it looks and materialize.
+
+32
+00:02:23,190 --> 00:02:27,680
+Nothing we did here is specific to the framework.
+
+33
+00:02:27,690 --> 00:02:28,100
+All right.
+
+34
+00:02:28,110 --> 00:02:32,930
+Now for the text area you can see this doesn't look right compared to the rest of these.
+
+35
+00:02:32,930 --> 00:02:37,830
+So what we have to do with text areas is we need to add a class
+
+36
+00:02:40,640 --> 00:02:42,900
+of materialized text area
+
+37
+00:02:45,430 --> 00:02:47,570
+dash text area.
+
+38
+00:02:47,590 --> 00:02:52,250
+All right so once they do that and they save now you can see the text area looks good.
+
+39
+00:02:52,950 --> 00:03:00,760
+And let's also give the div a class of input field.
+
+40
+00:03:00,800 --> 00:03:01,180
+All right.
+
+41
+00:03:01,180 --> 00:03:03,660
+Now this next one is an inline field.
+
+42
+00:03:03,670 --> 00:03:05,080
+OK.
+
+43
+00:03:05,650 --> 00:03:10,560
+Which it isn't right now but we're going to make it into an inline field and we do that by adding to
+
+44
+00:03:10,570 --> 00:03:17,560
+this class or adding to this div a class of input field just like the rest but we're also going to add
+
+45
+00:03:17,560 --> 00:03:19,870
+the class of inline.
+
+46
+00:03:19,870 --> 00:03:20,190
+All right.
+
+47
+00:03:20,190 --> 00:03:24,300
+So by doing that we'll be able to make this in line.
+
+48
+00:03:24,850 --> 00:03:29,350
+And that should be Dasch field input Desch field in line and then we use.
+
+49
+00:03:29,380 --> 00:03:33,920
+Now you can see it's on the same level as the text.
+
+50
+00:03:34,060 --> 00:03:34,920
+OK.
+
+51
+00:03:35,170 --> 00:03:36,180
+Or the label.
+
+52
+00:03:36,370 --> 00:03:38,740
+Actually it's on a label it's just the text here.
+
+53
+00:03:38,740 --> 00:03:42,360
+The label is this actual number sign.
+
+54
+00:03:42,360 --> 00:03:45,470
+And you can see it moves up when I click in it which is pretty cool.
+
+55
+00:03:47,070 --> 00:03:50,040
+In fact any of these if we don't have a placeholder.
+
+56
+00:03:50,100 --> 00:03:58,050
+So for instance let's go to the name and remove the placeholder and save now the label is right on the
+
+57
+00:03:58,050 --> 00:04:03,080
+input and if I click it moves up OK it moves up and down.
+
+58
+00:04:03,150 --> 00:04:06,640
+So I'll leave that placeholder off just as an example.
+
+59
+00:04:07,290 --> 00:04:08,970
+So that's in line.
+
+60
+00:04:09,060 --> 00:04:09,630
+Let's see.
+
+61
+00:04:09,630 --> 00:04:14,410
+Let's go to the icon prefix if we want to add a prefix.
+
+62
+00:04:14,460 --> 00:04:21,140
+First of all let's give it the input field div and then we're going to go right before.
+
+63
+00:04:21,140 --> 00:04:22,950
+This is for a telephone number.
+
+64
+00:04:23,190 --> 00:04:32,940
+So I'm going to put in I tag with the class of material icons and then we're going to use the phone
+
+65
+00:04:33,300 --> 00:04:34,680
+icon.
+
+66
+00:04:35,460 --> 00:04:36,670
+OK.
+
+67
+00:04:36,820 --> 00:04:41,260
+Now that alone looks crappy.
+
+68
+00:04:41,280 --> 00:04:49,740
+So we want to add to this material icons class prefix and save and now it kind of pushes the input over
+
+69
+00:04:49,770 --> 00:04:52,650
+and it puts it in place.
+
+70
+00:04:52,650 --> 00:04:55,290
+All right so now what I want to do is look at some validation.
+
+71
+00:04:55,290 --> 00:05:02,250
+Now this is just UI validation it's looking like stop us from submitting the form or anything but let's
+
+72
+00:05:02,250 --> 00:05:06,150
+say this email address right here which is this input.
+
+73
+00:05:06,150 --> 00:05:12,900
+It has to be an email address and it's going to go off of the age of 5 validation because we have type
+
+74
+00:05:12,940 --> 00:05:13,950
+e-mail.
+
+75
+00:05:13,980 --> 00:05:19,680
+So what we can do is we can add actually first of all we need to add our input field class or this won't
+
+76
+00:05:19,680 --> 00:05:21,000
+work right.
+
+77
+00:05:24,170 --> 00:05:28,970
+And then we're going to add a class to the input of validate.
+
+78
+00:05:29,570 --> 00:05:34,210
+Now just having that if I were to put something in here that's not an e-mail address and click out.
+
+79
+00:05:34,250 --> 00:05:36,880
+You'll see that the line turns red.
+
+80
+00:05:36,890 --> 00:05:41,820
+Now if we want a message what we can do is where the label is.
+
+81
+00:05:41,840 --> 00:05:47,610
+We can say data Dasch error equals.
+
+82
+00:05:48,080 --> 00:05:49,430
+And let's just say
+
+83
+00:05:53,340 --> 00:05:54,560
+invalid.
+
+84
+00:05:55,040 --> 00:06:02,190
+And then we can save data Dasch success equals valid.
+
+85
+00:06:02,660 --> 00:06:04,200
+So we'll save that.
+
+86
+00:06:04,340 --> 00:06:10,790
+And now if I click and I put something that's not valid and click outside we get the text invalid.
+
+87
+00:06:11,060 --> 00:06:17,960
+If I put something that is a valid email address and then click outside we get valid.
+
+88
+00:06:17,960 --> 00:06:23,540
+So we do have some UI validation we can do without even having to touch javascript or anything like
+
+89
+00:06:23,540 --> 00:06:25,190
+that.
+
+90
+00:06:25,190 --> 00:06:27,650
+All right so that is pretty nice.
+
+91
+00:06:27,650 --> 00:06:29,790
+Next we're going to look at select lists.
+
+92
+00:06:29,820 --> 00:06:33,590
+OK now what are you going to do here is we just have a div.
+
+93
+00:06:33,800 --> 00:06:42,600
+Give it the class of input field and let's give this select some options.
+
+94
+00:06:42,830 --> 00:06:52,430
+So I'll say option actually we'll just add let's say option times for tab and for this one it's going
+
+95
+00:06:52,430 --> 00:06:54,970
+to be disabled because it's just like the type.
+
+96
+00:06:54,970 --> 00:06:56,420
+Kind of like the title.
+
+97
+00:06:56,420 --> 00:07:03,130
+We're going to make it selected by default and it's just going to say select option.
+
+98
+00:07:03,250 --> 00:07:03,900
+OK.
+
+99
+00:07:04,100 --> 00:07:08,840
+And then for the options we'll just say one doesn't really matter.
+
+100
+00:07:08,840 --> 00:07:19,590
+Option 1 2 3 option 2 and option 3.
+
+101
+00:07:20,030 --> 00:07:20,500
+Okay.
+
+102
+00:07:20,510 --> 00:07:25,830
+And then if I save this notice that we we can't see it you don't see any select list.
+
+103
+00:07:25,910 --> 00:07:31,100
+That's because with materialized when we use a select list you actually have to initialize it in the
+
+104
+00:07:31,100 --> 00:07:32,070
+javascript.
+
+105
+00:07:32,090 --> 00:07:38,810
+OK with Jay query so we need to go to the bottom down here where it says javascript's start here.
+
+106
+00:07:39,040 --> 00:07:39,390
+OK.
+
+107
+00:07:39,380 --> 00:07:44,170
+Notice we are already in the document d'arte ready for Jay query.
+
+108
+00:07:44,210 --> 00:07:48,160
+This obviously is just for the dropdown for our menu right here.
+
+109
+00:07:48,350 --> 00:07:58,760
+This is on every page but what we want to do is we want to initialize the select with us and we do that
+
+110
+00:07:58,760 --> 00:08:06,830
+by using Jey query and just taking the Select that's on the page and we're going to call Daut material
+
+111
+00:08:07,310 --> 00:08:13,670
+underscore select like that it's going to call that special function.
+
+112
+00:08:13,690 --> 00:08:14,890
+And now we can see it.
+
+113
+00:08:14,900 --> 00:08:17,810
+And if I click it we get the dropdown.
+
+114
+00:08:18,160 --> 00:08:18,870
+OK.
+
+115
+00:08:19,100 --> 00:08:22,920
+So we need to add that in order to initialize this.
+
+116
+00:08:23,270 --> 00:08:28,730
+And it also initialize these other selects that we have which we don't we actually don't have any options
+
+117
+00:08:28,730 --> 00:08:30,280
+for yet.
+
+118
+00:08:30,350 --> 00:08:33,370
+So the next one I want to show is option groups.
+
+119
+00:08:33,410 --> 00:08:40,920
+So what I'll do is actually just copy the select list we just put in and let's just let's change this
+
+120
+00:08:40,920 --> 00:08:45,570
+to multiple select lists just so we know what it is.
+
+121
+00:08:45,600 --> 00:08:47,370
+Actually no this isn't a multiple select.
+
+122
+00:08:47,370 --> 00:08:51,650
+This is this is option groups
+
+123
+00:08:54,540 --> 00:09:01,210
+option group select and what we want is just different groups of options.
+
+124
+00:09:01,230 --> 00:09:11,590
+So let's take a here story here and let's say actually you know let's get rid of this
+
+125
+00:09:14,630 --> 00:09:24,440
+and then let's do opt groups like that should give us a tag I guess.
+
+126
+00:09:24,490 --> 00:09:29,940
+M-ID isn't going to work with that so it should be opt group and then we're going to give it a label
+
+127
+00:09:31,680 --> 00:09:42,450
+of let's say Option Group 1 and then we want to wrap a certain set of options so we'll just take one
+
+128
+00:09:42,450 --> 00:09:44,700
+and two and wrap that.
+
+129
+00:09:45,610 --> 00:09:50,760
+OK and then let's actually just copy this whole thing.
+
+130
+00:09:51,180 --> 00:09:51,990
+Paste it there.
+
+131
+00:09:51,990 --> 00:10:02,830
+This will be group 2 and then this will be three and four that so let's save and now if I were to click
+
+132
+00:10:02,830 --> 00:10:08,020
+this we have Option Group 1 we have two options option group 2.
+
+133
+00:10:08,050 --> 00:10:11,650
+Ok so you can kind of separate your options into groups.
+
+134
+00:10:11,650 --> 00:10:16,900
+Next thing we'll look at is multiple select So what I'm going to do is copy the regular select we have
+
+135
+00:10:18,580 --> 00:10:26,820
+and just place it in there and then all we have to do to make this a multiple select is just as on right
+
+136
+00:10:26,820 --> 00:10:31,100
+here multiple night class multiple.
+
+137
+00:10:31,110 --> 00:10:33,200
+But just a multiple attribute.
+
+138
+00:10:33,210 --> 00:10:36,890
+And now we can go ahead and select different options.
+
+139
+00:10:36,930 --> 00:10:42,190
+Kind of like a radio box inside of your select list.
+
+140
+00:10:42,410 --> 00:10:43,700
+All right.
+
+141
+00:10:43,700 --> 00:10:47,120
+So speaking of radio let's do those next.
+
+142
+00:10:47,140 --> 00:10:49,100
+So we're just going to go ahead and put in
+
+143
+00:10:52,020 --> 00:10:58,370
+we're going to put in some paragraph tags in each one I want an input and this is going to have a type
+
+144
+00:10:58,370 --> 00:11:00,220
+of radio.
+
+145
+00:11:00,730 --> 00:11:02,860
+OK so we don't need a name
+
+146
+00:11:05,940 --> 00:11:06,390
+actually.
+
+147
+00:11:06,450 --> 00:11:07,790
+Yeah we'll just keep the name.
+
+148
+00:11:07,860 --> 00:11:16,710
+So we'll say this is for gender since it's an input radio we should have a name I.D. we'll see say male
+
+149
+00:11:16,740 --> 00:11:35,980
+and let's put a label a label for say so label for whatever the idea is which will say it may not may
+
+150
+00:11:36,320 --> 00:11:39,930
+al will go like that.
+
+151
+00:11:39,930 --> 00:11:48,620
+All right so there we have one radio button now just copy this and this one will be female.
+
+152
+00:11:54,020 --> 00:11:55,390
+And we'll save that.
+
+153
+00:11:55,390 --> 00:12:00,010
+And there we go so we have our radio buttons if we wanted one to be checked by default.
+
+154
+00:12:00,020 --> 00:12:04,080
+Obviously we could just put a check to attribute that's just standard now.
+
+155
+00:12:04,370 --> 00:12:10,130
+Another thing we can do is we can change how the Although Phil looks so it takes the whole thing up
+
+156
+00:12:10,610 --> 00:12:13,580
+if we want we can add to the radio input.
+
+157
+00:12:13,580 --> 00:12:20,210
+A class of with Dash gap and save.
+
+158
+00:12:20,240 --> 00:12:25,190
+Now if I check this one see that looks different and has the gap around it.
+
+159
+00:12:25,190 --> 00:12:27,920
+So we can change how that looks as well.
+
+160
+00:12:28,460 --> 00:12:28,760
+All right.
+
+161
+00:12:28,760 --> 00:12:36,140
+So next we're going to look at checkboxes so very similar We're going to put in our paragraphs and let's
+
+162
+00:12:36,140 --> 00:12:37,720
+say inputs.
+
+163
+00:12:37,880 --> 00:12:47,370
+Type is going to be a checkbox and see let's say ID.
+
+164
+00:12:47,880 --> 00:12:54,850
+Each team will go out and just put some languages in here or technologies for name we'll just say tech
+
+165
+00:12:56,910 --> 00:13:06,660
+and let's put a label you know save for HVM how and save.
+
+166
+00:13:06,660 --> 00:13:11,520
+Now we have a little check box and it has that cool animation by default.
+
+167
+00:13:11,910 --> 00:13:20,160
+So it's copy this paragraph and I want to put a couple more put three more and then this one let's make
+
+168
+00:13:20,160 --> 00:13:21,840
+this C Ss
+
+169
+00:13:25,950 --> 00:13:30,280
+and for this one I'm going to just make this one checked by default.
+
+170
+00:13:30,570 --> 00:13:32,800
+Just kind of give me a couple of different examples.
+
+171
+00:13:32,910 --> 00:13:33,980
+That's checked.
+
+172
+00:13:34,170 --> 00:13:39,210
+And then for this one let's call it J.S.
+
+173
+00:13:45,420 --> 00:13:53,430
+and what I'm going to do is give this one a class of filled dash in and save.
+
+174
+00:13:53,610 --> 00:13:56,440
+And now this one it has a different effect.
+
+175
+00:13:56,440 --> 00:13:59,310
+You see how it doesn't flip like the default.
+
+176
+00:13:59,310 --> 00:14:04,680
+It just kind of it fills the whole thing and dark and it doesn't do the little flip.
+
+177
+00:14:04,800 --> 00:14:08,920
+And then for the last one here we'll make this ph P
+
+178
+00:14:14,730 --> 00:14:22,830
+and what I want to do is disable this one so I'm just going to put in disabled and save and you see
+
+179
+00:14:22,830 --> 00:14:24,420
+that checkbox is disabled.
+
+180
+00:14:24,420 --> 00:14:28,910
+So just a couple of different options that you can do with your checkboxes.
+
+181
+00:14:28,920 --> 00:14:31,620
+All right so those are the basic form elements.
+
+182
+00:14:31,620 --> 00:14:37,380
+Next we're going to get into more fancy things like Sliders and ranges and things like that.
+
+183
+00:14:37,470 --> 00:14:39,980
+We'll also be working with javascript a little bit.
+

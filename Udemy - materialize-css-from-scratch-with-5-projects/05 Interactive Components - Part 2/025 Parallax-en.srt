@@ -1,0 +1,132 @@
+1
+00:00:00,490 --> 00:00:06,660
+IT guys in this video we're going to take a look at a parallax example and Aperol XS is a cool effect
+
+2
+00:00:06,660 --> 00:00:12,720
+a scrolling effect with images where you can actually scroll and see different parts of the image.
+
+3
+00:00:12,720 --> 00:00:18,300
+It's just it's a really nice effect and we may use this in a project but this is going to be it's actually
+
+4
+00:00:18,300 --> 00:00:23,490
+pretty simple to implement what we're going to do is take this top div here and see if we have this
+
+5
+00:00:23,490 --> 00:00:28,570
+div it ends here and then we have another div that goes around all the content.
+
+6
+00:00:28,770 --> 00:00:32,980
+And then again another div around the image.
+
+7
+00:00:33,000 --> 00:00:36,560
+OK so we're going to have two images with some content in the middle.
+
+8
+00:00:36,630 --> 00:00:41,130
+So this div here we're going to give a class of parallax container
+
+9
+00:00:44,520 --> 00:00:54,140
+so that materialize knows this is going to be a parallax effect and we'll give this div a class of just
+
+10
+00:00:54,140 --> 00:00:58,270
+power locks and then we'll have an image that we want to use.
+
+11
+00:00:58,270 --> 00:01:11,630
+I'm going to use image one J bag and this right here is going to be it's going to have a class of section
+
+12
+00:01:11,640 --> 00:01:14,130
+that's what we want to put around our content.
+
+13
+00:01:14,130 --> 00:01:17,400
+And then I'm also going to give it a class of white.
+
+14
+00:01:17,610 --> 00:01:26,170
+Make sure the backgrounds white and then let's give this a class of row and container.
+
+15
+00:01:28,280 --> 00:01:33,970
+Which the container I don't think we really need because we actually have this inside a container already
+
+16
+00:01:33,980 --> 00:01:35,680
+but that's fine.
+
+17
+00:01:35,750 --> 00:01:42,860
+And then the H-2 is going to have a class of Hetter.
+
+18
+00:01:43,470 --> 00:01:49,520
+OK we don't need anything on the on the content on the paragraph but down here we want another parallax
+
+19
+00:01:49,520 --> 00:01:50,240
+container.
+
+20
+00:01:50,240 --> 00:01:51,380
+So on this div
+
+21
+00:01:54,700 --> 00:01:57,890
+and you can have as many of these as you want.
+
+22
+00:02:03,340 --> 00:02:09,510
+And then the image will be image to dot JPK.
+
+23
+00:02:09,750 --> 00:02:11,550
+So let's save that.
+
+24
+00:02:11,550 --> 00:02:15,780
+Now we're not going to see anything yet because again this has to be initialized so we're going to go
+
+25
+00:02:15,780 --> 00:02:22,370
+down here into the javascript and we're going to say the class of parallax.
+
+26
+00:02:22,440 --> 00:02:27,910
+And we're going to call thought parallax and save.
+
+27
+00:02:27,960 --> 00:02:29,160
+And there we go now.
+
+28
+00:02:29,220 --> 00:02:33,710
+Notice that when I scroll you can see different parts of the image.
+
+29
+00:02:33,840 --> 00:02:40,110
+So for instance this part of the code in this image if I scroll up it hides it OK so it gives you a
+
+30
+00:02:40,110 --> 00:02:44,910
+really nice effect and you can create some really cool projects using this effect and it's very easy
+
+31
+00:02:44,910 --> 00:02:46,010
+to implement.
+
+32
+00:02:46,380 --> 00:02:55,250
+OK so short video but I wanted to just dedicate a video to this this particular component so in the
+
+33
+00:02:55,250 --> 00:02:57,800
+next one we're going to take a look at the side nav.
+

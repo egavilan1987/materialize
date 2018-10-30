@@ -1,0 +1,1056 @@
+1
+00:00:00,540 --> 00:00:05,440
+All right guys so we're going to start to get into cards which are a big part of a lot of frameworks
+
+2
+00:00:05,560 --> 00:00:10,830
+slightly bootstrapped for added cards instead of the old panels that they used to use they're just a
+
+3
+00:00:10,830 --> 00:00:12,720
+nice way of displaying content.
+
+4
+00:00:12,720 --> 00:00:15,760
+They give you a border or a drop shadow.
+
+5
+00:00:15,960 --> 00:00:20,150
+You can use images in them links buttons and it just makes things look really nice.
+
+6
+00:00:20,150 --> 00:00:24,480
+So what we're going to do here is just start with a simple card without a title.
+
+7
+00:00:24,480 --> 00:00:29,180
+So this is the three underscore one cards dot each time l file.
+
+8
+00:00:29,190 --> 00:00:32,250
+So basically we just have two divs.
+
+9
+00:00:32,250 --> 00:00:38,540
+Now before I go into this notice that I have a row here and we're using the grid system.
+
+10
+00:00:38,550 --> 00:00:41,570
+Basically we have two 6 column divs.
+
+11
+00:00:41,640 --> 00:00:42,570
+All right.
+
+12
+00:00:42,570 --> 00:00:47,490
+That's how we're going to display these cards so we have our other six column div.
+
+13
+00:00:47,490 --> 00:00:49,820
+Then we have another row with two six column div.
+
+14
+00:00:49,830 --> 00:00:51,990
+So it's like that the whole way down.
+
+15
+00:00:51,990 --> 00:00:52,400
+All right.
+
+16
+00:00:52,410 --> 00:00:56,630
+So you can kind of ignore this stuff it's just mapping out our grid.
+
+17
+00:00:56,780 --> 00:01:03,100
+But for the Cards what we want is one div which is going to have a class of card.
+
+18
+00:01:04,410 --> 00:01:09,870
+And then here we're going to have a class of card content.
+
+19
+00:01:11,070 --> 00:01:17,820
+OK and we'll save that and that gives us pretty much the simplest possible card that we can have over
+
+20
+00:01:17,820 --> 00:01:18,870
+here.
+
+21
+00:01:18,870 --> 00:01:26,550
+Let's add a color so we'll do a class card and it's given a color of red and we'll even darken it a
+
+22
+00:01:26,550 --> 00:01:33,430
+little so dark and two and then we'll give this a class of card content.
+
+23
+00:01:33,470 --> 00:01:40,340
+And we also want to give this white text so that it shows up on the dark red.
+
+24
+00:01:40,350 --> 00:01:43,240
+See I messed that up somehow.
+
+25
+00:01:44,550 --> 00:01:45,220
+Let's see.
+
+26
+00:01:45,270 --> 00:01:48,210
+Oh I put cards content should be card.
+
+27
+00:01:48,210 --> 00:01:48,940
+There we go.
+
+28
+00:01:49,140 --> 00:01:53,830
+So now we just have a red background and obviously you can use whatever colors you want whatever text
+
+29
+00:01:53,910 --> 00:01:55,320
+colors you want.
+
+30
+00:01:55,320 --> 00:01:59,060
+Now we're going to move down to the card with title that's this one right here.
+
+31
+00:01:59,280 --> 00:02:08,310
+So again classic card anytime we have any type of cards that will have that class and then we want the
+
+32
+00:02:08,310 --> 00:02:09,520
+card content.
+
+33
+00:02:09,550 --> 00:02:14,040
+Same thing.
+
+34
+00:02:14,600 --> 00:02:18,940
+And now for the span right here you see this is where we put the title it's in a span.
+
+35
+00:02:19,080 --> 00:02:23,630
+But we're going to give it a class of card title.
+
+36
+00:02:23,940 --> 00:02:24,520
+OK.
+
+37
+00:02:24,660 --> 00:02:25,790
+So let's save that.
+
+38
+00:02:25,860 --> 00:02:27,740
+And now you could see we have our title.
+
+39
+00:02:27,810 --> 00:02:32,170
+Now these links down here I want to add these links and we want to make these look good.
+
+40
+00:02:32,340 --> 00:02:34,840
+So this is going to be the action area.
+
+41
+00:02:34,840 --> 00:02:45,010
+So it will say class equals card dash action and save.
+
+42
+00:02:45,150 --> 00:02:45,870
+And there we go.
+
+43
+00:02:45,870 --> 00:02:49,950
+So that makes that look much better gives it some padding pushes it over.
+
+44
+00:02:49,950 --> 00:02:59,330
+Change the color also makes it all upper case so this is a card with a title and with an action area.
+
+45
+00:02:59,370 --> 00:03:02,510
+OK so the next one I'm going to look at is a card with an image.
+
+46
+00:03:02,520 --> 00:03:09,920
+So we're going to go down to this div here and give this a class of card using.
+
+47
+00:03:10,260 --> 00:03:13,440
+And we're also going to do right here.
+
+48
+00:03:13,440 --> 00:03:15,540
+We're not going to do the card content just yet.
+
+49
+00:03:15,540 --> 00:03:21,520
+We're going to do a class of card dash image.
+
+50
+00:03:21,750 --> 00:03:25,890
+OK if you want to put an image in here you want to wrap it in that class.
+
+51
+00:03:26,050 --> 00:03:28,650
+We don't really need an alt for the source.
+
+52
+00:03:28,650 --> 00:03:30,990
+I'm going to use my images folder.
+
+53
+00:03:31,050 --> 00:03:34,270
+I'm going to use image one dot j peg.
+
+54
+00:03:34,750 --> 00:03:35,350
+OK.
+
+55
+00:03:35,370 --> 00:03:46,880
+And let's see that's just the title so give the span a class of card title and then this div here we're
+
+56
+00:03:46,880 --> 00:03:54,630
+going to give a class of card content OK and then we have our action down here.
+
+57
+00:03:56,500 --> 00:03:58,840
+Card action so you can kind of mix and match.
+
+58
+00:03:58,840 --> 00:04:04,630
+I mean you don't have to have an action here but you can if you want just save that suit that looks
+
+59
+00:04:04,630 --> 00:04:05,420
+like.
+
+60
+00:04:05,440 --> 00:04:09,100
+All right so the title is going to be basically inside the image.
+
+61
+00:04:09,100 --> 00:04:14,770
+Now if you wanted the title in here what you could do is you could just kind of bring it down into the
+
+62
+00:04:14,770 --> 00:04:16,820
+card content like that.
+
+63
+00:04:17,150 --> 00:04:17,590
+OK.
+
+64
+00:04:17,600 --> 00:04:20,250
+But I actually like it.
+
+65
+00:04:20,470 --> 00:04:23,290
+I actually like it up here.
+
+66
+00:04:23,430 --> 00:04:24,240
+Where was it.
+
+67
+00:04:24,280 --> 00:04:27,650
+It was under the image.
+
+68
+00:04:27,680 --> 00:04:33,810
+That'll put it inside the image so we can also have a card with image and a floating button.
+
+69
+00:04:33,850 --> 00:04:39,520
+So maybe if you wanted like a link instead of having the read more you might want the floating button
+
+70
+00:04:39,520 --> 00:04:42,790
+link like right here so we could go.
+
+71
+00:04:42,790 --> 00:04:52,300
+Class equals card and this would be class equals card isn't going to make this a different color let's
+
+72
+00:04:52,300 --> 00:04:54,760
+say blue dash gray.
+
+73
+00:04:55,270 --> 00:04:59,740
+And let's say liten dash 4 or make it really light.
+
+74
+00:05:00,320 --> 00:05:03,960
+And they will put an image in here I'm going to say in the images folder.
+
+75
+00:05:03,970 --> 00:05:13,080
+I'm g to dot j peg in let's see we're going to show you know what I missed this.
+
+76
+00:05:16,260 --> 00:05:18,520
+I did this.
+
+77
+00:05:19,050 --> 00:05:21,540
+This here the lighting and the blue gray.
+
+78
+00:05:21,690 --> 00:05:29,420
+This should actually be on the card div so I'm going to cut that out and put that in here.
+
+79
+00:05:29,880 --> 00:05:33,180
+And then this should actually be card image like that.
+
+80
+00:05:33,600 --> 00:05:33,990
+OK.
+
+81
+00:05:33,990 --> 00:05:38,250
+And then we're going to go down here and this is where we're going to put our button.
+
+82
+00:05:38,250 --> 00:05:43,090
+So we're in a class equals member the beats and dash.
+
+83
+00:05:43,090 --> 00:05:44,660
+Floating class.
+
+84
+00:05:44,910 --> 00:05:57,060
+And we're going to say Half-Way dash fab so half way fixed action button will add the waves effect and
+
+85
+00:05:57,060 --> 00:06:08,260
+the waves light in and let's make it blue OK and then for the icon we put an add icon on the plus sign.
+
+86
+00:06:08,790 --> 00:06:13,960
+So add our material icons class.
+
+87
+00:06:14,080 --> 00:06:18,620
+All right now give us the button and then this div right here is the card content
+
+88
+00:06:21,700 --> 00:06:25,250
+we'll save that and that does not look right.
+
+89
+00:06:25,450 --> 00:06:33,540
+Let's see if we have our card class card image and then our span.
+
+90
+00:06:33,570 --> 00:06:36,740
+That's the span should have a card title.
+
+91
+00:06:39,370 --> 00:06:42,720
+Sure some of you guys caught that and will save.
+
+92
+00:06:42,830 --> 00:06:47,070
+And there we go so we have our title in the image and then we have the little button here.
+
+93
+00:06:47,090 --> 00:06:51,800
+So that could link to like the in her blog post or something like that.
+
+94
+00:06:52,700 --> 00:06:56,270
+OK so there's a lot of different ways you can format these cards.
+
+95
+00:06:56,270 --> 00:07:01,430
+Next thing we're going to look at is a horizontal card which we can put an image on the side instead
+
+96
+00:07:01,430 --> 00:07:02,270
+of on the top.
+
+97
+00:07:02,270 --> 00:07:09,590
+So let's go down to horizontal card and the first class are always going to add is card.
+
+98
+00:07:09,680 --> 00:07:13,940
+And then we're also going to add horizontal.
+
+99
+00:07:13,940 --> 00:07:14,270
+All right.
+
+100
+00:07:14,270 --> 00:07:22,010
+And then this div here we're going to have an image so we have to wrap it in the card image and for
+
+101
+00:07:22,010 --> 00:07:31,010
+the image itself let's go in the images folder and do image three thought jpeg and let's see this.
+
+102
+00:07:31,010 --> 00:07:37,300
+This right here we're actually going to do a class of card dash stack.
+
+103
+00:07:37,340 --> 00:07:46,310
+Ok if we want to do a horizontal card we need the stacked class and then the content comes so card content
+
+104
+00:07:46,730 --> 00:07:48,740
+and this will be the title.
+
+105
+00:07:48,980 --> 00:07:57,110
+So that will be class card dash title and you're not going to remember all this stuff right away you're
+
+106
+00:07:57,110 --> 00:07:59,830
+going to have to have something like this.
+
+107
+00:07:59,950 --> 00:08:07,280
+This sandbox as a reference to go back to to to make sure you have your right classes but let's save
+
+108
+00:08:07,280 --> 00:08:07,980
+that.
+
+109
+00:08:08,150 --> 00:08:09,830
+And that's what it gives us.
+
+110
+00:08:09,830 --> 00:08:15,340
+All right so if we were to make this bigger you can see the images the image stretches out.
+
+111
+00:08:15,350 --> 00:08:18,720
+And if we make it like really big it takes up the whole place.
+
+112
+00:08:18,770 --> 00:08:20,810
+OK the whole thing.
+
+113
+00:08:20,810 --> 00:08:23,780
+And you don't need to have a title in there.
+
+114
+00:08:23,960 --> 00:08:32,390
+If we were to take that title out in save you'll see that the will move up and it'll take less size
+
+115
+00:08:32,390 --> 00:08:35,170
+for the image to fill the whole place.
+
+116
+00:08:35,180 --> 00:08:41,270
+So next we're going to look at the card reveal which is really cool because it will hide the text and
+
+117
+00:08:41,270 --> 00:08:46,350
+then we can click the read more and it'll then slide up and show us.
+
+118
+00:08:46,370 --> 00:08:53,750
+So we're going to give this a class we're going to give this just a class of card and then we have an
+
+119
+00:08:53,750 --> 00:08:58,970
+image so we're going to do class card image.
+
+120
+00:08:59,090 --> 00:09:01,760
+And let's also do a Wavves effect
+
+121
+00:09:04,080 --> 00:09:15,370
+waves like these waves and then let's also do Wavves dash.
+
+122
+00:09:15,470 --> 00:09:24,020
+Block the waves block will make it so that when we hit the reveal the image will kind of get away from
+
+123
+00:09:24,020 --> 00:09:28,840
+the corner and we'll get sent down through the whole image and give it a nice effect.
+
+124
+00:09:28,850 --> 00:09:29,150
+All right.
+
+125
+00:09:29,150 --> 00:09:32,550
+So next thing we want to do is add in the image.
+
+126
+00:09:33,020 --> 00:09:42,840
+So it's two image for dart J peg and we're going to give this a class of activator.
+
+127
+00:09:42,860 --> 00:09:47,980
+Now the activator class is just that it'll activate the reveal module.
+
+128
+00:09:48,050 --> 00:09:51,920
+And when you actually see what it does it'll make more sense.
+
+129
+00:09:51,950 --> 00:09:53,930
+So it's a activator.
+
+130
+00:09:54,140 --> 00:09:56,180
+And then this will be the content.
+
+131
+00:09:56,180 --> 00:10:07,250
+So I will say class equals card content and then we have our title.
+
+132
+00:10:07,510 --> 00:10:08,950
+All right we'll have an icon.
+
+133
+00:10:08,950 --> 00:10:12,020
+Let's make this more Virts.
+
+134
+00:10:12,160 --> 00:10:23,780
+This is going to be kind of three vertical lines and give us a class of material icons.
+
+135
+00:10:23,780 --> 00:10:24,240
+All right.
+
+136
+00:10:24,250 --> 00:10:28,750
+And then we're going to go down here and we can add an activator to anything.
+
+137
+00:10:28,750 --> 00:10:35,770
+So I just want to show you that in addition to the image we give this a class to read more a class of
+
+138
+00:10:35,770 --> 00:10:39,910
+activator and that will also activate the reveal.
+
+139
+00:10:39,910 --> 00:10:43,990
+Now down here will be the inside of the reveal so when we click it.
+
+140
+00:10:43,990 --> 00:10:46,380
+This is the content that will display.
+
+141
+00:10:46,390 --> 00:10:55,710
+So we need to add the class of card reveal which initially hides it and then it'll show when we activate
+
+142
+00:10:55,710 --> 00:10:57,450
+it or we reveal it.
+
+143
+00:10:57,610 --> 00:10:59,870
+And then this will be the title.
+
+144
+00:11:00,160 --> 00:11:07,950
+So it's a C class equals card title
+
+145
+00:11:10,800 --> 00:11:18,710
+and for this icon this is going to be the close button because we want to be able to close it as well.
+
+146
+00:11:24,420 --> 00:11:30,830
+OK and then this here will be actually this paragraph doesn't need anything it doesn't need any kind
+
+147
+00:11:30,830 --> 00:11:33,770
+of class so let's save and see what that gives us.
+
+148
+00:11:33,770 --> 00:11:34,040
+All right.
+
+149
+00:11:34,040 --> 00:11:40,610
+So Carville and if I click the icon OK so the icons not working.
+
+150
+00:11:40,610 --> 00:11:44,550
+But if I click read more you'll see we get the revealed content.
+
+151
+00:11:44,960 --> 00:11:48,210
+Let me just see what's going on with this icon here.
+
+152
+00:11:50,440 --> 00:11:50,700
+All right.
+
+153
+00:11:50,710 --> 00:11:56,230
+So we want on the card title we want the activator class
+
+154
+00:12:00,510 --> 00:12:06,990
+ok because the the title or the more verts icon which is this right here is actually wrapped in the
+
+155
+00:12:06,990 --> 00:12:09,090
+span of the of the title.
+
+156
+00:12:09,090 --> 00:12:11,040
+So we need the activator on that.
+
+157
+00:12:11,040 --> 00:12:15,700
+So now if I click it it'll work OK.
+
+158
+00:12:16,080 --> 00:12:19,930
+And like I said you can add the activator to anything we have it on the image as well.
+
+159
+00:12:19,920 --> 00:12:24,160
+So if I click that that will reveal it too.
+
+160
+00:12:24,330 --> 00:12:28,180
+All right so now we're going to moved on move on to the tabbed card.
+
+161
+00:12:29,010 --> 00:12:32,190
+So go ahead and add our class of card
+
+162
+00:12:35,320 --> 00:12:43,600
+and this will be class of card content and then our card title
+
+163
+00:12:49,090 --> 00:12:58,210
+right and then down here we have a div and we want to give this a class of card tabs.
+
+164
+00:12:58,340 --> 00:13:03,960
+OK so at the bottom we have the card tabs div just like we have the card action if we want we can have
+
+165
+00:13:03,960 --> 00:13:05,090
+tabs.
+
+166
+00:13:05,490 --> 00:13:11,110
+And then for the UL we're going to have to give that a class or a couple classes.
+
+167
+00:13:11,110 --> 00:13:19,920
+One is tab's one is going to be tab's with fixed which is going to kind of spread them across the top
+
+168
+00:13:20,610 --> 00:13:24,740
+and then each ally is going to have a class of tab
+
+169
+00:13:36,460 --> 00:13:42,490
+cry and the traffic knows that they're going to tab one tab to tab three.
+
+170
+00:13:42,660 --> 00:13:48,680
+So what we want to do is these divs down here we want to associate these with those IDs so we're going
+
+171
+00:13:48,680 --> 00:13:58,800
+to say I.D. tab 1 and this will be the tab too because we want these to show when those particular ones
+
+172
+00:13:58,800 --> 00:14:00,720
+are clicked.
+
+173
+00:14:00,810 --> 00:14:04,160
+So Tab 3.
+
+174
+00:14:04,200 --> 00:14:04,650
+All right.
+
+175
+00:14:04,650 --> 00:14:09,570
+And then it's you know it's just let's save that.
+
+176
+00:14:09,660 --> 00:14:13,320
+And then if we go down here we can look at the tabs card.
+
+177
+00:14:14,030 --> 00:14:14,340
+OK.
+
+178
+00:14:14,340 --> 00:14:17,430
+So the tabs are working but the content doesn't look right.
+
+179
+00:14:17,430 --> 00:14:23,670
+That's because this div wrapping it should have the card content that's what adds the padding and all
+
+180
+00:14:23,670 --> 00:14:24,270
+that stuff.
+
+181
+00:14:24,270 --> 00:14:25,820
+So save that.
+
+182
+00:14:25,950 --> 00:14:28,970
+And now that looks a lot better.
+
+183
+00:14:29,670 --> 00:14:34,420
+Now let's say we wanted to add a background color to this card in the tabs.
+
+184
+00:14:34,470 --> 00:14:45,540
+What I'm going to do is copy the entire tabbed card which is from there to there and we'll go down here
+
+185
+00:14:45,540 --> 00:14:49,390
+and let's replace this stuff.
+
+186
+00:14:49,400 --> 00:14:51,900
+This is all the same thing.
+
+187
+00:14:52,160 --> 00:14:57,790
+I just we're running out of time here and I don't have to retype it all out but all we have to do is
+
+188
+00:14:57,880 --> 00:15:07,990
+let's add to this div here the actual card will add a color of orange and we'll say Darkon and let's
+
+189
+00:15:07,990 --> 00:15:10,290
+give it white text.
+
+190
+00:15:10,810 --> 00:15:11,240
+OK.
+
+191
+00:15:11,260 --> 00:15:20,430
+Save that now for this right here this area I want to make this black so we'll go down to where you
+
+192
+00:15:20,440 --> 00:15:25,460
+want to go down to the UL and we're going to add.
+
+193
+00:15:25,720 --> 00:15:32,200
+First of all we're going to add tabs dash transparent because you can see that they're white it's white
+
+194
+00:15:32,200 --> 00:15:33,410
+by default.
+
+195
+00:15:33,580 --> 00:15:39,410
+So we'll save and now it's transparent and you can see the background color.
+
+196
+00:15:39,820 --> 00:15:43,540
+But what I want to do is actually make the content black not that part.
+
+197
+00:15:43,540 --> 00:15:45,320
+I want to make the content black.
+
+198
+00:15:45,550 --> 00:15:53,500
+So right here we'll say black and let's do actually will lighten it a little bit will say liten dash
+
+199
+00:15:53,500 --> 00:15:55,620
+for sort of be like a gray ish.
+
+200
+00:15:55,840 --> 00:15:58,380
+And then let's add white.
+
+201
+00:15:58,600 --> 00:16:00,580
+It's already white text.
+
+202
+00:16:01,030 --> 00:16:01,670
+And then we go.
+
+203
+00:16:01,670 --> 00:16:07,510
+So now we have kind of a Halloween looking card tabbed card.
+
+204
+00:16:07,510 --> 00:16:11,240
+All right so now we're going to move on to card sizes.
+
+205
+00:16:11,440 --> 00:16:17,180
+So if we go down here we're going to have three image cards.
+
+206
+00:16:17,260 --> 00:16:18,570
+So what I'll do.
+
+207
+00:16:18,640 --> 00:16:26,250
+Let's see instead of just typing all this so let's copy the first image card we did which is right here
+
+208
+00:16:26,260 --> 00:16:27,940
+card with image.
+
+209
+00:16:27,940 --> 00:16:41,980
+So grab from here to here and let's go back down to sizes and we'll go to the small so this div ends
+
+210
+00:16:41,980 --> 00:16:49,450
+here so we're just going to pace that in let's do it for the next one so this div here which ends right
+
+211
+00:16:49,450 --> 00:16:57,580
+here pace that in the large one we'll paste that in.
+
+212
+00:16:57,580 --> 00:16:59,990
+Let's change the images.
+
+213
+00:17:00,220 --> 00:17:03,510
+So the first one will be image five.
+
+214
+00:17:03,740 --> 00:17:07,300
+Will be six and this will be seven.
+
+215
+00:17:07,300 --> 00:17:11,710
+All right so if we save that we have our card images.
+
+216
+00:17:11,710 --> 00:17:17,440
+Now what I want to do is show you that we can actually make the small medium and large just by adding
+
+217
+00:17:17,860 --> 00:17:24,430
+a simple class to the card div here so we'll say small and save and you'll see it'll shrink it up.
+
+218
+00:17:24,430 --> 00:17:31,360
+Now it's going to cover some syntax so you might want to shorten your text but Or if it doesn't matter
+
+219
+00:17:31,360 --> 00:17:36,550
+if it's covered then you could leave it and just click read more go to the blog post or whatever.
+
+220
+00:17:36,580 --> 00:17:39,320
+This one here we're going to set to Medium.
+
+221
+00:17:39,700 --> 00:17:46,310
+So we'll save that and you'll see that that gets a little shorter.
+
+222
+00:17:47,650 --> 00:17:52,340
+I put that on the right medium.
+
+223
+00:17:52,420 --> 00:17:55,370
+And then let's do small.
+
+224
+00:17:57,490 --> 00:18:01,990
+I did so also we want to do large OK.
+
+225
+00:18:02,010 --> 00:18:02,640
+So there we go.
+
+226
+00:18:02,640 --> 00:18:07,190
+So small medium large you can basically just change the heights of these things.
+
+227
+00:18:07,710 --> 00:18:15,360
+OK so down here what I want to do is show you about panels and also shadow shadow is separate from cards
+
+228
+00:18:15,360 --> 00:18:20,710
+you can put shadow on anything but I just figured this was a good place to display it.
+
+229
+00:18:20,760 --> 00:18:29,370
+Basically a panel is kind of like what we have up here just a border with the drop shadow except it
+
+230
+00:18:29,370 --> 00:18:33,310
+only takes one class instead of the card and the card content.
+
+231
+00:18:33,450 --> 00:18:40,810
+It just takes the class of card panel so I can say Card dash panel and save.
+
+232
+00:18:40,830 --> 00:18:42,130
+And there we go.
+
+233
+00:18:42,630 --> 00:18:42,930
+All right.
+
+234
+00:18:42,930 --> 00:18:48,950
+So let's see we're going to add that to all of these.
+
+235
+00:18:49,490 --> 00:18:51,450
+You know it's a class
+
+236
+00:18:54,940 --> 00:18:56,420
+card panel.
+
+237
+00:18:59,520 --> 00:19:12,900
+And this one here.
+
+238
+00:19:13,240 --> 00:19:19,180
+All right so if you just want like a border and some padding and stuff like that you should probably
+
+239
+00:19:19,180 --> 00:19:23,620
+use card panel instead of card and card content.
+
+240
+00:19:23,710 --> 00:19:30,990
+So let's add some colors to these so for this first one here we'll see a blue.
+
+241
+00:19:31,790 --> 00:19:36,800
+And for this one make sure it's on the card panel class not the actual column.
+
+242
+00:19:36,820 --> 00:19:46,930
+So for this one let's say indigo and we'll do Suyin and it's to Amber and save.
+
+243
+00:19:47,080 --> 00:19:53,920
+And now we have a bunch different colors for the darker ones like say Indigo you probably want the text
+
+244
+00:19:53,920 --> 00:19:54,550
+to be white.
+
+245
+00:19:54,550 --> 00:20:01,560
+So for this span right here I'm just going to add a class of white dash text and save.
+
+246
+00:20:01,750 --> 00:20:03,890
+And there we go.
+
+247
+00:20:04,000 --> 00:20:12,850
+Now for the shadow there's just a couple of classes and there Z depth classes so if we were to do Z
+
+248
+00:20:13,060 --> 00:20:20,220
+dash dash dash one on the blue and save you'll see there's no difference.
+
+249
+00:20:20,260 --> 00:20:23,910
+So the depth one is basically just.
+
+250
+00:20:24,610 --> 00:20:30,650
+Well actually these have a shadow by default so it's going to be like that default shadow.
+
+251
+00:20:30,760 --> 00:20:36,280
+If we do too it should look a little more prominent as you can see it's now a little more prominent
+
+252
+00:20:36,670 --> 00:20:37,880
+for this one here.
+
+253
+00:20:37,930 --> 00:20:44,450
+Let's do Z dash Deppe dash three and save.
+
+254
+00:20:44,490 --> 00:20:46,810
+And that's even more prominent.
+
+255
+00:20:46,870 --> 00:20:56,610
+And then for this one will do Z dash depth dash for and that has an even thicker shadow.
+
+256
+00:20:56,760 --> 00:21:00,050
+OK and I believe four is the highest we can go.
+
+257
+00:21:00,650 --> 00:21:01,430
+OK.
+
+258
+00:21:01,660 --> 00:21:06,670
+So that's how we can add shadows and you can do that on buttons you can do that on anything.
+
+259
+00:21:06,670 --> 00:21:13,910
+But most of this stuff has as that kind of a default shadow that's that's just the material design look.
+
+260
+00:21:13,970 --> 00:21:18,600
+But you can make that shadow thicker with these ZDF depth classes.
+
+261
+00:21:19,060 --> 00:21:21,050
+All right guys so this was kind of a long one.
+
+262
+00:21:21,050 --> 00:21:24,680
+This is because there's a lot of different types of cards that you can do.
+
+263
+00:21:25,030 --> 00:21:25,720
+So that's it.
+
+264
+00:21:25,720 --> 00:21:29,200
+In the next video we're going to take a look at breadcrumbs and flooder.
+

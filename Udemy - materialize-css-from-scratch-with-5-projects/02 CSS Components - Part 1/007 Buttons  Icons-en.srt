@@ -1,0 +1,512 @@
+1
+00:00:00,460 --> 00:00:03,360
+All right in this video we're going to take a look at Buttons.
+
+2
+00:00:03,360 --> 00:00:08,410
+OK so we have quite a bit of options when it comes to buttons right here.
+
+3
+00:00:08,410 --> 00:00:09,570
+I'll go to.
+
+4
+00:00:09,710 --> 00:00:10,950
+We're it's a start here.
+
+5
+00:00:10,950 --> 00:00:15,470
+It's a standard button in the two three buttons icons each time I'll file.
+
+6
+00:00:15,480 --> 00:00:18,740
+And see I have it loaded here under this menu item.
+
+7
+00:00:18,870 --> 00:00:25,620
+And what I'm going to do is add to this button tag a class of just between.
+
+8
+00:00:25,620 --> 00:00:27,310
+OK so let's save that.
+
+9
+00:00:27,330 --> 00:00:34,440
+Now this is what basically a standard materialise button looks like and we can add this to a button
+
+10
+00:00:34,500 --> 00:00:39,630
+as well as a link tags so we can see a class Button here as well.
+
+11
+00:00:39,630 --> 00:00:41,940
+And it'll basically look the same.
+
+12
+00:00:41,940 --> 00:00:42,790
+OK.
+
+13
+00:00:43,260 --> 00:00:52,660
+Now we also have a cool waves effect with materialize so for you are to give this a class can't I.
+
+14
+00:00:52,840 --> 00:00:54,660
+So a class of BGN.
+
+15
+00:00:54,790 --> 00:00:59,340
+And then we can do waves dash effect.
+
+16
+00:00:59,680 --> 00:01:05,800
+And we're going to see waves dash light and let's save that.
+
+17
+00:01:06,130 --> 00:01:13,810
+And now if I go to a regular button and I click look you'll see that nothing really happens if I click
+
+18
+00:01:13,870 --> 00:01:17,130
+the waves you can see the little effect that it gives us.
+
+19
+00:01:17,140 --> 00:01:20,110
+OK and we can do this on a button or a link.
+
+20
+00:01:20,110 --> 00:01:26,550
+So if I just grab this class and put it on this link you'll see it does the same thing.
+
+21
+00:01:26,560 --> 00:01:26,830
+All right.
+
+22
+00:01:26,830 --> 00:01:31,060
+Now we also can add different colors to these waves so what we're going to do is I'm going to add a
+
+23
+00:01:31,060 --> 00:01:38,500
+class of white K for that for this button here for all of these buttons.
+
+24
+00:01:38,960 --> 00:01:42,920
+We also need to be T.N. class which gives it all its padding and stuff.
+
+25
+00:01:43,150 --> 00:01:48,530
+And then let's make the text I will say read Desch text.
+
+26
+00:01:48,580 --> 00:01:52,400
+Ok so this is all stuff that we've already learned all the color stuff.
+
+27
+00:01:52,600 --> 00:02:02,690
+And then I'm also going to say waves dash effect and then lets say waves dash red.
+
+28
+00:02:03,160 --> 00:02:08,450
+OK so now if I go to this button and click you'll see that we get the red wave.
+
+29
+00:02:08,450 --> 00:02:08,740
+All right.
+
+30
+00:02:08,740 --> 00:02:10,450
+Now just to make this a little shorter.
+
+31
+00:02:10,450 --> 00:02:12,970
+Let's go ahead and just paste this in.
+
+32
+00:02:12,970 --> 00:02:14,290
+What is it for so.
+
+33
+00:02:14,380 --> 00:02:23,820
+One two three four and we'll just change up the colors so we'll say let's do T.L. and then we'll change
+
+34
+00:02:23,820 --> 00:02:29,760
+the waves to waves dash T.L. and your text doesn't have to match the color.
+
+35
+00:02:29,770 --> 00:02:32,270
+But I think it looks nice when it does.
+
+36
+00:02:32,270 --> 00:02:44,970
+Let's do green and we'll say green text and then for this one let's do you know let's do grey text but
+
+37
+00:02:45,020 --> 00:02:46,860
+we'll do a yellow wave
+
+38
+00:02:50,480 --> 00:02:55,050
+and then for this last one wants to purple.
+
+39
+00:02:55,050 --> 00:03:04,400
+So will say purple Tex and let's say waves dash purple and we'll save and now each one that I click
+
+40
+00:03:04,430 --> 00:03:07,250
+you can see that it has a different color wave effects.
+
+41
+00:03:07,250 --> 00:03:09,520
+That's pretty cool.
+
+42
+00:03:09,530 --> 00:03:14,750
+Now we can also have icons very do this material icons library.
+
+43
+00:03:14,750 --> 00:03:16,160
+You do have to include it.
+
+44
+00:03:16,160 --> 00:03:17,900
+You can see appear in the head.
+
+45
+00:03:17,990 --> 00:03:19,110
+I'm including it.
+
+46
+00:03:19,160 --> 00:03:21,890
+What I've also done in this file is include the font.
+
+47
+00:03:21,890 --> 00:03:27,770
+Awesome CDN which is another icon library because I want to show you that you can use those as well
+
+48
+00:03:27,800 --> 00:03:29,550
+if you prefer font.
+
+49
+00:03:29,640 --> 00:03:33,920
+Austin does have a lot more choices than the material icons.
+
+50
+00:03:33,920 --> 00:03:34,210
+All right.
+
+51
+00:03:34,220 --> 00:03:38,000
+So let's go right here and let's see.
+
+52
+00:03:38,000 --> 00:03:48,920
+To add an icon we're going to use an eye tag and we're going to give it a class of material dash icons.
+
+53
+00:03:48,920 --> 00:03:50,030
+So this is how it works.
+
+54
+00:03:50,030 --> 00:03:56,300
+Every icon gets a class of material icons and then the specific icon you want.
+
+55
+00:03:56,300 --> 00:04:03,590
+You put that in here the identifier so let's say I want a shopping cart icon and I'll say shopping underscore
+
+56
+00:04:03,590 --> 00:04:06,970
+cart and save and it gives me that icon.
+
+57
+00:04:07,070 --> 00:04:12,020
+And if you want to check all of these though I forget the exact you R-AL but will see him with Tiriel
+
+58
+00:04:12,020 --> 00:04:13,870
+icons.
+
+59
+00:04:14,420 --> 00:04:18,200
+And yeah it's material Daut IO slash icons.
+
+60
+00:04:18,420 --> 00:04:25,340
+And down here you'll see all of the different things that you can add so it's look for shopping cart
+
+61
+00:04:27,870 --> 00:04:33,040
+Let's see where is it's big area here.
+
+62
+00:04:33,040 --> 00:04:41,860
+So if I click shopping cart an icon for Aunt right here shows us how to use it.
+
+63
+00:04:41,880 --> 00:04:47,870
+I class material icons and then shopping under score card so you can check this site if you want to
+
+64
+00:04:47,870 --> 00:04:51,400
+check out the different icons that are available.
+
+65
+00:04:51,440 --> 00:04:58,400
+Now what I'll do is let's let's copy a couple of these down so we'll do one two three more and to do
+
+66
+00:04:58,400 --> 00:05:02,770
+that I'm just doing shift alter shift option and down.
+
+67
+00:05:03,230 --> 00:05:15,150
+OK so let's let's do settings and let's do a search on
+
+68
+00:05:17,600 --> 00:05:20,800
+and stars icon.
+
+69
+00:05:21,390 --> 00:05:22,010
+OK.
+
+70
+00:05:22,190 --> 00:05:27,260
+So if we save that we get a bunch of different icons and if we want to change the color that's simple
+
+71
+00:05:27,260 --> 00:05:30,990
+we just add text colors so red dash text.
+
+72
+00:05:31,190 --> 00:05:32,730
+Technically these are fonts.
+
+73
+00:05:32,750 --> 00:05:38,830
+So we want to add you want to use the text colors will say blue dash text and save.
+
+74
+00:05:38,990 --> 00:05:43,070
+And I can see that those two icons have different colors.
+
+75
+00:05:43,070 --> 00:05:45,470
+We can also change the sizes.
+
+76
+00:05:45,470 --> 00:05:58,560
+So what I'll do is let's say I class material icons just using Emett here and then let's just take the
+
+77
+00:05:58,560 --> 00:06:06,290
+done icon which is basically a checkmark can see right here and I'm going to just copy this down four
+
+78
+00:06:06,290 --> 00:06:14,540
+times and this one here I'm also going to give a class of large and for this one I'll give a class of
+
+79
+00:06:14,540 --> 00:06:17,220
+medium.
+
+80
+00:06:17,240 --> 00:06:21,750
+This one will be small and this one will be tiny.
+
+81
+00:06:21,830 --> 00:06:29,410
+OK so let's save that and you can see we can have different sizes of icons using these different classes.
+
+82
+00:06:29,420 --> 00:06:37,060
+Now what if we want to have a button with icons so for that we go down here to button with material
+
+83
+00:06:37,100 --> 00:06:41,320
+icon and let's add inside the tag.
+
+84
+00:06:41,510 --> 00:06:45,280
+And this could be just as well a button but we're using an Atallah here.
+
+85
+00:06:45,350 --> 00:06:49,040
+Let's give it a beat and.
+
+86
+00:06:49,490 --> 00:06:57,000
+And we'll even give it a waves effect and say Wavves dash light.
+
+87
+00:06:57,380 --> 00:07:09,070
+And inside here next to the by now text we're going to put in I tag give it a class of material dash.
+
+88
+00:07:11,520 --> 00:07:15,020
+And inside here let's use the shopping cart icon
+
+89
+00:07:19,160 --> 00:07:26,600
+I will just put a little space here and let's save and I can see we have a button with an icon now to
+
+90
+00:07:26,600 --> 00:07:35,570
+make this a little more aligned to what we can do is we can add in the class with material icons left
+
+91
+00:07:35,840 --> 00:07:36,530
+and save.
+
+92
+00:07:36,530 --> 00:07:43,010
+And now you see it's aligned nicely and we can do the same thing with a right aligned icon.
+
+93
+00:07:43,010 --> 00:07:51,470
+So if I were to copy this I will just replace this one and we'll go ahead and just change it to right
+
+94
+00:07:51,710 --> 00:07:54,700
+right here and save.
+
+95
+00:07:54,740 --> 00:07:57,140
+Now the icon is on the right.
+
+96
+00:07:57,140 --> 00:08:01,000
+And then just to show you we can use font awesome icons.
+
+97
+00:08:01,040 --> 00:08:09,500
+I'll copy this a tag and instead of doing it like this we'll use the font awesome method which doesn't
+
+98
+00:08:09,500 --> 00:08:15,700
+have anything inside the eye element we just need to add a special class of F.A. for font.
+
+99
+00:08:15,710 --> 00:08:16,610
+Awesome.
+
+100
+00:08:16,640 --> 00:08:19,050
+And then whatever icon we want which we want.
+
+101
+00:08:19,060 --> 00:08:24,350
+F.A. dash shopping dash cart.
+
+102
+00:08:24,500 --> 00:08:27,170
+And then we'll put it on the left and we'll save.
+
+103
+00:08:27,350 --> 00:08:32,600
+And there we go you can see it looks slightly different because this is a fine awesome icon.
+
+104
+00:08:32,930 --> 00:08:33,230
+All right.
+
+105
+00:08:33,230 --> 00:08:35,110
+And you can go to I think it's fine.
+
+106
+00:08:35,120 --> 00:08:36,170
+Awesome dog.
+
+107
+00:08:36,180 --> 00:08:37,030
+I know.
+
+108
+00:08:37,190 --> 00:08:40,250
+And you can see all the different icons they have.
+
+109
+00:08:40,250 --> 00:08:50,000
+All right so we can have different colored buttons so if we just go ahead and add a class of BGN and
+
+110
+00:08:50,000 --> 00:08:55,780
+we could add for instance red and save we get a red button.
+
+111
+00:08:57,660 --> 00:09:03,470
+We could do better then let's do purple.
+
+112
+00:09:04,410 --> 00:09:08,980
+You're not limited to any colors you can use any of the colors that are available
+
+113
+00:09:11,920 --> 00:09:17,950
+so if we wanted to do like Tio do that
+
+114
+00:09:23,060 --> 00:09:24,990
+if we wanted to do black
+
+115
+00:09:30,730 --> 00:09:37,650
+or eyelets to Amber and save and we get all these nice looking colored buttons.
+
+116
+00:09:37,700 --> 00:09:42,140
+Okay and last two things I want to show you are large Broughton's and disabled buttons.
+
+117
+00:09:42,280 --> 00:09:51,280
+So our class of DTN And actually we don't even need the just the beat and we can just do between large
+
+118
+00:09:51,730 --> 00:09:53,950
+and save and we get a large button.
+
+119
+00:09:53,980 --> 00:09:58,640
+Now for some frameworks like bootstrap you'd have to do both the beat and.
+
+120
+00:09:58,660 --> 00:10:02,340
+And then I think it's between algae or something like that.
+
+121
+00:10:02,350 --> 00:10:06,480
+But it materialized we just need the one BT and large.
+
+122
+00:10:06,670 --> 00:10:14,410
+Now for a button to be disabled well just give it a BGN in class will make this one large as well should
+
+123
+00:10:14,410 --> 00:10:16,700
+be in the class.
+
+124
+00:10:16,780 --> 00:10:18,790
+So just to be Teahen large.
+
+125
+00:10:18,790 --> 00:10:25,390
+And then we'll add a class of disabled and save.
+
+126
+00:10:25,390 --> 00:10:29,320
+And now that button is disabled so I can't click on it or anything.
+
+127
+00:10:29,770 --> 00:10:33,790
+All right so that's going to be guys in the next video we're still going to look at Buttons what we're
+
+128
+00:10:33,790 --> 00:10:38,890
+going to look at the floating buttons which are one of the coolest elements in materialise.
+

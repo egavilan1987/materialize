@@ -1,0 +1,272 @@
+1
+00:00:00,680 --> 00:00:04,800
+All right guys who are in this video we're going to look at the collapsible widget which is basically
+
+2
+00:00:04,800 --> 00:00:06,900
+like an accordion menu.
+
+3
+00:00:06,930 --> 00:00:10,620
+So what we're going to do is go to for a collapsable daughter H.T. amount.
+
+4
+00:00:10,830 --> 00:00:16,890
+And you see we have a UL here and each UL has an ally with two divs.
+
+5
+00:00:17,010 --> 00:00:24,240
+The first div has the header or the heading and then the second one has the text or the body which is
+
+6
+00:00:24,240 --> 00:00:25,400
+in a span.
+
+7
+00:00:25,410 --> 00:00:28,140
+We also have an icon next to the heading.
+
+8
+00:00:28,170 --> 00:00:33,480
+So first thing we're going to do is give this UL a class of collapsable
+
+9
+00:00:36,900 --> 00:00:45,960
+and we're going to give it a another attribute called Data dash collapsable and we want to let it know
+
+10
+00:00:45,960 --> 00:00:52,470
+that this is going to be an accordion type or an accordion collapsable I should probably spell that
+
+11
+00:00:52,470 --> 00:00:54,040
+right though.
+
+12
+00:00:54,360 --> 00:00:54,660
+All right.
+
+13
+00:00:54,660 --> 00:00:58,110
+And then each list item it doesn't need a class.
+
+14
+00:00:58,120 --> 00:01:00,820
+What we do need a class on that is.
+
+15
+00:01:00,900 --> 00:01:04,700
+So this does will have a class of collapsable however.
+
+16
+00:01:10,850 --> 00:01:12,270
+Westons spell that right.
+
+17
+00:01:12,270 --> 00:01:19,440
+So collapsable Hetter it's hard to talk and type and then let's see for an icon of course we need our
+
+18
+00:01:19,440 --> 00:01:25,250
+class of material Icahn's doesn't matter what icon we're using we need that.
+
+19
+00:01:25,410 --> 00:01:32,160
+And then inside here we're going to give it to the group underscore work icon and then for this div
+
+20
+00:01:32,250 --> 00:01:37,460
+the second div here it's going to have a class of collapsable body.
+
+21
+00:01:38,880 --> 00:01:43,430
+OK so we have collapsible Hetter and collapsible body.
+
+22
+00:01:43,440 --> 00:01:51,930
+So what I'm going to do is just copy this list item and let's see if we can ignore this pre-select for
+
+23
+00:01:51,930 --> 00:01:52,650
+now.
+
+24
+00:01:53,130 --> 00:01:58,980
+But let's go ahead and just replace both of these list items so one and two.
+
+25
+00:01:59,460 --> 00:02:02,910
+And then we're going to change this to second.
+
+26
+00:02:03,310 --> 00:02:06,710
+I will say this is the second area.
+
+27
+00:02:07,500 --> 00:02:10,110
+And then this will be third.
+
+28
+00:02:11,420 --> 00:02:13,900
+Let's say this is the third area.
+
+29
+00:02:14,190 --> 00:02:21,420
+And let's also change the icon so the second one will be the help icon and then the third one will be
+
+30
+00:02:21,420 --> 00:02:23,720
+the info icon.
+
+31
+00:02:23,760 --> 00:02:25,290
+All right so let's save that.
+
+32
+00:02:25,620 --> 00:02:26,740
+And there we go.
+
+33
+00:02:26,820 --> 00:02:30,570
+And if I click on one of these headings you'll see that the body will show.
+
+34
+00:02:30,780 --> 00:02:32,930
+And it's only going to show one at a time.
+
+35
+00:02:32,930 --> 00:02:39,000
+If I if I were looking at the third body and I could the first third is going to go away.
+
+36
+00:02:39,130 --> 00:02:39,350
+OK.
+
+37
+00:02:39,360 --> 00:02:41,960
+So that's the accordion type.
+
+38
+00:02:42,040 --> 00:02:46,420
+And then if we want to pre-select something I noticed when I enter the page they're all closed if I
+
+39
+00:02:46,420 --> 00:02:53,320
+want one to be open then we could go ahead and do that by adding an active class to the header.
+
+40
+00:02:53,530 --> 00:03:00,660
+So let's say we want the second one and that's why I had that pre-select comment there so let's save
+
+41
+00:03:00,670 --> 00:03:05,020
+and now you see the second one is automatically open when we enter the page.
+
+42
+00:03:05,500 --> 00:03:11,800
+So that's the accordion we also have the expandable type which instead of doing it from scratch I'm
+
+43
+00:03:11,800 --> 00:03:19,990
+just going to copy this whole UL here and just replace this one and then all we're going to do is change
+
+44
+00:03:20,020 --> 00:03:23,620
+the data collapsable attribute to expand the expandable
+
+45
+00:03:26,820 --> 00:03:29,550
+and we'll go ahead and save that.
+
+46
+00:03:29,610 --> 00:03:33,640
+Now the difference is even though I have the second one open if I could.
+
+47
+00:03:33,630 --> 00:03:40,230
+The first the second one stays open so we can have multiple groups are multiple content areas open at
+
+48
+00:03:40,230 --> 00:03:46,050
+the same time where with the accordion it can only be one at a time that's the main difference between
+
+49
+00:03:46,320 --> 00:03:48,880
+adding accordion or expandable.
+
+50
+00:03:49,230 --> 00:03:50,550
+All right.
+
+51
+00:03:50,550 --> 00:03:53,170
+So that's pretty much all there is to it.
+
+52
+00:03:53,340 --> 00:04:01,770
+We can also add in events so that when it's open when a collapsible item is open we can do something
+
+53
+00:04:01,770 --> 00:04:09,390
+or when it's closed so if we go down to the javascript and we go ahead and put in our collapsible class
+
+54
+00:04:13,260 --> 00:04:15,000
+and we call Daut
+
+55
+00:04:17,880 --> 00:04:32,060
+collapsable and then we can pass and here and object and we can do on the open and set that to a function.
+
+56
+00:04:32,160 --> 00:04:39,450
+So function and let's just pass and here we'll say alerts
+
+57
+00:04:42,760 --> 00:04:43,790
+open.
+
+58
+00:04:44,230 --> 00:04:51,280
+So save that and Ill do it right away because we have one that's pre-selected or two that are pre-selected.
+
+59
+00:04:51,280 --> 00:04:54,500
+They both have the collapsible class so both will be affected.
+
+60
+00:04:54,520 --> 00:04:57,550
+But if I open another one it will say open.
+
+61
+00:04:57,550 --> 00:05:00,320
+It'll give the alert right before it opens.
+
+62
+00:05:00,340 --> 00:05:13,690
+We can do the same thing one close if I were to grab this and we could do on close and will alert close.
+
+63
+00:05:13,690 --> 00:05:16,360
+All right so save we get open.
+
+64
+00:05:16,360 --> 00:05:17,180
+Open.
+
+65
+00:05:17,380 --> 00:05:20,400
+And if I close the second one now we get close.
+
+66
+00:05:20,620 --> 00:05:26,610
+All right so we can have something happen in javascript when we open and close these accordion items.
+
+67
+00:05:26,890 --> 00:05:28,600
+OK so that's it for collapsable.
+
+68
+00:05:28,630 --> 00:05:31,330
+And the next video we're going to look at feature discovery.
+

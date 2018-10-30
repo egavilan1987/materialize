@@ -1,0 +1,404 @@
+1
+00:00:00,640 --> 00:00:03,910
+Guys who now are going to take a look at breadcrumbs in footer.
+
+2
+00:00:04,170 --> 00:00:10,650
+So these are actually components that you usually want to stretch all the way across so noticed at the
+
+3
+00:00:10,650 --> 00:00:13,530
+start here is actually below the container.
+
+4
+00:00:13,590 --> 00:00:18,660
+So that way it goes all the way across and it's not restricted inside the container and the breadcrumb
+
+5
+00:00:18,690 --> 00:00:21,420
+is very very similar to a nav bar.
+
+6
+00:00:21,420 --> 00:00:27,000
+It's structured pretty much the same way we have our NAV tag and actually just going to give it a class
+
+7
+00:00:27,000 --> 00:00:35,130
+of grey to change the color and we're going to give it the Nav. wrapper class which just like all nav
+
+8
+00:00:35,130 --> 00:00:38,000
+bars gets this class.
+
+9
+00:00:38,660 --> 00:00:39,130
+OK.
+
+10
+00:00:39,150 --> 00:00:46,800
+And let's also give it a container so that the words aren't stuck up to the side.
+
+11
+00:00:46,800 --> 00:00:50,730
+OK so that pushes those over and then we have our div here.
+
+12
+00:00:50,730 --> 00:00:59,080
+Now this I'm actually going to give this div a class of call and s 12.
+
+13
+00:00:59,960 --> 00:01:00,450
+OK.
+
+14
+00:01:00,450 --> 00:01:02,460
+So just a 12 column row.
+
+15
+00:01:02,640 --> 00:01:10,650
+And then for each of these eight tags here we're going to do class equals breadcrumb and that'll spread
+
+16
+00:01:10,650 --> 00:01:13,170
+them out a bit and just make them look much better.
+
+17
+00:01:13,170 --> 00:01:14,910
+So it's a class
+
+18
+00:01:27,260 --> 00:01:28,880
+all right so let's save that.
+
+19
+00:01:29,000 --> 00:01:35,690
+And then we go so that breadcrumb adds these icons here and it does that by adding maybe four pseudo
+
+20
+00:01:35,690 --> 00:01:41,840
+class so it can actually put content before we go right here.
+
+21
+00:01:42,110 --> 00:01:47,380
+So before and you'll see it has the code for the content that will give it the arrow.
+
+22
+00:01:47,830 --> 00:01:55,670
+So using the the material icons font family the font size they're 25 pixels.
+
+23
+00:01:56,570 --> 00:02:01,820
+And then the actual text is 18 pixels.
+
+24
+00:02:03,380 --> 00:02:06,020
+It just adds a little bit of padding and stuff.
+
+25
+00:02:06,080 --> 00:02:08,450
+So that's a breadcrumb very very easy.
+
+26
+00:02:08,690 --> 00:02:15,020
+And what's cool is automatically that the last link was automatically lighter than these ones because
+
+27
+00:02:15,050 --> 00:02:19,730
+you would be on the instance the Bradd profile.
+
+28
+00:02:19,730 --> 00:02:25,220
+All right then you would have this go to your users page which displays all your users and then your
+
+29
+00:02:25,220 --> 00:02:27,380
+home page would be here.
+
+30
+00:02:27,380 --> 00:02:34,070
+All right so let's let's now create a foreigner or so you can see I just have just blank footer tags
+
+31
+00:02:34,070 --> 00:02:34,690
+here.
+
+32
+00:02:34,730 --> 00:02:37,050
+We're just going to create this from scratch.
+
+33
+00:02:37,100 --> 00:02:42,040
+So there's a class we can use called Page Footer.
+
+34
+00:02:43,590 --> 00:02:44,030
+OK.
+
+35
+00:02:44,030 --> 00:02:49,470
+And we want to give us a color or I'm going to make it gray and I to say dark and dash 3.
+
+36
+00:02:49,640 --> 00:02:58,760
+So I'll make it a dark gray and inside here let's put a container and let's use the grid system so we'll
+
+37
+00:02:58,760 --> 00:03:04,240
+put a row and let's do let's see what we want to do.
+
+38
+00:03:04,430 --> 00:03:06,480
+We'll do 12.
+
+39
+00:03:06,980 --> 00:03:09,620
+So we want it stacked on small screens.
+
+40
+00:03:09,620 --> 00:03:12,050
+We also want the call class.
+
+41
+00:03:12,570 --> 00:03:19,250
+So call us 12 and let's do all 6 so large six.
+
+42
+00:03:19,330 --> 00:03:30,450
+And inside here we'll put in age five and let's just say about us and we'll give this age five color
+
+43
+00:03:30,470 --> 00:03:36,200
+we don't have to do this stuff but I figure we'll just kind of do this throughout the course so that
+
+44
+00:03:36,200 --> 00:03:42,890
+you're constantly reminded of how to add colors and stuff like that how to lighten it all that all that
+
+45
+00:03:42,890 --> 00:03:44,340
+good stuff.
+
+46
+00:03:44,360 --> 00:03:48,220
+All right so give it great text and let's lighten it up.
+
+47
+00:03:50,270 --> 00:03:54,380
+Say Leitung three.
+
+48
+00:03:54,830 --> 00:03:59,920
+And then under the age five I'm going to put a paragraph with some dummy text on just going to do Lorem
+
+49
+00:03:59,940 --> 00:04:07,240
+20 tab which will give us some dummy text so we'll save that.
+
+50
+00:04:07,690 --> 00:04:11,800
+See you know what let's do six.
+
+51
+00:04:12,260 --> 00:04:20,690
+So that on medium screen it's also six columns and then underneath this column we're going to do the
+
+52
+00:04:20,690 --> 00:04:25,850
+next one which will be it will have the class call.
+
+53
+00:04:25,850 --> 00:04:37,010
+It'll have let's do as 12 and let's do let's see em for.
+
+54
+00:04:37,360 --> 00:04:46,760
+Yeah we'll do em four but let's offset it by two because we have 6 4 which is 10 and we want to offset
+
+55
+00:04:46,760 --> 00:04:55,990
+it by 2 so we'll say offset dash em to dash and 2.
+
+56
+00:04:56,000 --> 00:04:56,580
+All right.
+
+57
+00:04:56,780 --> 00:05:04,040
+And then and here let's put in each five again and let's say Lenk So this will be just a list of links
+
+58
+00:05:04,390 --> 00:05:13,180
+We'll also give this a class of gray or I'm sorry gray text and let's see.
+
+59
+00:05:13,190 --> 00:05:21,910
+Actually this should be text liten since it's just text it's not the background to the same thing here.
+
+60
+00:05:27,280 --> 00:05:40,000
+K and see underneath that let's do a UL and we'll do a bunch of lies to say Ally times for using Amut.
+
+61
+00:05:40,460 --> 00:05:44,780
+And inside the I'm going to have an eight tag.
+
+62
+00:05:45,950 --> 00:05:50,660
+So having a tag in this will have a class of white dash text
+
+63
+00:05:54,180 --> 00:05:58,940
+and let's make this the we'll just say link one.
+
+64
+00:05:58,950 --> 00:05:59,280
+All right.
+
+65
+00:05:59,280 --> 00:06:02,500
+So I'm actually going to just copy that line.
+
+66
+00:06:07,800 --> 00:06:15,980
+And we'll go ahead and paste isn't pretty or will format these so we don't have to worry about that.
+
+67
+00:06:15,980 --> 00:06:20,020
+If you're using prettier and let's change this to four
+
+68
+00:06:22,700 --> 00:06:26,970
+three and two.
+
+69
+00:06:27,110 --> 00:06:29,900
+OK so those are links.
+
+70
+00:06:29,900 --> 00:06:34,640
+Now I also want to have like a copyright area underneath.
+
+71
+00:06:34,640 --> 00:06:36,960
+So we want to go.
+
+72
+00:06:37,740 --> 00:06:39,410
+Let's see where do we want to go.
+
+73
+00:06:39,410 --> 00:06:42,680
+We want to go under the container
+
+74
+00:06:47,020 --> 00:06:56,600
+also under the container which is right here and we're going to put a class of water dash copyright
+
+75
+00:06:57,950 --> 00:07:05,210
+and we'll put another container in here to restrict whatever's inside of it and then inside there we're
+
+76
+00:07:05,210 --> 00:07:11,540
+just going to say copyrights and I'm going to use the Ampere's copy semi-colon which will give us a
+
+77
+00:07:11,540 --> 00:07:14,490
+little copy symbol 2018.
+
+78
+00:07:14,870 --> 00:07:20,590
+And then underneath that we'll just put in a tag with the class of grey text.
+
+79
+00:07:20,810 --> 00:07:26,670
+And let's also do text liten 3.
+
+80
+00:07:26,750 --> 00:07:30,870
+And we also want to align it to the right and when to say Dot right.
+
+81
+00:07:31,370 --> 00:07:34,610
+And inside here it's not going to really go anywhere.
+
+82
+00:07:34,640 --> 00:07:39,920
+I'll just put a hash and then inside the actual tags we'll just say.
+
+83
+00:07:39,920 --> 00:07:44,240
+Terms and Conditions.
+
+84
+00:07:45,370 --> 00:07:46,130
+And there he goes.
+
+85
+00:07:46,150 --> 00:07:53,740
+Now we have a little flutter now I think it would look better if the copyright area was a little darker
+
+86
+00:07:53,740 --> 00:07:55,170
+or just a different color.
+
+87
+00:07:55,300 --> 00:08:00,710
+So what I'm going to do is in the copyright class still do Grey.
+
+88
+00:08:01,060 --> 00:08:04,880
+But let's say Darkon dash to and save.
+
+89
+00:08:05,260 --> 00:08:07,710
+All right so I think that yeah it looks better.
+
+90
+00:08:08,140 --> 00:08:09,160
+Yes so that's it.
+
+91
+00:08:09,160 --> 00:08:13,930
+So we have a photo or if I make this really small it'll stack on top of each other because we use the
+
+92
+00:08:13,980 --> 00:08:24,460
+s 12 class here and we have quite a bit of space between the two because we set this one to be medium
+
+93
+00:08:24,550 --> 00:08:27,610
+for and then we used an offset of two.
+
+94
+00:08:27,610 --> 00:08:29,660
+So it's kind of pushing it over a little.
+
+95
+00:08:29,740 --> 00:08:37,300
+We could have just did another six like M6 and say but see how it's it's too close.
+
+96
+00:08:37,300 --> 00:08:41,480
+I wanted to push it over a little so it's good to set that offset.
+
+97
+00:08:41,830 --> 00:08:46,240
+All right guys so that's going to be it for this video in the next one we're going to talk about basic
+
+98
+00:08:46,240 --> 00:08:48,310
+form and input.
+
+99
+00:08:48,310 --> 00:08:55,270
+So once we do that we'll move on to the more fancy stuff with sliders and some javascript functionality
+
+100
+00:08:55,270 --> 00:08:56,080
+and so on.
+
+101
+00:08:56,080 --> 00:08:57,860
+All right so I will see you in the next video.
+

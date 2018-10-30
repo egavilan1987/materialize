@@ -1,0 +1,492 @@
+1
+00:00:00,800 --> 00:00:05,150
+All right guys who in this video we're going to talk about what are called chips in materialize.
+
+2
+00:00:05,160 --> 00:00:12,270
+And we're also going to look at pagination so chips are basically like tag's if you see a blog post
+
+3
+00:00:12,270 --> 00:00:18,120
+and it has tags at the end basically containing key words about that post.
+
+4
+00:00:18,120 --> 00:00:19,140
+Chips are good.
+
+5
+00:00:19,140 --> 00:00:21,750
+A good way to display those.
+
+6
+00:00:21,750 --> 00:00:27,340
+All right so let's see we had a blog post about web design web development and we had some keywords
+
+7
+00:00:27,440 --> 00:00:27,990
+here.
+
+8
+00:00:28,020 --> 00:00:30,330
+They're just wrapped in single divs.
+
+9
+00:00:30,330 --> 00:00:35,190
+What we could do is give these each a class of chip.
+
+10
+00:00:35,190 --> 00:00:38,140
+All right so give that a class.
+
+11
+00:00:38,250 --> 00:00:47,620
+This one will say class chip and this one will also give a class of ship and just doing.
+
+12
+00:00:47,620 --> 00:00:50,490
+Now if I save you'll see that that looks pretty nice.
+
+13
+00:00:50,490 --> 00:00:56,540
+So if we have this at the bottom of a post it looks nice it's a nice way to display tags.
+
+14
+00:00:56,550 --> 00:01:01,230
+Now we can also make it so that we can get rid of them we can actually close them out.
+
+15
+00:01:01,230 --> 00:01:11,760
+So again if we were to give these class of chip and I'll just copy this div here and will add it to
+
+16
+00:01:11,760 --> 00:01:12,570
+these.
+
+17
+00:01:12,570 --> 00:01:14,440
+And then also have an icon.
+
+18
+00:01:14,550 --> 00:01:27,080
+So this will do class and will give it a class of material dash icons and clothes.
+
+19
+00:01:27,090 --> 00:01:31,820
+All right so let's grab that and put those here as well.
+
+20
+00:01:31,920 --> 00:01:36,840
+If I say we have our little X now just doing that isn't going to make them work it's not going at all.
+
+21
+00:01:36,840 --> 00:01:38,970
+It's also not going to make them look right.
+
+22
+00:01:38,970 --> 00:01:43,970
+You also want to add a class of clothes here in the actual tag.
+
+23
+00:01:44,610 --> 00:01:49,050
+OK which we don't usually do but in this case we do so let's save that.
+
+24
+00:01:49,050 --> 00:01:53,110
+Now Yosi they look much better and we can actually close the chips.
+
+25
+00:01:53,500 --> 00:01:59,120
+Ok they come back if we reload because obviously we're not like persisting data or anything like that.
+
+26
+00:01:59,130 --> 00:02:04,230
+But yes we can close that and close the chips up.
+
+27
+00:02:04,230 --> 00:02:13,350
+All right we can also use images with chips so I'll just grab one of these divs here and add the class
+
+28
+00:02:13,800 --> 00:02:21,460
+and then we could add an image so say image slash image one dog j peg.
+
+29
+00:02:21,510 --> 00:02:25,800
+And for this one let's do image to
+
+30
+00:02:32,610 --> 00:02:37,020
+and for this one will do image three.
+
+31
+00:02:37,040 --> 00:02:42,250
+So if we go ahead and save that now you see that we have our chips so we have little images.
+
+32
+00:02:42,290 --> 00:02:47,300
+A good reason to have this would be for avatars if you were to have people and you had their little
+
+33
+00:02:47,300 --> 00:02:52,770
+avatar there and maybe even just one on a blog post the author or whatever.
+
+34
+00:02:53,150 --> 00:03:01,920
+So we can also have inputs where we can have auto completes and we can actually add chips to the input.
+
+35
+00:03:02,030 --> 00:03:02,630
+A good way.
+
+36
+00:03:02,630 --> 00:03:10,910
+A good reason for this would be a blog post form where you are adding these tags and maybe you had a
+
+37
+00:03:10,910 --> 00:03:11,840
+list of.
+
+38
+00:03:11,860 --> 00:03:16,220
+Or a database full of tags that you wanted to come up automatically.
+
+39
+00:03:16,340 --> 00:03:25,570
+So we would have to do is take a div and go ahead and give it a class of chips dash input.
+
+40
+00:03:26,210 --> 00:03:30,830
+And if I save that nothing's going to happen we're actually going to have to add some javascript's So
+
+41
+00:03:30,830 --> 00:03:35,870
+we're going to go down to where we put our Javascript.
+
+42
+00:03:35,870 --> 00:03:43,640
+And from here we're going to use a little Jey query and we're going to take that chips was it chips
+
+43
+00:03:43,640 --> 00:03:53,510
+Desch input and we want to call Daut material underscore shit like that.
+
+44
+00:03:53,680 --> 00:03:57,550
+And if I save it you'll see that it just gives us a line teks line.
+
+45
+00:03:57,830 --> 00:04:04,040
+And if I typed something in and hit enter it turns into a chip and we can actually get rid of them as
+
+46
+00:04:04,040 --> 00:04:04,360
+well.
+
+47
+00:04:04,360 --> 00:04:06,140
+So really cool.
+
+48
+00:04:06,140 --> 00:04:12,170
+There's actually quite a few options we can as well if we put some curly braces here so we could put
+
+49
+00:04:12,170 --> 00:04:13,250
+our placeholder
+
+50
+00:04:16,530 --> 00:04:22,750
+takes a string so we could say enter a tag and save in a C now says enter a tag.
+
+51
+00:04:23,190 --> 00:04:25,080
+We could do a secondary placeholder
+
+52
+00:04:33,640 --> 00:04:42,330
+that should actually be secondary uppercase P placeholder and we'll say plus tag and save.
+
+53
+00:04:42,330 --> 00:04:45,750
+And what this does is if I add a tag and enter you'll see that.
+
+54
+00:04:45,750 --> 00:04:52,550
+Now read here it says Plus tags so every time I enter it'll say plus tag after it.
+
+55
+00:04:52,590 --> 00:04:52,920
+All right.
+
+56
+00:04:52,920 --> 00:04:56,970
+We also have autocomplete options.
+
+57
+00:04:57,690 --> 00:05:02,450
+So it's a auto complete options.
+
+58
+00:05:02,490 --> 00:05:12,150
+And here we can put an object that takes a data object and let's say HTL Actually it should be in the
+
+59
+00:05:12,150 --> 00:05:16,910
+form of a string so aged him out and set that too.
+
+60
+00:05:16,920 --> 00:05:20,750
+Now it's a success
+
+61
+00:05:24,540 --> 00:05:29,510
+and let's say javascript.
+
+62
+00:05:29,660 --> 00:05:30,020
+All right.
+
+63
+00:05:30,040 --> 00:05:32,680
+So if I were to save that and I would start to type.
+
+64
+00:05:32,740 --> 00:05:35,610
+Each team now would just click in here.
+
+65
+00:05:35,740 --> 00:05:42,040
+So you'll see we get the dropdown if I do see we'll get we'll see SS and Javascript will come up because
+
+66
+00:05:42,040 --> 00:05:50,230
+they both have a C like s than just C Ss and if I click on the dropdown it'll get added as a tag.
+
+67
+00:05:50,770 --> 00:05:52,220
+All right.
+
+68
+00:05:52,220 --> 00:05:58,960
+And I think I think that's pretty much it as far as really useful options.
+
+69
+00:05:58,960 --> 00:06:03,570
+Now one other thing you can do is you can add an event for when you add a chip.
+
+70
+00:06:03,640 --> 00:06:12,670
+So let's say add inserts to uppercase will we'll add chip event.
+
+71
+00:06:12,670 --> 00:06:14,800
+So if we have our chips inport
+
+72
+00:06:18,560 --> 00:06:29,820
+or chip dash and what we can do dot on and then we have an event called Chip Daut add and then we put
+
+73
+00:06:29,820 --> 00:06:34,140
+a function here for when that happens.
+
+74
+00:06:34,440 --> 00:06:41,880
+And this would take in an event in the chip and let's do a console log.
+
+75
+00:06:42,870 --> 00:06:43,420
+All right.
+
+76
+00:06:43,420 --> 00:06:47,310
+And I'm just going to put some back ticks in here I'm going to use a template string so that I can put
+
+77
+00:06:47,310 --> 00:06:49,140
+a variable in my string.
+
+78
+00:06:49,230 --> 00:06:58,650
+So say you added a chip and then here will put a variable so we can use this syntax is E-6 javascript
+
+79
+00:06:58,650 --> 00:07:03,120
+syntax and we can say Chip dog tag.
+
+80
+00:07:03,450 --> 00:07:06,900
+All right so now if I add something here let's say hello.
+
+81
+00:07:07,050 --> 00:07:10,430
+Actually it's opened up our console with F 12.
+
+82
+00:07:11,340 --> 00:07:14,300
+So say hello and hit enter.
+
+83
+00:07:14,520 --> 00:07:17,480
+That didn't work.
+
+84
+00:07:18,390 --> 00:07:22,960
+Oh I forgot the dog should be classed ship in port.
+
+85
+00:07:23,490 --> 00:07:24,390
+Or is it chips.
+
+86
+00:07:24,420 --> 00:07:29,110
+Yeah I guess it's chips and put so.
+
+87
+00:07:29,130 --> 00:07:30,050
+Hello.
+
+88
+00:07:30,330 --> 00:07:30,720
+There we go.
+
+89
+00:07:30,720 --> 00:07:31,950
+So you added a chip.
+
+90
+00:07:31,950 --> 00:07:32,760
+Hello.
+
+91
+00:07:33,000 --> 00:07:34,430
+We say test.
+
+92
+00:07:34,590 --> 00:07:40,230
+You added a chip test so if for some reason you want something to happen in your javascript when a chip
+
+93
+00:07:40,230 --> 00:07:42,010
+is added you could do that.
+
+94
+00:07:42,160 --> 00:07:49,670
+OK could get added to a database or you know through an API or whatever it is that you want to do.
+
+95
+00:07:49,680 --> 00:07:54,150
+All right so now we're going to take a look at pagination which is pretty easy it's just a couple of
+
+96
+00:07:54,150 --> 00:07:55,960
+classes we need to add.
+
+97
+00:07:55,980 --> 00:08:00,680
+Basically we just have a UL with a bunch of allies within a tag.
+
+98
+00:08:00,930 --> 00:08:04,330
+And the first and last one have icons.
+
+99
+00:08:04,340 --> 00:08:06,330
+OK so they have tags.
+
+100
+00:08:06,360 --> 00:08:13,090
+So what we'll do is add a class to the UL of pagination.
+
+101
+00:08:14,340 --> 00:08:20,580
+And this first list item here I'm going to give a class of disabled
+
+102
+00:08:23,610 --> 00:08:28,650
+and we're going to give this an icon this is going to be the one the left icon.
+
+103
+00:08:28,650 --> 00:08:33,080
+So it's going to be Chevron underscore left.
+
+104
+00:08:33,090 --> 00:08:38,810
+And of course we need to give it to the class of material ikons
+
+105
+00:08:42,400 --> 00:08:54,890
+all right and then each each list item here we're going to give a class of waves dash effect.
+
+106
+00:08:55,580 --> 00:08:56,000
+OK.
+
+107
+00:08:56,000 --> 00:09:05,200
+And I'm just going to copy this and each list each beginning list tag I'm going to add that class to
+
+108
+00:09:09,270 --> 00:09:09,970
+OK.
+
+109
+00:09:10,250 --> 00:09:17,600
+And then for this icon here we're going to give it a class of material icons
+
+110
+00:09:20,210 --> 00:09:24,810
+and we're going to make this one a chevron underscore.
+
+111
+00:09:24,890 --> 00:09:25,870
+Right.
+
+112
+00:09:25,880 --> 00:09:27,410
+So let's save that.
+
+113
+00:09:27,410 --> 00:09:29,290
+So there's our pagination now.
+
+114
+00:09:29,480 --> 00:09:35,780
+You'll have an active page number that you were on so let's say we want to to be the active.
+
+115
+00:09:35,780 --> 00:09:40,760
+What we would do is just add the class of active and save.
+
+116
+00:09:40,760 --> 00:09:42,660
+And now I can see that that's active.
+
+117
+00:09:42,860 --> 00:09:47,690
+And the waves classify you see if I click it will give it that effect.
+
+118
+00:09:47,690 --> 00:09:52,230
+All right so it's as easy as that to create pagination in your UI.
+
+119
+00:09:52,340 --> 00:09:57,410
+Obviously you know with your back and programming or whatever it is you're doing you'll have to add
+
+120
+00:09:57,410 --> 00:10:00,430
+that logic but this gives you the UI.
+
+121
+00:10:00,830 --> 00:10:01,410
+All right guys.
+
+122
+00:10:01,430 --> 00:10:01,870
+That's it.
+
+123
+00:10:01,880 --> 00:10:04,850
+And the next video we're going to take a look at prae Lowder's.
+

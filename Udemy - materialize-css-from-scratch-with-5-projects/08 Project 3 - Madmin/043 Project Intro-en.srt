@@ -1,0 +1,208 @@
+1
+00:00:00,770 --> 00:00:02,610
+All right guys welcome to YOUR NEXT PROJECT.
+
+2
+00:00:02,610 --> 00:00:09,300
+This is a theme called Mad Men or material admen and it's an administrative panel that has quite a bit
+
+3
+00:00:09,300 --> 00:00:15,400
+of interactivity I wanted to do a project where we could actually have things that happen in the UI
+
+4
+00:00:15,450 --> 00:00:18,120
+and we're going to use some custom Jay query for that.
+
+5
+00:00:18,120 --> 00:00:24,060
+Now this is not AJ Corey or javascript of course so I'm not going to be going over it in depth but I
+
+6
+00:00:24,060 --> 00:00:29,750
+did want to just add some snippets and just some pieces of code that would do some cool stuff.
+
+7
+00:00:29,940 --> 00:00:37,020
+All right we're also going to use some of the JavaScript materialize components like the preload or
+
+8
+00:00:37,810 --> 00:00:41,180
+the the toast dialog things like that.
+
+9
+00:00:41,190 --> 00:00:46,340
+So first thing I want you to notice is if I reload the page we get the little preload or for a second.
+
+10
+00:00:46,350 --> 00:00:50,790
+So one second will go by and then the page will load once the page loads.
+
+11
+00:00:50,790 --> 00:00:57,060
+Notice the numbers they count up from 0 to whatever these numbers are for the visitors the blog posts
+
+12
+00:00:57,060 --> 00:00:58,500
+and so on.
+
+13
+00:00:58,500 --> 00:01:00,180
+We also have a little progress bar.
+
+14
+00:01:00,180 --> 00:01:06,570
+This actually doesn't actually do anything but it's just there for show then we're using a chart from
+
+15
+00:01:06,570 --> 00:01:09,450
+canvas J.S. which is a chart library.
+
+16
+00:01:09,450 --> 00:01:11,580
+This is just dummy data.
+
+17
+00:01:11,670 --> 00:01:13,290
+It means absolutely nothing.
+
+18
+00:01:13,290 --> 00:01:15,920
+It's just I wanted to have something.
+
+19
+00:01:16,290 --> 00:01:19,980
+If you look at a lot of the different admin panels they have stuff like this.
+
+20
+00:01:20,070 --> 00:01:25,080
+It's just there for a show and obviously if you build your back and you could hook that up to it.
+
+21
+00:01:25,380 --> 00:01:25,760
+All right.
+
+22
+00:01:25,770 --> 00:01:31,230
+And then these comments over here if I click approve or deny we'll get a little toast dialog that says
+
+23
+00:01:31,230 --> 00:01:32,850
+approved or denied.
+
+24
+00:01:32,850 --> 00:01:36,500
+If we go down here we have a quick To Do list that actually works.
+
+25
+00:01:36,510 --> 00:01:41,710
+So if I put in hello and enter it'll actually get added and we'll get a little dialogue.
+
+26
+00:01:41,820 --> 00:01:44,000
+OK we can also remove them as well.
+
+27
+00:01:44,010 --> 00:01:46,110
+So we're going to do that with Jake worry.
+
+28
+00:01:46,110 --> 00:01:50,220
+We have a recent post table right here and that's the main page.
+
+29
+00:01:50,340 --> 00:01:50,610
+OK.
+
+30
+00:01:50,610 --> 00:01:57,020
+Other than that we have our post page which is basically just a straight up table with some pagination.
+
+31
+00:01:57,030 --> 00:02:03,210
+Same thing with the categories and each page will have the little preload or only one thing I forgot
+
+32
+00:02:03,210 --> 00:02:10,240
+to mention on the dashboard is if we go down to this button here we can choose to add up at a post a
+
+33
+00:02:10,260 --> 00:02:14,060
+category or user and these will all open modals.
+
+34
+00:02:14,220 --> 00:02:20,610
+OK we even implemented S.K. Ed. Which is a wizzy wig editor that gives you like a Microsoft Word type
+
+35
+00:02:20,610 --> 00:02:21,530
+feel.
+
+36
+00:02:22,060 --> 00:02:25,140
+OK and if we wanted to add a category we could do that.
+
+37
+00:02:25,320 --> 00:02:31,620
+And then on the single free source pages like posts if I click the plus it'll just do the post.
+
+38
+00:02:31,710 --> 00:02:36,460
+If I go to the categories page and click it it'll add the category.
+
+39
+00:02:36,480 --> 00:02:45,120
+We have our comments comments will have the users image the comment and then a check and a x icon and
+
+40
+00:02:45,120 --> 00:02:50,340
+then the users will have the user image as well and we can add a user here.
+
+41
+00:02:50,520 --> 00:02:53,750
+Not literally as a user but show the modal.
+
+42
+00:02:53,800 --> 00:02:59,640
+OK we also have a nice looking side navigation with the background image that the users image and some
+
+43
+00:02:59,640 --> 00:03:00,590
+links.
+
+44
+00:03:00,600 --> 00:03:07,460
+And then I even created a logo a logon page so if I click logged out it'll go to log in HD a malware
+
+45
+00:03:07,470 --> 00:03:13,380
+we have this nice looking log in form and even if we type something in here it doesn't matter what it
+
+46
+00:03:13,380 --> 00:03:19,040
+is it will redirect us to index him which is our dashboard.
+
+47
+00:03:19,080 --> 00:03:19,380
+All right.
+
+48
+00:03:19,380 --> 00:03:25,870
+So all in all it's going to be a pretty big project probably the longest one of course because there's
+
+49
+00:03:25,890 --> 00:03:30,360
+quite a bit of interactivity and user functionality.
+
+50
+00:03:30,360 --> 00:03:32,340
+It's not really hooked up to anything it's known.
+
+51
+00:03:32,340 --> 00:03:37,230
+There's no back end or database but just to give you some cool effects in the UI.
+
+52
+00:03:37,230 --> 00:03:38,620
+All right so let's get started.
+

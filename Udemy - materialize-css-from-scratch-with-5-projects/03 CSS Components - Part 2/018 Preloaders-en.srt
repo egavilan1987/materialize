@@ -1,0 +1,276 @@
+1
+00:00:00,660 --> 00:00:05,250
+All right guys now we're going to take a look at prae Lowder's which are like animated spinners and
+
+2
+00:00:05,250 --> 00:00:07,370
+you can see I have one here already.
+
+3
+00:00:07,410 --> 00:00:12,990
+The reason that I have this here and it's already it's already has all its classes because there's quite
+
+4
+00:00:12,990 --> 00:00:17,550
+a few classes that you need for it to have one of these spinners and they didn't want to just have you
+
+5
+00:00:17,550 --> 00:00:21,300
+watch me type them all and they're pretty repetitive.
+
+6
+00:00:21,300 --> 00:00:27,150
+We have the circle circle three times but this is a standard preload or and I'm going to get to this
+
+7
+00:00:27,150 --> 00:00:30,480
+I want to show you how to change colors how to change sizes and so on.
+
+8
+00:00:30,600 --> 00:00:33,910
+But before we do that I just want to look at the progress bars.
+
+9
+00:00:34,110 --> 00:00:39,700
+OK so we have determinant progress bars and indeterminant So we're going to start with the determinant.
+
+10
+00:00:39,720 --> 00:00:43,420
+So this div here we're going to give a class of progress.
+
+11
+00:00:43,560 --> 00:00:49,020
+We basically just have a nested div and then the second one we're going to give a class of determinant
+
+12
+00:00:51,360 --> 00:00:56,430
+and then we also want to give this a style attribute because we need to set a with K.
+
+13
+00:00:56,430 --> 00:01:00,630
+So basically how full Do we want this to be let's say 70 percent.
+
+14
+00:01:00,660 --> 00:01:03,770
+So that gives us a 70 percent full progress bar.
+
+15
+00:01:03,840 --> 00:01:07,310
+If we were to do 50 percent that will be half full.
+
+16
+00:01:07,560 --> 00:01:14,600
+OK now the indeterminant if we were to give this a class of progress just like the one above.
+
+17
+00:01:14,610 --> 00:01:21,320
+Notice that these are in six column divs are six column divs inside of a row.
+
+18
+00:01:21,660 --> 00:01:25,980
+And then we'll give this a class of indeterminant
+
+19
+00:01:29,070 --> 00:01:30,290
+and save.
+
+20
+00:01:30,300 --> 00:01:37,140
+So this is kind of like a horizontal preload or we don't need a lot with or anything like that because
+
+21
+00:01:37,140 --> 00:01:43,830
+it's not actually a progress bar it's more like a preload or type pre-loading that looks like a progress
+
+22
+00:01:43,830 --> 00:01:45,170
+bar.
+
+23
+00:01:45,180 --> 00:01:48,780
+All right so now let's move on to the actual spinner preload.
+
+24
+00:01:48,780 --> 00:01:55,170
+So like I said this is the bare bones that you need to create this.
+
+25
+00:01:55,230 --> 00:01:57,920
+You even need the active class if I get rid of that.
+
+26
+00:01:57,920 --> 00:02:00,100
+You'll see that goes away.
+
+27
+00:02:00,150 --> 00:02:01,620
+So make sure you have that.
+
+28
+00:02:01,620 --> 00:02:07,590
+Now this says small red so what I'm going to do is to change the size to small I'm going to have the
+
+29
+00:02:07,590 --> 00:02:11,390
+class small save that and you'll see it shrinks.
+
+30
+00:02:11,480 --> 00:02:18,720
+And if I want this to be read then I'm going to give this a class or add to the class of spinner Lehre
+
+31
+00:02:19,130 --> 00:02:25,610
+and we're going to say spinner dash red dash only and save.
+
+32
+00:02:25,620 --> 00:02:27,760
+And now you see it's a red spinner.
+
+33
+00:02:28,080 --> 00:02:35,250
+OK so what I'm going to do now is just copy the whole preload or wrapper to the ending div here and
+
+34
+00:02:35,250 --> 00:02:38,590
+go to the next one and paste that in.
+
+35
+00:02:38,590 --> 00:02:39,300
+And we're going to change.
+
+36
+00:02:39,290 --> 00:02:47,210
+This is standard blue so I'll get rid of the small class and change this to spinner blue only and save.
+
+37
+00:02:47,370 --> 00:02:51,380
+And now it's just the medium size or the standard size blue.
+
+38
+00:02:51,720 --> 00:02:59,490
+OK if we want a big yellow one we can go ahead and paste this in and change this to big and then change
+
+39
+00:02:59,490 --> 00:03:01,700
+this to spin or yellow.
+
+40
+00:03:01,770 --> 00:03:08,310
+So these are the only classes you really need to change if you want to change the look of the spinners.
+
+41
+00:03:08,310 --> 00:03:08,670
+All right.
+
+42
+00:03:08,670 --> 00:03:13,890
+Now we can also do a spinner with flashing colors and this has quite a bit of markup.
+
+43
+00:03:13,890 --> 00:03:22,860
+What I'm going to do is copy this last one we did the big yellow and paste this in here.
+
+44
+00:03:22,860 --> 00:03:23,190
+All right.
+
+45
+00:03:23,190 --> 00:03:30,880
+Now the the idea is to have one pre-Lie one wrapper and then to have a bunch of spinner Lehre class
+
+46
+00:03:30,930 --> 00:03:32,210
+divs inside.
+
+47
+00:03:32,220 --> 00:03:34,260
+So I'm just going to spaces out a little.
+
+48
+00:03:34,290 --> 00:03:35,750
+So this is the first one.
+
+49
+00:03:36,000 --> 00:03:41,280
+And let's say we want the first color to be let's say green.
+
+50
+00:03:41,400 --> 00:03:47,640
+So we would change just not to spin or green only but to just spinner green.
+
+51
+00:03:48,480 --> 00:03:48,840
+All right.
+
+52
+00:03:48,840 --> 00:03:52,490
+And then we would take this OK.
+
+53
+00:03:52,800 --> 00:03:53,850
+Not the preload.
+
+54
+00:03:53,880 --> 00:03:55,100
+But everything in it.
+
+55
+00:03:55,410 --> 00:04:01,490
+And then add that down here and we'll change this one to let's say blue.
+
+56
+00:04:01,500 --> 00:04:03,810
+So we want the second color to be blue.
+
+57
+00:04:04,050 --> 00:04:09,480
+And then we'll go ahead and paste in another one and we'll change this one to red.
+
+58
+00:04:09,480 --> 00:04:09,780
+All right.
+
+59
+00:04:09,780 --> 00:04:10,970
+And then going to save this.
+
+60
+00:04:10,980 --> 00:04:13,970
+And now we have a spinner that's going to change colors.
+
+61
+00:04:14,160 --> 00:04:18,100
+OK so it's going to fade from green to blue to red.
+
+62
+00:04:18,420 --> 00:04:23,640
+OK and I know that's a lot of markup just for that one spinner but you need that if you want it to flash
+
+63
+00:04:23,640 --> 00:04:25,550
+different colors.
+
+64
+00:04:25,560 --> 00:04:26,490
+All right so that's it.
+
+65
+00:04:26,490 --> 00:04:28,180
+Not too much to this.
+
+66
+00:04:28,200 --> 00:04:29,580
+Pretty simple.
+
+67
+00:04:29,580 --> 00:04:33,510
+This is actually going to be the last video on CSSA components.
+
+68
+00:04:33,510 --> 00:04:37,840
+So the next video will start to get into javascript's OK or the next section.
+
+69
+00:04:37,860 --> 00:04:39,660
+And we're going to look at the Carousel.
+

@@ -1,0 +1,352 @@
+1
+00:00:01,070 --> 00:00:04,340
+Guys in this video we're going to take a look at tab's.
+
+2
+00:00:04,350 --> 00:00:10,290
+So again if you've had experience with bootstrap and some other frameworks tabs are very popular.
+
+3
+00:00:10,290 --> 00:00:15,200
+You basically have a line of tabs you click on and it shows the content from that one click another
+
+4
+00:00:15,210 --> 00:00:16,770
+one shows the content.
+
+5
+00:00:16,770 --> 00:00:20,910
+So this is the basic markup here we're using the grid so we have a row.
+
+6
+00:00:20,970 --> 00:00:22,660
+We have a 12 column row.
+
+7
+00:00:22,710 --> 00:00:24,870
+And that's where we're putting the UL.
+
+8
+00:00:25,050 --> 00:00:32,810
+And then underneath that we have another 12 column I should say 12 column div for each tab.
+
+9
+00:00:32,970 --> 00:00:33,650
+OK.
+
+10
+00:00:33,900 --> 00:00:39,140
+And then what we want to do is add to the to the right here.
+
+11
+00:00:39,150 --> 00:00:48,240
+A class of tabs OK to let it know that it is in fact tabs and you'll see as soon as I save it lines
+
+12
+00:00:48,240 --> 00:00:58,200
+them up horizontally and then for this first line we have we're going to set this to a class of tab.
+
+13
+00:00:58,270 --> 00:01:05,220
+OK Cingular We're also going to do call S-3 because we want it to basically be we want three or I'm
+
+14
+00:01:05,220 --> 00:01:07,890
+sorry for three column tabs.
+
+15
+00:01:08,030 --> 00:01:08,450
+OK.
+
+16
+00:01:08,460 --> 00:01:15,580
+And then for the tag that's around this text right here we're going to have this go to hash Tab 1 K
+
+17
+00:01:15,660 --> 00:01:18,400
+and you can call that whatever you want.
+
+18
+00:01:18,510 --> 00:01:29,250
+And then for the second ally same thing we'll do tab call S3 and then for the Tref and we'll do hash
+
+19
+00:01:29,250 --> 00:01:33,450
+tag 2.
+
+20
+00:01:33,940 --> 00:01:36,720
+We wanted to call three
+
+21
+00:01:40,890 --> 00:01:41,870
+in each draft.
+
+22
+00:01:41,870 --> 00:01:47,060
+This one will be hash Tab 3 and then that's fine on
+
+23
+00:01:54,660 --> 00:01:57,710
+the hash tag for.
+
+24
+00:01:57,870 --> 00:01:58,150
+All right.
+
+25
+00:01:58,150 --> 00:02:03,010
+Now if I say that you see that it changes it it looks pretty nice and we can click on these different
+
+26
+00:02:03,010 --> 00:02:03,490
+tabs.
+
+27
+00:02:03,490 --> 00:02:06,430
+Kind of has a little slider animation.
+
+28
+00:02:06,430 --> 00:02:11,300
+Obviously this stuff isn't working because we haven't done anything to the content part.
+
+29
+00:02:11,650 --> 00:02:18,700
+So what we need to do is figure out what we want for Tab 1 which is obviously this area here.
+
+30
+00:02:18,910 --> 00:02:25,790
+So we're going to add an ID right here for Tab 1.
+
+31
+00:02:26,220 --> 00:02:26,800
+OK.
+
+32
+00:02:26,800 --> 00:02:40,220
+And then we're going to go to the next div add an ID tab to this one will have an ID of Tab 3.
+
+33
+00:02:40,570 --> 00:02:47,690
+And of course this one will have an ID of tab 4 and we'll save that.
+
+34
+00:02:47,690 --> 00:02:55,920
+And now if I click tab two you see we can see the content from tab to Tab 3 and so on.
+
+35
+00:02:55,960 --> 00:03:05,650
+I don't know why I have this outside of the paragraph and we just yeah this.
+
+36
+00:03:06,080 --> 00:03:09,290
+I'll fix this one on you guys but this shouldn't be.
+
+37
+00:03:09,350 --> 00:03:12,730
+There should be no text outside of the paragraph.
+
+38
+00:03:12,770 --> 00:03:14,230
+All right.
+
+39
+00:03:14,230 --> 00:03:15,190
+Here we go.
+
+40
+00:03:15,320 --> 00:03:17,480
+So that's that's a simple tab.
+
+41
+00:03:17,480 --> 00:03:20,970
+Now we also have what are called Sweetapple tabs.
+
+42
+00:03:21,170 --> 00:03:23,650
+So for this we're going to add to this.
+
+43
+00:03:23,670 --> 00:03:32,380
+Well we're going to add an ID of tab's dash Swype dash demo.
+
+44
+00:03:32,650 --> 00:03:41,110
+And we're going to also give this a class of tab's and K and then each ally will have a class same thing
+
+45
+00:03:41,120 --> 00:03:43,880
+tab call S-3.
+
+46
+00:03:43,940 --> 00:03:51,910
+So basically the same thing as we did above the Tref.
+
+47
+00:03:52,250 --> 00:04:01,790
+So the Tref is going to go to let's say Id tab swipe one
+
+48
+00:04:09,010 --> 00:04:23,880
+Sury a Tref or B tab swipe to one more will do tab.
+
+49
+00:04:23,890 --> 00:04:24,740
+Call.
+
+50
+00:04:24,860 --> 00:04:25,370
+Three
+
+51
+00:04:28,640 --> 00:04:30,570
+and you know it's at the A-Trak
+
+52
+00:04:33,530 --> 00:04:35,320
+tab dash.
+
+53
+00:04:35,330 --> 00:04:40,330
+Why dash 3.
+
+54
+00:04:40,500 --> 00:04:41,980
+All right.
+
+55
+00:04:42,890 --> 00:04:48,560
+Now we want to do is for these divs here we want to match the IDs to these eight graphs So the first
+
+56
+00:04:48,560 --> 00:04:54,890
+one will be tab's swipe one so will say ID equals pace.
+
+57
+00:04:54,920 --> 00:05:01,650
+Then Id calls this one will be two and then this one
+
+58
+00:05:04,450 --> 00:05:15,180
+will be three Ok I am also going to give these kids a class I'm going to give this a class of call has
+
+59
+00:05:15,180 --> 00:05:17,470
+12 blue.
+
+60
+00:05:17,540 --> 00:05:24,750
+I want these to be different colors so I'm going to copy that class and I'll say blue this one will
+
+61
+00:05:24,750 --> 00:05:28,990
+be red and this one will be green.
+
+62
+00:05:29,730 --> 00:05:32,340
+All right so let's see what that looks like.
+
+63
+00:05:32,340 --> 00:05:38,330
+So basically each content area is going to have a different background color.
+
+64
+00:05:40,030 --> 00:05:42,610
+Now this looks weird with no padding or anything.
+
+65
+00:05:42,610 --> 00:05:49,210
+So what we want to do is we want to go down to our javascript's and we're going to say
+
+66
+00:05:52,890 --> 00:05:57,220
+tabs actually let me see both of these have a class of tabs.
+
+67
+00:05:58,210 --> 00:05:59,080
+Correct.
+
+68
+00:06:00,680 --> 00:06:01,160
+Yes.
+
+69
+00:06:01,160 --> 00:06:03,290
+They both have a class of tabs.
+
+70
+00:06:05,330 --> 00:06:06,410
+So two
+
+71
+00:06:08,840 --> 00:06:12,520
+tabs.
+
+72
+00:06:12,670 --> 00:06:19,660
+Actually we can use the ID we use tabs swipe demo.
+
+73
+00:06:19,970 --> 00:06:29,620
+So instead of doing this we're going to do Id tabs swipe demo and let's say Dot tabs and then and here
+
+74
+00:06:29,620 --> 00:06:35,790
+I'm going to pass in an object and we're going to say survivable.
+
+75
+00:06:36,620 --> 00:06:45,220
+The swayable I'm going to set that to true and save and now you see that it fills out the content space.
+
+76
+00:06:45,220 --> 00:06:46,860
+OK so now we can do that.
+
+77
+00:06:46,920 --> 00:06:51,610
+I mean these don't have to be different colored backgrounds but I want you to clearly see that they
+
+78
+00:06:51,610 --> 00:06:57,550
+have different color backgrounds are different different content areas.
+
+79
+00:06:57,580 --> 00:06:58,210
+OK.
+
+80
+00:06:58,340 --> 00:07:00,920
+And of course arts tabs appear still work.
+
+81
+00:07:00,970 --> 00:07:02,110
+So that's it.
+
+82
+00:07:02,110 --> 00:07:06,400
+Those are tabs and that's it for the sandbox.
+
+83
+00:07:06,400 --> 00:07:12,490
+OK if we look in our files here we've done all the way from 2 1 to 5 5.
+
+84
+00:07:12,490 --> 00:07:16,870
+So what we're going to do now is we're going to jump in and we're going to start to create some projects
+
+85
+00:07:17,590 --> 00:07:20,490
+going on the stuff that we've learned so far.
+
+86
+00:07:20,680 --> 00:07:27,670
+OK so I realized that the sandbox isn't the funnest thing in the world to do but it is necessary to
+
+87
+00:07:27,670 --> 00:07:33,760
+learn the different class names and also just what's available with the framework.
+
+88
+00:07:33,760 --> 00:07:36,820
+All right so let's go and get started with some projects.
+

@@ -1,0 +1,564 @@
+1
+00:00:00,660 --> 00:00:00,960
+All right.
+
+2
+00:00:00,960 --> 00:00:03,870
+So in the last video we looked at just standard buttons.
+
+3
+00:00:03,870 --> 00:00:07,760
+Now we're going to look at floating buttons and fixed action buttons.
+
+4
+00:00:07,860 --> 00:00:14,730
+And if you've ever seen anything with materialize you've probably seen these before the circular buttons.
+
+5
+00:00:14,730 --> 00:00:20,820
+We can even have them fixed to the bottom here or wherever and we can have it make it so that we click
+
+6
+00:00:20,820 --> 00:00:26,030
+and then some other buttons open and it looks really cool it's just a really cool looking UI.
+
+7
+00:00:26,280 --> 00:00:32,340
+So let's start with a simple floating button so I'm in my two four floating dot age team I'll file I
+
+8
+00:00:32,340 --> 00:00:40,920
+have it open in my browser and we just basically have a button here with an I tag OK no classes or anything
+
+9
+00:00:40,920 --> 00:00:41,280
+yet.
+
+10
+00:00:41,280 --> 00:00:42,750
+We're going to add that now.
+
+11
+00:00:42,930 --> 00:00:54,210
+So for the button we're going to add a class of between dash floating and if we save that it's going
+
+12
+00:00:54,210 --> 00:01:01,910
+to just be a saw basically a circle and then we want to add let's make it a large button so add beats
+
+13
+00:01:02,020 --> 00:01:04,420
+and dash large.
+
+14
+00:01:04,470 --> 00:01:06,140
+So that makes it bigger.
+
+15
+00:01:06,150 --> 00:01:08,530
+Let's also give it the waves of fact.
+
+16
+00:01:08,640 --> 00:01:10,520
+So we'll see waves effect.
+
+17
+00:01:10,860 --> 00:01:18,040
+And we also do waves dash lights and then let's also change the color to red.
+
+18
+00:01:18,360 --> 00:01:24,410
+So save Now these buttons normally have icons inside of them or else it's just a circle.
+
+19
+00:01:24,600 --> 00:01:32,520
+So what we'll do is give this the standard class of material dash icons and then the icon I want is
+
+20
+00:01:32,520 --> 00:01:37,820
+a plus sign which is the ad icon so let's save that and there we go.
+
+21
+00:01:37,820 --> 00:01:43,070
+So there we have a floating button and you can see it has that Wavves effect.
+
+22
+00:01:43,080 --> 00:01:46,990
+So what I'll do is copy this and let's create another one.
+
+23
+00:01:47,580 --> 00:01:53,970
+So just paste that here actually will make this one a link so I'll just make this in a tag instead of
+
+24
+00:01:53,970 --> 00:01:54,810
+a button.
+
+25
+00:01:55,980 --> 00:01:58,300
+Go and put a tag there as well.
+
+26
+00:01:58,440 --> 00:02:00,810
+Let's change the icon to it.
+
+27
+00:02:00,840 --> 00:02:06,540
+And let's also change the color to blue and save.
+
+28
+00:02:06,630 --> 00:02:07,810
+And there we go.
+
+29
+00:02:07,860 --> 00:02:11,790
+Now we can also add a pulse effect and this isn't just for floating buttons.
+
+30
+00:02:11,790 --> 00:02:13,740
+This is an effect you can put on.
+
+31
+00:02:13,800 --> 00:02:18,140
+Pretty pretty sure you can put it on anything but it looks really good on button.
+
+32
+00:02:18,150 --> 00:02:24,720
+So what I'm going to do is just grab this whole a tag the folding button here actually will grab this
+
+33
+00:02:25,710 --> 00:02:34,740
+standard button tag and paste that in and I'm going to change the icon to publish just to make it a
+
+34
+00:02:34,740 --> 00:02:35,460
+little different.
+
+35
+00:02:35,460 --> 00:02:42,790
+And then I'm also going to change the color to green and then I'm simply going to add the class of pulse.
+
+36
+00:02:42,800 --> 00:02:44,320
+OK and we'll save that.
+
+37
+00:02:44,490 --> 00:02:48,900
+And now you can see that it just has a constant pulse effect which looks pretty cool.
+
+38
+00:02:50,850 --> 00:02:53,160
+So these are standard floating buttons.
+
+39
+00:02:53,160 --> 00:02:59,910
+Now I'm going to comment out everything we just did in vs code you can just do contard you can highlight
+
+40
+00:02:59,910 --> 00:03:05,590
+it and you can do control and then forward slash and I will comment everything out.
+
+41
+00:03:05,660 --> 00:03:13,710
+See why is this I guess since we have a comment here we have to do it separately so we'll comment the
+
+42
+00:03:13,710 --> 00:03:15,970
+stuff and then we'll comment.
+
+43
+00:03:16,010 --> 00:03:22,730
+So OK so now let's down to the simple fixed action button.
+
+44
+00:03:22,730 --> 00:03:26,350
+And basically what this does is it'll give us the folding button.
+
+45
+00:03:26,450 --> 00:03:33,410
+But it will be down here and it will be in place we won't be able to move it no matter how big you resize
+
+46
+00:03:33,410 --> 00:03:35,750
+the browser or make it smaller.
+
+47
+00:03:35,900 --> 00:03:38,020
+It should stay in that place.
+
+48
+00:03:38,030 --> 00:03:48,320
+All right so let's go ahead and just add to this div here a class of fixed will see fixed dash action
+
+49
+00:03:48,470 --> 00:03:58,720
+dash button and then we're going to go into the button the actual button and say between dash.
+
+50
+00:03:58,820 --> 00:04:00,070
+Floating.
+
+51
+00:04:00,490 --> 00:04:09,070
+Let's also do BT and dash large and let's make it red and then I'm also going to give this an add icon
+
+52
+00:04:15,270 --> 00:04:21,620
+and we'll save let's see what am I missing here I forgot the class.
+
+53
+00:04:22,110 --> 00:04:33,500
+So should the class equals and save should be material icons.
+
+54
+00:04:33,630 --> 00:04:37,400
+So we have the button now it's not fixed.
+
+55
+00:04:37,490 --> 00:04:45,270
+That's because it shouldn't be button the word it should be between so fixed action between then and
+
+56
+00:04:45,270 --> 00:04:48,310
+now you can see that it's in place down here.
+
+57
+00:04:48,360 --> 00:04:56,060
+And even if I were to make this smaller it's just going to stay there it's absolute basically OK.
+
+58
+00:04:56,610 --> 00:05:01,170
+So now what I want to do is make it so that we can have a button here and if we click it will have a
+
+59
+00:05:01,170 --> 00:05:05,900
+bunch of other buttons kind of just pop up right here which looks really nice.
+
+60
+00:05:05,940 --> 00:05:14,430
+So I'm going to comment this so that we just did and go down here and we're going to add in a bunch
+
+61
+00:05:14,430 --> 00:05:15,650
+of stuff here.
+
+62
+00:05:15,750 --> 00:05:25,640
+So we're going to put in this div a class of fixed dash action dash B.T. and not button.
+
+63
+00:05:25,650 --> 00:05:41,820
+I want to do BT and then this tag will do Class B and ash floating and we'll make it large and red and
+
+64
+00:05:41,820 --> 00:05:43,050
+then for the icon
+
+65
+00:05:51,620 --> 00:05:55,550
+the icon let's do mode dash at it.
+
+66
+00:05:55,580 --> 00:06:00,560
+So this would be like something you'd have on on a blog added page something like that a post and a
+
+67
+00:06:00,580 --> 00:06:01,450
+page.
+
+68
+00:06:01,700 --> 00:06:05,270
+And then in the UL This is where the pop up buttons are going to go.
+
+69
+00:06:05,270 --> 00:06:14,270
+So we actually want to go into the ally and into the tag and we're going to add a class of again between
+
+70
+00:06:14,300 --> 00:06:20,240
+Dasch floating and we'll make this read.
+
+71
+00:06:20,630 --> 00:06:30,780
+And for the icon to insert char OK and of course we need the class
+
+72
+00:06:33,370 --> 00:06:35,510
+material icons.
+
+73
+00:06:35,950 --> 00:06:42,100
+All right so will do that's when you will go to the next one here.
+
+74
+00:06:42,160 --> 00:06:43,710
+Let's actually just copy this.
+
+75
+00:06:43,720 --> 00:06:51,240
+Ally and then we'll just pasted in what's this one two three more times
+
+76
+00:06:55,120 --> 00:07:00,080
+you know change this one to say blue will change the icon
+
+77
+00:07:02,720 --> 00:07:05,380
+will change just to its two format quote
+
+78
+00:07:09,500 --> 00:07:16,660
+and then this one will be yellow and will change that icon to publish.
+
+79
+00:07:19,260 --> 00:07:30,700
+And then this final one here say green and we'll change that to attach file attach underscore file.
+
+80
+00:07:31,030 --> 00:07:37,240
+All right so if I go down here and now you see when I hover over it it gives us these other floating
+
+81
+00:07:37,240 --> 00:07:40,100
+buttons which looks really nice.
+
+82
+00:07:42,220 --> 00:07:46,200
+Now there's a couple options that we can add to this you'll see in the comment.
+
+83
+00:07:46,210 --> 00:07:53,350
+I have horizontal and click to toggle those are two actions or two classes that we can add to change
+
+84
+00:07:53,350 --> 00:07:57,430
+the effect so you see how it comes from the top end goes up.
+
+85
+00:07:57,430 --> 00:08:06,760
+We can make this go this way horizontal by going ahead and adding in a horizontal class like that.
+
+86
+00:08:06,760 --> 00:08:08,910
+So if we save and I go on I hover.
+
+87
+00:08:08,980 --> 00:08:10,910
+Now it goes the other way.
+
+88
+00:08:10,960 --> 00:08:16,150
+Now if you want to make it so that you have to actually click it click it for this effect then you can
+
+89
+00:08:16,150 --> 00:08:22,500
+do that as well by adding in click dash to dash toggle.
+
+90
+00:08:22,510 --> 00:08:25,600
+So now if I go down I hover it doesn't do anything.
+
+91
+00:08:25,600 --> 00:08:30,010
+If I click it that it does I can just toggle that effect.
+
+92
+00:08:30,010 --> 00:08:31,550
+All right.
+
+93
+00:08:31,720 --> 00:08:37,270
+Now one other thing I'm going to show you is the fixed action button toolbar which is another really
+
+94
+00:08:37,270 --> 00:08:46,780
+cool effect but after a comment this stuff out or else we'll have some some compatibility issues and
+
+95
+00:08:46,780 --> 00:08:49,580
+we're going to go ahead and add on to this div..
+
+96
+00:08:50,080 --> 00:08:57,040
+We're going to give it a class of fixed action button and then also we're going to give you a class
+
+97
+00:08:57,040 --> 00:08:58,820
+of toolbar.
+
+98
+00:08:58,830 --> 00:08:59,430
+OK.
+
+99
+00:08:59,440 --> 00:09:11,580
+Now for this inside the div this link here is a tag we're going to give this a class of beat dash floating.
+
+100
+00:09:11,800 --> 00:09:18,310
+And then let's make it large and let's make it red and then for the icon
+
+101
+00:09:23,910 --> 00:09:25,590
+we're going to do the mode and it
+
+102
+00:09:28,900 --> 00:09:32,950
+OK and then the well doesn't need anything else.
+
+103
+00:09:32,970 --> 00:09:45,000
+However we're going to give a class of waves waves effect and waves dash light.
+
+104
+00:09:45,350 --> 00:09:49,580
+OK and the ATAC does not have a class on it or anything like that.
+
+105
+00:09:49,680 --> 00:09:54,630
+But let's put our icons so this will be insert charts
+
+106
+00:10:02,300 --> 00:10:03,230
+all right.
+
+107
+00:10:03,560 --> 00:10:10,890
+And what I'll do is just grab this ally here with the class and just pass that on to these beginning
+
+108
+00:10:10,920 --> 00:10:17,280
+allies and then let's also copy the icon just to make this shorter.
+
+109
+00:10:19,560 --> 00:10:23,030
+And we'll change these icons so this one will be format quote
+
+110
+00:10:27,380 --> 00:10:29,180
+and let's do publish
+
+111
+00:10:32,990 --> 00:10:40,300
+and let's to attach file.
+
+112
+00:10:41,070 --> 00:10:43,110
+OK so let's save.
+
+113
+00:10:43,270 --> 00:10:50,170
+And now if I go down and they click on this button there economy it turns into a toolbar which is pretty
+
+114
+00:10:50,170 --> 00:10:50,940
+cool.
+
+115
+00:10:51,400 --> 00:10:56,800
+And if I click off of the toolbar it goes back to the button.
+
+116
+00:10:56,920 --> 00:11:02,980
+So this is the kind of stuff that I think separates materialize from Bootstrap bootstrap does not have
+
+117
+00:11:03,370 --> 00:11:04,560
+stuff like this.
+
+118
+00:11:04,570 --> 00:11:05,230
+OK.
+
+119
+00:11:05,230 --> 00:11:08,580
+Interactive UI elements like this.
+
+120
+00:11:08,770 --> 00:11:11,050
+I'm not saying one is better than the other.
+
+121
+00:11:11,170 --> 00:11:17,630
+Bootstrap is much more used so it is very beneficial to learn bootstrap.
+
+122
+00:11:17,770 --> 00:11:24,140
+But as far as design elements go I'm a fan of materialize.
+
+123
+00:11:24,310 --> 00:11:31,240
+Now we can open and close this stuff through javascript as well so if I were to go down here and let's
+
+124
+00:11:31,240 --> 00:11:44,560
+use a little bit of jay query and we'll say fixed action dash between and let's call open toolbar
+
+125
+00:11:47,120 --> 00:11:52,400
+OK so we're grabbing the fixed action button which is this and we're calling a function called Open
+
+126
+00:11:52,400 --> 00:11:56,570
+toolbar and that's going to run when the page loads so it's save.
+
+127
+00:11:56,600 --> 00:12:05,770
+And you'll see that it just automatically goes to a toolbar and at the same time we have a closed toolbar.
+
+128
+00:12:05,860 --> 00:12:14,840
+So if we say close to our IT basically just opens and closes when the when we enter the page.
+
+129
+00:12:15,100 --> 00:12:21,190
+OK so you can you can manipulate it from the javascript and you can do the same thing with the standard
+
+130
+00:12:21,310 --> 00:12:27,410
+floating action buttons by doing instead of open toolbar.
+
+131
+00:12:27,430 --> 00:12:34,020
+You could do open fab like that and you can do close fab.
+
+132
+00:12:34,230 --> 00:12:34,860
+OK.
+
+133
+00:12:35,140 --> 00:12:41,550
+So that would be for the floating button that we have commented out or I'm sorry the fixed action button
+
+134
+00:12:41,560 --> 00:12:42,510
+the fab.
+
+135
+00:12:42,760 --> 00:12:47,710
+So you can open and close out from javascript as well but I'm just going to comment this stuff out.
+
+136
+00:12:47,770 --> 00:12:51,670
+I just wanted in there so you guys know that that's possible.
+
+137
+00:12:51,670 --> 00:12:51,990
+All right.
+
+138
+00:12:52,000 --> 00:12:53,070
+So that's it.
+
+139
+00:12:53,080 --> 00:12:55,270
+That's it for floating buttons.
+
+140
+00:12:55,270 --> 00:12:57,940
+We will get back into these later on.
+
+141
+00:12:57,940 --> 00:13:03,880
+But in the next video we're going to start to look at nav bars navigation in material eyes.
+

@@ -1,0 +1,444 @@
+1
+00:00:00,690 --> 00:00:04,590
+All right so in the last video we did the post in categories in their pages.
+
+2
+00:00:04,590 --> 00:00:09,850
+Now we're going to do the comments in users which are going to be very similar to posting categories
+
+3
+00:00:09,870 --> 00:00:13,610
+so I'm going to copy everything that's on the post page.
+
+4
+00:00:13,640 --> 00:00:18,120
+I actually think a better idea would be to copy everything in the categories page.
+
+5
+00:00:18,120 --> 00:00:25,140
+And one thing I forgot is in the categories age Tamal I just want to change this to categories as well
+
+6
+00:00:25,140 --> 00:00:30,950
+as this class name should be section categories.
+
+7
+00:00:31,140 --> 00:00:37,360
+So we'll save that and then we'll just copy everything here and then let's go to our comments each time
+
+8
+00:00:37,470 --> 00:00:39,390
+and paste that in.
+
+9
+00:00:39,390 --> 00:00:39,680
+All right.
+
+10
+00:00:39,690 --> 00:00:49,650
+We're going to go to the top and change the active class from categories change that to comments
+
+11
+00:00:52,990 --> 00:00:53,690
+OK.
+
+12
+00:00:53,800 --> 00:00:55,580
+That will go down.
+
+13
+00:00:55,580 --> 00:00:57,500
+Change just to comments
+
+14
+00:01:00,150 --> 00:01:05,230
+and section comments in the title
+
+15
+00:01:08,840 --> 00:01:16,040
+and as far as the content here we're going to have the image of the person that that created the comment.
+
+16
+00:01:16,540 --> 00:01:24,460
+So we're actually not going to have we're not going to have a T head area so we can we're going to get
+
+17
+00:01:24,460 --> 00:01:25,590
+rid of that.
+
+18
+00:01:25,690 --> 00:01:31,690
+We're just going to have the T body in then what I'll do is leave just one table row and get rid of
+
+19
+00:01:31,690 --> 00:01:32,980
+the rest.
+
+20
+00:01:34,100 --> 00:01:35,920
+So down to here.
+
+21
+00:01:36,050 --> 00:01:41,120
+So now we just have one table we're all in this first T.D..
+
+22
+00:01:41,140 --> 00:01:49,050
+His first column is going to be the user image but I'm going to set a width here of 70.
+
+23
+00:01:49,370 --> 00:01:49,730
+OK.
+
+24
+00:01:49,730 --> 00:01:55,010
+I wanted to be a certain size and then we'll put in an image tag and we're going to give it a class
+
+25
+00:01:55,010 --> 00:01:58,100
+of responsive dash.
+
+26
+00:01:58,140 --> 00:02:01,650
+I m g as well as a class of circle.
+
+27
+00:02:02,150 --> 00:02:02,540
+OK.
+
+28
+00:02:02,540 --> 00:02:06,320
+Now this source is going to be I m g slash.
+
+29
+00:02:06,380 --> 00:02:08,720
+Person one dot j peg.
+
+30
+00:02:09,140 --> 00:02:11,280
+OK reusing the same images.
+
+31
+00:02:12,020 --> 00:02:20,450
+And let's see I think that's actually we're going to add some inline style as well because I want it
+
+32
+00:02:20,450 --> 00:02:26,380
+to be pushed over a little bit in the size I want to set the width to 40 pixels.
+
+33
+00:02:26,480 --> 00:02:33,800
+So with 40 pixels and then margin left will add some margin to the left lets say 10 pixels
+
+34
+00:02:36,570 --> 00:02:40,340
+OK and then the next t d is going to be the comment.
+
+35
+00:02:40,350 --> 00:02:45,530
+So I'm just going to do like 10 words will say larm 10 tab
+
+36
+00:02:48,350 --> 00:02:58,800
+and let's see the next he is going to be a check a check icon and a close are an X icon wrapped in the
+
+37
+00:02:58,800 --> 00:03:05,040
+link so the link for this one let's give it a class of green text.
+
+38
+00:03:05,180 --> 00:03:12,100
+It's not going to actually do anything if you want to add the TOSed functionality like we did on the
+
+39
+00:03:12,100 --> 00:03:17,080
+dashboard you can do that if you want in here will have an icon
+
+40
+00:03:22,440 --> 00:03:23,660
+that should be a dash
+
+41
+00:03:29,060 --> 00:03:31,000
+and then this is going to be done.
+
+42
+00:03:33,180 --> 00:03:37,440
+And then what we will do is copy this.
+
+43
+00:03:38,250 --> 00:03:46,190
+And then this next one is going to have a class of red text and the icon will be close.
+
+44
+00:03:47,280 --> 00:03:47,940
+OK.
+
+45
+00:03:48,120 --> 00:03:49,880
+So it's copy let's save that.
+
+46
+00:03:49,920 --> 00:03:53,960
+And then let's go to comments and there we go.
+
+47
+00:03:53,960 --> 00:03:56,670
+So there we have one roll let's copy this.
+
+48
+00:03:56,720 --> 00:03:59,740
+TR The whole thing is.
+
+49
+00:03:59,750 --> 00:04:05,660
+Copy that and we'll paste in three more and then we'll change up the images.
+
+50
+00:04:05,660 --> 00:04:15,760
+So we have person 1 person 2 3 and 4 and save.
+
+51
+00:04:16,400 --> 00:04:16,980
+And there we go.
+
+52
+00:04:16,980 --> 00:04:19,640
+So there's our comments page.
+
+53
+00:04:19,700 --> 00:04:21,920
+All right so now we're going to move to the users.
+
+54
+00:04:22,000 --> 00:04:23,100
+Actually that's just finished.
+
+55
+00:04:23,110 --> 00:04:25,880
+Let's let's see if we have anything else.
+
+56
+00:04:26,120 --> 00:04:33,770
+We just want to get rid of the fixed action in the motile because there's no actual add comment functionality
+
+57
+00:04:34,600 --> 00:04:37,100
+so I'll save that.
+
+58
+00:04:37,100 --> 00:04:40,730
+All right so now let's copy categories again.
+
+59
+00:04:40,730 --> 00:04:42,350
+The whole thing.
+
+60
+00:04:42,350 --> 00:04:44,540
+And then let's go to users
+
+61
+00:04:47,090 --> 00:04:59,160
+and paste that in and go up to the top will change the active class from categories to users.
+
+62
+00:05:02,840 --> 00:05:03,360
+OK.
+
+63
+00:05:03,410 --> 00:05:09,330
+And then let's see down here we'll change this to users.
+
+64
+00:05:11,490 --> 00:05:13,500
+I know this can get tedious guys
+
+65
+00:05:15,960 --> 00:05:21,320
+change that's when it's the same way out and just different content.
+
+66
+00:05:21,380 --> 00:05:24,000
+It gets very tedious.
+
+67
+00:05:24,120 --> 00:05:27,330
+So let's see what do we want for users.
+
+68
+00:05:27,360 --> 00:05:28,990
+We're going to want the name.
+
+69
+00:05:29,190 --> 00:05:35,130
+Well we're going to want the image first of all so for the first th I'm going to leave it blank.
+
+70
+00:05:35,370 --> 00:05:42,370
+And then the next one will be the name and then the next one will be the e-mail.
+
+71
+00:05:43,350 --> 00:05:45,660
+And then let's do a register day
+
+72
+00:05:49,030 --> 00:05:52,660
+just say registered and the last one we're going to leave blank.
+
+73
+00:05:53,090 --> 00:05:53,450
+OK.
+
+74
+00:05:53,460 --> 00:05:57,390
+So then down here let's leave one table wrong get rid of the rest
+
+75
+00:06:03,150 --> 00:06:10,500
+and for the image what I'm going to do is copy from the comments table row that has the image because
+
+76
+00:06:10,500 --> 00:06:16,320
+it's going to be the same thing so I'm going to grab one of these TVs well grab person one actually
+
+77
+00:06:17,910 --> 00:06:22,600
+and then put that here for the first CD.
+
+78
+00:06:22,640 --> 00:06:28,810
+Actually I'll just get rid of all those so pace set in for the first TV.
+
+79
+00:06:29,070 --> 00:06:29,600
+Right.
+
+80
+00:06:29,650 --> 00:06:32,020
+And then the next one is going to be the name
+
+81
+00:06:35,080 --> 00:06:39,230
+Next on e-mail.
+
+82
+00:06:41,680 --> 00:06:43,300
+Then we have the registered day
+
+83
+00:06:49,550 --> 00:06:53,490
+and then we have the details link
+
+84
+00:06:55,950 --> 00:07:03,020
+between blue Lou Litan dash 2.
+
+85
+00:07:03,910 --> 00:07:08,200
+That's going to actually go to details dot H.
+
+86
+00:07:08,240 --> 00:07:10,020
+Hello.
+
+87
+00:07:10,020 --> 00:07:19,470
+All right so now what we'll do is copy the table row and let's do four users so two three four and then
+
+88
+00:07:19,470 --> 00:07:21,060
+we'll just change up the content.
+
+89
+00:07:21,060 --> 00:07:23,550
+So the second one is going to be person to
+
+90
+00:07:27,330 --> 00:07:34,810
+and for the name will say Larry waters.
+
+91
+00:07:35,750 --> 00:07:44,060
+Let's see e-mail b l quaters registration will see January 3rd.
+
+92
+00:07:44,060 --> 00:07:44,330
+All right.
+
+93
+00:07:44,330 --> 00:07:55,730
+Next one actually is going to be person three person three and then this will be let's say Susan Williams
+
+94
+00:07:59,890 --> 00:08:03,780
+Susan registered date.
+
+95
+00:08:04,210 --> 00:08:20,920
+And then this last one will be person for and this will be Jeff Burke say Jay Burke and January 10th.
+
+96
+00:08:20,980 --> 00:08:24,670
+All right now we're going to need a motel for this.
+
+97
+00:08:24,670 --> 00:08:32,080
+The user modals So let's let's change this rate here to use or modal and then change.
+
+98
+00:08:32,200 --> 00:08:38,260
+Actually we'll just get rid of this category motile and will copy the user one from the index
+
+99
+00:08:43,440 --> 00:08:47,400
+so I'll paste that there and then that should be good.
+
+100
+00:08:47,400 --> 00:08:48,750
+So let's save it.
+
+101
+00:08:48,780 --> 00:08:56,570
+Let's go to our users page and we forgot the text in the details button.
+
+102
+00:09:10,580 --> 00:09:11,730
+And this one.
+
+103
+00:09:11,870 --> 00:09:12,420
+All right.
+
+104
+00:09:14,680 --> 00:09:19,410
+So there we go there's our users of the image the name email registered date.
+
+105
+00:09:19,420 --> 00:09:20,140
+So that's good.
+
+106
+00:09:20,140 --> 00:09:23,900
+We click this button and we get the ad user.
+
+107
+00:09:23,950 --> 00:09:24,420
+All right.
+
+108
+00:09:26,220 --> 00:09:31,920
+So in the next video we're going to get to the logon page and possibly the details page you'll see if
+
+109
+00:09:31,920 --> 00:09:37,490
+we can get them both done in the same video if not we'll just split them up and then we should be done.
+
+110
+00:09:37,500 --> 00:09:37,770
+All right.
+
+111
+00:09:37,770 --> 00:09:38,800
+So I will see you in the next.
+

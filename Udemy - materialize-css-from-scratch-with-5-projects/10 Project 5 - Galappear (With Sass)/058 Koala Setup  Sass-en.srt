@@ -1,0 +1,572 @@
+1
+00:00:00,620 --> 00:00:03,410
+All right guys who are going to go ahead and get set up here.
+
+2
+00:00:03,420 --> 00:00:06,750
+But before we do I just wanted to talk a little bit about sace.
+
+3
+00:00:06,750 --> 00:00:08,730
+We're not going to this isn't a SAS course.
+
+4
+00:00:08,730 --> 00:00:14,610
+I just want to show you how to use it with materialized and all we're really going to be using is variables
+
+5
+00:00:14,640 --> 00:00:21,420
+in maybe a little bit investing a mix in we're going to create a mix in which is like a function but
+
+6
+00:00:21,420 --> 00:00:25,860
+you know if we want to create a variable we can use a money sign and then just name the variable and
+
+7
+00:00:25,860 --> 00:00:31,020
+we can set it to like a color or a font style anything in CSX.
+
+8
+00:00:31,020 --> 00:00:33,430
+And then we can simply use it wherever we want.
+
+9
+00:00:33,480 --> 00:00:40,740
+OK so any selector and a style we can use the variable and we can nest styles so you can see where they're
+
+10
+00:00:40,740 --> 00:00:45,520
+putting a UL and ally and and a tag within the nav tag.
+
+11
+00:00:45,660 --> 00:00:53,900
+So only these only the UL ally and tags that are inside a nav tag will be affected by these styles.
+
+12
+00:00:53,910 --> 00:00:59,550
+OK we can use Parshall's which are just separate C-s as CSSA files we can import them.
+
+13
+00:00:59,790 --> 00:01:06,750
+We can use mix ins which are like functions they can take in parameters and so on we can extend styles
+
+14
+00:01:06,750 --> 00:01:08,490
+or extend classes.
+
+15
+00:01:08,490 --> 00:01:10,680
+So it's really it's really cool.
+
+16
+00:01:10,680 --> 00:01:17,430
+We also have operators so we can have like dynamic functionality we can do conditionals things like
+
+17
+00:01:17,460 --> 00:01:19,790
+that but I'm not going to get too far into it.
+
+18
+00:01:19,800 --> 00:01:26,130
+I just want to show you how to get it set up and use it in a project now in order to use SAS the browser
+
+19
+00:01:26,130 --> 00:01:34,090
+doesn't actually read SAS or SPSS files it has to be compiled to CSSA to regular CSSA.
+
+20
+00:01:34,290 --> 00:01:39,660
+And we're going to use a program called Koala for that which is a GUI program it's a graphical program.
+
+21
+00:01:39,720 --> 00:01:45,990
+A lot of times you'll see people use command line programs from NPM and stuff but I don't want to get
+
+22
+00:01:45,990 --> 00:01:51,510
+into that I don't want to get too deep into it into the command line or I shouldn't say too deep I don't
+
+23
+00:01:51,510 --> 00:01:58,650
+want to get into it at all in this course because I'll tell you in my bootstrap course we used NPM we
+
+24
+00:01:58,650 --> 00:02:08,070
+used Gaulke to compile SAS and a kind of Olvir took the course all of the Q&amp;A questions if you go into
+
+25
+00:02:08,070 --> 00:02:12,510
+that course it's all about NPM and gulp and not bootstrap.
+
+26
+00:02:12,510 --> 00:02:18,990
+So I chose a different route with this course and chose not to do any of that because it just it just
+
+27
+00:02:18,990 --> 00:02:22,290
+distracted everybody from actual bootstrap.
+
+28
+00:02:22,290 --> 00:02:22,620
+All right.
+
+29
+00:02:22,620 --> 00:02:25,180
+So we're going to use a simple GUI program.
+
+30
+00:02:25,230 --> 00:02:27,680
+So let's go ahead and download this and install it.
+
+31
+00:02:30,080 --> 00:02:35,540
+So it's going it's going to download and basically all we do is at our project we can click the plus
+
+32
+00:02:35,540 --> 00:02:42,590
+sign at the project and we choose where we want to output our regular CSSA we choose this SPSS file
+
+33
+00:02:42,590 --> 00:02:47,750
+which is our SAS file and then where we want to output the standard VSS.
+
+34
+00:02:48,070 --> 00:02:53,120
+OK we also want to go to materialize and download the source for the SAS package.
+
+35
+00:02:53,120 --> 00:02:56,650
+So we're going to grab that as well while that's downloading.
+
+36
+00:02:56,640 --> 00:03:05,120
+Let's open up the koala's set up and depending on what's operating as operating system you're on it
+
+37
+00:03:05,120 --> 00:03:06,840
+may be a little different.
+
+38
+00:03:06,950 --> 00:03:09,650
+On Windows we're just going to go through this real quick.
+
+39
+00:03:09,650 --> 00:03:12,090
+Just click next.
+
+40
+00:03:12,170 --> 00:03:18,230
+I already had it installed so it's telling me I already have the folder but I'll just click yes and
+
+41
+00:03:18,230 --> 00:03:20,370
+install.
+
+42
+00:03:20,640 --> 00:03:25,720
+OK so it actually is already installed but that's fine I'll just go through it again.
+
+43
+00:03:30,430 --> 00:03:30,780
+All right.
+
+44
+00:03:30,780 --> 00:03:31,940
+So that's all finished.
+
+45
+00:03:31,940 --> 00:03:34,210
+Now we can go ahead and start it up.
+
+46
+00:03:34,240 --> 00:03:36,210
+Keep that shack thing click Finish
+
+47
+00:03:38,910 --> 00:03:42,750
+and it's going to start up our program so we don't have any projects yet.
+
+48
+00:03:42,750 --> 00:03:44,870
+I'm just going to leave this open for now.
+
+49
+00:03:45,090 --> 00:03:51,600
+So now what we'll do is create a new folder for our project and we're going to call this Gallup here
+
+50
+00:03:56,020 --> 00:03:58,570
+and what we'll do is take from the theme starter.
+
+51
+00:03:58,570 --> 00:04:03,250
+Initially I was going to do with a theme starter for the SAS but I'll just show you how to implement
+
+52
+00:04:03,250 --> 00:04:05,200
+it with this theme starter.
+
+53
+00:04:05,200 --> 00:04:10,000
+So we're going to copy our files over
+
+54
+00:04:13,430 --> 00:04:20,000
+and let's open up Gallup here with this code right now.
+
+55
+00:04:20,090 --> 00:04:25,400
+What I'm going to do is create to open up our folder here.
+
+56
+00:04:25,520 --> 00:04:29,400
+We're going to create a new folder called SPSS.
+
+57
+00:04:29,420 --> 00:04:32,440
+OK this is where all of our SAS is going to go.
+
+58
+00:04:32,690 --> 00:04:38,660
+Now the SAS is those are the files that we edit if you want to change anything in your CSSA you edit
+
+59
+00:04:38,660 --> 00:04:46,010
+your SAS files and then the compiler will then compile it and put it into the CSSA folder as a regular
+
+60
+00:04:46,010 --> 00:04:47,450
+CSSA file.
+
+61
+00:04:47,690 --> 00:04:57,710
+Ok so in the SPSS folder we're going to create a new file called Main dot SPSS just like that.
+
+62
+00:04:57,710 --> 00:05:07,330
+And then we're also going to open up the materialize zip file that we just downloaded.
+
+63
+00:05:07,420 --> 00:05:09,680
+So it's close.
+
+64
+00:05:10,240 --> 00:05:17,350
+And what we want to do is go into the SAS folder and we want to take these and put them into our SPSS
+
+65
+00:05:17,350 --> 00:05:26,320
+folders so open up Cal appear here and go into SPSS and let's bring these to this folder and this file
+
+66
+00:05:26,320 --> 00:05:28,590
+over we'll look at those in a second.
+
+67
+00:05:28,780 --> 00:05:30,430
+And then that's really all we need.
+
+68
+00:05:30,430 --> 00:05:38,680
+We already have the fonts folder for the J.S. we don't need that we already have the J us so we have
+
+69
+00:05:38,680 --> 00:05:38,950
+that.
+
+70
+00:05:38,950 --> 00:05:46,930
+Now let's open up vs code again or go back to vs code and you'll see we have materialized on SPSS.
+
+71
+00:05:46,930 --> 00:05:53,300
+Now basically what this is is just a meeting place for all of the SPSS components.
+
+72
+00:05:53,380 --> 00:05:58,050
+Each aspect of materialized has its own SPSS file.
+
+73
+00:05:58,120 --> 00:06:04,330
+For instance the carousel has its own SPSS file with all the SAS and you can see it's using nesting
+
+74
+00:06:04,330 --> 00:06:05,650
+and all that stuff.
+
+75
+00:06:05,680 --> 00:06:12,090
+Badges and buttons and you can see there's there's variables and hair and all that stuff.
+
+76
+00:06:12,120 --> 00:06:19,090
+Now normally you don't want to change any of this what you what you can change or what you should change
+
+77
+00:06:19,180 --> 00:06:22,640
+is the the underscore variables file.
+
+78
+00:06:23,200 --> 00:06:30,940
+And this is where like the primary color is the primary color light primary color dark secondary color
+
+79
+00:06:30,940 --> 00:06:37,060
+you can change these values here and then we have things like the button height if you wanted to make
+
+80
+00:06:37,610 --> 00:06:41,780
+your standard button height bigger or smaller you could do that.
+
+81
+00:06:41,800 --> 00:06:48,130
+This is all button stuff this is all card stuff the carousel height default is 400 but you could change
+
+82
+00:06:48,130 --> 00:06:49,000
+that here.
+
+83
+00:06:49,120 --> 00:06:51,730
+You could change a lot of stuff from here.
+
+84
+00:06:51,760 --> 00:06:56,080
+So it's really to customize your materialize installation.
+
+85
+00:06:56,500 --> 00:06:59,010
+All right but we're not and we're not going to do too much here.
+
+86
+00:06:59,020 --> 00:07:03,640
+We're going to change up the colors a little bit and maybe a couple of other things.
+
+87
+00:07:03,640 --> 00:07:03,990
+All right.
+
+88
+00:07:04,000 --> 00:07:14,960
+Now what I want to do is now go to Kohala which is buried here and we're going to add a project and
+
+89
+00:07:14,960 --> 00:07:21,440
+we basically want to just choose our SAS folders so it's going to be in my desktop in the Gallup folder
+
+90
+00:07:21,560 --> 00:07:26,100
+and then I want to choose the SPSS folder and we're going to open that up.
+
+91
+00:07:26,210 --> 00:07:32,200
+So automatically it finds our SPSS files we have the main file and then materialize.
+
+92
+00:07:32,420 --> 00:07:39,950
+So what I am going to do here is right click and I'm going to say set output path for main dot SPSS
+
+93
+00:07:40,910 --> 00:07:50,910
+and I'm going to I'm going to set it to the CSSA folder to main Dotsie SS and save OK even though it
+
+94
+00:07:50,910 --> 00:07:51,730
+already exists.
+
+95
+00:07:51,750 --> 00:07:52,960
+I'm going to say yes.
+
+96
+00:07:53,100 --> 00:07:55,600
+And now that's going to compile to that file.
+
+97
+00:07:55,620 --> 00:07:57,980
+This one here that materialize.
+
+98
+00:07:58,110 --> 00:08:03,370
+I'm going to do the same thing I'm going to set the output path to the CSSA folder.
+
+99
+00:08:04,190 --> 00:08:10,770
+And set it to the materialized man Ghodsee SS and save that.
+
+100
+00:08:10,770 --> 00:08:11,120
+All right.
+
+101
+00:08:11,130 --> 00:08:19,290
+Now if I go back into the folder structure here if we go back into SPSS you'll see that it already compiled
+
+102
+00:08:19,800 --> 00:08:25,490
+to CSX before I did anything into the SPSS.
+
+103
+00:08:25,530 --> 00:08:31,340
+OK so we don't want the CSSA files in here we want them to go in here to these.
+
+104
+00:08:31,560 --> 00:08:38,210
+So what we can do is delete the main dot C Ss and also the sort.
+
+105
+00:08:38,220 --> 00:08:41,920
+This the source maps were not really going to get into that.
+
+106
+00:08:41,940 --> 00:08:45,210
+Any ways we can disable those too.
+
+107
+00:08:45,500 --> 00:08:50,850
+But we only want our SPSS files in here so let's delete that as well.
+
+108
+00:08:50,850 --> 00:08:53,850
+Let's delete this source wrap.
+
+109
+00:08:54,560 --> 00:08:58,620
+So we should only have these two SAS files and components.
+
+110
+00:08:58,620 --> 00:09:06,620
+All right and if we go to Kohala and we can actually uncheck source wrap for both of these.
+
+111
+00:09:07,030 --> 00:09:12,740
+OK and see how it's set to auto compile that means when we save anything in SAS it'll auto compile to
+
+112
+00:09:12,740 --> 00:09:15,240
+the CSSA files.
+
+113
+00:09:15,260 --> 00:09:15,560
+All right.
+
+114
+00:09:15,560 --> 00:09:17,200
+So let's go ahead and click compile
+
+115
+00:09:20,150 --> 00:09:21,590
+it auto compile anyways.
+
+116
+00:09:21,590 --> 00:09:32,710
+But now if I look in materialize men CSSA this all came from the materialized SAS file.
+
+117
+00:09:32,780 --> 00:09:33,110
+All right.
+
+118
+00:09:33,110 --> 00:09:39,440
+And this is the file we want to include in our index each team now which we already are anyways so we
+
+119
+00:09:39,440 --> 00:09:40,510
+don't have to change that.
+
+120
+00:09:40,510 --> 00:09:44,550
+We don't want to change any of this because we're using the same CSSA files.
+
+121
+00:09:44,600 --> 00:09:47,390
+It's just being compiled from our SAS.
+
+122
+00:09:47,390 --> 00:09:47,680
+All right.
+
+123
+00:09:47,680 --> 00:09:55,190
+So hopefully this isn't too confusing the set up once we get set up then it's basically just like every
+
+124
+00:09:55,190 --> 00:09:59,390
+other project except we can use variables and stuff.
+
+125
+00:10:00,400 --> 00:10:00,790
+OK.
+
+126
+00:10:00,800 --> 00:10:04,580
+So let's open this with our live server.
+
+127
+00:10:05,600 --> 00:10:11,990
+And I just want to try something here so if we go into our main SPSS file let's set a variable we'll
+
+128
+00:10:11,990 --> 00:10:28,530
+say let's say primary and we'll set that to read and then I just want to say body will say background.
+
+129
+00:10:28,570 --> 00:10:35,560
+This is just a test we'll say background and then we'll set it to the variable of primary and let's
+
+130
+00:10:35,560 --> 00:10:36,360
+save that
+
+131
+00:10:40,600 --> 00:10:47,210
+and that should actually get compiled automatically let's look at the main dot CSSA file.
+
+132
+00:10:47,230 --> 00:10:53,950
+Ok so it didn't and I think that's because I closed caller Yeah it's no longer open
+
+133
+00:10:59,300 --> 00:11:06,590
+qualis should be running in order for it to auto compile so just say resave this.
+
+134
+00:11:06,590 --> 00:11:07,360
+There we go.
+
+135
+00:11:07,640 --> 00:11:10,250
+OK so koala went ahead and compiled it.
+
+136
+00:11:10,250 --> 00:11:16,970
+Now if I look in my main DOS CSSA file it's just background read because a CSSA file can't have a variable
+
+137
+00:11:16,970 --> 00:11:18,320
+inside of it.
+
+138
+00:11:18,320 --> 00:11:25,320
+So now that's our workflow we work in the SAS files but it gets compiled to the CSX.
+
+139
+00:11:25,370 --> 00:11:25,700
+All right.
+
+140
+00:11:25,700 --> 00:11:30,160
+I'm just going to get rid of this and save and then that background will go away.
+
+141
+00:11:30,500 --> 00:11:37,190
+OK so now we're going to work just like we have been except we're going to use these SPSS files instead
+
+142
+00:11:37,190 --> 00:11:40,040
+of the CSX.
+
+143
+00:11:40,160 --> 00:11:45,260
+So in the next video we'll go ahead and we'll get started building our project in creating our markup.
+

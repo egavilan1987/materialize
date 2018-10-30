@@ -1,0 +1,764 @@
+1
+00:00:00,870 --> 00:00:06,560
+All right guys in the last video we went ahead and finished up the dashboard so everything here is working.
+
+2
+00:00:06,560 --> 00:00:09,890
+We have our To Do lists that we can add stuff to.
+
+3
+00:00:09,900 --> 00:00:11,000
+We have our chart.
+
+4
+00:00:11,010 --> 00:00:13,760
+We have our free loader when we load that page.
+
+5
+00:00:13,830 --> 00:00:18,600
+We have our little floating buttons with them with the Modals So now we're going to move on to the inner
+
+6
+00:00:18,600 --> 00:00:19,550
+pages.
+
+7
+00:00:19,590 --> 00:00:24,480
+So let's start with the Post Page The Post's categories these are going to be pretty easy they're basically
+
+8
+00:00:24,480 --> 00:00:26,020
+just going to be tables.
+
+9
+00:00:26,040 --> 00:00:31,380
+Same with the comments end users but there'll be a little more they'll be a little more markup in those
+
+10
+00:00:31,380 --> 00:00:33,990
+because we have to add the images and so on.
+
+11
+00:00:33,990 --> 00:00:34,320
+All right.
+
+12
+00:00:34,320 --> 00:00:37,140
+So let's go ahead and add some new pages here.
+
+13
+00:00:37,140 --> 00:00:43,080
+So in addition to index each team our We're going to create posts not aged him at all and we might as
+
+14
+00:00:43,080 --> 00:00:50,530
+well just create the rest of the pages we need so it's two categories not that glorious but categories
+
+15
+00:00:50,900 --> 00:00:52,400
+daughter aged him.
+
+16
+00:00:53,270 --> 00:00:58,970
+Let's also do what else do we need here let's do users
+
+17
+00:01:01,670 --> 00:01:03,470
+let's do comments
+
+18
+00:01:06,640 --> 00:01:11,010
+and we're going to have a log in page to log in age aged him.
+
+19
+00:01:12,250 --> 00:01:15,300
+And so that's I think that's it.
+
+20
+00:01:15,710 --> 00:01:17,520
+And that's it for now at least.
+
+21
+00:01:17,770 --> 00:01:20,430
+So let's close all these up except for posts.
+
+22
+00:01:20,430 --> 00:01:21,940
+That's what we want to work on.
+
+23
+00:01:22,000 --> 00:01:27,730
+Now what I'm going to do is copy everything in the index each team I'll file just so we can have like
+
+24
+00:01:27,730 --> 00:01:31,470
+the things that are going to be repeated like the nav bar and all that stuff.
+
+25
+00:01:31,470 --> 00:01:33,750
+So we're going to paste that in.
+
+26
+00:01:33,900 --> 00:01:34,390
+OK.
+
+27
+00:01:34,420 --> 00:01:40,360
+And let's let's go down to the javascript thing get rid of some of the stuff that we don't need so I
+
+28
+00:01:40,360 --> 00:01:46,390
+want to keep the freeloader on every page so we're going to keep like this part where we hide the sections
+
+29
+00:01:46,390 --> 00:01:51,660
+where we have the time out where we fade in the sections and fade the loader out.
+
+30
+00:01:51,670 --> 00:01:57,350
+We need this for the side navigation and we need this for the modal selects.
+
+31
+00:01:57,370 --> 00:01:59,680
+Yeah we'll keep that count.
+
+32
+00:01:59,680 --> 00:02:00,670
+We don't need that.
+
+33
+00:02:00,670 --> 00:02:07,240
+We can get rid of it and once we do all this the post page is what we'll copy for the rest of the inner
+
+34
+00:02:07,240 --> 00:02:08,120
+pages.
+
+35
+00:02:08,350 --> 00:02:11,280
+OK we don't need to comment approving and deny.
+
+36
+00:02:11,410 --> 00:02:17,210
+We don't need the quick to do's get rid of that we don't need to delete to do's.
+
+37
+00:02:17,400 --> 00:02:20,680
+So that ends at c that ends right here.
+
+38
+00:02:20,680 --> 00:02:26,800
+We also don't need the actually know what we do need that because we're going to have the post motile
+
+39
+00:02:26,890 --> 00:02:29,880
+on this page so we'll keep that.
+
+40
+00:02:30,560 --> 00:02:33,570
+OK so that should be all we need for the javascript.
+
+41
+00:02:33,610 --> 00:02:35,060
+Now the chart.
+
+42
+00:02:35,060 --> 00:02:42,290
+J.S. we don't need that I can get rid of that we don't need the canvas J.S. script.
+
+43
+00:02:43,300 --> 00:02:45,110
+And we'll keep the rest.
+
+44
+00:02:45,430 --> 00:02:48,090
+OK so we're going to keep the preload.
+
+45
+00:02:48,520 --> 00:02:51,250
+I don't know why I'm starting from the bottom but that's what I'm doing.
+
+46
+00:02:51,250 --> 00:02:53,080
+So it's fine.
+
+47
+00:02:53,290 --> 00:02:57,570
+The user mode so we don't need what we do want to keep is the post motile.
+
+48
+00:02:57,610 --> 00:03:04,790
+So we can get rid of the user in the category but let's keep the post modal which is this one here.
+
+49
+00:03:04,810 --> 00:03:05,130
+All right.
+
+50
+00:03:05,140 --> 00:03:10,190
+And then the fixed action button we're going to be changing that up.
+
+51
+00:03:10,210 --> 00:03:12,940
+But we'll keep that for now the footer we're keeping.
+
+52
+00:03:13,180 --> 00:03:15,670
+And then all the sections we're going to get rid of.
+
+53
+00:03:15,670 --> 00:03:20,580
+So this is the the to do's and all that get rid of that.
+
+54
+00:03:20,830 --> 00:03:25,930
+Get rid of this one here which is the section.
+
+55
+00:03:25,930 --> 00:03:30,760
+Visitors will get rid of the top on the stats.
+
+56
+00:03:30,760 --> 00:03:38,440
+So up to this point and we'll delete k we obviously want to keep the nav bar and that should do it.
+
+57
+00:03:38,440 --> 00:03:40,020
+So it's safe.
+
+58
+00:03:40,450 --> 00:03:47,350
+And then we should be able to click on the post link and it loads the post page which basically just
+
+59
+00:03:47,350 --> 00:03:50,020
+has a folder on it and the floating button.
+
+60
+00:03:50,410 --> 00:03:54,450
+So let's change the active link in the nav bar.
+
+61
+00:03:54,460 --> 00:03:56,080
+Right now it's on the dashboard.
+
+62
+00:03:56,080 --> 00:03:58,460
+See right here we're going to take that.
+
+63
+00:03:58,670 --> 00:04:06,230
+We're going to put that on to the posts and save and that way the Post is now highlighted.
+
+64
+00:04:06,260 --> 00:04:13,530
+Now for the content let's go under the nav bar between the now and the footer.
+
+65
+00:04:13,610 --> 00:04:19,220
+And we're going to put a section here will say Section posts.
+
+66
+00:04:19,220 --> 00:04:26,140
+So it's do a section each team I'll tag with the class of section and we'll give it a class section
+
+67
+00:04:26,150 --> 00:04:27,520
+posts.
+
+68
+00:04:27,980 --> 00:04:37,930
+Let's make it gray gray background and we'll lighten it let's say light dash for we make it really light.
+
+69
+00:04:38,600 --> 00:04:40,390
+And then in here we'll have a container.
+
+70
+00:04:40,400 --> 00:04:47,930
+So this stuff is all the same we'll do a row let's do a full column full 12 columns so I'll say Dot
+
+71
+00:04:47,930 --> 00:04:56,510
+call DOT s 12 and then and here we're going to do a card let's do our card content
+
+72
+00:04:59,220 --> 00:05:07,800
+it inside here will have a title so the title will be a span with the class of card title and we'll
+
+73
+00:05:07,800 --> 00:05:09,000
+just say posts
+
+74
+00:05:13,070 --> 00:05:14,480
+and then we're going to put a table.
+
+75
+00:05:14,480 --> 00:05:23,360
+So what I'll do is copy from the index aged him how the table we have which is right here.
+
+76
+00:05:23,780 --> 00:05:32,060
+So this table I'm going to grab it and we're going to put it in here and let's save
+
+77
+00:05:34,710 --> 00:05:36,940
+all the details page that's what we need.
+
+78
+00:05:36,940 --> 00:05:37,870
+Let's create that
+
+79
+00:05:42,050 --> 00:05:45,540
+details start H.T. OK.
+
+80
+00:05:45,550 --> 00:05:54,670
+So there's our table now I also want to put the date created in here so let's do that.
+
+81
+00:05:54,670 --> 00:06:03,220
+So in our table in our t h area let's go right below the category and let's say a date created.
+
+82
+00:06:03,790 --> 00:06:07,210
+OK and then for each one of these We're going to need a new t d.
+
+83
+00:06:07,390 --> 00:06:11,990
+Let's say January 1st 2018.
+
+84
+00:06:12,250 --> 00:06:18,690
+And I'm just going to copy that and put that in here.
+
+85
+00:06:19,630 --> 00:06:26,830
+But let's let's change this to January 2nd.
+
+86
+00:06:26,830 --> 00:06:27,150
+All right.
+
+87
+00:06:27,160 --> 00:06:29,740
+We'll go round here and paste that in.
+
+88
+00:06:29,980 --> 00:06:33,980
+I'll change that to January 3rd.
+
+89
+00:06:34,180 --> 00:06:37,150
+We should probably put a few more posts as well.
+
+90
+00:06:37,780 --> 00:06:44,120
+So let's copy this actual copy all three of these will make six posts.
+
+91
+00:06:44,350 --> 00:06:49,920
+So all of the t was inside the T body.
+
+92
+00:06:49,990 --> 00:06:58,600
+Copy those and just paste them in again and we'll change this to pose for and this one will be.
+
+93
+00:06:58,600 --> 00:07:05,250
+Post 5 and post 6.
+
+94
+00:07:05,680 --> 00:07:15,340
+Ok I will just change the date Opsahl say five six and seven and I'll change one of these categories
+
+95
+00:07:15,340 --> 00:07:15,790
+we'll say.
+
+96
+00:07:15,790 --> 00:07:21,440
+Tech gadgets still look more realistic So let's save that.
+
+97
+00:07:22,150 --> 00:07:22,810
+And there we go.
+
+98
+00:07:22,810 --> 00:07:24,250
+So there's our post page.
+
+99
+00:07:24,250 --> 00:07:27,060
+Now I want to put some pagination down here.
+
+100
+00:07:27,070 --> 00:07:31,120
+Obviously it's not real pagination but just just for the UI.
+
+101
+00:07:31,360 --> 00:07:42,780
+So we're going to go down let's go down under this div which is the card content we want to go under
+
+102
+00:07:42,780 --> 00:07:48,370
+the card content and we want to put in a card action.
+
+103
+00:07:49,280 --> 00:07:49,610
+OK.
+
+104
+00:07:49,620 --> 00:07:52,710
+So it's kind of like a flutter of the card.
+
+105
+00:07:52,980 --> 00:08:00,400
+And this is where we're going to put our pagination so will say UL dot pagination.
+
+106
+00:08:02,010 --> 00:08:04,250
+Hopefully you guys using it.
+
+107
+00:08:04,770 --> 00:08:10,830
+And then this one is going to be this is going to have a class of disabled because this is going to
+
+108
+00:08:10,830 --> 00:08:13,490
+be basically the current page you're on.
+
+109
+00:08:13,800 --> 00:08:23,640
+And then inside there we're going to have a tag with the class of let's do blue text and it's not actually
+
+110
+00:08:23,640 --> 00:08:31,110
+going to go anywhere inside the tag we're going to have a chevron left icon.
+
+111
+00:08:31,110 --> 00:08:42,610
+So we'll say I doubt I thought material dash icons in here will do Chevron underscore laughed.
+
+112
+00:08:43,180 --> 00:08:43,630
+OK.
+
+113
+00:08:43,640 --> 00:08:52,730
+So if I were to save that I see now we have the little arrow icon which is disabled on the next list
+
+114
+00:08:52,730 --> 00:08:57,640
+item in our pagination is going to be the active one.
+
+115
+00:08:57,680 --> 00:09:02,530
+So let's say Ally Dortch will say active class.
+
+116
+00:09:02,540 --> 00:09:08,270
+It's also going to have a class of blue because it's going to have a background.
+
+117
+00:09:08,450 --> 00:09:13,380
+And let's also do Litan will do Leitung dash 2.
+
+118
+00:09:13,500 --> 00:09:22,700
+All right in here will have an 8 tag with the class of white dash text and none of these are going to
+
+119
+00:09:22,850 --> 00:09:24,720
+actually go anywhere.
+
+120
+00:09:25,850 --> 00:09:27,080
+But this is going to also.
+
+121
+00:09:27,080 --> 00:09:31,060
+This is going to have a one because it's basically the first page.
+
+122
+00:09:31,370 --> 00:09:36,680
+So if we take a look at that case we have the one and that's the active page.
+
+123
+00:09:36,770 --> 00:09:45,690
+And then what I'll do is just copy this or copy that down and we'll just remove the active from it so
+
+124
+00:09:45,690 --> 00:09:48,810
+word or move the active floor move.
+
+125
+00:09:48,810 --> 00:09:57,690
+Actually all of these blue and Litan But let's give it a Wavves effect class.
+
+126
+00:09:57,870 --> 00:10:03,330
+OK we'll change this to two and then we can copy this.
+
+127
+00:10:04,020 --> 00:10:08,770
+So we'll do like two three four and five.
+
+128
+00:10:09,360 --> 00:10:17,790
+So change these numbers up so this will be three four and five and see what that looks like.
+
+129
+00:10:17,790 --> 00:10:20,640
+All right so that the text is white we can't see it.
+
+130
+00:10:20,730 --> 00:10:24,840
+So we have to change these.
+
+131
+00:10:25,070 --> 00:10:30,300
+I'm going to do control d to select the next one next one and the next one and then change them all
+
+132
+00:10:30,300 --> 00:10:31,350
+to blue text
+
+133
+00:10:34,200 --> 00:10:34,820
+and then we go.
+
+134
+00:10:34,830 --> 00:10:37,110
+So now we just need our right Chevron.
+
+135
+00:10:37,110 --> 00:10:41,770
+So what I'll do is copy once.
+
+136
+00:10:43,380 --> 00:10:53,680
+Let's copy this ally right here and put that out here and change this to Chevron right
+
+137
+00:10:57,110 --> 00:11:01,980
+and I'm just going to take away the disabled class and I'm going to put on a Wavves effect.
+
+138
+00:11:06,280 --> 00:11:07,940
+I'll save that.
+
+139
+00:11:08,310 --> 00:11:13,460
+And there we go so there's our pagination when we click on it you see the little waves effect.
+
+140
+00:11:14,700 --> 00:11:15,080
+OK.
+
+141
+00:11:15,090 --> 00:11:16,600
+So that's it for the post.
+
+142
+00:11:16,650 --> 00:11:21,450
+Now the category's is basically going to be the same thing just different content so I'm going to copy
+
+143
+00:11:21,450 --> 00:11:22,680
+everything.
+
+144
+00:11:22,680 --> 00:11:25,760
+Go to our categories and paste it in.
+
+145
+00:11:25,770 --> 00:11:31,350
+Now here we actually don't need the S.K. editor.
+
+146
+00:11:31,500 --> 00:11:32,760
+We can get rid of that.
+
+147
+00:11:33,000 --> 00:11:37,370
+Oh we've got to do the motile on the post page.
+
+148
+00:11:37,890 --> 00:11:39,810
+So real quick let's go down.
+
+149
+00:11:39,870 --> 00:11:42,810
+We already have the actual modal right here.
+
+150
+00:11:42,840 --> 00:11:47,370
+We just want to edit the button instead of having all of these things pop up.
+
+151
+00:11:47,370 --> 00:11:50,730
+I just want to click the plus and that will open the modal.
+
+152
+00:11:50,760 --> 00:11:54,530
+So are you just going to get rid of the whole ul.
+
+153
+00:11:56,190 --> 00:12:03,810
+You know we'll get rid of all that and then we're going to go to the actual link right here and put
+
+154
+00:12:03,810 --> 00:12:09,500
+an H ref to the post.
+
+155
+00:12:09,950 --> 00:12:15,170
+Motile and remember we have to add a modal trigger as a class.
+
+156
+00:12:15,670 --> 00:12:21,270
+OK so if I save that now if I click the plus icon it opens up the molto.
+
+157
+00:12:21,630 --> 00:12:25,480
+OK so now we're done with that we can close that up.
+
+158
+00:12:25,590 --> 00:12:30,990
+Actually let's copy everything again because we want that same type of modal button.
+
+159
+00:12:30,990 --> 00:12:32,610
+So will copy from posts.
+
+160
+00:12:32,640 --> 00:12:38,180
+Paste in categories again get rid of the S.K. editor.
+
+161
+00:12:38,220 --> 00:12:39,870
+We also don't need to select
+
+162
+00:12:43,120 --> 00:12:49,740
+Let's see we can get rid of the script to the S.K. editor and
+
+163
+00:12:52,320 --> 00:13:00,540
+we actually want the category modals so I'm going to copy from the index page the category motile which
+
+164
+00:13:00,540 --> 00:13:08,990
+is right here and we'll go and will replace the post motile on the categories page.
+
+165
+00:13:09,240 --> 00:13:11,150
+So paste that in.
+
+166
+00:13:11,160 --> 00:13:18,990
+All right and then the action button we're just going to change this to go to category modal right now
+
+167
+00:13:18,990 --> 00:13:20,140
+for the table.
+
+168
+00:13:20,270 --> 00:13:23,370
+Let's go up to the top of the table.
+
+169
+00:13:23,370 --> 00:13:31,350
+Actually first let's change the active class C and go right here.
+
+170
+00:13:31,350 --> 00:13:38,700
+So class active we want to take it off of post and put it on two categories and then we'll go back down
+
+171
+00:13:38,700 --> 00:13:46,800
+to the table and further categories it's basically just going to have a title and create date so we
+
+172
+00:13:46,800 --> 00:13:50,580
+can get rid of this category.
+
+173
+00:13:51,270 --> 00:13:58,780
+And what I'll do is just get rid of this TDD and now we can have that as the category name.
+
+174
+00:13:58,830 --> 00:13:59,720
+Same thing here.
+
+175
+00:13:59,720 --> 00:14:01,600
+Get rid of that.
+
+176
+00:14:02,160 --> 00:14:08,680
+Get rid of that for this one will say we got web development graphic design.
+
+177
+00:14:08,790 --> 00:14:13,550
+Let's do tech gadgets.
+
+178
+00:14:13,920 --> 00:14:17,360
+And then this last one is going to be other
+
+179
+00:14:20,390 --> 00:14:20,970
+other.
+
+180
+00:14:21,000 --> 00:14:23,190
+And then we can get rid of the rest of the teacher's
+
+181
+00:14:26,410 --> 00:14:28,540
+all right and we'll leave the pagination.
+
+182
+00:14:28,810 --> 00:14:30,820
+So let's save it.
+
+183
+00:14:30,820 --> 00:14:33,390
+Let's go to categories.
+
+184
+00:14:33,810 --> 00:14:37,160
+One thing I forgot was the title.
+
+185
+00:14:37,200 --> 00:14:41,440
+So where is it right here.
+
+186
+00:14:41,440 --> 00:14:49,230
+So we want to change this from posts to categories.
+
+187
+00:14:49,910 --> 00:14:50,420
+All right.
+
+188
+00:14:50,480 --> 00:14:54,990
+And if we click the button here that should open the category motile.
+
+189
+00:14:55,280 --> 00:14:55,550
+All right.
+
+190
+00:14:55,550 --> 00:15:00,290
+So we're going to go ahead and saw here guys in the next video we're going to do the comments in the
+
+191
+00:15:00,290 --> 00:15:01,380
+user's page.
+

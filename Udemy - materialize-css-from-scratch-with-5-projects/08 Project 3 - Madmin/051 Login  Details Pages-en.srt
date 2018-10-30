@@ -1,0 +1,604 @@
+1
+00:00:00,510 --> 00:00:06,300
+All right guys so now we just have to do the log in page and the details page so we're going to start
+
+2
+00:00:06,300 --> 00:00:07,480
+with the log in.
+
+3
+00:00:07,500 --> 00:00:12,510
+Now blogging is going to be quite different because we're just going to basically have a little box
+
+4
+00:00:12,510 --> 00:00:14,400
+in the middle with the log in form.
+
+5
+00:00:14,490 --> 00:00:19,160
+We're not going to have all of the we are going to have now but we're not going to have all these lengths
+
+6
+00:00:19,170 --> 00:00:22,260
+it's basically just going to be the blue bar with the logo.
+
+7
+00:00:22,410 --> 00:00:31,110
+So what I'll do is copy the post page and then go to our log in and paste it in and we can actually
+
+8
+00:00:31,110 --> 00:00:43,320
+get rid of the Get rid of this select the all the side now because we're not going to need that.
+
+9
+00:00:43,950 --> 00:00:50,730
+And then we'll leave the pre-load our stuff we can get rid of the S.K. editor script we can get rid
+
+10
+00:00:50,760 --> 00:01:01,830
+of the modal we can get rid of the fixed action button we'll leave the footer and let's get rid of all
+
+11
+00:01:01,830 --> 00:01:07,470
+the sections so up to the Nav..
+
+12
+00:01:07,600 --> 00:01:07,890
+All right.
+
+13
+00:01:07,900 --> 00:01:13,720
+Now the Nav. is going to be very simple actually we can do it we can just recreate the now because it's
+
+14
+00:01:13,720 --> 00:01:20,670
+going to be so simple so just get rid of the whole Nav. and let's remake it so we'll just say Nav. with
+
+15
+00:01:20,830 --> 00:01:32,320
+the class of blue and dark and two container and now wrapper
+
+16
+00:01:35,620 --> 00:01:45,780
+and a tag with the class of brand dash logo and you'll have a go to index each table.
+
+17
+00:01:49,850 --> 00:01:53,990
+And then here we'll put madmen and that's it.
+
+18
+00:01:54,000 --> 00:01:55,900
+That's our now varlets save it.
+
+19
+00:01:55,950 --> 00:01:58,110
+Now we go east we click log out.
+
+20
+00:01:58,110 --> 00:02:00,140
+It should take us to the log in page.
+
+21
+00:02:00,150 --> 00:02:01,300
+Good.
+
+22
+00:02:01,320 --> 00:02:06,840
+So from here under the nav we're going to put the log in.
+
+23
+00:02:06,840 --> 00:02:07,140
+All right.
+
+24
+00:02:07,140 --> 00:02:09,030
+Now I'm going to wrap it in a container
+
+25
+00:02:13,820 --> 00:02:19,480
+and let's do a row.
+
+26
+00:02:19,730 --> 00:02:20,370
+Actually you know what.
+
+27
+00:02:20,380 --> 00:02:22,740
+Let's let's let's wrap this in a section.
+
+28
+00:02:22,990 --> 00:02:31,070
+I wasn't initially going to but I think it's a good idea to do it so we'll say S.S. and then Section
+
+29
+00:02:31,230 --> 00:02:40,280
+loggin and then we'll just take this and we'll go ahead and move that up.
+
+30
+00:02:40,350 --> 00:02:40,650
+OK.
+
+31
+00:02:40,660 --> 00:02:45,800
+So inside the row we're going to have a couple of classes.
+
+32
+00:02:45,850 --> 00:02:49,110
+So we're going to do call s 12.
+
+33
+00:02:49,110 --> 00:02:52,950
+So it's stacked on mobile devices 8.
+
+34
+00:02:53,040 --> 00:02:59,530
+So eight columns on medium but also an offset on medium screens.
+
+35
+00:02:59,530 --> 00:03:02,620
+We want to offset it to one large screens.
+
+36
+00:03:02,620 --> 00:03:05,720
+We wanted to take up six columns and we want to offset it
+
+37
+00:03:08,540 --> 00:03:12,220
+3 so offset dash L3.
+
+38
+00:03:13,240 --> 00:03:18,710
+Okay and that's going to change the width of the box depending on the size of the browser.
+
+39
+00:03:18,770 --> 00:03:22,320
+So if we were to save that we're not going to see anything yet.
+
+40
+00:03:22,490 --> 00:03:27,180
+But inside here let's put a card panel.
+
+41
+00:03:27,620 --> 00:03:38,030
+I'm also going to give it a class of log in and I'm going to give it a class of blue Darkon to white
+
+42
+00:03:38,360 --> 00:03:44,480
+text and center.
+
+43
+00:03:44,580 --> 00:03:46,230
+So there it is.
+
+44
+00:03:46,230 --> 00:03:54,180
+So depending on the with ex-CEO it gets bigger and smaller and bigger and you can mess around with it
+
+45
+00:03:54,180 --> 00:03:56,420
+if you want.
+
+46
+00:03:56,490 --> 00:03:59,540
+That's just what I what I feel looks the best.
+
+47
+00:03:59,550 --> 00:04:04,400
+So inside here we're going to put in h one and we're going to say madman.
+
+48
+00:04:04,660 --> 00:04:09,370
+Log in.
+
+49
+00:04:10,000 --> 00:04:12,280
+Actually it's doing H-2 that's kind of big.
+
+50
+00:04:14,890 --> 00:04:15,390
+All right.
+
+51
+00:04:15,580 --> 00:04:21,920
+So underneath that we'll have our form and we're actually going to have the end the action go to index
+
+52
+00:04:21,930 --> 00:04:27,080
+start aged so that when you click when you submit it goes to the index page.
+
+53
+00:04:27,100 --> 00:04:30,980
+All right then we're going to have our input field.
+
+54
+00:04:31,210 --> 00:04:39,350
+So this is going to be the e-mail but I'm going to prefix it with an icon Silex to material icons female
+
+55
+00:04:39,770 --> 00:04:49,150
+and we need to give this a class of prefix since it's prefixing an input and k we'll say intuits let's
+
+56
+00:04:49,150 --> 00:04:55,830
+do type email and let's give in and I d e mail.
+
+57
+00:04:56,370 --> 00:05:00,450
+OK then we'll do our label for e-mail.
+
+58
+00:05:01,110 --> 00:05:10,650
+And then the text and save and then we go now the label I want to give that a class of white text.
+
+59
+00:05:10,650 --> 00:05:11,940
+So it's not so dark
+
+60
+00:05:16,310 --> 00:05:17,930
+where you go.
+
+61
+00:05:17,940 --> 00:05:18,740
+All right.
+
+62
+00:05:18,770 --> 00:05:26,450
+Now we also want the password fields so we're going to copy this whole input field div and paste that
+
+63
+00:05:26,450 --> 00:05:31,450
+in and we'll change this to the icon to lock.
+
+64
+00:05:31,460 --> 00:05:43,760
+Change all this stuff to password.
+
+65
+00:05:44,370 --> 00:05:46,160
+OK.
+
+66
+00:05:46,340 --> 00:05:55,880
+And then underneath this input field we're going to have our submit so we'll say we'll give it a type
+
+67
+00:05:55,880 --> 00:05:56,630
+of submit
+
+68
+00:05:59,170 --> 00:06:11,810
+and value we'll say log in let's do a couple of classes so we want to beat and beat and large Let's
+
+69
+00:06:11,810 --> 00:06:21,490
+do BATNA extended which is something that it's a custom class I'm going to create in let's do Gray.
+
+70
+00:06:21,620 --> 00:06:22,640
+OK.
+
+71
+00:06:22,920 --> 00:06:25,060
+Oh we want to also want to lighten it.
+
+72
+00:06:25,140 --> 00:06:29,360
+So we'll do Litan for and let's make sure it's black text.
+
+73
+00:06:30,070 --> 00:06:31,890
+Ok so we'll save that.
+
+74
+00:06:32,520 --> 00:06:38,370
+And I mean that looks OK but I want the button to actually stretch all the way across.
+
+75
+00:06:38,370 --> 00:06:51,050
+So what we'll do is go to our CSSA or main dot CSSA file and let's say Vitti and dash extended display
+
+76
+00:06:51,060 --> 00:06:54,050
+it as a block.
+
+77
+00:06:54,090 --> 00:06:59,430
+Let's give it a width of 80 percent margin.
+
+78
+00:06:59,430 --> 00:07:00,760
+Auto.
+
+79
+00:07:01,860 --> 00:07:03,960
+And let's move it from the top a little bit.
+
+80
+00:07:03,960 --> 00:07:07,530
+So margin top 20 pixels.
+
+81
+00:07:08,100 --> 00:07:11,420
+All right and I also want to move the whole log in box down a little.
+
+82
+00:07:11,640 --> 00:07:22,020
+So remember we gave it a class of log in let's say margin top 70 pixels and save outs to the sum to
+
+83
+00:07:22,020 --> 00:07:22,930
+the bottom two.
+
+84
+00:07:22,940 --> 00:07:28,980
+So margin bottom 70 pixels.
+
+85
+00:07:28,980 --> 00:07:29,610
+And there we go.
+
+86
+00:07:29,610 --> 00:07:31,700
+So there's our log in page.
+
+87
+00:07:31,740 --> 00:07:33,360
+So if I put something in here
+
+88
+00:07:36,870 --> 00:07:39,850
+and log in takes us to the dashboard.
+
+89
+00:07:40,140 --> 00:07:40,850
+Awesome.
+
+90
+00:07:42,360 --> 00:07:46,420
+So last thing we have to do is the details page so let's close up those.
+
+91
+00:07:46,500 --> 00:07:52,890
+Let's copy the post page again and then go to details and paste that in.
+
+92
+00:07:53,080 --> 00:07:58,830
+And basically the details page is like the post edit page it's where we're going to see the values for
+
+93
+00:07:58,830 --> 00:08:01,080
+the posts and all that.
+
+94
+00:08:01,080 --> 00:08:07,350
+So we're going to keep for instance the S.K. added or the Select it's going to have it's going to have
+
+95
+00:08:07,350 --> 00:08:09,210
+all the fields the motile has.
+
+96
+00:08:09,210 --> 00:08:10,980
+But in the page.
+
+97
+00:08:10,980 --> 00:08:12,450
+So let's
+
+98
+00:08:15,380 --> 00:08:21,680
+let's actually go to the top and let's get rid of the active class on the post.
+
+99
+00:08:21,680 --> 00:08:26,470
+We don't want an active class anywhere because this isn't actually in the Nav..
+
+100
+00:08:27,130 --> 00:08:27,530
+OK.
+
+101
+00:08:27,530 --> 00:08:31,100
+And then we're going to go down here to the section C section
+
+102
+00:08:33,290 --> 00:08:34,340
+details
+
+103
+00:08:41,180 --> 00:08:47,190
+and then get rid of the table.
+
+104
+00:08:47,640 --> 00:08:48,240
+OK.
+
+105
+00:08:48,240 --> 00:08:49,300
+In the card action.
+
+106
+00:08:49,310 --> 00:08:52,840
+I want to keep it I want to get rid of the pagination so delete the UL
+
+107
+00:08:56,750 --> 00:09:00,190
+all right and we can get rid of the fixed action button
+
+108
+00:09:03,930 --> 00:09:11,400
+and what I actually want to do is in the card content where we have the title I want to put a row where
+
+109
+00:09:11,400 --> 00:09:13,040
+I want this to be a grid.
+
+110
+00:09:13,390 --> 00:09:21,000
+If we're going to say dog call will stack these on small screens but I want it to be six columns on
+
+111
+00:09:21,000 --> 00:09:22,160
+medium and up.
+
+112
+00:09:22,380 --> 00:09:24,330
+So we want to add these.
+
+113
+00:09:25,020 --> 00:09:26,670
+And then we'll put the title in one
+
+114
+00:09:30,860 --> 00:09:37,660
+and then this one is actually going to have the who created it.
+
+115
+00:09:37,670 --> 00:09:42,780
+It's going to have their image so I'm going to copy that from the comments page right here.
+
+116
+00:09:42,900 --> 00:09:46,380
+But not just the image.
+
+117
+00:09:46,920 --> 00:09:49,520
+And we'll put that right here.
+
+118
+00:09:50,340 --> 00:09:55,590
+And then let's go under it and put a paragraph and we'll say.
+
+119
+00:09:55,590 --> 00:10:01,080
+Posted by John Doe.
+
+120
+00:10:01,560 --> 00:10:11,010
+And then another paragraph and we'll say on January 12th 2018 and then I'm going to give this column
+
+121
+00:10:11,970 --> 00:10:19,470
+a class of center as well so let's save that and then let's click on one of these details links and
+
+122
+00:10:19,470 --> 00:10:20,860
+then we go.
+
+123
+00:10:21,710 --> 00:10:29,670
+OK so underneath the row that we just created which ends right here is going to be basically the form
+
+124
+00:10:29,670 --> 00:10:31,460
+that we have in the motile.
+
+125
+00:10:31,530 --> 00:10:38,780
+So I'm going to go down to the post motile and copy the whole form.
+
+126
+00:10:38,960 --> 00:10:45,500
+Copy the form and then I'm going to get rid of the modal altogether.
+
+127
+00:10:45,580 --> 00:10:50,290
+K now the form will go right here under the road that we just created.
+
+128
+00:10:53,450 --> 00:11:00,320
+And we're going to change or not change we're going to add value to the input here for the title
+
+129
+00:11:03,170 --> 00:11:06,600
+of toast one just to make it look more realistic.
+
+130
+00:11:06,600 --> 00:11:17,100
+And then let's see we'll go to the textarea and in here let's just say this is the content for post
+
+131
+00:11:17,230 --> 00:11:22,000
+want will save it.
+
+132
+00:11:22,050 --> 00:11:24,180
+All right so that looks good.
+
+133
+00:11:24,240 --> 00:11:27,520
+Now will do is create a save and delete button.
+
+134
+00:11:27,540 --> 00:11:30,480
+OK if they want to save it or delete it.
+
+135
+00:11:30,780 --> 00:11:37,860
+Actually for the select option let's put selected on one of these categories like that
+
+136
+00:11:41,730 --> 00:11:46,200
+and you see how the body is like right up against the OR that's the label I'm going to get rid of the
+
+137
+00:11:46,200 --> 00:11:49,000
+body label because that doesn't look right.
+
+138
+00:11:50,500 --> 00:11:54,010
+It's pretty obvious it's the body there.
+
+139
+00:11:54,220 --> 00:11:57,750
+And then let's see in the card action this is where we're going to put the button.
+
+140
+00:11:57,750 --> 00:12:06,300
+So let's say Vautin class beats and let's give it a class of green and we'll say save and then I'll
+
+141
+00:12:06,310 --> 00:12:07,500
+copy that down.
+
+142
+00:12:07,510 --> 00:12:15,680
+And then this one will be delete and we'll change it to read and there we go.
+
+143
+00:12:15,680 --> 00:12:18,190
+So those are details page.
+
+144
+00:12:18,190 --> 00:12:22,880
+All right pretty simple and I think that that's it.
+
+145
+00:12:22,880 --> 00:12:25,880
+All right so I think it's a pretty nice UI.
+
+146
+00:12:25,920 --> 00:12:31,760
+We even have some functionality but obviously if you wanted to move on and learn a back end language
+
+147
+00:12:31,760 --> 00:12:40,820
+or perhaps no J asked which is a runtime which is also a server side technology you could actually build
+
+148
+00:12:40,820 --> 00:12:43,010
+this into a working application.
+
+149
+00:12:43,160 --> 00:12:50,600
+Obviously this is not that course this is a materialized UI course but knowing how to build the front
+
+150
+00:12:50,600 --> 00:12:54,190
+end is obviously a valuable skill.
+
+151
+00:12:54,530 --> 00:12:58,880
+All right so that's it guys for this project and I will see you in the next one.
+

@@ -1,0 +1,432 @@
+1
+00:00:00,720 --> 00:00:05,820
+All right so now we're going to start to get into the javascript widgets or javascript components of
+
+2
+00:00:06,120 --> 00:00:12,990
+material ICSA us and we're going to start off with the carousel so this is file for underscore one carousel
+
+3
+00:00:13,350 --> 00:00:14,870
+and you see these panels here.
+
+4
+00:00:14,870 --> 00:00:19,110
+This is actually for the content slider down here which we're going to get to later.
+
+5
+00:00:19,170 --> 00:00:23,830
+But first we're going to deal with just a straight image slider or I should say Carrousel.
+
+6
+00:00:23,910 --> 00:00:27,380
+So let's give this div a class of Carrousel.
+
+7
+00:00:27,640 --> 00:00:36,160
+OK whenever we want to use a carousel we add that class and then these tags here need a class of carrousel
+
+8
+00:00:36,720 --> 00:00:38,630
+dash item.
+
+9
+00:00:38,900 --> 00:00:39,350
+All right.
+
+10
+00:00:39,360 --> 00:00:45,160
+Now this will work without having a Tref but it's good practice to put something here.
+
+11
+00:00:45,180 --> 00:00:51,480
+I'm going to put a hash one exclamation just to give it kind of an identifier and also to give it a
+
+12
+00:00:51,480 --> 00:00:53,340
+pointer when you hover over it.
+
+13
+00:00:53,610 --> 00:00:59,420
+And then for the image we'll just do image slash image one dot j peg.
+
+14
+00:00:59,670 --> 00:01:01,750
+All right so that's basically it for a carousel.
+
+15
+00:01:01,740 --> 00:01:02,000
+I am.
+
+16
+00:01:02,000 --> 00:01:06,920
+So what I'm going to do is copy this a tag and let's just copy it let's just paste this.
+
+17
+00:01:06,920 --> 00:01:15,300
+And so that's one two three four more so one two three four and we're going to change the image numbers
+
+18
+00:01:15,300 --> 00:01:16,180
+here.
+
+19
+00:01:19,900 --> 00:01:20,340
+OK.
+
+20
+00:01:20,350 --> 00:01:25,030
+And let's change the identifiers of the length so it will say 2
+
+21
+00:01:27,510 --> 00:01:28,010
+3
+
+22
+00:01:31,530 --> 00:01:32,310
+4
+
+23
+00:01:37,160 --> 00:01:38,780
+and 5.
+
+24
+00:01:38,810 --> 00:01:39,210
+Right.
+
+25
+00:01:39,220 --> 00:01:44,980
+Now if I say we don't see anything because just like with most of the JavaScript widgets it needs to
+
+26
+00:01:44,980 --> 00:01:48,130
+be initialized in Jay Querrey or in Javascript.
+
+27
+00:01:48,130 --> 00:01:49,980
+So let's go down to the bottom here.
+
+28
+00:01:50,290 --> 00:02:00,210
+And all we have to do is throw in our query and say the carousel class is probably spell it right.
+
+29
+00:02:01,240 --> 00:02:06,650
+And then we just need to call Daut carrousel like that and save.
+
+30
+00:02:06,880 --> 00:02:07,480
+And there we go.
+
+31
+00:02:07,480 --> 00:02:13,670
+So now we have a nice carousel and if we click on one of these images it'll go over we can go backwards.
+
+32
+00:02:13,690 --> 00:02:16,780
+It's also touch enabled for mobile devices.
+
+33
+00:02:16,780 --> 00:02:21,630
+So that's one type of carrousel we also have a full with our Slider.
+
+34
+00:02:21,670 --> 00:02:23,260
+It's also called.
+
+35
+00:02:23,260 --> 00:02:29,290
+So I'm going to do is copy this whole thing we just did and then I'm going to comment it out OK and
+
+36
+00:02:29,290 --> 00:02:34,240
+then for the full width I'm going to just replace what we have here.
+
+37
+00:02:35,110 --> 00:02:44,050
+And then we're just going to add one class in addition to carrousel called carrousel dash slider and
+
+38
+00:02:44,050 --> 00:02:45,320
+save right.
+
+39
+00:02:45,340 --> 00:02:50,290
+Now if we just do this you can see it gives us one image at a time and I can bring it over.
+
+40
+00:02:50,620 --> 00:02:56,320
+But it still has that effect where it's kind of getting smaller and then the other one comes in.
+
+41
+00:02:56,560 --> 00:03:04,090
+This the switch effect is the same if we want to have just a straight slider what we can do is it's
+
+42
+00:03:04,090 --> 00:03:08,710
+actually a comment that out and
+
+43
+00:03:11,950 --> 00:03:19,500
+we'll say gee query let's say dark carousel dash slider.
+
+44
+00:03:20,290 --> 00:03:22,520
+And again we're going to do a carousel.
+
+45
+00:03:22,750 --> 00:03:29,640
+But we're going to pass an option of full with and set that to true.
+
+46
+00:03:30,160 --> 00:03:35,140
+All right so let's save that now it looks the same to begin with but if I slide it notice that it doesn't
+
+47
+00:03:35,140 --> 00:03:41,200
+have that effect it's just a straight slider just goes from image to image without one getting smaller
+
+48
+00:03:41,620 --> 00:03:44,160
+and having that that switch effect.
+
+49
+00:03:44,320 --> 00:03:46,400
+And you can also go backwards.
+
+50
+00:03:46,480 --> 00:03:46,830
+OK.
+
+51
+00:03:46,840 --> 00:03:50,380
+But it's up to you if you wanted that the other way that's fine as well.
+
+52
+00:03:52,200 --> 00:03:56,190
+All right so those are the basic image sliders or carousels knowledge.
+
+53
+00:03:56,200 --> 00:03:58,280
+Look at the content slider.
+
+54
+00:03:58,540 --> 00:04:02,410
+So instead of just having images we can actually have content.
+
+55
+00:04:02,410 --> 00:04:04,330
+So what I want to do is comment this so
+
+56
+00:04:07,610 --> 00:04:11,700
+and let's let's start to add some stuff here.
+
+57
+00:04:11,830 --> 00:04:17,930
+There's quite a few classes we need to add so just like above we need the carousel class.
+
+58
+00:04:17,930 --> 00:04:20,240
+We also want the carousel slider
+
+59
+00:04:24,150 --> 00:04:29,530
+and we also want I'm going to do centers well which will center everything.
+
+60
+00:04:29,880 --> 00:04:35,520
+And then it's going to have another attribute called Data dash indicators
+
+61
+00:04:38,050 --> 00:04:40,510
+and we want to set that to true.
+
+62
+00:04:40,800 --> 00:04:49,070
+All right the indicators are basically the little dots that show which slide you're on.
+
+63
+00:04:49,290 --> 00:04:56,280
+And I think we can actually use these with with the other ones actually hold on let me try this for
+
+64
+00:04:56,280 --> 00:04:57,060
+a second.
+
+65
+00:04:59,260 --> 00:05:08,320
+If we put this in here and save up so we can do that with the images as well see the little dots here.
+
+66
+00:05:08,400 --> 00:05:10,350
+I should mentioned that.
+
+67
+00:05:10,350 --> 00:05:11,520
+All right.
+
+68
+00:05:11,520 --> 00:05:16,790
+So I'm going to comment that back go and we're going to have the data indicators on the content slider
+
+69
+00:05:16,790 --> 00:05:17,800
+as well.
+
+70
+00:05:17,880 --> 00:05:20,740
+And then for this div here.
+
+71
+00:05:21,180 --> 00:05:26,550
+Notice that the div has the Tref OK that's not a mistake it's supposed to we're supposed to do that
+
+72
+00:05:27,060 --> 00:05:32,060
+and we're going to give it a hash one exclamation.
+
+73
+00:05:32,070 --> 00:05:35,590
+All right we're also going to give it a couple classes.
+
+74
+00:05:36,180 --> 00:05:43,920
+So we're going to give it a class of carrousel item just like above and let's say we want the background
+
+75
+00:05:43,920 --> 00:05:48,480
+to be read and then I want white text.
+
+76
+00:05:48,910 --> 00:05:49,220
+OK.
+
+77
+00:05:49,350 --> 00:05:57,030
+And then for the H-2 we're going to leave that no class is needed for this.
+
+78
+00:05:57,250 --> 00:06:07,090
+This div right here we're going to give this a class of carrousel dash fixed dash.
+
+79
+00:06:07,170 --> 00:06:08,070
+Item.
+
+80
+00:06:08,330 --> 00:06:08,820
+OK.
+
+81
+00:06:08,820 --> 00:06:11,830
+We also want to center it because it's going to fix it.
+
+82
+00:06:11,850 --> 00:06:14,490
+It's going to basically just do just that.
+
+83
+00:06:14,490 --> 00:06:19,770
+It's going to position it in a fixed position and then we're going to have a button or it's actually
+
+84
+00:06:19,770 --> 00:06:25,110
+a length that I'm going to format as a button by giving it a classic beat and then I'm also going to
+
+85
+00:06:25,110 --> 00:06:27,420
+make it the color black.
+
+86
+00:06:27,420 --> 00:06:29,730
+OK so that is a panel.
+
+87
+00:06:29,730 --> 00:06:32,150
+Each each slide is called a panel.
+
+88
+00:06:32,160 --> 00:06:40,440
+So what I'm going to do is copy this whole div right here and then we have what three more so go ahead
+
+89
+00:06:40,440 --> 00:06:42,780
+and replace all these.
+
+90
+00:06:42,780 --> 00:06:44,340
+That one ends there.
+
+91
+00:06:45,920 --> 00:06:51,730
+So say one two three more and I'll save it in a minute.
+
+92
+00:06:51,740 --> 00:06:54,970
+Let's change up some stuff so this will be two.
+
+93
+00:06:55,590 --> 00:07:00,340
+This will be three and four.
+
+94
+00:07:01,400 --> 00:07:03,620
+And then let's change up the colors a little bit.
+
+95
+00:07:03,620 --> 00:07:10,070
+So the second one let's make it instead of red we'll make it Amber.
+
+96
+00:07:11,600 --> 00:07:15,720
+And the third one let's make green.
+
+97
+00:07:16,910 --> 00:07:19,620
+And then the fourth one will make blue.
+
+98
+00:07:20,240 --> 00:07:22,940
+All right let's save that and then we go.
+
+99
+00:07:22,940 --> 00:07:29,570
+So we have our heading we have our paragraph in our button our indicators and we can we can slide it
+
+100
+00:07:29,990 --> 00:07:37,700
+and we can put any type of content here we want and then fix the carousel fixed item is what pushes
+
+101
+00:07:37,700 --> 00:07:39,680
+this button down here.
+
+102
+00:07:39,680 --> 00:07:47,930
+If we didn't have this class let's save that let's go to the last one you'll see that it's just right
+
+103
+00:07:47,960 --> 00:07:49,700
+under the paragraph.
+
+104
+00:07:49,700 --> 00:07:53,000
+But if you want it down there you can add that fixed item class.
+
+105
+00:07:53,000 --> 00:07:55,580
+That's what that does.
+
+106
+00:07:55,580 --> 00:07:56,100
+All right guys.
+
+107
+00:07:56,100 --> 00:08:01,400
+Those are the different types of carousels that we can have with materialize in the next video we're
+
+108
+00:08:01,400 --> 00:08:03,710
+going to go ahead and look at the collapsible widget.
+

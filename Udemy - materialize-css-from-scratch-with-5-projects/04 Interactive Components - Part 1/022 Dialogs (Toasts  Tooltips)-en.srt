@@ -1,0 +1,448 @@
+1
+00:00:00,540 --> 00:00:06,250
+All right guys in this video we're going to look at dialogues so we have toasts and tool tips toasts
+
+2
+00:00:06,250 --> 00:00:10,060
+are basically kind of like alerts that pop up and dismiss.
+
+3
+00:00:10,200 --> 00:00:15,510
+And then a tool tip is if we hover over it we'll get a little tool tip over and we can position them
+
+4
+00:00:15,510 --> 00:00:16,710
+as well.
+
+5
+00:00:16,710 --> 00:00:21,930
+Now for the toast we're going to add a little bit of Javascript so you can see here we just have a bunch
+
+6
+00:00:21,930 --> 00:00:23,740
+of buttons we have show.
+
+7
+00:00:23,760 --> 00:00:26,580
+We have rounded toast and toast with callbacks.
+
+8
+00:00:26,580 --> 00:00:28,640
+We're going to start with just the show toast.
+
+9
+00:00:28,710 --> 00:00:33,450
+Now we could put this inside of an on click if we wanted to.
+
+10
+00:00:33,630 --> 00:00:39,480
+But I'm going to do it the better way which would be to give this some kind of ID.
+
+11
+00:00:39,870 --> 00:00:43,520
+So it's a we call it toast one.
+
+12
+00:00:43,800 --> 00:00:49,530
+And then we'll go down to the javascript and we could use vanilla javascript here but we've been using
+
+13
+00:00:49,530 --> 00:00:52,450
+Jey queries so we might as we'll just use that.
+
+14
+00:00:52,470 --> 00:00:58,560
+So we'll say TOSed one and we'll say dog click OK.
+
+15
+00:00:58,560 --> 00:01:01,380
+So when that's clicked we're going to run a function
+
+16
+00:01:03,900 --> 00:01:07,560
+and inside this function we're going to say materialize
+
+17
+00:01:09,810 --> 00:01:13,230
+materialized on toast.
+
+18
+00:01:13,980 --> 00:01:18,750
+And inside here will say I am toast.
+
+19
+00:01:18,810 --> 00:01:23,730
+So let's save that and let's click that first button and we get this I am toast.
+
+20
+00:01:23,730 --> 00:01:31,130
+Now by default I think it'll just stay there forever until we actually go down and click it or click
+
+21
+00:01:31,140 --> 00:01:38,460
+we can kind of drag it away but we can add a duration so let's put a comma here and add a second parameter
+
+22
+00:01:38,460 --> 00:01:44,890
+of 3000 and save and then click it again and it should go away in three seconds.
+
+23
+00:01:45,180 --> 00:01:50,320
+OK so this is in milliseconds so 3000 milliseconds is three seconds.
+
+24
+00:01:50,340 --> 00:01:57,930
+So it's as simple as that to show one of these things for the rounded what we can do here is let's give
+
+25
+00:01:57,930 --> 00:02:03,750
+this an ID of toast to.
+
+26
+00:02:03,780 --> 00:02:07,490
+While we're at it we'll give this one an idea of toast three.
+
+27
+00:02:09,750 --> 00:02:11,760
+And then we'll go down here and
+
+28
+00:02:14,840 --> 00:02:18,180
+let's just copy this.
+
+29
+00:02:18,180 --> 00:02:20,160
+So I'll say toast two.
+
+30
+00:02:20,460 --> 00:02:27,420
+And then all we have to do to make this round rounded is add in a third parameter and say rounded.
+
+31
+00:02:27,990 --> 00:02:35,440
+So save or click on that and we get the rounded toast and it should go away in three in three seconds.
+
+32
+00:02:35,460 --> 00:02:36,090
+All right.
+
+33
+00:02:36,090 --> 00:02:39,780
+So let me just put some comments here for you guys so just say
+
+34
+00:02:43,490 --> 00:02:44,850
+we're on toast
+
+35
+00:02:49,660 --> 00:02:56,680
+rounded toast and then we can also do a toast callback.
+
+36
+00:02:56,850 --> 00:03:02,400
+Meaning that if we wanted something to happen once just once a toast is dismissed and goes away we can
+
+37
+00:03:02,400 --> 00:03:02,970
+do that.
+
+38
+00:03:02,970 --> 00:03:07,050
+So I'm going to copy this and we'll change it to toast three.
+
+39
+00:03:07,050 --> 00:03:16,170
+That's the third button and we're just going to add in another parameter which will be a function and
+
+40
+00:03:16,170 --> 00:03:23,480
+we can do whatever we want here let's just say a word and we'll say toast.
+
+41
+00:03:24,180 --> 00:03:25,610
+Dismissed.
+
+42
+00:03:25,620 --> 00:03:27,300
+OK now you can keep this rounded.
+
+43
+00:03:27,310 --> 00:03:32,970
+If you didn't want it to be rounded you could just pass in an empty string like that for the third parameter.
+
+44
+00:03:32,970 --> 00:03:38,590
+So let's save that and let's click the last one here and then once it goes away.
+
+45
+00:03:40,020 --> 00:03:41,170
+We get an alert.
+
+46
+00:03:41,220 --> 00:03:41,630
+All right.
+
+47
+00:03:41,640 --> 00:03:44,690
+And obviously you can do whatever you want inside of this function.
+
+48
+00:03:44,700 --> 00:03:49,170
+But if you wanted something to happen you could do that.
+
+49
+00:03:49,170 --> 00:03:57,890
+Now in addition to button clicks we can actually ignites the TOSed from javascript's So it's.
+
+50
+00:03:59,580 --> 00:04:01,410
+Or we'll just say create
+
+51
+00:04:03,630 --> 00:04:12,750
+toast by just simply saying actually we'll describe this right here and paste it in and save it now
+
+52
+00:04:12,750 --> 00:04:15,590
+when the page enters it'll actually run.
+
+53
+00:04:15,690 --> 00:04:20,860
+So we can do that we can also dismiss them all if we want.
+
+54
+00:04:20,860 --> 00:04:26,950
+So if I were to click this multiple times we'll get multiple toasts but if I wanted to get rid of them
+
+55
+00:04:28,510 --> 00:04:33,570
+I would say remove all toes.
+
+56
+00:04:33,820 --> 00:04:41,290
+And what I want to do is I'm going to use the set time out javascript function and that will allow me
+
+57
+00:04:41,290 --> 00:04:49,390
+to do something after a certain amount of time so it takes in a function and then it takes a second
+
+58
+00:04:49,390 --> 00:04:51,280
+parameter of the amount of time to wait.
+
+59
+00:04:51,280 --> 00:04:58,480
+So I'm going to say two seconds or two thousand milliseconds and then in here I'm going to say materialize
+
+60
+00:04:59,200 --> 00:05:05,400
+Daut toast Daut remove all.
+
+61
+00:05:06,190 --> 00:05:12,220
+OK so what will happen is in two seconds after the page loads it'll remove any toes that are visible.
+
+62
+00:05:12,220 --> 00:05:13,630
+So let's save it.
+
+63
+00:05:13,630 --> 00:05:19,690
+Let's click this a bunch of times and in two seconds they'll disappear OK I'll reload cooking a bunch
+
+64
+00:05:19,690 --> 00:05:21,070
+of times two seconds.
+
+65
+00:05:21,070 --> 00:05:22,120
+They all go away.
+
+66
+00:05:22,210 --> 00:05:24,560
+OK so this will remove all.
+
+67
+00:05:25,540 --> 00:05:26,030
+OK.
+
+68
+00:05:26,050 --> 00:05:33,190
+And again you're not restricted to Jay Querrey for instance we could do if we comment this so.
+
+69
+00:05:34,030 --> 00:05:41,440
+So if I comment that out let's also comment the one out that runs automatically if I could the first
+
+70
+00:05:41,440 --> 00:05:43,390
+but nothing's happening.
+
+71
+00:05:43,690 --> 00:05:55,230
+But if I wanted to do it say documents daunts get element by id grab toast one and we could say Daut
+
+72
+00:05:55,300 --> 00:06:05,770
+add event listener and we could say on a click than we want to call actual do.
+
+73
+00:06:05,820 --> 00:06:09,750
+Well we'll just do a function like this.
+
+74
+00:06:09,760 --> 00:06:14,470
+I'm not going to get to and start using aero functions and stuff even though I know a lot of you guys
+
+75
+00:06:14,470 --> 00:06:15,680
+do know that stuff.
+
+76
+00:06:15,700 --> 00:06:17,410
+This is a materialized course.
+
+77
+00:06:17,410 --> 00:06:21,710
+It's not a javascript course if you are interested in aero functions.
+
+78
+00:06:21,730 --> 00:06:28,150
+6 in advanced javascript I would suggest my modern javascript from the beginning course but what we're
+
+79
+00:06:28,150 --> 00:06:32,130
+going to do here is just this line.
+
+80
+00:06:32,430 --> 00:06:39,140
+OK so this should do the same thing as this just without j queries so if we save and I click it and
+
+81
+00:06:39,140 --> 00:06:42,210
+nothing happens let's see why is that.
+
+82
+00:06:42,210 --> 00:06:47,930
+That's because I shouldn't have a hash here because it's get element by d it knows it's an idea without
+
+83
+00:06:47,930 --> 00:06:49,130
+that hash.
+
+84
+00:06:49,130 --> 00:06:52,390
+So there we go Snel that works.
+
+85
+00:06:52,390 --> 00:06:53,280
+All right.
+
+86
+00:06:53,420 --> 00:06:55,690
+So that's going to be it for the toasts.
+
+87
+00:06:55,700 --> 00:07:01,640
+Now let's move on to tool tips and there's not really anything we need to do in the javascript for tool
+
+88
+00:07:01,640 --> 00:07:02,060
+tips.
+
+89
+00:07:02,060 --> 00:07:04,810
+Everything is done through custom attributes.
+
+90
+00:07:05,060 --> 00:07:13,280
+OK so we have a bottom tool tip what we need to do is add a class in addition to button tool tips like
+
+91
+00:07:13,280 --> 00:07:13,970
+that.
+
+92
+00:07:14,120 --> 00:07:21,980
+And then we add a data position attribute which in this case we want to be bottom.
+
+93
+00:07:22,940 --> 00:07:26,140
+So if I save that and I click.
+
+94
+00:07:26,150 --> 00:07:27,580
+Actually we need some content.
+
+95
+00:07:27,620 --> 00:07:33,770
+So that's going to go in an attribute called Data Dasch tool tip
+
+96
+00:07:36,540 --> 00:07:37,950
+and this will be the content.
+
+97
+00:07:37,950 --> 00:07:48,390
+So just say I am a tool tip and now if I click that we get I'm a tool tip and when I hover away it goes
+
+98
+00:07:48,390 --> 00:07:49,150
+away.
+
+99
+00:07:50,580 --> 00:07:54,720
+All right now if we want it displayed in a different position where I could do is just going to copy
+
+100
+00:07:54,720 --> 00:08:04,140
+this whole a tag here and paste it here and then we'll just change the position to top we'll do the
+
+101
+00:08:04,140 --> 00:08:09,780
+same thing here will change the position to right.
+
+102
+00:08:10,380 --> 00:08:16,150
+And then here will change the position to the left.
+
+103
+00:08:16,260 --> 00:08:21,150
+All right so it's going to work the same way except there are going to be in different positions so
+
+104
+00:08:21,150 --> 00:08:23,640
+that's the right that's the left.
+
+105
+00:08:23,640 --> 00:08:29,220
+And then lastly we can add a delay if we want so if we hover over any of these they pretty much just
+
+106
+00:08:29,220 --> 00:08:38,060
+show up right away if we wanted to delay we could add a data delay attribute and set that to milliseconds
+
+107
+00:08:38,090 --> 00:08:40,740
+we'll say 2000 so two seconds.
+
+108
+00:08:40,770 --> 00:08:46,990
+So the first one if I hover over it it takes two seconds for the tool tip to show.
+
+109
+00:08:47,090 --> 00:08:52,640
+OK and just for that one these ones will show up fine but this one will wait two seconds.
+
+110
+00:08:52,650 --> 00:08:52,950
+All right.
+
+111
+00:08:52,950 --> 00:08:59,940
+So that's it for tose intuitive dialogs and the next video will look at the material box widget as well
+
+112
+00:08:59,940 --> 00:09:01,080
+as the slider.
+

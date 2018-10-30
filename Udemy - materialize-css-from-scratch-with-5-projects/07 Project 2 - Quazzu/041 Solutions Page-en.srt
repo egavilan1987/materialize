@@ -1,0 +1,704 @@
+1
+00:00:01,020 --> 00:00:01,260
+All right.
+
+2
+00:00:01,260 --> 00:00:08,030
+So we finish up the home page now we're going to do the solutions page which is going to be pretty easy.
+
+3
+00:00:08,070 --> 00:00:12,290
+We are going to use this showcase like we did here but it's going to be kind of cut in half.
+
+4
+00:00:12,290 --> 00:00:16,020
+It's not going to go down as far and I'll show you how we do that.
+
+5
+00:00:16,230 --> 00:00:22,920
+So let's copy every single thing on the index page so we're just going to do a select all and then copy
+
+6
+00:00:22,920 --> 00:00:23,770
+everything.
+
+7
+00:00:24,060 --> 00:00:31,950
+And then we're going to just create a new file called solutions start each team and then we're going
+
+8
+00:00:31,950 --> 00:00:37,230
+to paste everything in that file and then we're going to go through and just take some stuff out.
+
+9
+00:00:37,500 --> 00:00:39,660
+One thing I forgot to do is change the title.
+
+10
+00:00:39,750 --> 00:00:46,760
+So even on the index page I'm going to go on I'm going to change this to let's say cause you
+
+11
+00:00:49,500 --> 00:00:55,480
+say cloud hosting and we'll do the same thing here.
+
+12
+00:01:02,300 --> 00:01:02,870
+OK.
+
+13
+00:01:02,890 --> 00:01:03,580
+So
+
+14
+00:01:06,460 --> 00:01:13,830
+what I'm going to do is for the header I'm going to change the class from main header to main header.
+
+15
+00:01:13,900 --> 00:01:16,790
+Enter because it's going to have some different styling.
+
+16
+00:01:17,060 --> 00:01:23,530
+Well as far as the rest goes the navigation that's all going to stay the same the side nav that's going
+
+17
+00:01:23,530 --> 00:01:25,030
+to stay the same.
+
+18
+00:01:25,120 --> 00:01:29,340
+And then for the showcase that's actually going to be much simpler.
+
+19
+00:01:29,770 --> 00:01:34,540
+We're going to get rid of the two buttons here are the two links the line breaks.
+
+20
+00:01:34,900 --> 00:01:42,680
+We're going to get rid of the paragraph all we're going to need is the h 5 and the h one.
+
+21
+00:01:42,700 --> 00:01:43,540
+So we'll leave.
+
+22
+00:01:43,540 --> 00:01:52,020
+Welcome to cause Xu and then this will just be the page name so we'll say cloud solutions.
+
+23
+00:01:52,020 --> 00:01:52,580
+Okay.
+
+24
+00:01:52,600 --> 00:02:02,710
+And then we can get rid of basically everything as far as the sections the boxes the developers the
+
+25
+00:02:02,710 --> 00:02:10,610
+language the podcast The testimonial everything up until the Forder we want the water.
+
+26
+00:02:11,230 --> 00:02:17,330
+So I'll save that and then let's go up here and click on solutions and it's going to look like this.
+
+27
+00:02:17,530 --> 00:02:27,250
+So let's go to our CSX and let's do the main Hetter inner which will be very similar so I'm just going
+
+28
+00:02:27,250 --> 00:02:28,760
+to copy this.
+
+29
+00:02:28,810 --> 00:02:37,160
+We'll go right here and paste it in and change it to main header it's main header.
+
+30
+00:02:37,880 --> 00:02:48,010
+In her case same background image everything is the same just the minimum height is going to be three
+
+31
+00:02:48,010 --> 00:02:49,830
+fifty.
+
+32
+00:02:49,840 --> 00:02:51,690
+So let's try that.
+
+33
+00:02:52,240 --> 00:02:52,670
+OK.
+
+34
+00:02:52,720 --> 00:02:58,330
+So it's good to showcase.
+
+35
+00:02:58,330 --> 00:03:00,600
+I'm going to copy this line right here.
+
+36
+00:03:01,000 --> 00:03:09,920
+And then we're going to say main Hetter in our showcase instead of 100 pixels padding we want 50 pixels.
+
+37
+00:03:10,330 --> 00:03:12,280
+So pushes it down like that.
+
+38
+00:03:12,450 --> 00:03:22,070
+OK so we basically have like a page title in the header so now we want to do our solutions about S..
+
+39
+00:03:22,080 --> 00:03:32,950
+So let's go to solutions HDMI and go under the header.
+
+40
+00:03:32,950 --> 00:03:43,740
+So B.S. now I'm calling this Dasch solutions slash about because we already have a section about on
+
+41
+00:03:43,740 --> 00:03:52,260
+the home page and I don't want to mix class names up or have double class names so we have a container
+
+42
+00:03:52,350 --> 00:03:57,330
+and we're going to do a row.
+
+43
+00:03:58,590 --> 00:04:07,650
+Right now this row is going to have two columns to call as 12 and then I'm going to do an EM 5.
+
+44
+00:04:08,350 --> 00:04:14,850
+OK so in here we're going to put in H2 and we're going to say what we do.
+
+45
+00:04:14,850 --> 00:04:22,950
+And then under that will put a paragraph in I'm going to do Laura I'm 30 K 30 text and then under this
+
+46
+00:04:22,950 --> 00:04:25,680
+column we'll have another.
+
+47
+00:04:26,310 --> 00:04:31,850
+And this one's going to be s 12 and it's going to be 6.
+
+48
+00:04:31,860 --> 00:04:37,980
+Now you may notice that we have 5 here and then am 6 while I'm doing this because I want this one to
+
+49
+00:04:37,980 --> 00:04:39,530
+be pushed over a little bit.
+
+50
+00:04:39,540 --> 00:04:41,580
+So we're going to add an offset.
+
+51
+00:04:42,210 --> 00:04:46,200
+So offset dash and one like that.
+
+52
+00:04:46,990 --> 00:04:47,460
+OK.
+
+53
+00:04:47,460 --> 00:04:50,890
+And then and here we're actually going to have our tabs.
+
+54
+00:04:51,020 --> 00:04:53,190
+You have a little tab services thing.
+
+55
+00:04:53,190 --> 00:05:02,250
+So if we go to our documentation and go to javascript tabs or you can go to the sandbox that we created
+
+56
+00:05:02,850 --> 00:05:04,440
+and just grab this
+
+57
+00:05:07,530 --> 00:05:11,320
+and paste that in what we'll do here.
+
+58
+00:05:13,330 --> 00:05:25,380
+Is let's change let's see instead of test 1 let's do cloud hosting.
+
+59
+00:05:27,680 --> 00:05:30,240
+And we'll change this to tab 1.
+
+60
+00:05:30,240 --> 00:05:31,480
+I don't like Test 1
+
+61
+00:05:35,370 --> 00:05:38,020
+I don't want this active either.
+
+62
+00:05:39,010 --> 00:05:42,030
+So this one will be tab two.
+
+63
+00:05:43,110 --> 00:05:49,910
+And then this text here will be cloud storage.
+
+64
+00:05:50,320 --> 00:05:54,020
+This one I don't want disabled.
+
+65
+00:05:54,100 --> 00:05:56,410
+It's going to be Tab 3.
+
+66
+00:05:57,070 --> 00:06:08,290
+And then for the text we're going to say cloud database and then we don't need a fourth one.
+
+67
+00:06:08,300 --> 00:06:08,900
+All right.
+
+68
+00:06:08,910 --> 00:06:15,100
+And then down here we'll get rid of the fourth one and we'll change these ideas up so this will be tab
+
+69
+00:06:15,100 --> 00:06:20,460
+one tab to tab three
+
+70
+00:06:23,870 --> 00:06:29,820
+and we're going to put some more content in here so let's let's put in age five.
+
+71
+00:06:29,840 --> 00:06:34,080
+And this is going to be cloud hosting.
+
+72
+00:06:34,590 --> 00:06:39,540
+Paragraphing will do Lorem 20.
+
+73
+00:06:39,590 --> 00:06:39,990
+All right.
+
+74
+00:06:40,010 --> 00:06:42,320
+And then this one here.
+
+75
+00:06:43,790 --> 00:06:48,470
+Let's do an H5 and let's say cloud storage
+
+76
+00:06:50,510 --> 00:06:58,200
+paragraph and again Lorem 30 and then this one.
+
+77
+00:06:58,610 --> 00:07:07,160
+Sure you guys know we're going to do cloud database paragraph form 30.
+
+78
+00:07:07,160 --> 00:07:09,240
+All right so if we save that.
+
+79
+00:07:09,350 --> 00:07:15,350
+Let's go to our solutions then.
+
+80
+00:07:16,150 --> 00:07:18,530
+So looks like that's getting truncated.
+
+81
+00:07:21,950 --> 00:07:29,660
+And you know what is happening is that we have threes but we only have three three of these so these
+
+82
+00:07:29,660 --> 00:07:31,780
+should actually be asked for.
+
+83
+00:07:32,210 --> 00:07:35,440
+Because remember there were four of them we got rid of one.
+
+84
+00:07:35,810 --> 00:07:38,960
+So we want this because four times three is 12.
+
+85
+00:07:38,960 --> 00:07:40,170
+So let's save that.
+
+86
+00:07:40,190 --> 00:07:42,790
+And there we go.
+
+87
+00:07:42,830 --> 00:07:48,820
+All right now I want to change the color of these tabs.
+
+88
+00:07:48,830 --> 00:07:50,820
+That took me a while to figure out.
+
+89
+00:07:51,040 --> 00:07:56,580
+But there's actually some CSSA we can override to do that.
+
+90
+00:07:57,040 --> 00:08:02,950
+So we want to use to dot tabs and we want to do Daut
+
+91
+00:08:05,410 --> 00:08:12,970
+indicator and then we're going to change the background color which seems a little weird but that's
+
+92
+00:08:12,970 --> 00:08:21,780
+what we need to do to a hex value of 6 a 1 b 9.
+
+93
+00:08:22,480 --> 00:08:28,950
+Which is a purple color and we want to put important and save.
+
+94
+00:08:29,390 --> 00:08:29,700
+OK.
+
+95
+00:08:29,710 --> 00:08:44,070
+So that change the actual underline here so we can change the text inside here if we go to the tab right
+
+96
+00:08:44,070 --> 00:08:44,750
+here.
+
+97
+00:08:44,790 --> 00:08:53,240
+ATAC great here we're going to have a class of purple dasht text.
+
+98
+00:08:53,250 --> 00:08:59,610
+All right so changing the text isn't isn't hard but it took me a while to figure out how to do the underline.
+
+99
+00:08:59,610 --> 00:09:05,360
+So save that and now we have all purple text.
+
+100
+00:09:05,620 --> 00:09:05,860
+All right.
+
+101
+00:09:05,860 --> 00:09:07,710
+So next we're going to do the features.
+
+102
+00:09:07,780 --> 00:09:15,400
+So we're going to go under everything under this section here and we're going to say section features
+
+103
+00:09:25,420 --> 00:09:31,780
+so section features let's make it work give it a gray background and lighten it a little bit.
+
+104
+00:09:32,230 --> 00:09:34,000
+So like three
+
+105
+00:09:37,880 --> 00:09:39,930
+to our container.
+
+106
+00:09:40,370 --> 00:09:41,470
+Let's do some text.
+
+107
+00:09:41,470 --> 00:09:43,120
+We're going to do an H for.
+
+108
+00:09:43,370 --> 00:09:44,600
+It's going to be purple
+
+109
+00:09:47,680 --> 00:10:01,100
+text and letters to text dark in Dash 1 and center wups should read dot center and then we're going
+
+110
+00:10:01,100 --> 00:10:07,890
+to say powerful and innovative.
+
+111
+00:10:08,630 --> 00:10:17,240
+OK then under that I'm going to put an H 6 with the class of grey dash text.
+
+112
+00:10:17,540 --> 00:10:21,580
+And let's do text Darkon too.
+
+113
+00:10:22,040 --> 00:10:28,790
+And let's also line into the center and then I'm going to do Lorem 10 for that.
+
+114
+00:10:29,230 --> 00:10:29,690
+OK.
+
+115
+00:10:29,690 --> 00:10:33,770
+And then underneath the age 6 I'm just going to put a couple line breaks
+
+116
+00:10:36,350 --> 00:10:37,830
+just to move things down.
+
+117
+00:10:38,000 --> 00:10:41,610
+And then we're going to have a couple of different rows so let's save that.
+
+118
+00:10:41,750 --> 00:10:43,300
+OK so looks good.
+
+119
+00:10:43,310 --> 00:10:46,060
+Now we're going to a couple rows of icons.
+
+120
+00:10:46,060 --> 00:10:48,660
+This is going to be icons with text.
+
+121
+00:10:48,740 --> 00:10:51,010
+So let's do row.
+
+122
+00:10:51,290 --> 00:10:56,430
+We can actually label these Let's do row 1.
+
+123
+00:10:56,870 --> 00:11:00,810
+So it's going to be c call as 12.
+
+124
+00:11:01,070 --> 00:11:12,140
+And then medium sized screens will be for column devs and then will have an H 5 and in that age 5 We're
+
+125
+00:11:12,140 --> 00:11:13,430
+going to have an icon.
+
+126
+00:11:13,430 --> 00:11:26,040
+So it's true I dot FAA DOT FAA dash user and next to that I can say unlimited users.
+
+127
+00:11:26,260 --> 00:11:26,620
+OK.
+
+128
+00:11:26,630 --> 00:11:28,320
+So that's our age 5.
+
+129
+00:11:28,560 --> 00:11:37,080
+Now under the age five you're going to have a paragraph I forget exactly how long I did try 20.
+
+130
+00:11:37,130 --> 00:11:39,230
+I think that should do it.
+
+131
+00:11:39,230 --> 00:11:41,300
+So if we see what that looks like.
+
+132
+00:11:41,450 --> 00:11:42,200
+Good.
+
+133
+00:11:42,830 --> 00:11:48,560
+So now we want since this is a four column div on medium screens and up we want three of these in each
+
+134
+00:11:48,560 --> 00:11:52,210
+row so I'm going to copy the column div.
+
+135
+00:11:52,310 --> 00:11:56,670
+So this right here two more times in this row.
+
+136
+00:11:57,280 --> 00:11:57,640
+OK.
+
+137
+00:11:57,650 --> 00:12:09,660
+The second one we're going to say scaleable data and we're going to use the FAA database icon here.
+
+138
+00:12:09,680 --> 00:12:15,800
+All right this last one here is going to be F.A. dash sharp dash line.
+
+139
+00:12:16,070 --> 00:12:27,950
+And then for the text for the text we're going to do data analytics save that.
+
+140
+00:12:27,950 --> 00:12:29,320
+Good.
+
+141
+00:12:29,330 --> 00:12:31,850
+Now what I'll do is copy the entire row.
+
+142
+00:12:32,000 --> 00:12:37,890
+So right from this comment actually this div ends where right here.
+
+143
+00:12:38,090 --> 00:12:40,370
+So we'll go ahead and copy all that
+
+144
+00:12:44,300 --> 00:12:45,180
+paste in there.
+
+145
+00:12:45,200 --> 00:12:49,730
+So this is going to be road to now and then Road to.
+
+146
+00:12:49,730 --> 00:13:02,570
+This is going to be good hub F.A. get hub and the feature is going to be a good hub integration.
+
+147
+00:13:05,310 --> 00:13:12,360
+And then underneath that we're going to do an FAA plus icon and we're going to say add ons
+
+148
+00:13:15,630 --> 00:13:24,270
+and then this one this icon here is going to be an FAA HDD hard drive and it's going to this is going
+
+149
+00:13:24,270 --> 00:13:25,340
+to be smart.
+
+150
+00:13:25,380 --> 00:13:26,280
+Storage
+
+151
+00:13:28,760 --> 00:13:30,080
+OK.
+
+152
+00:13:30,570 --> 00:13:32,640
+Actually do we only do two.
+
+153
+00:13:33,360 --> 00:13:34,800
+Yeah that's that's good.
+
+154
+00:13:34,800 --> 00:13:36,820
+We don't have three rows.
+
+155
+00:13:36,840 --> 00:13:39,180
+All right so let's see under that
+
+156
+00:13:42,090 --> 00:13:46,290
+see that row ends here and in
+
+157
+00:13:50,590 --> 00:13:55,920
+we're going to go right here and we're going to put a div with the class of center.
+
+158
+00:13:56,890 --> 00:14:04,630
+And I just want to put a link here to the Sign-Up page this is going to have a class of beat and and
+
+159
+00:14:04,810 --> 00:14:08,680
+then Beati and dash large to make it bigger.
+
+160
+00:14:09,010 --> 00:14:16,480
+And we're going to make it gray and it's going to go to sign up daughter aged him now and then for the
+
+161
+00:14:16,480 --> 00:14:18,620
+text for the link.
+
+162
+00:14:18,620 --> 00:14:23,520
+We're going to just say sign up for free.
+
+163
+00:14:25,310 --> 00:14:26,990
+OK let's see what that looks like.
+
+164
+00:14:26,990 --> 00:14:27,740
+Good.
+
+165
+00:14:27,770 --> 00:14:29,990
+And then we're just going to put a little bit of text under it.
+
+166
+00:14:29,990 --> 00:14:37,370
+So under the age tag let's do a couple of line breaks and then we're going to put an h 5.
+
+167
+00:14:38,150 --> 00:14:49,850
+And in this age five will do a span with the class of deep purple text and let's do text Litan Dash
+
+168
+00:14:49,850 --> 00:14:59,000
+1 case that to lighten it up a bit and we'll just say have a question and then we'll go outside of the
+
+169
+00:14:59,000 --> 00:15:10,320
+span and we'll say contact our sales team and then under the H5 we'll put a paragraph with the sales
+
+170
+00:15:10,320 --> 00:15:23,490
+team a email address so will say sales will say sales at KwaZulu theme dog test which obviously isn't
+
+171
+00:15:23,550 --> 00:15:26,070
+a real email address so it's save it.
+
+172
+00:15:26,310 --> 00:15:27,690
+And there we go.
+
+173
+00:15:27,690 --> 00:15:30,320
+All right so that is our solutions page.
+
+174
+00:15:30,410 --> 00:15:32,550
+We have a little tab thing here.
+
+175
+00:15:32,550 --> 00:15:39,240
+Services all the features sign up which doesn't exist yet but that's it.
+
+176
+00:15:39,240 --> 00:15:43,200
+All right so in the next video we're going we're going to work on the sign up page.
+

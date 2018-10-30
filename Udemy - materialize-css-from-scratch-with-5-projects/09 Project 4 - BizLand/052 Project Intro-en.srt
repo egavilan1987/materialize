@@ -1,0 +1,124 @@
+1
+00:00:00,610 --> 00:00:02,350
+Hey Guys welcome to your next project.
+
+2
+00:00:02,350 --> 00:00:07,720
+So this is going to be a full screen landing page called biz land and we're going to go through and
+
+3
+00:00:07,730 --> 00:00:11,010
+Josh I'm going to show you some of the features that we have here.
+
+4
+00:00:11,050 --> 00:00:14,260
+So if I reload the page you'll see that this text will fade in.
+
+5
+00:00:14,260 --> 00:00:16,980
+That's because we're using the scroll fire component.
+
+6
+00:00:17,020 --> 00:00:22,480
+We're also using scroll fire for the nav bar you'll see it's transparent and if I scroll down when we
+
+7
+00:00:22,480 --> 00:00:28,600
+hit a certain point it turns to solid That way we can't just see through it and you can read the text
+
+8
+00:00:28,600 --> 00:00:29,280
+clearly.
+
+9
+00:00:29,320 --> 00:00:33,970
+OK and it's going to stay solid until you actually come back to the site at the top.
+
+10
+00:00:34,330 --> 00:00:37,110
+OK we're also using an overlay for the image.
+
+11
+00:00:37,120 --> 00:00:40,520
+So it's kind of a bluish grayish purple ish overlay.
+
+12
+00:00:40,840 --> 00:00:46,570
+We have scroll spy enabled so that when we click a link it takes us down to that area and just to go
+
+13
+00:00:46,570 --> 00:00:51,230
+over the areas real quick we have these colored boxes here with some icons.
+
+14
+00:00:51,310 --> 00:00:57,310
+We have the boat area with an image and a card with some extra shadow and inside the card we have a
+
+15
+00:00:57,310 --> 00:00:58,560
+collection.
+
+16
+00:00:58,640 --> 00:01:05,310
+OK and then right here we have just some testimonials and some cards that we have our contact form with
+
+17
+00:01:05,320 --> 00:01:06,730
+a Google map behind it.
+
+18
+00:01:06,730 --> 00:01:11,710
+So we're going to implement Google Maps and then we just have a very simple Forder.
+
+19
+00:01:11,770 --> 00:01:12,430
+OK.
+
+20
+00:01:12,580 --> 00:01:18,230
+We also have this icon here just to notify the user that they can scroll down and if they click it it'll
+
+21
+00:01:18,250 --> 00:01:20,800
+take them down to the contact area.
+
+22
+00:01:20,800 --> 00:01:25,840
+OK let's go ahead and resize this and take a look at their responsiveness.
+
+23
+00:01:25,840 --> 00:01:32,200
+So if we go down to here you see we have a sidebar with the branding at the top and these boxes now
+
+24
+00:01:32,200 --> 00:01:36,890
+turn to two six column divs and everything looks pretty good.
+
+25
+00:01:36,970 --> 00:01:43,320
+If we go smaller to smartphone size you'll see that the image actually moves up.
+
+26
+00:01:43,330 --> 00:01:47,920
+I didn't want to take the whole the whole area on very small screens.
+
+27
+00:01:47,920 --> 00:01:49,370
+I didn't think it looked right.
+
+28
+00:01:49,450 --> 00:01:50,690
+So that's that.
+
+29
+00:01:50,710 --> 00:01:55,020
+And then we just have everything that's stacked OK and it looks pretty good.
+
+30
+00:01:55,090 --> 00:01:57,910
+So that's what we'll be building guys hopefully you enjoy it.
+
+31
+00:01:57,940 --> 00:01:59,250
+And let's get started.
+

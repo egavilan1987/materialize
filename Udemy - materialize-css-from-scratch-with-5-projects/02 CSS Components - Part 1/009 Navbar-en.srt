@@ -1,0 +1,764 @@
+1
+00:00:00,600 --> 00:00:04,580
+All right guys so now we're going to get into the nav bar of.
+
+2
+00:00:04,590 --> 00:00:09,990
+Now one thing you may notice that's different about this file is where it says start here it's actually
+
+3
+00:00:10,080 --> 00:00:16,200
+under the container and the reason I did that is because most nav bars are going to go all the way across
+
+4
+00:00:16,200 --> 00:00:19,650
+the page you're not going to be restricted inside of the container.
+
+5
+00:00:19,800 --> 00:00:24,750
+So that's what I wanted to do so I put every all the bars underneath the containers so they go all the
+
+6
+00:00:24,750 --> 00:00:25,980
+way across.
+
+7
+00:00:25,980 --> 00:00:33,090
+So first we're going to look at just the standard navigation menu so just having the nav tag gives us
+
+8
+00:00:33,330 --> 00:00:38,670
+all of this so it gives us this pinkish background and padding and all that.
+
+9
+00:00:38,670 --> 00:00:47,200
+In fact if we look at the see SS by hover over the nav and we go down you see and automatically has
+
+10
+00:00:47,200 --> 00:00:54,060
+a height of 64 pixels that has this background color here with 100 percent color of white.
+
+11
+00:00:54,100 --> 00:00:59,190
+So just the nav tag has quite a bit of style with materialize.
+
+12
+00:00:59,350 --> 00:01:06,400
+Now to turn it into an actual nav bar what we'll do is go to this first div right here and we're going
+
+13
+00:01:06,400 --> 00:01:10,100
+to add a class of NAV dash wrapper.
+
+14
+00:01:10,100 --> 00:01:10,880
+All right.
+
+15
+00:01:10,990 --> 00:01:17,020
+And then we're going to go to the next div and what I like to do is put a container class inside of
+
+16
+00:01:17,020 --> 00:01:19,530
+the Nav wrapper and you don't have to do this.
+
+17
+00:01:19,660 --> 00:01:25,540
+But if you don't your nav bar is going to it's going to be stuck up against the side like this how this
+
+18
+00:01:25,540 --> 00:01:29,560
+logo is and it's going to stretch no matter how far you go.
+
+19
+00:01:29,560 --> 00:01:31,830
+So I like to put a container within it.
+
+20
+00:01:31,990 --> 00:01:35,890
+So if I save that now you can see that that's pushed in.
+
+21
+00:01:35,890 --> 00:01:36,880
+All right.
+
+22
+00:01:37,330 --> 00:01:47,970
+So it's the for the logo the tag that has the logo in it we're going to give that a class and that's
+
+23
+00:01:47,970 --> 00:01:54,210
+going to be brand brand dash logo.
+
+24
+00:01:54,880 --> 00:01:58,980
+OK so once they do that notice that you can see our links.
+
+25
+00:01:59,010 --> 00:02:01,530
+OK now these will change based on
+
+26
+00:02:04,280 --> 00:02:10,030
+while actually that's actually I guess it's not going to change based on the screen size just yet.
+
+27
+00:02:10,030 --> 00:02:20,860
+But what we can do is we can add to our UL which is going to have an ID of NAV dash mobile and then
+
+28
+00:02:20,890 --> 00:02:24,800
+we can add a class here and we're going to say.
+
+29
+00:02:24,880 --> 00:02:25,980
+Right.
+
+30
+00:02:26,410 --> 00:02:29,090
+And that will move all of our links to the right.
+
+31
+00:02:29,410 --> 00:02:38,440
+And then let's do hide on small and down.
+
+32
+00:02:38,440 --> 00:02:42,500
+Now what this means is that these links are going to be hidden.
+
+33
+00:02:42,500 --> 00:02:48,480
+If the size of the browser of the device is on the small size or lower.
+
+34
+00:02:48,550 --> 00:02:55,690
+So if I go ahead and save this it's not quite on small yet but if I make the smaller use you'll notice
+
+35
+00:02:55,690 --> 00:03:01,270
+that they disappear OK and that so it doesn't run into the logo.
+
+36
+00:03:01,270 --> 00:03:05,260
+By default the logo is going to be centered when it's on a smaller screen.
+
+37
+00:03:05,260 --> 00:03:10,190
+When I go back up you'll see that it gets it's now on the left.
+
+38
+00:03:10,380 --> 00:03:11,010
+OK.
+
+39
+00:03:11,190 --> 00:03:17,640
+So when I get around tablet size or maybe a little bigger I maybe like laptop size the logo automatically
+
+40
+00:03:17,640 --> 00:03:23,930
+goes to the middle and then we get really small the menu items disappear OK.
+
+41
+00:03:23,940 --> 00:03:32,640
+So our solution to this for mobile devices would be to add a button that we could click that would open
+
+42
+00:03:32,640 --> 00:03:36,300
+up a side menu with the links.
+
+43
+00:03:36,310 --> 00:03:43,030
+OK so that's what we're going to do next we're going to go down to our responsive side menu or a response
+
+44
+00:03:43,120 --> 00:03:46,720
+I should say responsive nav bar with side menu.
+
+45
+00:03:46,740 --> 00:03:51,310
+So let's go ahead and add I'm actually going to change the color as well.
+
+46
+00:03:51,660 --> 00:03:53,850
+You can change the color of absolutely anything.
+
+47
+00:03:53,850 --> 00:04:00,070
+So the nav bar will say we want it to be blue and let's add Darkon dash 4.
+
+48
+00:04:00,520 --> 00:04:04,320
+OK and that gives us a blue nav bar also going to give it a container
+
+49
+00:04:10,410 --> 00:04:14,130
+and let's add to this div right here we want.
+
+50
+00:04:14,130 --> 00:04:15,210
+Now rapper
+
+51
+00:04:18,700 --> 00:04:28,850
+and for the logo let's add class brand dash logo.
+
+52
+00:04:29,510 --> 00:04:31,690
+OK so that moves it to the middle.
+
+53
+00:04:32,090 --> 00:04:40,780
+And you see this a tag here is going to is basically going to be like our hamburger menu it's going
+
+54
+00:04:40,780 --> 00:04:44,280
+to be the icon we click that opens up the sidebar.
+
+55
+00:04:44,440 --> 00:04:49,580
+So we need to add a couple of things to this one as a class.
+
+56
+00:04:49,590 --> 00:04:59,100
+So we're going to say class equals and we're going to set this to the button dash collapse class.
+
+57
+00:04:59,110 --> 00:05:05,130
+Now in addition to a class we need an attribute called Data dash activates.
+
+58
+00:05:05,590 --> 00:05:09,770
+OK because we're activating the mobile menu.
+
+59
+00:05:09,790 --> 00:05:16,120
+So I'm going to call this mobile dash now and you can call this whatever you want you just have to make
+
+60
+00:05:16,120 --> 00:05:20,470
+sure that your UL that you put down here has that ID.
+
+61
+00:05:20,830 --> 00:05:25,150
+All right but before we get to that let's first add the icon we want.
+
+62
+00:05:25,150 --> 00:05:29,110
+So this will be class material icons.
+
+63
+00:05:29,730 --> 00:05:35,410
+Ok it's always material icons no matter what the icon you want goes in here which in this case will
+
+64
+00:05:35,410 --> 00:05:38,930
+be menu.
+
+65
+00:05:38,990 --> 00:05:41,070
+All right so that looks a little weird.
+
+66
+00:05:41,120 --> 00:05:47,320
+We have the the icon but all of the drop all of the links are showing.
+
+67
+00:05:47,330 --> 00:05:53,100
+So to fix that we want to go to this well here and we want to add our class.
+
+68
+00:05:53,420 --> 00:05:58,020
+First we want to say right and then we want to say hide on.
+
+69
+00:05:58,020 --> 00:06:07,640
+And this time I'm going to do medium screens on medium screens and down and save and now that right
+
+70
+00:06:07,640 --> 00:06:09,460
+menu is hidden.
+
+71
+00:06:09,920 --> 00:06:11,190
+OK.
+
+72
+00:06:13,000 --> 00:06:14,700
+Now this.
+
+73
+00:06:14,940 --> 00:06:19,000
+See we're going to ignore the dropdown right now.
+
+74
+00:06:19,000 --> 00:06:25,150
+That's actually part of the well that's hidden what you're seeing here the home about them contact is
+
+75
+00:06:25,150 --> 00:06:25,740
+this.
+
+76
+00:06:25,750 --> 00:06:30,890
+Well now this is what's going to open on the sidebar when we click this button.
+
+77
+00:06:30,940 --> 00:06:31,320
+OK.
+
+78
+00:06:31,330 --> 00:06:33,430
+But we don't want it to show here.
+
+79
+00:06:33,640 --> 00:06:44,180
+So what we do is add a class of side dash nav and then we want to give it an I.D. that matches whatever.
+
+80
+00:06:44,320 --> 00:06:48,650
+This is the data activates in this case it's mobile nav.
+
+81
+00:06:48,760 --> 00:06:54,790
+So we want to go down here and we want to make sure that that ID is mobile nav.
+
+82
+00:06:54,790 --> 00:06:57,010
+Now if I save you'll see it disappears.
+
+83
+00:06:57,010 --> 00:06:59,150
+OK which is what we want.
+
+84
+00:06:59,200 --> 00:07:02,320
+Now if I click on the button here nothing happens.
+
+85
+00:07:02,320 --> 00:07:08,630
+That's because in order to use the side NAV you need to actually initialize it in Jey query in javascript
+
+86
+00:07:08,640 --> 00:07:15,570
+so we're going to go way down to the bottom and we're going to initialize this sidebar by using Jay
+
+87
+00:07:15,590 --> 00:07:20,400
+queery and sing dot button collapse.
+
+88
+00:07:20,650 --> 00:07:27,820
+OK button collapse is the class of this button right here and then we're going to just say Daut side
+
+89
+00:07:27,820 --> 00:07:28,520
+now.
+
+90
+00:07:28,650 --> 00:07:30,520
+OK we're going to call that function.
+
+91
+00:07:30,700 --> 00:07:33,570
+And now if I save and I go in I click.
+
+92
+00:07:33,590 --> 00:07:40,300
+There we go it opens up a sidebar with whatever is in this UL right here.
+
+93
+00:07:40,510 --> 00:07:41,080
+OK.
+
+94
+00:07:41,230 --> 00:07:47,280
+So you could have a different set of links here.
+
+95
+00:07:47,460 --> 00:07:48,620
+Ignore this thing.
+
+96
+00:07:48,610 --> 00:07:50,340
+Ignore this stuff for now.
+
+97
+00:07:50,580 --> 00:07:53,810
+But you can have a different set of links here in fact we do.
+
+98
+00:07:53,820 --> 00:07:59,990
+Then your sidebar or you could have them the exact same so it just works like a responsive menu.
+
+99
+00:08:00,150 --> 00:08:02,680
+OK hopefully that makes sense.
+
+100
+00:08:02,680 --> 00:08:07,290
+So now what I'm going to do is just make sure that this all these links are showing.
+
+101
+00:08:07,290 --> 00:08:12,300
+And we're going to now work on it say will do.
+
+102
+00:08:12,600 --> 00:08:14,370
+Let's do the dropdown.
+
+103
+00:08:14,370 --> 00:08:19,850
+OK so we have a list item here under the home about contact.
+
+104
+00:08:19,860 --> 00:08:24,480
+Then we have this list item and I want this to be a dropdown.
+
+105
+00:08:24,870 --> 00:08:37,900
+And what we need to do is let's say we need to added Id or ID we just need to actually you seek at a
+
+106
+00:08:37,900 --> 00:08:38,890
+class
+
+107
+00:08:42,630 --> 00:08:45,560
+in the class of dropdown button.
+
+108
+00:08:47,230 --> 00:08:49,400
+Dash button.
+
+109
+00:08:49,400 --> 00:08:49,790
+All right.
+
+110
+00:08:49,810 --> 00:08:52,660
+And then let's just put in.
+
+111
+00:08:52,810 --> 00:08:53,230
+I'm sorry.
+
+112
+00:08:53,230 --> 00:09:02,980
+This should be on the tag not the ally.
+
+113
+00:09:02,980 --> 00:09:03,550
+All right.
+
+114
+00:09:03,550 --> 00:09:05,030
+So draw down button.
+
+115
+00:09:05,250 --> 00:09:08,250
+And then it's going to also have a data activates
+
+116
+00:09:11,530 --> 00:09:13,420
+and we want to set this to.
+
+117
+00:09:13,420 --> 00:09:17,770
+We could set this to anything I'm going to set it to my dash dropped down
+
+118
+00:09:20,330 --> 00:09:24,340
+and let's see we're going to have an icon in here.
+
+119
+00:09:28,740 --> 00:09:35,430
+So this icon is going to be like in a down arrow that you would have next door dropped down so it's
+
+120
+00:09:35,430 --> 00:09:42,180
+going to be erro dash drop dash down.
+
+121
+00:09:42,180 --> 00:09:43,530
+So we'll save that
+
+122
+00:09:46,200 --> 00:09:47,400
+and see.
+
+123
+00:09:47,400 --> 00:09:48,340
+That's weird.
+
+124
+00:09:51,900 --> 00:09:56,700
+Oh you know we need to put a right class with the material icons.
+
+125
+00:09:56,700 --> 00:09:57,410
+There we go.
+
+126
+00:09:57,550 --> 00:09:59,310
+So now we have the arrow there.
+
+127
+00:09:59,310 --> 00:10:06,690
+Now it's not going to work what it's doing is it's looking for an idea of my dropdown and it's looking
+
+128
+00:10:06,690 --> 00:10:13,950
+for a UL with that I.D. Now that you well we can put anywhere we can put it here or we could just go
+
+129
+00:10:14,040 --> 00:10:19,890
+outside of the nav bar itself and put it down which I actually have it right here.
+
+130
+00:10:20,370 --> 00:10:30,450
+So I'm just going to give this an idea now of my dash dropdown cage match whatever that data activates
+
+131
+00:10:30,450 --> 00:10:37,110
+was and then it also has a class of dropdown dash content.
+
+132
+00:10:37,560 --> 00:10:38,500
+OK and that's it.
+
+133
+00:10:38,520 --> 00:10:41,840
+Let's save and let's go over here and now when I hover over it.
+
+134
+00:10:41,850 --> 00:10:43,230
+There we go.
+
+135
+00:10:43,260 --> 00:10:45,680
+You can see this UL is showing.
+
+136
+00:10:45,720 --> 00:10:50,730
+So this you can be completely separate from the nav bar we can put this at the bottom of the file it
+
+137
+00:10:50,730 --> 00:10:58,700
+doesn't matter as long as this ID my dropdown matches whatever we put in the data activates.
+
+138
+00:10:58,960 --> 00:11:04,330
+OK so just a couple of other things I want to mention a button link.
+
+139
+00:11:04,330 --> 00:11:07,350
+So this log in let's say we want that to be a button.
+
+140
+00:11:07,540 --> 00:11:14,170
+All we would have to do is go and add to our tag here.
+
+141
+00:11:14,170 --> 00:11:25,980
+Class equals BTA and we could give it a wave's effect say Wavves dash lights and save.
+
+142
+00:11:25,990 --> 00:11:26,550
+And there we go.
+
+143
+00:11:26,550 --> 00:11:31,550
+Now we have a button in our NAV are OK we can also have an icon link.
+
+144
+00:11:31,570 --> 00:11:33,810
+This P actually wasn't supposed to be here.
+
+145
+00:11:33,820 --> 00:11:34,540
+That's right.
+
+146
+00:11:34,540 --> 00:11:35,550
+It's just part of.
+
+147
+00:11:35,560 --> 00:11:47,210
+Person which is the icon I want to use say class material icons and save.
+
+148
+00:11:47,230 --> 00:11:47,930
+And there we go.
+
+149
+00:11:47,950 --> 00:11:52,990
+Now we have a little icon inside the nav bar.
+
+150
+00:11:52,990 --> 00:11:57,020
+So couple other things if we wanted to make a link active.
+
+151
+00:11:57,040 --> 00:11:59,530
+I'm just going to make this a little smaller.
+
+152
+00:11:59,530 --> 00:12:01,960
+Let's say we want this about linked to be active.
+
+153
+00:12:01,960 --> 00:12:12,330
+I'm going to go up to the top menu here and just add onto the ally tag the class of active and save.
+
+154
+00:12:12,330 --> 00:12:14,410
+And I can see that's active.
+
+155
+00:12:14,400 --> 00:12:19,650
+Now when we make this bigger the logo automatically goes to the left.
+
+156
+00:12:19,660 --> 00:12:27,580
+But if we wanted that to stay in the center we could also add to the brand logo class a center class
+
+157
+00:12:27,820 --> 00:12:28,620
+and save.
+
+158
+00:12:28,630 --> 00:12:31,410
+And now you see it will stay in the center no matter what.
+
+159
+00:12:31,420 --> 00:12:36,720
+So just a couple extra things that you can do with your nav bars.
+
+160
+00:12:36,760 --> 00:12:43,090
+So what about the fixed nav bar meaning that if we scroll down we want it to basically just stay in
+
+161
+00:12:43,090 --> 00:12:43,650
+place.
+
+162
+00:12:43,650 --> 00:12:49,540
+So what I'm going to do is take the standard menu that we have and we'll just grab that whole thing
+
+163
+00:12:50,500 --> 00:12:56,350
+and go down to where it says fixed nav bar and just replace these two.
+
+164
+00:12:56,380 --> 00:12:59,090
+Actually I'm going to put it inside the device sorry.
+
+165
+00:12:59,410 --> 00:13:05,290
+And all we have to do to make it fixed is take this device wrap it around the nav bar and give it a
+
+166
+00:13:05,290 --> 00:13:12,940
+class of nav bar dash fixed and save will actually make this a different color.
+
+167
+00:13:13,270 --> 00:13:22,570
+We'll make this one black and save and it's fixed so you can see I can scroll actually to make this
+
+168
+00:13:22,690 --> 00:13:25,300
+a little more understandable.
+
+169
+00:13:25,960 --> 00:13:30,650
+Let's make this margin top 1000.
+
+170
+00:13:30,670 --> 00:13:35,470
+And now if I scroll you'll see it's just going to stay in place and usually you'd have this at the top
+
+171
+00:13:35,470 --> 00:13:38,380
+so it would stay right at the top.
+
+172
+00:13:38,380 --> 00:13:43,300
+All right so the last thing I want to show you is a search bar which is kind of like just a nav bar
+
+173
+00:13:43,960 --> 00:13:46,130
+search box kind of thing.
+
+174
+00:13:46,630 --> 00:13:53,920
+So I'm just going to type this out quickly will have a nav with the class of let's make it green and
+
+175
+00:13:53,920 --> 00:14:01,390
+let's put in a class of Nav. wrapper and then we'll put in a form.
+
+176
+00:14:01,580 --> 00:14:03,960
+We don't need an action.
+
+177
+00:14:04,210 --> 00:14:07,370
+It's not going to actually do anything it's just a form.
+
+178
+00:14:07,410 --> 00:14:12,160
+We're going to have a class of input field and we're going to get into this later on when we get to
+
+179
+00:14:12,160 --> 00:14:16,230
+forms and we'll have an input.
+
+180
+00:14:16,580 --> 00:14:26,820
+We'll give an idea of search and let's give it a type of search and we'll just say it's required
+
+181
+00:14:30,650 --> 00:14:39,740
+acquired and then we're going to put in a label and I'm going to give this a class of labeled dash icon
+
+182
+00:14:41,150 --> 00:14:48,080
+and we'll say for search and let's see inside the label.
+
+183
+00:14:48,080 --> 00:14:59,120
+I'm actually going to put in I tag put our material icons class and let's make this a search icon and
+
+184
+00:14:59,120 --> 00:15:10,130
+then I also want a close icon after the labels will say material icons and clothes.
+
+185
+00:15:10,130 --> 00:15:10,420
+All right.
+
+186
+00:15:10,430 --> 00:15:17,570
+Let's save that now a little search icon if I click it and it becomes a search box if I could close
+
+187
+00:15:17,570 --> 00:15:18,560
+it goes back.
+
+188
+00:15:18,740 --> 00:15:20,710
+So pretty cool.
+
+189
+00:15:20,720 --> 00:15:22,450
+All right so that's going to be it for now.
+
+190
+00:15:22,460 --> 00:15:29,120
+Barrs guys in the next video we're going to start to look at collections which are kind of like fancy
+
+191
+00:15:29,120 --> 00:15:32,350
+lists groups or fancy list items.
+

@@ -1,0 +1,544 @@
+1
+00:00:00,720 --> 00:00:06,630
+All right so we have our landing area here the header we have the boxes now we want to work on the About
+
+2
+00:00:06,630 --> 00:00:14,860
+section so we're going to go under the boxes section and let's say section about.
+
+3
+00:00:15,570 --> 00:00:22,020
+All right so for this I am going to use the section class and also create a custom class called Section
+
+4
+00:00:22,020 --> 00:00:23,370
+about.
+
+5
+00:00:23,370 --> 00:00:30,610
+Let's also make it gray and we will lighten it will say Litan 3.
+
+6
+00:00:31,080 --> 00:00:45,090
+And let's do Center OK let's see let's put a container inside here we'll have an H2 and we're going
+
+7
+00:00:45,090 --> 00:00:53,880
+to say about this land under the age 2 will have a paragraph of flow text.
+
+8
+00:00:55,990 --> 00:00:56,870
+GPP
+
+9
+00:01:01,470 --> 00:01:04,270
+and let's do Warum 20
+
+10
+00:01:07,120 --> 00:01:16,840
+and then under that div I'm sorry under that paragraph we're going to put a row and we're going to have
+
+11
+00:01:16,840 --> 00:01:27,360
+a column that will be stacked on small devices and then on medium screens and up will be six columns.
+
+12
+00:01:27,470 --> 00:01:30,560
+So we're going to want two of these.
+
+13
+00:01:31,240 --> 00:01:34,670
+And in the first one will be that image that people image.
+
+14
+00:01:34,670 --> 00:01:45,410
+So it's to image it's given a class of responsive dash I am g as well as circle and then the source
+
+15
+00:01:45,410 --> 00:01:55,310
+is going to be I am g slash people dot JP So if we save that and take a look.
+
+16
+00:01:55,480 --> 00:01:59,870
+OK that looks good on this side we want to have that.
+
+17
+00:02:00,160 --> 00:02:02,280
+It's going to be a collection.
+
+18
+00:02:02,500 --> 00:02:04,740
+And I want to give it some extra shadow.
+
+19
+00:02:05,050 --> 00:02:13,740
+So in this column let's say I want to move it down a little bit so I'm just going to use a B R here.
+
+20
+00:02:16,100 --> 00:02:23,960
+And actually what I wanted to do instead of doing six I wanted to do 5 and then offset it by 1 that
+
+21
+00:02:23,960 --> 00:02:28,560
+way it's not so close to the image it's pushed over a little bit.
+
+22
+00:02:28,790 --> 00:02:37,640
+So we'll offset it and then let's put a UL but the class of collection and also a class of with Hetter
+
+23
+00:02:38,270 --> 00:02:42,610
+not with but w i th header.
+
+24
+00:02:42,680 --> 00:02:52,970
+And then let's give it some extra shadow some extra depth so we'll say Z dash dash dash for OK and now
+
+25
+00:02:52,970 --> 00:03:03,210
+in here we want our head so this one will be collection Dasch header and we'll putting h 5 in here and
+
+26
+00:03:03,210 --> 00:03:04,920
+we'll just say Services
+
+27
+00:03:07,490 --> 00:03:07,930
+OK.
+
+28
+00:03:07,940 --> 00:03:21,530
+And then the rest of these let's do ally collection item and we want to have a check icon.
+
+29
+00:03:21,530 --> 00:03:25,530
+So I'm going to do I material Icahn's
+
+30
+00:03:29,730 --> 00:03:31,420
+and let's align them to the left.
+
+31
+00:03:31,430 --> 00:03:35,050
+I'll give this a left class and it's going to be the check icon.
+
+32
+00:03:35,680 --> 00:03:38,320
+And then after that I'll say business
+
+33
+00:03:40,510 --> 00:03:47,390
+consultation so save that and then we go so let's add some other services.
+
+34
+00:03:47,470 --> 00:04:01,120
+I'm going to copy this library here so will do two three four five six and under business consultation
+
+35
+00:04:01,560 --> 00:04:06,700
+let's add a service of financial analytics
+
+36
+00:04:11,270 --> 00:04:11,770
+OK.
+
+37
+00:04:11,770 --> 00:04:13,990
+So this one will be security
+
+38
+00:04:16,300 --> 00:04:17,680
+services
+
+39
+00:04:20,740 --> 00:04:26,070
+and let's do marketing say marketing and advertising
+
+40
+00:04:31,700 --> 00:04:34,250
+an Internet services
+
+41
+00:04:39,850 --> 00:04:44,300
+and counting.
+
+42
+00:04:44,310 --> 00:04:44,650
+All right.
+
+43
+00:04:44,720 --> 00:04:48,020
+So that looks pretty good.
+
+44
+00:04:48,100 --> 00:04:50,930
+So now let's do the testimonial area.
+
+45
+00:04:51,070 --> 00:05:01,610
+So we'll go under this section.
+
+46
+00:05:01,650 --> 00:05:06,510
+So give us the class of section in Section
+
+47
+00:05:08,420 --> 00:05:10,300
+testimonials.
+
+48
+00:05:10,320 --> 00:05:13,390
+We're also going to give it a blue background.
+
+49
+00:05:13,500 --> 00:05:17,550
+Make sure it's white text and center
+
+50
+00:05:20,570 --> 00:05:28,510
+in our container put in H2 and we'll say what our clients say
+
+51
+00:05:32,790 --> 00:05:39,720
+let's put a row and then we're basically going to have three boxes so we want them to be on medium screens
+
+52
+00:05:39,720 --> 00:05:42,150
+and up we want them to be four columns wide.
+
+53
+00:05:42,150 --> 00:05:50,290
+So call as 12 am four and we're going to have a card.
+
+54
+00:05:50,340 --> 00:06:02,490
+So we'll say a card class of card class of gray light and dash for let's do black text and let's give
+
+55
+00:06:02,490 --> 00:06:08,770
+these a Z depth as well so say Z dash depth dash four.
+
+56
+00:06:08,860 --> 00:06:09,200
+All right.
+
+57
+00:06:09,210 --> 00:06:12,990
+And then inside here we'll have our card content.
+
+58
+00:06:14,590 --> 00:06:16,860
+And then that's just going to be a paragraph.
+
+59
+00:06:16,880 --> 00:06:21,180
+I'm also going to put some some E-M tags some emphasis.
+
+60
+00:06:21,460 --> 00:06:26,500
+And then let's do Lorem 30 tab.
+
+61
+00:06:26,570 --> 00:06:27,100
+All right.
+
+62
+00:06:27,100 --> 00:06:34,240
+Now under the card content we're going to have a class of card action which is kind of like a footer.
+
+63
+00:06:34,570 --> 00:06:37,420
+And we're just going to put a name let's say John Doe
+
+64
+00:06:41,190 --> 00:06:46,020
+from ABC Inc.
+
+65
+00:06:46,020 --> 00:06:56,480
+All right so if we look at that should look like that's you know what let's do 20 words instead.
+
+66
+00:06:59,830 --> 00:07:00,890
+There we go.
+
+67
+00:07:00,910 --> 00:07:01,180
+All right.
+
+68
+00:07:01,180 --> 00:07:07,270
+So I'm going to copy now this whole column which ends right here so when can grab that and we're going
+
+69
+00:07:07,270 --> 00:07:10,800
+to have two more.
+
+70
+00:07:10,810 --> 00:07:18,220
+So the second one here I'm going to change all I'm going to change is the name right here the name the
+
+71
+00:07:18,220 --> 00:07:23,980
+company so we'll say Sharon Johnson from
+
+72
+00:07:26,950 --> 00:07:28,610
+I don't know x y z
+
+73
+00:07:31,330 --> 00:07:36,090
+and this one down here we'll say from one to three
+
+74
+00:07:40,930 --> 00:07:46,170
+say Wayne Jackson all right.
+
+75
+00:07:46,170 --> 00:07:49,510
+So those are testimonials.
+
+76
+00:07:49,610 --> 00:07:49,880
+All right.
+
+77
+00:07:49,890 --> 00:07:53,670
+Now I'm going to skip the contact area with the Google map.
+
+78
+00:07:53,670 --> 00:07:55,580
+For now we're going to do that in the next video.
+
+79
+00:07:55,590 --> 00:07:59,240
+But I just wanted to do the water and get that out of the way.
+
+80
+00:07:59,740 --> 00:08:07,200
+So let's go down here and I'll put a comment here that says section contact just as a placeholder.
+
+81
+00:08:07,440 --> 00:08:10,650
+And then right here we'll do our folder.
+
+82
+00:08:11,650 --> 00:08:12,180
+OK.
+
+83
+00:08:12,180 --> 00:08:16,330
+And the water I'm actually going to use the same format from materialize.
+
+84
+00:08:16,330 --> 00:08:27,110
+SS If we go to our foot or here just going to grab this just to kind of shorten things up and we'll
+
+85
+00:08:27,110 --> 00:08:28,220
+change a couple of things.
+
+86
+00:08:28,220 --> 00:08:31,420
+So for the color let's go to the top.
+
+87
+00:08:31,480 --> 00:08:39,500
+The footer tag here and say blue gray and we want to dark in one.
+
+88
+00:08:39,630 --> 00:08:47,730
+And then let's see in this was changed this to location.
+
+89
+00:08:48,950 --> 00:08:55,140
+I'm going to get rid of this white text class just in H5
+
+90
+00:08:58,330 --> 00:09:09,350
+and let's see we'll get rid of this and we'll put a paragraph that will say this land.
+
+91
+00:09:09,970 --> 00:09:15,210
+And then for the paragraph we'll just say 5 5 5 somewhere.
+
+92
+00:09:15,290 --> 00:09:16,070
+Dr.
+
+93
+00:09:18,610 --> 00:09:23,740
+Boston Mass and then age five we have our links.
+
+94
+00:09:24,010 --> 00:09:28,720
+So we might as well just copy our links from the Nav..
+
+95
+00:09:28,900 --> 00:09:33,940
+So I'll grab home about testimonials and contact.
+
+96
+00:09:33,940 --> 00:09:39,360
+We'll just grab those and put those here in the UL
+
+97
+00:09:42,640 --> 00:09:42,900
+like
+
+98
+00:09:46,480 --> 00:09:47,560
+you should do it.
+
+99
+00:09:47,590 --> 00:09:54,820
+And then down here this foot of copyright I'm going to add blue gray and then I'm going to do Darkon
+
+100
+00:09:54,850 --> 00:10:09,640
+for and then we'll just add here is land theme twenty eight 18.
+
+101
+00:10:09,740 --> 00:10:11,770
+You know we'll just do that.
+
+102
+00:10:11,820 --> 00:10:12,610
+All right.
+
+103
+00:10:12,840 --> 00:10:14,510
+Let's see.
+
+104
+00:10:14,910 --> 00:10:24,810
+So for this instead of more links I want this to be a back to top with an icon.
+
+105
+00:10:24,810 --> 00:10:31,680
+So we're going to put in I tag here the class of material icons.
+
+106
+00:10:32,080 --> 00:10:42,560
+And let's also add a class of left and the icon we want is going to be keyboard arrow up.
+
+107
+00:10:43,350 --> 00:10:48,300
+And then after that icon we're going to say back to talk.
+
+108
+00:10:48,300 --> 00:10:50,820
+All right let's save it see what it looks like.
+
+109
+00:10:50,820 --> 00:10:51,180
+Good.
+
+110
+00:10:51,180 --> 00:10:53,370
+The only problem is our links are blue.
+
+111
+00:10:53,580 --> 00:10:59,470
+So we just want to add a class to these lengths of white text.
+
+112
+00:10:59,940 --> 00:11:01,680
+Ok so grab that
+
+113
+00:11:06,610 --> 00:11:07,120
+right.
+
+114
+00:11:07,140 --> 00:11:08,760
+So it should look good.
+
+115
+00:11:08,760 --> 00:11:10,680
+There you go.
+
+116
+00:11:10,750 --> 00:11:16,080
+Now for the scrolls spy because right now we don't have those.
+
+117
+00:11:16,080 --> 00:11:20,010
+We don't have them to have it implemented so let's do that.
+
+118
+00:11:21,060 --> 00:11:27,150
+So these links they're going to go to hash home hash about and so on the hash home is actually going
+
+119
+00:11:27,150 --> 00:11:30,390
+to be the body.
+
+120
+00:11:30,390 --> 00:11:37,140
+So give that an idea of home and then we also want to add a class of scroll spies so that it gives it
+
+121
+00:11:37,140 --> 00:11:39,690
+that effect.
+
+122
+00:11:40,460 --> 00:11:40,740
+OK.
+
+123
+00:11:40,740 --> 00:11:43,590
+Next one will be the about which is right
+
+124
+00:11:45,990 --> 00:11:46,910
+here.
+
+125
+00:11:47,070 --> 00:11:54,270
+So this section will have an idea of about and we want to have a class of scrolls by.
+
+126
+00:11:55,390 --> 00:11:58,840
+OK contact we'll have one but we haven't done that yet.
+
+127
+00:11:58,860 --> 00:12:01,970
+Testimonials is another one.
+
+128
+00:12:10,610 --> 00:12:13,140
+And yeah I think that's it.
+
+129
+00:12:14,280 --> 00:12:21,960
+OK now we have to initialize scroll SWI So let's do that right here.
+
+130
+00:12:28,060 --> 00:12:35,210
+So I believe we just do class scrolls spy and then
+
+131
+00:12:38,630 --> 00:12:39,750
+skirl spot.
+
+132
+00:12:40,090 --> 00:12:40,380
+All right.
+
+133
+00:12:40,400 --> 00:12:44,760
+So let's try that about testimonials contacts not going to work yet.
+
+134
+00:12:44,780 --> 00:12:48,160
+Home works good.
+
+135
+00:12:48,170 --> 00:12:52,940
+All right so in the next video we're going to work on the contact form and we're going to implement
+
+136
+00:12:52,970 --> 00:12:54,510
+the Google map behind it.
+

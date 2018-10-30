@@ -1,0 +1,240 @@
+1
+00:00:00,600 --> 00:00:05,790
+All right in this video we're going to look at scroll spy which is pretty neat it's basically we we
+
+2
+00:00:05,790 --> 00:00:07,830
+have different sections of content.
+
+3
+00:00:07,940 --> 00:00:12,480
+In this case we have who are we what do we do where are we.
+
+4
+00:00:12,480 --> 00:00:17,430
+So this would be like an About page or something like that and we want to make it so that these links
+
+5
+00:00:17,430 --> 00:00:20,850
+over here will be able to click and that will take us.
+
+6
+00:00:20,870 --> 00:00:23,600
+They'll scroll up to that part of the text.
+
+7
+00:00:23,640 --> 00:00:29,930
+Not only that but as we scroll will see a little marker that will be at whatever point we're at.
+
+8
+00:00:30,030 --> 00:00:30,430
+OK.
+
+9
+00:00:30,450 --> 00:00:35,700
+So we're going to go over here and this should be a pretty quick video because there's not too much
+
+10
+00:00:35,700 --> 00:00:38,170
+to do but basically we have a role.
+
+11
+00:00:38,170 --> 00:00:39,450
+We're using the grid.
+
+12
+00:00:39,450 --> 00:00:46,200
+We have a nine column since we're on a medium screen we have the nine column and three column.
+
+13
+00:00:46,260 --> 00:00:46,680
+OK.
+
+14
+00:00:46,680 --> 00:00:54,390
+So this div here which wraps around the age four in the paragraph this first one we're going to give
+
+15
+00:00:54,390 --> 00:01:00,180
+this an ID and we could call this anything I'm going to call it who.
+
+16
+00:01:00,240 --> 00:01:07,310
+And then we also want to give it a class of section and scrolls by.
+
+17
+00:01:07,800 --> 00:01:13,750
+OK so every section should have a specific ID and should have these two classes.
+
+18
+00:01:13,800 --> 00:01:23,680
+So this next one here I'm going to give an idea of what and then I'm going to give a class of section
+
+19
+00:01:24,760 --> 00:01:27,190
+and scrolls spy.
+
+20
+00:01:27,550 --> 00:01:39,250
+OK this one here same thing will give an ID of who are not who where and will give a class section and
+
+21
+00:01:39,260 --> 00:01:41,270
+scrolls.
+
+22
+00:01:42,370 --> 00:01:45,460
+All right so we have our IDs and classes for each section.
+
+23
+00:01:45,460 --> 00:01:48,450
+Now we're going to go down to this area.
+
+24
+00:01:48,460 --> 00:01:50,270
+Here we have the UL case.
+
+25
+00:01:50,270 --> 00:01:54,520
+This is basically just a UL with some allies and some aid tags.
+
+26
+00:01:54,520 --> 00:02:01,870
+What we're going to do is on the UL we want to give this a class of pinned now pinned is not specific
+
+27
+00:02:01,870 --> 00:02:08,260
+to scrolls by basically it just makes it a fit it makes it fix so that even if we scroll down this will
+
+28
+00:02:08,260 --> 00:02:09,850
+stay in place.
+
+29
+00:02:09,850 --> 00:02:13,840
+OK so you want to make sure you have that or else you're just going to scroll up and you won't be able
+
+30
+00:02:13,840 --> 00:02:14,980
+to see this.
+
+31
+00:02:15,040 --> 00:02:16,500
+So we're going to do pen.
+
+32
+00:02:16,790 --> 00:02:21,730
+We're also going to give it a class of section and then Table of Contents.
+
+33
+00:02:21,730 --> 00:02:23,440
+OK so this is
+
+34
+00:02:26,290 --> 00:02:30,040
+this is specific to scrolls by we want the Table of Contents.
+
+35
+00:02:30,230 --> 00:02:30,630
+All right.
+
+36
+00:02:30,640 --> 00:02:37,270
+And then for the lengths we want these to go to wherever ID that we have above.
+
+37
+00:02:37,270 --> 00:02:46,330
+So we want this to go to who we want this one to go to what.
+
+38
+00:02:47,420 --> 00:02:48,820
+And we want this one
+
+39
+00:02:51,640 --> 00:02:54,660
+to go to where.
+
+40
+00:02:55,100 --> 00:02:57,780
+Right and that should do it and I just put a margin.
+
+41
+00:02:58,080 --> 00:03:01,690
+Seven hundred pixels at the bottom just so we can keep scrolling.
+
+42
+00:03:01,720 --> 00:03:05,830
+So I'm going to save that and you see that automatically it looks different.
+
+43
+00:03:05,830 --> 00:03:11,410
+And if I hover over this we have this little red border on the side and let's see if I click on what
+
+44
+00:03:11,410 --> 00:03:13,870
+we do it'll scroll to that part.
+
+45
+00:03:13,920 --> 00:03:18,450
+I go to what who we are or where we are rather goes to that part.
+
+46
+00:03:18,480 --> 00:03:26,520
+I click on who we are it goes to the top and then as I scroll Actually it should it should show the
+
+47
+00:03:26,520 --> 00:03:28,230
+border as a scroll.
+
+48
+00:03:28,290 --> 00:03:30,320
+Not sure why it's not doing that.
+
+49
+00:03:30,330 --> 00:03:33,910
+Think I might mess something up here.
+
+50
+00:03:34,300 --> 00:03:34,920
+See
+
+51
+00:03:39,520 --> 00:03:41,830
+I know I didn't initialize it.
+
+52
+00:03:42,230 --> 00:03:46,610
+I need to go down to the Javascript.
+
+53
+00:03:46,790 --> 00:03:55,790
+So we're going to go down here and let's say scroll spy net.
+
+54
+00:03:56,030 --> 00:03:57,320
+So the class
+
+55
+00:03:59,840 --> 00:04:07,500
+of scrolls spy we need to just call Daut scrolls by like that and say There we go.
+
+56
+00:04:07,610 --> 00:04:12,170
+So now the border shows and as a scroll it's going to show us where we are.
+
+57
+00:04:12,170 --> 00:04:15,570
+And again we can still click and it'll take us to that area.
+
+58
+00:04:16,100 --> 00:04:24,300
+Before I was just doing the standard ID the standard HMO ID but now it's an act actually initialized.
+
+59
+00:04:24,300 --> 00:04:28,400
+All right so it's pretty nice for like an About page or something like that.
+
+60
+00:04:28,700 --> 00:04:31,490
+So in the next video we're going to take a look at tab's.
+

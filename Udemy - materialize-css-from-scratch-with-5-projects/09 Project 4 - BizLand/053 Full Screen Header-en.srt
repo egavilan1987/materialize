@@ -1,0 +1,656 @@
+1
+00:00:00,630 --> 00:00:05,190
+All right so we're going to get started on this project so we're going to do what we did in the rest
+
+2
+00:00:05,190 --> 00:00:09,340
+of the projects and create a new folder called biz land.
+
+3
+00:00:09,690 --> 00:00:16,590
+And I just want to bring everything from the theme starter over to our new folder
+
+4
+00:00:19,420 --> 00:00:20,410
+Okay.
+
+5
+00:00:20,440 --> 00:00:25,180
+And then let's put this up here and I'll go ahead and openness with the code.
+
+6
+00:00:27,210 --> 00:00:29,000
+Of course you can use whatever you like.
+
+7
+00:00:29,160 --> 00:00:30,290
+And then the index age.
+
+8
+00:00:30,290 --> 00:00:32,550
+Tim I'm going to open with life server
+
+9
+00:00:36,630 --> 00:00:36,980
+right.
+
+10
+00:00:37,030 --> 00:00:40,870
+So now we just have our theme starter Let's pull this down a little bit
+
+11
+00:00:44,230 --> 00:00:44,760
+OK.
+
+12
+00:00:44,770 --> 00:00:51,070
+And now what we'll do is let's change the title here to biz land
+
+13
+00:00:54,270 --> 00:01:02,070
+theme and what we're going to do in this video is the whole land the whole image the showcase or head
+
+14
+00:01:02,070 --> 00:01:04,680
+or whatever you want to call it with the nav bar.
+
+15
+00:01:04,680 --> 00:01:07,600
+So let's get rid of this H-1 here.
+
+16
+00:01:08,640 --> 00:01:10,010
+Get rid of this too.
+
+17
+00:01:10,410 --> 00:01:16,390
+And inside the body let's put a header and let's give it a class of main header.
+
+18
+00:01:16,410 --> 00:01:24,690
+Now we want an overlay over the image so I'm going to put a div here with the class of primary dash
+
+19
+00:01:24,780 --> 00:01:26,010
+overlay.
+
+20
+00:01:26,130 --> 00:01:30,800
+That's just what I like to call my my overlays and then if we had another one with another color we'd
+
+21
+00:01:30,800 --> 00:01:33,330
+call it secondary overlay.
+
+22
+00:01:33,330 --> 00:01:38,160
+Now the nav bar is going to be fixed and remember if we want a fixed nav bar that is going to kind of
+
+23
+00:01:38,160 --> 00:01:39,330
+scroll down with us.
+
+24
+00:01:39,330 --> 00:01:48,150
+It needs to be wrapped in a div with the class of nav bar fixed and then inside here we put our NAV.
+
+25
+00:01:48,260 --> 00:01:54,450
+OK and this is going to have a class of transparent because I don't want it to have any background.
+
+26
+00:01:54,960 --> 00:02:03,270
+So it's put a container in our nav bar and then we'll put our class of Nav. wrapper.
+
+27
+00:02:03,930 --> 00:02:10,260
+You guys should start to remember these classes you know because we're using them in just about every
+
+28
+00:02:10,260 --> 00:02:17,050
+project and then we want our branding So it's going to be in a tag with brand logo.
+
+29
+00:02:17,790 --> 00:02:19,330
+We'll have a go to home.
+
+30
+00:02:19,710 --> 00:02:26,700
+And then let's just put in here for the text we'll just say biz land and then we want our button collapse
+
+31
+00:02:26,700 --> 00:02:32,790
+so it'll be in a tag with the class of button Dasch collapse.
+
+32
+00:02:33,600 --> 00:02:44,250
+And it's also going to have another attribute of data Dasch activates and we'll call this mobile dash
+
+33
+00:02:44,310 --> 00:02:45,500
+now.
+
+34
+00:02:46,240 --> 00:02:55,910
+OK and then inside here we want an icon with the class of material dash icons and we want the menu icon.
+
+35
+00:02:56,610 --> 00:03:01,830
+So if I save that we're just going to get a transparent nav bar so far.
+
+36
+00:03:01,890 --> 00:03:02,310
+All right.
+
+37
+00:03:02,310 --> 00:03:12,780
+Now underneath the button collapse we're going to put the the UL which will have a class of right because
+
+38
+00:03:12,780 --> 00:03:21,300
+we want all the links to float to the right and it's also going to have a class of hide on MGD and down
+
+39
+00:03:21,980 --> 00:03:26,280
+we want it to hide on medium size screens and less.
+
+40
+00:03:26,490 --> 00:03:29,040
+OK in here we'll have an ally.
+
+41
+00:03:29,700 --> 00:03:38,580
+Let's put our links here so this will actually know Class C it's going to go to hash home.
+
+42
+00:03:39,510 --> 00:03:44,000
+And then what I'm going to do is copy this ally.
+
+43
+00:03:44,010 --> 00:03:52,260
+So we want let's see let's do two three four and five of these.
+
+44
+00:03:52,260 --> 00:03:53,970
+So this one will be about
+
+45
+00:03:57,480 --> 00:04:02,310
+the Swan will be testimonials
+
+46
+00:04:08,740 --> 00:04:13,980
+and let's see this one here will be contact
+
+47
+00:04:17,100 --> 00:04:20,740
+and then this last one is actually going to be a bottom.
+
+48
+00:04:21,090 --> 00:04:22,730
+So it's not going to go anywhere.
+
+49
+00:04:22,810 --> 00:04:28,240
+It's just for show it's the download button so it'll have a class of the T.N..
+
+50
+00:04:28,240 --> 00:04:34,060
+And let's give it a class of blue and it'll say download.
+
+51
+00:04:34,370 --> 00:04:34,960
+All right.
+
+52
+00:04:35,070 --> 00:04:38,140
+So save that now for the side.
+
+53
+00:04:38,150 --> 00:04:45,300
+Now remember if it's a fixed nav bar the UL for the side now has to go under this div or it's not going
+
+54
+00:04:45,300 --> 00:04:45,890
+to work.
+
+55
+00:04:45,900 --> 00:04:52,290
+We won't be able to click on it so this div ends right here so we're going go right under it and let's
+
+56
+00:04:52,290 --> 00:04:56,210
+say side now those.
+
+57
+00:04:56,360 --> 00:05:06,260
+So that will be a UL with the class side nav and also an ID of mobile now because that's what we used
+
+58
+00:05:06,260 --> 00:05:07,500
+above.
+
+59
+00:05:08,300 --> 00:05:16,800
+And then and here what I want to do is put in H for the class of blue dash gray.
+
+60
+00:05:17,180 --> 00:05:21,340
+And let's also do Darkon dash 3 and let's center.
+
+61
+00:05:21,840 --> 00:05:24,120
+And that's just going to say biz land.
+
+62
+00:05:24,440 --> 00:05:29,360
+And then under that we'll have our links which are going to be the son going to copy all of these except
+
+63
+00:05:29,360 --> 00:05:36,410
+for the download button and put those inside here under the age 4.
+
+64
+00:05:36,520 --> 00:05:39,390
+They actually want to put a divider between the two.
+
+65
+00:05:39,830 --> 00:05:48,820
+So right here let's put in Ally and then an A with the tag of a class of divider.
+
+66
+00:05:49,130 --> 00:05:51,980
+It doesn't actually need a try.
+
+67
+00:05:53,000 --> 00:05:56,030
+Now in order for the sidebar to work we have to initialize it.
+
+68
+00:05:56,030 --> 00:06:09,380
+So let's go down here and let's say class foughten collapse and we want to call dark side now like that.
+
+69
+00:06:12,460 --> 00:06:18,600
+You know we'll say a knit side now of right.
+
+70
+00:06:18,750 --> 00:06:24,280
+So now we're going to do is work on the main image the background of all of this.
+
+71
+00:06:24,420 --> 00:06:28,150
+So you can go into your project files and you can get the images.
+
+72
+00:06:28,170 --> 00:06:34,170
+So I'm going to open up my land folder go to I am g and I'm going to paste in the two images that are
+
+73
+00:06:34,170 --> 00:06:36,000
+included.
+
+74
+00:06:36,610 --> 00:06:39,730
+So pay in and just to take a look.
+
+75
+00:06:39,750 --> 00:06:45,770
+So we have the showcase j peg and then we have the people j peg those are the two images for this project.
+
+76
+00:06:46,140 --> 00:06:53,190
+And then what we'll do is go to our main CSSA and we're going to add the CSSA for the header to have
+
+77
+00:06:53,190 --> 00:06:57,670
+the the image background and all that as well as the primary overlay.
+
+78
+00:06:57,870 --> 00:07:02,150
+So let's do the main header first.
+
+79
+00:07:02,340 --> 00:07:08,230
+So it's going to have a background which is going to be a u r l.
+
+80
+00:07:08,580 --> 00:07:14,610
+We're going to go outside of the CSSA folder into the image folder and then we want showcase dot chave
+
+81
+00:07:14,690 --> 00:07:23,830
+peg and then under that we're going to do a background size and set that to cover.
+
+82
+00:07:23,830 --> 00:07:33,160
+Let's do a background position and let's get that to center we want to center the image and we want
+
+83
+00:07:33,160 --> 00:07:34,080
+to do the height.
+
+84
+00:07:34,120 --> 00:07:40,330
+Now for the high we're going to use the H or viewport heights.
+
+85
+00:07:40,600 --> 00:07:44,480
+And what you can do is you can think of the height as 100 different slices.
+
+86
+00:07:44,500 --> 00:07:45,180
+OK.
+
+87
+00:07:45,250 --> 00:07:48,250
+And we can say how many of those slices we want.
+
+88
+00:07:48,250 --> 00:07:54,760
+Now those slices aren't going to change no matter how much how big or small the browser is it'll always
+
+89
+00:07:54,760 --> 00:07:56,110
+take up that amount.
+
+90
+00:07:56,110 --> 00:08:01,780
+So this is how we can do a full screen landing page and have it always be full screen no matter the
+
+91
+00:08:01,780 --> 00:08:02,320
+size.
+
+92
+00:08:02,320 --> 00:08:07,380
+So I want to say one hundred VH.
+
+93
+00:08:07,660 --> 00:08:08,060
+All right.
+
+94
+00:08:08,070 --> 00:08:11,080
+I'm going to set a minimum height of 600 pixels.
+
+95
+00:08:11,080 --> 00:08:14,640
+I don't want it to be able to go under 600 pixels.
+
+96
+00:08:15,070 --> 00:08:22,700
+And then we'll set the text to white and let's say at the position to relative because we're going to
+
+97
+00:08:22,700 --> 00:08:28,550
+have the overlay inside of it which is going to be absolute and anything absolute has to be inside of
+
+98
+00:08:28,550 --> 00:08:33,740
+a relative position element elements so will save and you can see it takes up the whole screen.
+
+99
+00:08:33,980 --> 00:08:40,240
+Now if I did like 50 VH It would take up 50 of the 100 slices.
+
+100
+00:08:40,850 --> 00:08:44,780
+So VHS is very very powerful.
+
+101
+00:08:44,780 --> 00:08:47,290
+We also have VW which is viewport with.
+
+102
+00:08:47,300 --> 00:08:49,920
+You can do the same thing going horizontal.
+
+103
+00:08:50,390 --> 00:08:53,240
+So now the image is too prominent.
+
+104
+00:08:53,240 --> 00:08:59,010
+We want to kind of dark it down a little bit with the primary overlay.
+
+105
+00:08:59,150 --> 00:09:06,040
+So it's sad that I'm actually going to put that up above.
+
+106
+00:09:06,270 --> 00:09:06,640
+All right.
+
+107
+00:09:06,640 --> 00:09:14,270
+So primary overlay will do the background and it has to be R-GA because we want it to be able to be
+
+108
+00:09:14,290 --> 00:09:15,570
+see through.
+
+109
+00:09:15,700 --> 00:09:24,800
+So the color will be the R.G. will be 63 red 57 green 77 blue.
+
+110
+00:09:24,810 --> 00:09:29,840
+And then for the Alpha for the opacity you will do 0.7.
+
+111
+00:09:30,220 --> 00:09:32,440
+OK we want to position it absolute
+
+112
+00:09:37,630 --> 00:09:45,090
+and then inside here inside we want it from the top zero position and the left zero position.
+
+113
+00:09:45,190 --> 00:09:51,250
+And we want it to spread across 100 percent and then also height should be 100 percent.
+
+114
+00:09:51,250 --> 00:09:53,420
+We wanted to take up the whole thing.
+
+115
+00:09:53,620 --> 00:10:00,220
+The overlay should just do just that it should overlay the image so width and height should be 100 percent
+
+116
+00:10:00,520 --> 00:10:06,880
+and we'll set the overflow to hidden because we don't want any scroll bars or anything like that so
+
+117
+00:10:06,880 --> 00:10:08,020
+let's save.
+
+118
+00:10:08,020 --> 00:10:11,400
+And then we go now we have our overlay.
+
+119
+00:10:11,410 --> 00:10:15,610
+OK so let's add the content the showcase content.
+
+120
+00:10:15,610 --> 00:10:26,030
+So we're going to go see it's going to go under the UL right here still within this Div. say showcase.
+
+121
+00:10:26,550 --> 00:10:28,640
+So all of a classic showcase.
+
+122
+00:10:28,660 --> 00:10:33,730
+Let's also give it a container and inside here we'll have a row.
+
+123
+00:10:33,730 --> 00:10:39,490
+It's going to be a full column grid's So we're going to do call as 12.
+
+124
+00:10:39,670 --> 00:10:47,890
+And let's also do a custom class of main text and then in here will have an H 5 and it's going to say
+
+125
+00:10:47,890 --> 00:11:01,030
+you found the can then H-1 and it's going to say right place to start.
+
+126
+00:11:01,460 --> 00:11:07,640
+Just some corny marketing text they came up with so we have a paragraph with flow text to make it bigger
+
+127
+00:11:07,640 --> 00:11:14,210
+and make it responsive and then it's going to say to take your business
+
+128
+00:11:16,820 --> 00:11:23,000
+to the next level with our services.
+
+129
+00:11:23,540 --> 00:11:30,260
+I can't spell and type services that have taken the companies
+
+130
+00:11:34,410 --> 00:11:42,210
+to the Fortune 500.
+
+131
+00:11:42,420 --> 00:11:45,400
+Probably misspelled something but that's mine doesn't matter.
+
+132
+00:11:45,790 --> 00:11:51,730
+So let's put a line break underneath and then we're going to have a button to learn more buttons so
+
+133
+00:11:51,730 --> 00:11:54,980
+it's going to be in a tag that's formatted as a button.
+
+134
+00:11:55,240 --> 00:11:55,970
+So be it.
+
+135
+00:11:55,970 --> 00:12:06,220
+And let's also do between large Let's make it white and let's make it have black text.
+
+136
+00:12:06,410 --> 00:12:14,950
+All right and then it's going to go to hash about and the text will just say learn more.
+
+137
+00:12:14,960 --> 00:12:15,290
+All right.
+
+138
+00:12:15,290 --> 00:12:19,580
+In addition to that button we want to have that icon as well.
+
+139
+00:12:19,580 --> 00:12:23,310
+That little icon to notify the user that they can scroll down.
+
+140
+00:12:23,450 --> 00:12:31,250
+That's going to be wrapped in a link with the class of white text and it's going to go to the contact
+
+141
+00:12:31,250 --> 00:12:32,930
+if they click it.
+
+142
+00:12:33,860 --> 00:12:41,810
+OK so now inside the tag what's put in Icon Tiriel icons.
+
+143
+00:12:41,810 --> 00:12:44,650
+We also want it to be medium sized.
+
+144
+00:12:44,990 --> 00:12:49,420
+And then the icon itself is going to be an arrow.
+
+145
+00:12:49,850 --> 00:12:58,570
+It's going to be erro underscore draw down underscore circle.
+
+146
+00:12:59,290 --> 00:12:59,660
+All right.
+
+147
+00:12:59,690 --> 00:13:04,010
+I'm also going to give this icon a special class of scroll
+
+148
+00:13:06,440 --> 00:13:11,100
+dash icon because I need to grab on to it within the CSSA to position it.
+
+149
+00:13:11,210 --> 00:13:11,560
+OK.
+
+150
+00:13:11,570 --> 00:13:14,650
+So let's save and there we go.
+
+151
+00:13:14,690 --> 00:13:17,710
+Now we need to fix this up a little within the CSX.
+
+152
+00:13:17,780 --> 00:13:22,770
+So I want this all to be pushed down so let's grab the showcase.
+
+153
+00:13:22,820 --> 00:13:34,030
+So main Hetter showcase and we're going to add a padding top of 110 pixels so that'll push it down.
+
+154
+00:13:34,700 --> 00:13:43,900
+And then let's see we want to add the positioning for the scroll icon icon.
+
+155
+00:13:44,150 --> 00:13:47,250
+It's going to be positioned absolute.
+
+156
+00:13:47,780 --> 00:13:50,680
+Remember the header is already positioned relative.
+
+157
+00:13:50,780 --> 00:13:53,280
+So that's what we're using as a parent.
+
+158
+00:13:53,390 --> 00:14:01,490
+We want to say from the bottom it should be 5 percent up and then from the left it should be 47 percent
+
+159
+00:14:01,640 --> 00:14:02,510
+over.
+
+160
+00:14:02,750 --> 00:14:06,100
+And let's set the opacity so that we can see through it a little bit.
+
+161
+00:14:06,110 --> 00:14:10,980
+So we'll set that to zero point five and save in there we go.
+
+162
+00:14:11,810 --> 00:14:12,110
+All right.
+
+163
+00:14:12,110 --> 00:14:13,940
+So I think that that's good for now.
+
+164
+00:14:13,940 --> 00:14:16,130
+So I will see you in the next lecture.
+

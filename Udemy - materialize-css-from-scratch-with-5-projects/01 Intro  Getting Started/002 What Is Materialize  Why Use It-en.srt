@@ -1,0 +1,232 @@
+1
+00:00:00,780 --> 00:00:06,150
+Hey guys this video we're going to talk about what materialize CSSA is and why you'd want to learn and
+
+2
+00:00:06,150 --> 00:00:06,850
+use it.
+
+3
+00:00:07,080 --> 00:00:13,080
+So materializes a modern UI framework or a front end framework that's strongly based on Google's material
+
+4
+00:00:13,080 --> 00:00:16,350
+design concept which I'll talk about in the next slide.
+
+5
+00:00:16,350 --> 00:00:22,530
+It's similar to frameworks like bootstrap and foundation and as many of you know I do have a course
+
+6
+00:00:22,590 --> 00:00:28,470
+on bootstrap 4 which is a great framework it's the most popular by far but materialize is getting up
+
+7
+00:00:28,470 --> 00:00:34,920
+there in popularity because of its clean look and its interactive components materialize uses much more
+
+8
+00:00:34,920 --> 00:00:39,060
+motion and user and interactivity than other frameworks.
+
+9
+00:00:39,060 --> 00:00:42,350
+And that's one of the principles of material design.
+
+10
+00:00:42,390 --> 00:00:48,240
+It's also extremely customizable as far as colors and look you don't just have like a set of five or
+
+11
+00:00:48,240 --> 00:00:54,350
+six colors you can use just about any color along with different scales of lightening or darkening.
+
+12
+00:00:54,420 --> 00:00:58,670
+So you're not stuck with a framework where everyone can tell exactly what it is.
+
+13
+00:00:58,680 --> 00:01:03,870
+It allows you to be very creative and unique in your themes and interfaces.
+
+14
+00:01:03,870 --> 00:01:06,210
+All right so what is material design.
+
+15
+00:01:06,260 --> 00:01:12,760
+It is a design language or scheme that was created by Google back in 2014.
+
+16
+00:01:12,780 --> 00:01:18,990
+It makes very liberal use of grid layouts responsive animations shadows and a bunch of bunch of other
+
+17
+00:01:18,990 --> 00:01:21,700
+concepts that you'll notice throughout the course.
+
+18
+00:01:21,840 --> 00:01:27,990
+It's based on an expandable paper and ink looks so it's supposed to sort of reflect physical surfaces
+
+19
+00:01:28,320 --> 00:01:32,870
+and edges with shadows and almost 3-D real life look.
+
+20
+00:01:33,080 --> 00:01:39,390
+And if you look at most of the Google based you guys like G-mail the new YouTube style Google Drive
+
+21
+00:01:39,420 --> 00:01:43,110
+they all use material design concepts.
+
+22
+00:01:43,140 --> 00:01:43,440
+All right.
+
+23
+00:01:43,440 --> 00:01:48,820
+So let's talk a little bit about why you would want to learn materialize why you'd want to use it.
+
+24
+00:01:48,840 --> 00:01:54,690
+So I would say that the the overall reason to use materialize or learn it is that it gives you a tool
+
+25
+00:01:54,690 --> 00:02:00,480
+for being able to quickly create beautiful Web sites and application interfaces without having to have
+
+26
+00:02:00,480 --> 00:02:02,060
+a lot of design skill.
+
+27
+00:02:02,160 --> 00:02:07,860
+A lot of us are just developers and we don't really have that knack or that eye for design and materialize
+
+28
+00:02:07,890 --> 00:02:12,980
+gives us the option to create nice interfaces without hiring a designer.
+
+29
+00:02:12,990 --> 00:02:18,720
+Now we are getting some new features of CSSA like the grid and you'll hear some developers say things
+
+30
+00:02:18,720 --> 00:02:25,590
+like well why use a framework now with CSSA grid available and that that statement actually really baffles
+
+31
+00:02:25,590 --> 00:02:26,160
+me.
+
+32
+00:02:26,160 --> 00:02:31,720
+For two reasons One is because the SS grid is very new and it isn't compatible with every browser.
+
+33
+00:02:31,860 --> 00:02:37,620
+And the more important reason is because materialize and other frameworks like bootstrap are much much
+
+34
+00:02:37,620 --> 00:02:39,260
+more than just a grid.
+
+35
+00:02:39,270 --> 00:02:43,350
+Yes you could use siestas grid for making columns but that said.
+
+36
+00:02:43,350 --> 00:02:50,700
+What about the nav bar buttons pagination styling the cards the colors the javascript widgets the grid
+
+37
+00:02:50,700 --> 00:02:57,540
+system is just a tiny part of this framework and materialize allows you to not have to worry about styling
+
+38
+00:02:57,540 --> 00:03:04,370
+all your individual elements yourself and making everything responsive on your own which is just invaluable.
+
+39
+00:03:04,530 --> 00:03:10,080
+OK it's 100 percent responsive by design so you don't have to write your own media queries.
+
+40
+00:03:10,080 --> 00:03:16,380
+You also get tons of CSSA and Javascript components with things like animations and transitions.
+
+41
+00:03:16,500 --> 00:03:24,800
+So comparing CSSA grid to a framework like materialize is is basically just apples to oranges.
+
+42
+00:03:24,930 --> 00:03:27,570
+All right so let's talk a little bit about versions.
+
+43
+00:03:27,570 --> 00:03:30,260
+This can be a complicated issue with any course.
+
+44
+00:03:30,330 --> 00:03:35,670
+We as instructors have to always be aware of updates and breaking changes.
+
+45
+00:03:35,670 --> 00:03:40,950
+So in this course we're going to be using the version of materialized that's available at the official
+
+46
+00:03:40,950 --> 00:03:48,270
+site of materialise CSSA dot com which is right now version zero point one hundred point two.
+
+47
+00:03:48,390 --> 00:03:55,740
+Now 1.0 is in Alpha at next stop materialized dot com and as soon as that's released and put on the
+
+48
+00:03:55,740 --> 00:03:58,650
+main site the course will be updated accordingly.
+
+49
+00:03:58,870 --> 00:04:04,470
+OK now if you go and look at the Alpha docs there is not many changes in terms of class names and features
+
+50
+00:04:04,500 --> 00:04:05,640
+and stuff like that.
+
+51
+00:04:05,730 --> 00:04:11,310
+So you don't have to worry about everything changing into something that's unrecognizable to what you've
+
+52
+00:04:11,310 --> 00:04:12,200
+learned.
+
+53
+00:04:12,490 --> 00:04:15,820
+And for the changes that do happen the course will be updated.
+
+54
+00:04:15,840 --> 00:04:21,690
+This course will always use whatever is offered and recommended by the official Web site.
+
+55
+00:04:21,690 --> 00:04:23,060
+All right guys so that's it.
+
+56
+00:04:23,060 --> 00:04:28,380
+In the next video we're going to jump in and set up our text editor which will be visual studio code.
+
+57
+00:04:28,380 --> 00:04:30,690
+But of course you can use whatever you want.
+
+58
+00:04:30,750 --> 00:04:33,200
+So I will see you in the next lecture.
+

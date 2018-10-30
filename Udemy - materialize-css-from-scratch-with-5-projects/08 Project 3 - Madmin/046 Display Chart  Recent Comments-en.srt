@@ -1,0 +1,600 @@
+1
+00:00:00,750 --> 00:00:05,950
+All right guys so in this video we're going to set up the part of the dashboard that has the chart in
+
+2
+00:00:05,970 --> 00:00:07,290
+the comments.
+
+3
+00:00:07,290 --> 00:00:13,620
+So what we're going to use canvas J.S. which is a chart library a javascript chart library age HTML
+
+4
+00:00:13,620 --> 00:00:15,060
+5 library.
+
+5
+00:00:15,420 --> 00:00:17,390
+But we're not going to learn about it.
+
+6
+00:00:17,390 --> 00:00:21,720
+It's just too it's just to fill a spot and make it look good.
+
+7
+00:00:21,720 --> 00:00:23,400
+This is a materialized course.
+
+8
+00:00:23,400 --> 00:00:27,540
+Again we're not going to be learning about javascript charts.
+
+9
+00:00:27,660 --> 00:00:32,880
+So what we need to do is just include the script and then I just have some javascript that I'm going
+
+10
+00:00:32,880 --> 00:00:37,100
+to pop in and you can actually grab from the resource files.
+
+11
+00:00:37,110 --> 00:00:40,060
+So first thing we need to do is bring in charge.
+
+12
+00:00:40,080 --> 00:00:42,840
+Now I'm not going to download it and include it locally.
+
+13
+00:00:42,840 --> 00:00:47,870
+I'm going to use their CD and so I'm going to go to our index each time I'll file.
+
+14
+00:00:47,940 --> 00:00:55,250
+And let's go down to where we have our scripts and we'll go right after the materialized script and
+
+15
+00:00:55,260 --> 00:01:08,470
+right above our custom script tag and let's say script source and it's going to be HTP ass Kandis.
+
+16
+00:01:08,820 --> 00:01:25,730
+Ass dot com slash assets slash script slash canvas office canvas J.S. dog men dog.
+
+17
+00:01:25,740 --> 00:01:26,860
+J.S. Okay.
+
+18
+00:01:26,890 --> 00:01:29,100
+So that's going to bring in the script for us.
+
+19
+00:01:29,310 --> 00:01:32,390
+Let's save it and make sure we have no errors in the console.
+
+20
+00:01:32,430 --> 00:01:33,820
+We had F 12.
+
+21
+00:01:34,020 --> 00:01:35,960
+All right so that should be working.
+
+22
+00:01:36,000 --> 00:01:43,200
+Now we're going to create a file in our JSA folder called chart.
+
+23
+00:01:43,290 --> 00:01:46,950
+J.S. OK and this is where we're going to put our chart data.
+
+24
+00:01:47,040 --> 00:01:53,310
+Again if you if you're really interested in canvass SJS I'd suggest looking at the documentation.
+
+25
+00:01:53,320 --> 00:01:56,820
+It's pretty good actually you see
+
+26
+00:02:00,650 --> 00:02:02,330
+charts gallery.
+
+27
+00:02:02,930 --> 00:02:06,480
+So these are all the different types of charts we're going to do a line chart
+
+28
+00:02:12,210 --> 00:02:17,410
+and see something like this simple line chart yes.
+
+29
+00:02:17,410 --> 00:02:19,310
+Also this is the exact chart I want to use.
+
+30
+00:02:19,320 --> 00:02:19,850
+Good.
+
+31
+00:02:19,910 --> 00:02:23,500
+I couldn't find it before but you can see they are already in.
+
+32
+00:02:23,510 --> 00:02:28,760
+They include the script which we just did and then we want a chart container wherever we want to put
+
+33
+00:02:28,760 --> 00:02:29,280
+the chart.
+
+34
+00:02:29,270 --> 00:02:31,640
+So we want to live like this.
+
+35
+00:02:31,640 --> 00:02:33,530
+So I'm actually going to just copy that.
+
+36
+00:02:33,530 --> 00:02:45,470
+You guys can just type in and it's a simple line but let's go to right under the stats section and above
+
+37
+00:02:45,470 --> 00:02:49,670
+the pre-loading the freeloader is always going to stay at the bottom.
+
+38
+00:02:49,700 --> 00:02:59,090
+So right here we'll say section and we'll call it visiters that's what this chart is mimicking So it's
+
+39
+00:02:59,090 --> 00:03:10,140
+a section Daut section Daut section Dasch visitors.
+
+40
+00:03:11,300 --> 00:03:11,800
+All right.
+
+41
+00:03:11,810 --> 00:03:15,950
+And then let's see what else did I want to do here.
+
+42
+00:03:16,100 --> 00:03:21,730
+I want to make this I want to give it a light blue background so we're going to do blue and then liten
+
+43
+00:03:21,740 --> 00:03:24,170
+dash four.
+
+44
+00:03:24,470 --> 00:03:24,830
+All right.
+
+45
+00:03:24,830 --> 00:03:39,080
+And then we'll put a row and let's do call as 12 am 6 so it's split in half on medium scratch screens
+
+46
+00:03:39,470 --> 00:03:41,120
+and then l 8.
+
+47
+00:03:41,420 --> 00:03:44,240
+OK so it's bigger on larger screens.
+
+48
+00:03:44,670 --> 00:03:47,770
+And let's see we're going to put a card panel here
+
+49
+00:03:50,590 --> 00:03:55,810
+so in this card panel is where we want the chart container so I'm going to paste that in and it's going
+
+50
+00:03:55,810 --> 00:04:01,620
+to be 300 pixels height height 100 percent with.
+
+51
+00:04:02,170 --> 00:04:02,600
+OK.
+
+52
+00:04:02,620 --> 00:04:05,790
+And then we're going to have another column.
+
+53
+00:04:05,830 --> 00:04:17,420
+So after this one we'll have another column so call it will be as 12 medium 6 and then l4.
+
+54
+00:04:17,590 --> 00:04:20,530
+OK and this is where the comments will go.
+
+55
+00:04:20,940 --> 00:04:25,600
+I'm not going to do it just yet though but I'll just put a comment that we're going to put the comments
+
+56
+00:04:25,600 --> 00:04:28,270
+here and cry Christ let's save that.
+
+57
+00:04:28,270 --> 00:04:34,170
+Now if we look at it we're not going to see any chart yet because we haven't added that that code.
+
+58
+00:04:34,330 --> 00:04:39,010
+So what we'll do is go to our Candis Web site here the sample chart.
+
+59
+00:04:39,310 --> 00:04:48,930
+And we're going to grab everything that's in the script tag tags so from here to here the window dot
+
+60
+00:04:48,970 --> 00:04:49,960
+on load.
+
+61
+00:04:50,140 --> 00:04:54,770
+And we're going to copy it and we're going to go and pasted in chart.
+
+62
+00:04:55,590 --> 00:05:07,270
+OK so this is basically this is our char Except they're going to change the text to daily visitors and
+
+63
+00:05:07,270 --> 00:05:13,920
+we'll save it and if we go back to our page here OK we're not loading chart.
+
+64
+00:05:14,070 --> 00:05:15,240
+So we need to do that.
+
+65
+00:05:15,240 --> 00:05:23,020
+So let's go back to our index aged him now and we'll go right down here and see script source is going
+
+66
+00:05:23,020 --> 00:05:26,480
+to be in our J s folder and then chart.
+
+67
+00:05:26,540 --> 00:05:27,260
+James
+
+68
+00:05:29,810 --> 00:05:30,460
+OK.
+
+69
+00:05:30,740 --> 00:05:36,110
+Now this actually took me quite a while to figure out what was going on here.
+
+70
+00:05:36,230 --> 00:05:40,510
+If I remove the preloaded functionality where we wait that one second.
+
+71
+00:05:40,520 --> 00:05:45,140
+This chart looks fine once they added the freeloader it messed up.
+
+72
+00:05:45,140 --> 00:05:51,680
+And the reason for that is it's loading the dimensions and stuff before the page loads because remember
+
+73
+00:05:51,680 --> 00:05:56,020
+we're waiting that that extra second for the page to load.
+
+74
+00:05:56,030 --> 00:06:04,150
+So to fix this all we need to do is go into our chart J.S. and see where we actually call chart render.
+
+75
+00:06:04,280 --> 00:06:11,270
+We just need to wrap that in a set time out and basically have it wait one second just like we did with
+
+76
+00:06:11,430 --> 00:06:13,930
+the rest of the sections.
+
+77
+00:06:13,940 --> 00:06:17,240
+OK so a set time takes in a function
+
+78
+00:06:19,760 --> 00:06:26,090
+and also a time which should be one second just like should match the other set timeout and then we're
+
+79
+00:06:26,090 --> 00:06:28,440
+just going to move this in here.
+
+80
+00:06:28,730 --> 00:06:32,770
+OK so now if I save now the chart looks good.
+
+81
+00:06:32,930 --> 00:06:34,470
+OK so make sure you do that.
+
+82
+00:06:34,490 --> 00:06:38,760
+In order for this to actually look normal.
+
+83
+00:06:39,380 --> 00:06:40,580
+All right so that's all set.
+
+84
+00:06:40,580 --> 00:06:48,770
+Now we can close up charg As we shouldn't need that anymore and we're going to go down or go up rather
+
+85
+00:06:49,310 --> 00:06:52,500
+to where we put the comments in the latest comments.
+
+86
+00:06:52,730 --> 00:06:58,700
+OK so this is actually going to be a collection so remember are you well with the class of collection.
+
+87
+00:07:00,850 --> 00:07:08,240
+And it's also going to have a head or so we want the with Dash head or class.
+
+88
+00:07:08,380 --> 00:07:13,910
+And I'm also going to give it a class of latest Dasch comments.
+
+89
+00:07:14,500 --> 00:07:14,970
+Okay.
+
+90
+00:07:14,980 --> 00:07:23,270
+And then here let's put a list item with the class of collection dash Hetter.
+
+91
+00:07:23,820 --> 00:07:32,040
+And we'll say latest comments like that saves you what it looks like.
+
+92
+00:07:32,040 --> 00:07:33,060
+All right.
+
+93
+00:07:33,070 --> 00:07:35,240
+That should actually be an age five
+
+94
+00:07:42,490 --> 00:07:44,910
+so age five.
+
+95
+00:07:45,280 --> 00:07:45,880
+There you go.
+
+96
+00:07:45,880 --> 00:07:49,250
+Now below that we're going to use an avatar collection.
+
+97
+00:07:49,250 --> 00:07:51,210
+So are a collection item.
+
+98
+00:07:51,210 --> 00:07:58,420
+So it's going to be an ally with the class of collection dash item but it's also going to have a class
+
+99
+00:07:58,420 --> 00:08:00,400
+of Avatar came.
+
+100
+00:08:00,420 --> 00:08:08,560
+Remember we did all this stuff in the sandbox so we're going to have an image of the person and it's
+
+101
+00:08:08,560 --> 00:08:10,340
+going to be a circle.
+
+102
+00:08:10,370 --> 00:08:12,830
+So we want to give it a class of circle.
+
+103
+00:08:13,180 --> 00:08:21,330
+The image will be an I am g slash person person one dot J Pag.
+
+104
+00:08:21,480 --> 00:08:28,260
+So if I save that we get our little guy there and let's give them a title so under the image will have
+
+105
+00:08:28,260 --> 00:08:36,030
+a span with the class of title and we'll give them the name John Doe.
+
+106
+00:08:36,430 --> 00:08:38,410
+OK then we'll have his comment.
+
+107
+00:08:38,430 --> 00:08:40,100
+Now I will add the comment.
+
+108
+00:08:40,110 --> 00:08:44,030
+I don't want it to display the whole thing because the comment could be very long.
+
+109
+00:08:44,190 --> 00:08:50,050
+So what we'll do is give it the class of truncate which automatically truncates whatever the text is.
+
+110
+00:08:50,190 --> 00:08:59,940
+So if I say Warum 30 tab and save it doesn't show off all of the 30 words it truncates it which is what
+
+111
+00:08:59,940 --> 00:09:00,810
+we want.
+
+112
+00:09:01,170 --> 00:09:03,760
+OK I actually want that.
+
+113
+00:09:04,530 --> 00:09:05,620
+That's right.
+
+114
+00:09:05,670 --> 00:09:10,170
+But then under the paragraph I want a couple links to approve or deny.
+
+115
+00:09:10,170 --> 00:09:21,900
+So we're going to do a with the class of approve spelled it wrong and they approve and say We're also
+
+116
+00:09:21,900 --> 00:09:27,860
+going to give it a class of green dash text.
+
+117
+00:09:28,350 --> 00:09:40,580
+See it's not going to actually go anywhere let's say prove high and then we'll put a little pipe character
+
+118
+00:09:40,580 --> 00:09:46,340
+here space and then let's do another link.
+
+119
+00:09:46,930 --> 00:09:51,010
+So we'll go like that and we'll change this one to D-NY
+
+120
+00:09:53,660 --> 00:09:55,730
+and we'll change this to read text
+
+121
+00:09:58,550 --> 00:10:07,250
+I save that but they should say denie.
+
+122
+00:10:07,390 --> 00:10:10,480
+All right so now we have a prove and deny.
+
+123
+00:10:11,800 --> 00:10:15,120
+So now all I'm going to do is copy this list item
+
+124
+00:10:17,920 --> 00:10:26,950
+and we'll do two more and then we'll just change the second one to person two will change the name here
+
+125
+00:10:27,250 --> 00:10:30,260
+to say Steve Smith.
+
+126
+00:10:30,700 --> 00:10:34,190
+This next one will be person three.
+
+127
+00:10:34,210 --> 00:10:41,250
+And let's change the name to let's say Allen Williams and save.
+
+128
+00:10:41,680 --> 00:10:43,050
+And there we go.
+
+129
+00:10:43,050 --> 00:10:44,670
+So now we have our latest comments.
+
+130
+00:10:44,680 --> 00:10:51,250
+Now we want to add the functionality where if we click approve or deny it gives us a little toast dialog
+
+131
+00:10:51,250 --> 00:10:54,950
+that says comment approver comment denied.
+
+132
+00:10:54,970 --> 00:11:00,370
+So we're going to use Jay curry for that so we're going to go down here under the counter and we'll
+
+133
+00:11:00,370 --> 00:11:01,930
+say comments
+
+134
+00:11:05,850 --> 00:11:09,170
+prove and deny so very easy.
+
+135
+00:11:09,170 --> 00:11:21,430
+All we have to do is grab onto the class of proof and we'll say when we click that was so when we clicked
+
+136
+00:11:21,430 --> 00:11:26,020
+that we want a function.
+
+137
+00:11:26,670 --> 00:11:32,610
+Now it's a link so I want to stop the default behavior so we passed in an event parameter here and then
+
+138
+00:11:32,610 --> 00:11:37,200
+we simply do e Daut prevent default like that.
+
+139
+00:11:37,520 --> 00:11:37,950
+OK.
+
+140
+00:11:37,950 --> 00:11:40,260
+And then and here is where we want to do our toes.
+
+141
+00:11:40,270 --> 00:11:49,470
+Remember the materialize Daut toast and it takes in a message which will be comments
+
+142
+00:11:51,730 --> 00:11:57,570
+approved and then it takes in a second parameter of the time it's there for which will be three seconds.
+
+143
+00:11:57,850 --> 00:12:02,400
+OK and then we'll do the same thing for nice we're going to I'm going to take this.
+
+144
+00:12:02,560 --> 00:12:15,460
+Copy it down and then just change the class to deny and we'll change the message to comment denied.
+
+145
+00:12:15,480 --> 00:12:22,030
+All right so let's save that and let's go and click approve and then we go comment approved or clicked
+
+146
+00:12:22,030 --> 00:12:25,060
+deny comment denied.
+
+147
+00:12:25,060 --> 00:12:25,630
+All right.
+
+148
+00:12:25,750 --> 00:12:27,530
+It's in use easy is that.
+
+149
+00:12:29,270 --> 00:12:36,430
+OK so in the next video we're going to start on the next area which has the quick to do's and the save
+
+150
+00:12:36,440 --> 00:12:39,110
+the post table the recent posts.
+

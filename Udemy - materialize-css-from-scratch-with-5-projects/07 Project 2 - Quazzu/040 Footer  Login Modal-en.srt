@@ -1,0 +1,324 @@
+1
+00:00:00,960 --> 00:00:04,950
+All right guys so we're going to get to the flooder and the log in motile But there's one couple of
+
+2
+00:00:04,950 --> 00:00:08,430
+things they want to do first with this testimonial one.
+
+3
+00:00:08,430 --> 00:00:12,820
+The name should be on its own paragraph should be on its own line.
+
+4
+00:00:12,820 --> 00:00:20,030
+So where I have the emphasis right here we want to wrap this in a paragraph
+
+5
+00:00:23,030 --> 00:00:26,860
+Okay so we just want to go through that for each of these.
+
+6
+00:00:26,960 --> 00:00:29,200
+So also be paragraph
+
+7
+00:00:34,250 --> 00:00:37,730
+and this one as well.
+
+8
+00:00:42,490 --> 00:00:44,050
+OK so that's on a separate line.
+
+9
+00:00:44,050 --> 00:00:50,320
+And then I also want to make the font bigger so I'm going to go to my CSSA and I'm going to say carrousel
+
+10
+00:00:51,250 --> 00:00:52,860
+dash item
+
+11
+00:00:56,690 --> 00:01:01,010
+paragraph and let's say font size
+
+12
+00:01:03,360 --> 00:01:12,090
+20 pick 20 pixels important and save.
+
+13
+00:01:12,410 --> 00:01:13,050
+And there we go.
+
+14
+00:01:13,050 --> 00:01:15,880
+So that looks better.
+
+15
+00:01:15,890 --> 00:01:17,330
+All right so now for the faulter
+
+16
+00:01:22,210 --> 00:01:29,900
+I'm actually using the same footer that is in the documentation so we could also use the sandbox if
+
+17
+00:01:29,900 --> 00:01:30,680
+we wanted to.
+
+18
+00:01:30,700 --> 00:01:36,260
+But just to be real quick let's go to footer and I want the same set basically the same thing here just
+
+19
+00:01:36,260 --> 00:01:42,650
+different colors so I'm going to copy this whole thing and paste it in and then we're going to change
+
+20
+00:01:42,650 --> 00:01:54,750
+up a couple things so the for the actual for tagging going to deep deep purple as the color.
+
+21
+00:01:54,770 --> 00:02:02,010
+And then we'll say liten Dash 1 and then this part down here where it says photocopy right.
+
+22
+00:02:02,120 --> 00:02:09,890
+We're going to use Deep Purple and we're going to use dark and Dash 1.
+
+23
+00:02:10,550 --> 00:02:11,090
+OK.
+
+24
+00:02:11,110 --> 00:02:24,190
+And then we'll change this h five to about us and I don't really want to use this tax.
+
+25
+00:02:24,210 --> 00:02:26,860
+I'm just going to put in my own sample tax.
+
+26
+00:02:26,870 --> 00:02:38,790
+We'll do larm 20 maybe a couple us and then for the links let's make these into actual length so do
+
+27
+00:02:39,170 --> 00:02:41,520
+home.
+
+28
+00:02:41,690 --> 00:02:47,260
+So so go to index dot each team.
+
+29
+00:02:47,820 --> 00:02:50,960
+This one will be for solutions
+
+30
+00:02:59,840 --> 00:03:01,900
+and then this one will be for sign up
+
+31
+00:03:10,340 --> 00:03:16,000
+and then we don't need this last one OK and then down here we'll say
+
+32
+00:03:20,850 --> 00:03:21,770
+KwaZulu
+
+33
+00:03:24,010 --> 00:03:26,080
+copyrights.
+
+34
+00:03:26,390 --> 00:03:27,360
+Copy
+
+35
+00:03:29,230 --> 00:03:30,740
+2018.
+
+36
+00:03:30,750 --> 00:03:43,960
+And then instead of more links we'll say Terms and Conditions and save it take a look at it and here's
+
+37
+00:03:43,980 --> 00:03:45,510
+our footer.
+
+38
+00:03:46,530 --> 00:03:49,920
+All right so that's done now we're going to do the log in motile.
+
+39
+00:03:50,040 --> 00:03:55,400
+So for a link to be a log in moto there's two things we need to do to it.
+
+40
+00:03:55,410 --> 00:04:05,730
+So let's go to that part right there which is this one we need to add a special class called motile
+
+41
+00:04:05,730 --> 00:04:08,300
+trigger.
+
+42
+00:04:10,340 --> 00:04:11,110
+OK.
+
+43
+00:04:11,130 --> 00:04:18,720
+And then we also need to have an age BRAF which we do but we need to change that value to go to the
+
+44
+00:04:18,720 --> 00:04:23,480
+idea of the modal which will be loggin dash mode.
+
+45
+00:04:23,730 --> 00:04:26,190
+OK so now we can go in we can create that.
+
+46
+00:04:26,190 --> 00:04:32,890
+So let's go down to the bottom I like to put any modals we have at the very bottom.
+
+47
+00:04:33,030 --> 00:04:35,160
+So let's say log modal
+
+48
+00:04:38,730 --> 00:04:44,430
+so this is going to be a div with the ID of log and.
+
+49
+00:04:45,220 --> 00:04:50,970
+And the class of modal and then inside here we will have the modal content
+
+50
+00:04:54,030 --> 00:05:13,590
+class will have an H for say a count log in paragraph log in to access your count dashboard and then
+
+51
+00:05:13,600 --> 00:05:15,890
+will have a simple form.
+
+52
+00:05:15,960 --> 00:05:26,060
+We don't need an action in this form we're going to have an input field and we're going to have an inputs.
+
+53
+00:05:26,300 --> 00:05:29,360
+It's going to have any type of e-mail.
+
+54
+00:05:29,610 --> 00:05:37,660
+And let's give it an idea of email and then we'll have a label for e-mail.
+
+55
+00:05:39,340 --> 00:05:43,010
+OK and then I'm just going to just copy that.
+
+56
+00:05:43,020 --> 00:05:46,470
+Copy that down and then this is going to be the password.
+
+57
+00:05:46,770 --> 00:05:59,690
+So type will be password ID.
+
+58
+00:06:00,240 --> 00:06:02,120
+OK.
+
+59
+00:06:02,280 --> 00:06:07,070
+And then we want a modal Fortner which is going to go under this div..
+
+60
+00:06:07,140 --> 00:06:14,310
+OK this is the modal content div we're going to go under that Indu modal dash for her.
+
+61
+00:06:15,010 --> 00:06:23,850
+And in here we'll have an eight tag and let's give this a class of modal dash action.
+
+62
+00:06:24,450 --> 00:06:35,400
+Also motile dash close so that when we click it it actually closes and let's do DTN and let's do gour
+
+63
+00:06:39,970 --> 00:06:44,300
+and then further text.
+
+64
+00:06:44,410 --> 00:06:47,550
+This is going to say reset password.
+
+65
+00:06:47,560 --> 00:06:51,740
+It's not actually going to do anything we're just putting that in we're actually going to put an icon
+
+66
+00:06:51,740 --> 00:06:54,270
+in here as well.
+
+67
+00:06:54,350 --> 00:07:04,200
+So right next to the text puts to dot FAA DOT FAA dash sync.
+
+68
+00:07:04,200 --> 00:07:13,080
+So put that icon there and then what I'll do is copy this a tag you're going to have another one except
+
+69
+00:07:13,080 --> 00:07:14,910
+this one is going to be purple
+
+70
+00:07:18,710 --> 00:07:26,440
+and this one is going to say log in and it's going to have an icon of a lock.
+
+71
+00:07:26,530 --> 00:07:30,270
+So it's going to be F.A. dash lock.
+
+72
+00:07:30,650 --> 00:07:31,900
+So it's safe.
+
+73
+00:07:31,910 --> 00:07:34,700
+Let's try it out log in.
+
+74
+00:07:34,710 --> 00:07:40,700
+It's not working because we need to initialize it so we need to use Jey query and just for the modal
+
+75
+00:07:40,700 --> 00:07:44,570
+class we need to call Daut modal.
+
+76
+00:07:45,050 --> 00:07:51,280
+OK and this should actually be in quotes and save.
+
+77
+00:07:51,540 --> 00:07:52,450
+And now click.
+
+78
+00:07:52,470 --> 00:07:53,410
+And there we go.
+
+79
+00:07:53,620 --> 00:07:54,600
+Can't log in.
+
+80
+00:07:54,600 --> 00:07:59,680
+So it's actually going to do anything but it has we have the UI.
+
+81
+00:08:00,120 --> 00:08:06,100
+So our home page is now complete in the next video we're going to start on the solutions page.
+

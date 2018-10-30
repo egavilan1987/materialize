@@ -1,0 +1,428 @@
+1
+00:00:00,720 --> 00:00:00,990
+All right.
+
+2
+00:00:00,990 --> 00:00:03,570
+So we're going to take a look at the side now of component.
+
+3
+00:00:03,580 --> 00:00:07,380
+Now we saw a little bit of this in the nav bar section.
+
+4
+00:00:07,380 --> 00:00:14,660
+In fact if I go back to nav bar and the response of one we did here if I clicked that we get a side
+
+5
+00:00:14,670 --> 00:00:17,400
+now of that that pops out and that's what we're going to do.
+
+6
+00:00:17,490 --> 00:00:22,710
+But we're going to add more to it we're going to have like an image up here with an avatar and in some
+
+7
+00:00:22,710 --> 00:00:28,490
+other stuffs some icons and just make it look really nice so let's go back to side now.
+
+8
+00:00:28,740 --> 00:00:31,320
+And this is five underscore to side.
+
+9
+00:00:31,320 --> 00:00:38,400
+Now I've aged him now and notice they have a well here and they have an ally that wraps around a div
+
+10
+00:00:38,670 --> 00:00:45,450
+that has another nested did with an image and then we have a link that surrounds an image we have span
+
+11
+00:00:45,450 --> 00:00:47,830
+with a name span with an email.
+
+12
+00:00:47,850 --> 00:00:54,150
+So we're going to make this here look pretty nice and be part of the side navigation.
+
+13
+00:00:54,150 --> 00:01:04,020
+All right so first thing you want to do is take this UL and give it an ID of slide dash out.
+
+14
+00:01:04,020 --> 00:01:06,600
+Now this idea this can be anything you want.
+
+15
+00:01:06,600 --> 00:01:12,600
+This is just what we're going to call when we have our trigger to actually make the side of pop out.
+
+16
+00:01:12,630 --> 00:01:14,190
+So this can be anything.
+
+17
+00:01:14,340 --> 00:01:19,950
+All right but you do want to have a class of side dash now.
+
+18
+00:01:20,580 --> 00:01:20,910
+All right.
+
+19
+00:01:20,910 --> 00:01:28,470
+And then this div right here I'm going to give a class of user view which allows us to have a pretty
+
+20
+00:01:28,470 --> 00:01:35,750
+cool UI with an image in the background and you'll see once it's once it's added.
+
+21
+00:01:35,910 --> 00:01:40,010
+We also need a class here of background.
+
+22
+00:01:41,430 --> 00:01:41,950
+OK.
+
+23
+00:01:41,970 --> 00:01:50,850
+And then for the image we're going to use Let's use image for jpeg.
+
+24
+00:01:51,300 --> 00:01:51,750
+OK.
+
+25
+00:01:51,750 --> 00:01:56,520
+And then for the tag here I'm just going to have it go nowhere so just hash.
+
+26
+00:01:56,520 --> 00:01:57,820
+Exclamation.
+
+27
+00:01:58,050 --> 00:02:04,980
+And then for this image here I'm going to give a class of circle member we can do our circle images
+
+28
+00:02:05,430 --> 00:02:08,510
+and I'll give it a source of image five
+
+29
+00:02:12,070 --> 00:02:17,120
+and then for this link here again it's not going to actually go anywhere.
+
+30
+00:02:17,140 --> 00:02:20,670
+Normally it would go to like a profile but I'm not going to have it go anywhere.
+
+31
+00:02:20,670 --> 00:02:27,400
+And then for this span I'm going to give this a class of white text because this will actually be over
+
+32
+00:02:27,400 --> 00:02:32,700
+the image and then I'm also going to give it a class of name.
+
+33
+00:02:33,400 --> 00:02:33,910
+OK.
+
+34
+00:02:33,910 --> 00:02:43,570
+And then here on this email I'm also going to give that a class of white text and I'm going to give
+
+35
+00:02:43,570 --> 00:02:45,350
+it a class of e-mail.
+
+36
+00:02:45,610 --> 00:02:45,910
+All right.
+
+37
+00:02:45,910 --> 00:02:53,740
+So this is like this is very typical of some kind of link to a dashboard or something like that or actually
+
+38
+00:02:53,740 --> 00:02:59,370
+we have the dashboard link down here but to see your user information once you're logged in.
+
+39
+00:02:59,770 --> 00:03:05,390
+So for the dashboard again this will just go nowhere.
+
+40
+00:03:05,390 --> 00:03:07,940
+These links aren't going to actually work.
+
+41
+00:03:07,940 --> 00:03:17,720
+And then for the icon we'll add our material icons class and let's make this there's actually an icon
+
+42
+00:03:17,720 --> 00:03:18,950
+called dashboard.
+
+43
+00:03:18,950 --> 00:03:19,640
+We'll use that
+
+44
+00:03:22,620 --> 00:03:24,630
+and then let's see posts
+
+45
+00:03:29,510 --> 00:03:34,320
+and we can also have dividers just lines that kind of divide sections.
+
+46
+00:03:34,370 --> 00:03:37,220
+So this div I'm going to give a class of divider
+
+47
+00:03:41,440 --> 00:03:43,300
+and this account info.
+
+48
+00:03:43,540 --> 00:03:51,910
+I want this to be like a subhead so I'm going to give that a class of sub header and then we have a
+
+49
+00:03:51,910 --> 00:03:53,120
+logo button.
+
+50
+00:03:53,170 --> 00:04:07,480
+So I'm going to give that a class of let's do Wavves effect and it's not actually going to go anywhere.
+
+51
+00:04:07,480 --> 00:04:18,530
+Same thing with this here all right and then down here this ATAC this is going to be our activator.
+
+52
+00:04:18,730 --> 00:04:30,310
+So the Tref is going to go anywhere but we're going to have a data activates attribute and we're going
+
+53
+00:04:30,310 --> 00:04:33,510
+to set that to remember we have the idea of slide out.
+
+54
+00:04:33,520 --> 00:04:35,280
+This is where we're going to call it.
+
+55
+00:04:35,650 --> 00:04:35,930
+All right.
+
+56
+00:04:35,950 --> 00:04:40,310
+This also has to have a class of foughten collapse
+
+57
+00:04:43,430 --> 00:04:49,100
+OK just like it did in the nav bar and then we'll have it wrapped around an icon.
+
+58
+00:04:49,280 --> 00:04:54,970
+So we'll say material dash icons and we'll give this the icon of the menu.
+
+59
+00:04:55,550 --> 00:04:56,750
+And let's save it.
+
+60
+00:04:56,750 --> 00:05:04,070
+So it's not going to work yet because we actually have to initialize it so we go down here and let's
+
+61
+00:05:04,070 --> 00:05:14,080
+say putten collapse because that's a class on the trigger and we need to call side now.
+
+62
+00:05:15,090 --> 00:05:15,700
+OK.
+
+63
+00:05:15,830 --> 00:05:18,290
+So let's save that and let's try it.
+
+64
+00:05:18,290 --> 00:05:19,220
+And there we go.
+
+65
+00:05:19,340 --> 00:05:21,600
+And you can see this looks really nice.
+
+66
+00:05:21,650 --> 00:05:28,920
+We have our old dashboard link with the avatar and the name and email account info log out.
+
+67
+00:05:29,090 --> 00:05:31,390
+So it's a pretty nice effect.
+
+68
+00:05:31,400 --> 00:05:32,740
+Pretty nice look.
+
+69
+00:05:33,110 --> 00:05:36,700
+And we have some options that we can add for this as well.
+
+70
+00:05:36,710 --> 00:05:38,260
+We wanted to change the width.
+
+71
+00:05:38,270 --> 00:05:43,670
+We could do menu with if we wanted to change it to let's say 400 pixels.
+
+72
+00:05:43,670 --> 00:05:45,380
+Actually we just do 400.
+
+73
+00:05:45,830 --> 00:05:49,800
+And now if I click it you'll see that it's much thicker.
+
+74
+00:05:49,840 --> 00:05:52,270
+I think the default is 300.
+
+75
+00:05:52,450 --> 00:06:04,060
+And then if we can also change where it is so if we say edge to edge right and now it comes out from
+
+76
+00:06:04,060 --> 00:06:16,090
+the right and to put it back to left though we can also do close on click which is true by default.
+
+77
+00:06:16,090 --> 00:06:16,960
+Let's just try it.
+
+78
+00:06:16,960 --> 00:06:20,700
+So if I click on i guess.
+
+79
+00:06:20,920 --> 00:06:21,420
+Let's see.
+
+80
+00:06:21,430 --> 00:06:22,810
+Let's do a close on click.
+
+81
+00:06:22,810 --> 00:06:23,850
+True.
+
+82
+00:06:26,640 --> 00:06:27,000
+OK.
+
+83
+00:06:27,020 --> 00:06:33,760
+So if I click outside it closes but if I put this to false it still does
+
+84
+00:06:40,000 --> 00:06:49,390
+not exactly sure what close on click does but I know it is an option see that it might have to do with
+
+85
+00:06:49,390 --> 00:06:50,560
+touch screens.
+
+86
+00:06:52,110 --> 00:06:57,420
+Actually one thing that does have to do with touch screens is draggle.
+
+87
+00:06:59,190 --> 00:07:00,430
+So that's true.
+
+88
+00:07:00,430 --> 00:07:06,840
+Now this will allow you to choose if you want to be able to drag to open it on touchscreens or not.
+
+89
+00:07:06,840 --> 00:07:08,600
+I think the default is true.
+
+90
+00:07:08,640 --> 00:07:15,060
+So that's what I'm going to keep it as we can also do callbacks for when it's open and close.
+
+91
+00:07:15,060 --> 00:07:24,870
+So for instance let's put a comma here and let's say on the open let's say function
+
+92
+00:07:27,630 --> 00:07:33,490
+and we'll say alert or actually it's to a console log.
+
+93
+00:07:37,610 --> 00:07:43,690
+And we'll say when you open and then we can also do
+
+94
+00:07:46,690 --> 00:07:47,850
+on close
+
+95
+00:07:55,450 --> 00:07:57,710
+say console dot log
+
+96
+00:08:02,440 --> 00:08:04,990
+in New Clothes.
+
+97
+00:08:04,990 --> 00:08:05,290
+All right.
+
+98
+00:08:05,290 --> 00:08:10,970
+So now what I'll do is open up our console at 12 and let's open it up and we get menu open.
+
+99
+00:08:11,080 --> 00:08:16,840
+Close it we get menu close if you want something to happen in javascript when you open and close the
+
+100
+00:08:16,840 --> 00:08:17,250
+side.
+
+101
+00:08:17,250 --> 00:08:19,900
+Now you can do that easily.
+
+102
+00:08:19,900 --> 00:08:21,460
+All right guys so that's going to be it.
+
+103
+00:08:21,460 --> 00:08:28,930
+So in next video we're going to take a look at pushpin which is kind of unique it's kind of a way to
+
+104
+00:08:28,930 --> 00:08:31,050
+lay out your page.
+
+105
+00:08:31,090 --> 00:08:35,440
+We're going to have to we're not going to be able to use our normal layout because it's going to take
+
+106
+00:08:35,440 --> 00:08:40,030
+up the entire page so we can have our menu items but you'll see.
+
+107
+00:08:40,150 --> 00:08:41,940
+We'll take a look at that next.
+

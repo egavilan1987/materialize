@@ -1,0 +1,120 @@
+1
+00:00:00,600 --> 00:00:05,730
+Hey Guys welcome to your first project in this project we're going to build a theme called Travel Ville
+
+2
+00:00:05,730 --> 00:00:10,200
+which is kind of like a travel agency type Web site landing page.
+
+3
+00:00:10,210 --> 00:00:17,880
+So basically it's all one page but we have a navigation where we're using the scroll spy component so
+
+4
+00:00:17,870 --> 00:00:23,100
+that if we click on something like surge it'll just kind of nicely scroll down to that area.
+
+5
+00:00:23,100 --> 00:00:25,320
+Same thing with popular places.
+
+6
+00:00:25,380 --> 00:00:30,240
+Gallery contact and all that so we can navigate that way.
+
+7
+00:00:30,240 --> 00:00:35,480
+We also have the slider using an image slider with some high quality images.
+
+8
+00:00:35,580 --> 00:00:41,010
+And each one each slide has the caption coming in from a different direction.
+
+9
+00:00:41,010 --> 00:00:47,110
+All right we also have this search destination's search box where we implemented the autocomplete component.
+
+10
+00:00:47,100 --> 00:00:51,930
+So for instance if I put an A in here you see we get a bunch of stuff that comes up if I started to
+
+11
+00:00:51,930 --> 00:00:55,910
+type like a Ruba then it narrows it down to Aruba.
+
+12
+00:00:56,010 --> 00:01:00,570
+Of course it's not going to do any searching or anything because this is just the front end UI.
+
+13
+00:01:00,800 --> 00:01:03,600
+OK then we have some boxes here are some icons.
+
+14
+00:01:03,600 --> 00:01:05,550
+These are material icons.
+
+15
+00:01:05,640 --> 00:01:09,840
+Down here we have some cards with some images for popular places.
+
+16
+00:01:09,870 --> 00:01:15,300
+I'm also using the material boxed component so that we can click on it and it will show a full size
+
+17
+00:01:15,330 --> 00:01:16,320
+image.
+
+18
+00:01:16,320 --> 00:01:21,840
+All right here we just have a follow section where we have some social media icons.
+
+19
+00:01:21,840 --> 00:01:28,080
+Now these are actually coming from Fonte awesome because the material icons library does not have social
+
+20
+00:01:28,080 --> 00:01:29,690
+media icons.
+
+21
+00:01:29,700 --> 00:01:34,020
+All right then we have a photo gallery again we're using material boxed here so we can see the full
+
+22
+00:01:34,020 --> 00:01:40,020
+thing and then we have our contact form with a couple of boxes for location and so on.
+
+23
+00:01:40,020 --> 00:01:43,760
+And then just a very simple footer with some flow text.
+
+24
+00:01:43,770 --> 00:01:44,980
+All right so that's what we'll be building.
+
+25
+00:01:44,980 --> 00:01:51,270
+Guys let's actually quickly take a look at the responsive version so if I were to make this smaller
+
+26
+00:01:51,840 --> 00:01:54,910
+and you'll see we have the side menu here that pops out.
+
+27
+00:01:55,080 --> 00:02:03,230
+And if I were to make this to wear it around here you'll see that it changes and everything is now stacked.
+
+28
+00:02:03,220 --> 00:02:10,050
+OK everything is in a single row and it looks good on smaller mobile devices.
+
+29
+00:02:10,050 --> 00:02:13,500
+Ok so so be building guys hopefully you enjoy this project.
+
+30
+00:02:13,500 --> 00:02:15,100
+And let's go ahead and get started.
+

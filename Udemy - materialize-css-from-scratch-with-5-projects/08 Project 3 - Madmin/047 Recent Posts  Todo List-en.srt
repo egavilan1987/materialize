@@ -1,0 +1,744 @@
+1
+00:00:00,800 --> 00:00:05,700
+All right guys so in this video we're going to do the recent post table and we're going to do the To
+
+2
+00:00:05,700 --> 00:00:06,510
+Do list.
+
+3
+00:00:06,510 --> 00:00:09,450
+OK I'm not sure if we're going to get to the functionality of the To Do List.
+
+4
+00:00:09,450 --> 00:00:11,340
+We'll see how much time we have.
+
+5
+00:00:11,340 --> 00:00:14,550
+So let's go right below the section we just did with the chart.
+
+6
+00:00:14,700 --> 00:00:19,420
+Still above the preload or the preload or and all the Modals should always stay at the bottom.
+
+7
+00:00:19,440 --> 00:00:21,570
+OK after all the sections.
+
+8
+00:00:21,570 --> 00:00:29,650
+So we're going to say section and we'll just call this recent posts and to do these.
+
+9
+00:00:29,670 --> 00:00:40,480
+OK so we'll say Section Daut section and we're going to also give it a class of just Section Dasch recent.
+
+10
+00:00:41,360 --> 00:00:48,810
+OK and then we're going to do a row inside that row will have a column and we're going to do as 12.
+
+11
+00:00:48,810 --> 00:00:55,940
+So that's stacked on mobile devices l 8 k so large screen will be an 8 column and on medium screens
+
+12
+00:00:55,940 --> 00:00:58,790
+it will be a six column div.
+
+13
+00:00:59,040 --> 00:01:05,370
+And inside here we're going to have a card and we're going to do our card content
+
+14
+00:01:09,570 --> 00:01:17,340
+and we want to have a title so we'll do a span with the class of card title and the title is just going
+
+15
+00:01:17,340 --> 00:01:23,860
+to say recent post or recent posts.
+
+16
+00:01:24,820 --> 00:01:25,460
+OK.
+
+17
+00:01:25,500 --> 00:01:31,260
+And then underneath that we'll have a table and we're going to do a Streitz table so we'll give it a
+
+18
+00:01:31,260 --> 00:01:37,600
+class of striped and then we'll have a T head.
+
+19
+00:01:37,760 --> 00:01:47,400
+So our table headings which will have a table row and then some th's which will have a title and a category
+
+20
+00:01:48,030 --> 00:01:49,430
+and then just a blank th.
+
+21
+00:01:49,530 --> 00:01:56,460
+Because that's where you go outside of the shoe go right here so that that will be where the details
+
+22
+00:01:56,460 --> 00:01:58,080
+button goes.
+
+23
+00:01:58,080 --> 00:02:05,760
+All right so under the t head let's put our t body and inside here we're going to have some table rows
+
+24
+00:02:06,210 --> 00:02:12,060
+so this will have a table column which is a T tag and we'll say post one
+
+25
+00:02:15,390 --> 00:02:22,680
+and then the category I'm going to say web development and then we want another D.
+
+26
+00:02:22,710 --> 00:02:26,360
+This is going to be the details button or details length.
+
+27
+00:02:26,370 --> 00:02:35,900
+So we'll put in a tag and I'm going to give it a class of between blue and white dash 2.
+
+28
+00:02:36,450 --> 00:02:39,810
+OK and it's going to go to details dot each team male
+
+29
+00:02:42,480 --> 00:02:44,340
+and let's see.
+
+30
+00:02:44,480 --> 00:02:52,970
+Actually no it's not going to go to details are going to go let's see actually details aged him out.
+
+31
+00:02:53,420 --> 00:02:57,920
+And then here we'll just say details like that.
+
+32
+00:02:57,920 --> 00:03:04,710
+All right so the rest of the posts will be for the rest of the rows will be the same except the content
+
+33
+00:03:04,710 --> 00:03:14,990
+so I'm just going to copy the TR and put it in two more times and then this one will be post 2 category
+
+34
+00:03:15,910 --> 00:03:20,860
+will say graphic design.
+
+35
+00:03:21,890 --> 00:03:28,450
+And then this one down here let's do post 3.
+
+36
+00:03:28,740 --> 00:03:34,390
+And we'll keep web development for the title or for the category.
+
+37
+00:03:34,410 --> 00:03:37,560
+All right so this is what it will look like.
+
+38
+00:03:37,620 --> 00:03:40,380
+Now on this side we're going to have to do.
+
+39
+00:03:40,380 --> 00:03:48,030
+So let's go create another column so this column right here ends here at this div So we want to go right
+
+40
+00:03:48,030 --> 00:03:52,020
+under it and do another column as 12.
+
+41
+00:03:52,500 --> 00:03:54,940
+And on medium screens it will be six.
+
+42
+00:03:54,940 --> 00:03:55,970
+It will be split in half.
+
+43
+00:03:55,980 --> 00:03:58,120
+And on large screens it will be four
+
+44
+00:04:00,710 --> 00:04:05,100
+now the dues are also going to go inside of a card.
+
+45
+00:04:05,270 --> 00:04:06,470
+So we'll see a card
+
+46
+00:04:09,140 --> 00:04:19,160
+card content's they'll have a title which will go in a span so card dash title and we'll just say quick
+
+47
+00:04:19,580 --> 00:04:21,740
+to do this.
+
+48
+00:04:21,860 --> 00:04:32,030
+All right then we're going to have a form I'm going to give an ID of to do dash form no action.
+
+49
+00:04:32,030 --> 00:04:36,680
+We're going to use J.A.G. to grab onto the form by the ID.
+
+50
+00:04:36,700 --> 00:04:37,580
+All right.
+
+51
+00:04:37,580 --> 00:04:39,690
+And then we'll have an input field div
+
+52
+00:04:42,830 --> 00:04:47,890
+and inside here we're just going to have an input no label just the input.
+
+53
+00:04:48,470 --> 00:04:52,820
+And I'm actually going to give an ID so that we can grab on to it.
+
+54
+00:04:52,820 --> 00:04:55,690
+And Jay query of to do.
+
+55
+00:04:56,090 --> 00:05:05,330
+And then we'll add a little placeholder that will say add to do like that.
+
+56
+00:05:05,540 --> 00:05:06,020
+OK.
+
+57
+00:05:06,020 --> 00:05:10,820
+And then if we save that that's what it will look like.
+
+58
+00:05:10,820 --> 00:05:12,920
+Now I'm going to add some initial to do's.
+
+59
+00:05:12,920 --> 00:05:14,890
+They're going to be in a collection.
+
+60
+00:05:14,900 --> 00:05:20,660
+So under the form we're going to have a well with the class of collection.
+
+61
+00:05:20,660 --> 00:05:28,400
+And let's also give it a class of two do's and then inside here we're going to have a list item with
+
+62
+00:05:28,400 --> 00:05:33,060
+the class of collection item.
+
+63
+00:05:33,110 --> 00:05:35,990
+Now they're also going to have some secondary content.
+
+64
+00:05:35,990 --> 00:05:42,950
+We want the X so that we can delete that to do so we're going to put a div and we'll put a title say
+
+65
+00:05:42,950 --> 00:05:53,270
+to do one and then we want in a tag with the class of secondary content.
+
+66
+00:05:53,270 --> 00:05:57,570
+And we also want to give it a class of delete so that we can grab onto it.
+
+67
+00:05:57,970 --> 00:05:58,470
+All right.
+
+68
+00:05:58,490 --> 00:06:05,510
+And then inside that this is just going to go to a hash and an exclamation it's not going to go anywhere
+
+69
+00:06:05,930 --> 00:06:16,190
+but inside the tag what's inside the tag we're going to have an icon so material icons and it's going
+
+70
+00:06:16,190 --> 00:06:19,590
+to be a close eye soon to be an X.
+
+71
+00:06:19,630 --> 00:06:23,240
+So if I save that it's going to look like this.
+
+72
+00:06:23,240 --> 00:06:24,770
+OK and I'll put one more so.
+
+73
+00:06:24,770 --> 00:06:25,400
+Copy that.
+
+74
+00:06:25,400 --> 00:06:34,430
+Ally and will just change that to to do two and say.
+
+75
+00:06:35,240 --> 00:06:35,600
+All right.
+
+76
+00:06:35,630 --> 00:06:38,770
+So that's the mark up.
+
+77
+00:06:39,500 --> 00:06:41,660
+So I guess we have time to do the functionality.
+
+78
+00:06:41,660 --> 00:06:50,330
+Now one thing I forgot to do is I want the body to have a darker color than these white cards.
+
+79
+00:06:50,330 --> 00:07:00,030
+OK so what we'll do is on the body tag we're going to have a class of gray and then lightning dash for
+
+80
+00:07:00,050 --> 00:07:01,290
+and save.
+
+81
+00:07:01,670 --> 00:07:08,170
+OK that way the body has kind of a gray that light gray it looks a little better with the white card.
+
+82
+00:07:08,810 --> 00:07:09,140
+All right.
+
+83
+00:07:09,140 --> 00:07:13,060
+So now let's get down to our javascript's area.
+
+84
+00:07:13,220 --> 00:07:18,250
+Let's go down to here and let's say quick to do this.
+
+85
+00:07:18,350 --> 00:07:28,160
+So what do we want to do here we want to basically catch whatever we type into that input field so we
+
+86
+00:07:28,160 --> 00:07:33,170
+can actually get get us we can call a submit function on that form.
+
+87
+00:07:33,170 --> 00:07:40,600
+Now remember we gave the form an ID of to do dash forms.
+
+88
+00:07:40,600 --> 00:07:49,520
+So we're going to say to do form on submit then we want to run a function.
+
+89
+00:07:49,670 --> 00:07:56,330
+OK we want to pass an event parameter here because we want to stop the form from actually submitting
+
+90
+00:07:56,330 --> 00:07:57,740
+and we do that with the dog.
+
+91
+00:07:57,770 --> 00:07:58,610
+Prevent
+
+92
+00:08:02,650 --> 00:08:05,370
+default like that.
+
+93
+00:08:05,770 --> 00:08:09,710
+OK and we can just console Daut log and test.
+
+94
+00:08:09,730 --> 00:08:12,380
+So they will just say one two three.
+
+95
+00:08:12,580 --> 00:08:18,850
+So now if I go down if I open my console with 12 click on the console tab put something in here and
+
+96
+00:08:18,850 --> 00:08:21,250
+hit enter or we see one two three.
+
+97
+00:08:21,580 --> 00:08:23,440
+OK.
+
+98
+00:08:24,070 --> 00:08:28,520
+Next thing we want to do is basically build our output.
+
+99
+00:08:28,570 --> 00:08:33,690
+OK now we can get whatever we type in this with Jay Querrey.
+
+100
+00:08:34,210 --> 00:08:35,940
+So if I do.
+
+101
+00:08:36,040 --> 00:08:44,710
+Jay queery I remember that input we gave it a class or do we know we gave it an ID of to do so we could
+
+102
+00:08:44,710 --> 00:08:46,360
+say to do.
+
+103
+00:08:46,380 --> 00:08:47,700
+J.A.G. to do it.
+
+104
+00:08:47,730 --> 00:08:48,530
+VAL.
+
+105
+00:08:48,700 --> 00:08:51,110
+And that'll give us the actual value.
+
+106
+00:08:51,310 --> 00:08:58,790
+So if I type in hello and I hit Enter it's not going to work.
+
+107
+00:08:59,130 --> 00:09:06,560
+Oh I forgot the hash the id to do now if I do.
+
+108
+00:09:06,570 --> 00:09:09,180
+Hello enter we get hello down here.
+
+109
+00:09:09,210 --> 00:09:16,410
+So we basically just want to build up our dorm so that we can put whatever we have here into this list.
+
+110
+00:09:16,430 --> 00:09:22,970
+OK so the way that we're going to do that is by creating a variable called to do or not to do output
+
+111
+00:09:23,810 --> 00:09:31,170
+and I'm using Consta musing S6 and tax and then I'm also going to use a template literals so we can
+
+112
+00:09:31,170 --> 00:09:32,250
+use back ticks.
+
+113
+00:09:32,250 --> 00:09:33,750
+These are not quotes.
+
+114
+00:09:33,900 --> 00:09:39,990
+These are back ticks to the left of your number one key same key as the till day.
+
+115
+00:09:40,260 --> 00:09:44,260
+And then in here we're going to build out our list item.
+
+116
+00:09:44,340 --> 00:09:47,020
+OK and it should look just like this.
+
+117
+00:09:47,040 --> 00:09:56,310
+OK like one of these to do so I'm just going to copy this one of those allies and put that within these
+
+118
+00:09:56,310 --> 00:10:03,990
+back ticks OK now we don't want to do one as the actual to do we want what I just showed you now when
+
+119
+00:10:03,990 --> 00:10:12,280
+you used template literals which are what these are called these these tactics we can use this syntax
+
+120
+00:10:12,320 --> 00:10:14,920
+whips to put in a variable.
+
+121
+00:10:14,940 --> 00:10:20,850
+Now in this variable I mean this could be any expression actually we're going to use J Querrey So we're
+
+122
+00:10:20,850 --> 00:10:27,990
+going to say Jay Querrey ID to do and we want the value the value.
+
+123
+00:10:27,990 --> 00:10:32,320
+So we want to go like that and that'll put whatever the value is there.
+
+124
+00:10:32,630 --> 00:10:33,030
+OK.
+
+125
+00:10:33,030 --> 00:10:38,070
+Now up until this point it's just putting all this in a variable it's not going to output it yet.
+
+126
+00:10:38,070 --> 00:10:50,490
+So what we want to do is we want to take the two Doo's class which is to see what is it right here.
+
+127
+00:10:50,490 --> 00:10:53,200
+So to do as class is actually the UL.
+
+128
+00:10:53,310 --> 00:11:00,140
+And we want to append our new to do into this and we can do that with the J Kuri method append.
+
+129
+00:11:00,510 --> 00:11:06,250
+So that's what we'll do we'll go ahead and write under the variable.
+
+130
+00:11:06,950 --> 00:11:15,740
+We'll say bring this back we'll say class to Dewes which is the UL.
+
+131
+00:11:15,930 --> 00:11:18,930
+And then we want to append into it.
+
+132
+00:11:19,230 --> 00:11:22,590
+Our output variable which is the new ally.
+
+133
+00:11:23,130 --> 00:11:25,040
+OK hopefully that makes sense.
+
+134
+00:11:25,200 --> 00:11:30,630
+And then finally we'll just have a materialized toast that says that the two had been added
+
+135
+00:11:33,520 --> 00:11:35,780
+and we can do that like this.
+
+136
+00:11:35,830 --> 00:11:42,620
+I will say to do added and three seconds.
+
+137
+00:11:42,880 --> 00:11:45,800
+All right so let's save that and give it a shot.
+
+138
+00:11:46,390 --> 00:11:52,500
+So I'll say test and enter and then we go to do at it and it gets added down here.
+
+139
+00:11:52,900 --> 00:11:56,040
+Now we want to do is we want to be able to delete these.
+
+140
+00:11:56,050 --> 00:11:59,960
+So we want to be able to click on these axes and have them delete.
+
+141
+00:12:00,160 --> 00:12:05,580
+Now since there's multiple X's we're going to be using the class to delete.
+
+142
+00:12:05,620 --> 00:12:07,740
+And there's multiple ones of those.
+
+143
+00:12:07,780 --> 00:12:11,290
+So we have to use what's called event delegation.
+
+144
+00:12:11,290 --> 00:12:19,180
+So we're not going to call the actual event on the delete class we needed to call it on a parent of
+
+145
+00:12:19,180 --> 00:12:19,750
+it.
+
+146
+00:12:19,750 --> 00:12:22,160
+So I'm going to use the to do as you well.
+
+147
+00:12:22,300 --> 00:12:29,800
+So we'll go down here and let's say delete to do's.
+
+148
+00:12:29,860 --> 00:12:34,910
+So I'm going to take that well which has a class of to.
+
+149
+00:12:35,260 --> 00:12:41,790
+And instead of doing a dot click we want to do a dot on click.
+
+150
+00:12:41,800 --> 00:12:43,810
+This is how we can do event delegation.
+
+151
+00:12:43,810 --> 00:12:53,980
+So dot on click and then we want to get the daily class OK which is if we look up here each of these
+
+152
+00:12:55,810 --> 00:12:59,830
+tags around the icon they have a delete class.
+
+153
+00:12:59,830 --> 00:13:02,660
+OK so that's what we're targeting.
+
+154
+00:13:03,640 --> 00:13:08,910
+Now we want to do is pass in a function for when we click on to delete.
+
+155
+00:13:09,550 --> 00:13:10,050
+OK.
+
+156
+00:13:10,060 --> 00:13:17,650
+And this is going to take in about an event parameter and then we're going to prevent the default
+
+157
+00:13:22,610 --> 00:13:29,640
+and then to to actually remove We want to take this meaning whatever one we click.
+
+158
+00:13:29,670 --> 00:13:33,810
+We can use this and then we can do Daut remove.
+
+159
+00:13:33,860 --> 00:13:34,410
+OK.
+
+160
+00:13:34,410 --> 00:13:42,110
+Now when we click on a delete it's the actual tag that we're clicking here so if I do this don't remove
+
+161
+00:13:42,120 --> 00:13:43,970
+it's going to remove just the tag.
+
+162
+00:13:43,960 --> 00:13:46,770
+Let's let's see what that does.
+
+163
+00:13:46,770 --> 00:13:53,010
+All right so if I click it it just it just removes the X which obviously isn't what we want.
+
+164
+00:13:53,460 --> 00:13:59,490
+So we want to go this Daut parent which moves to the next level up.
+
+165
+00:13:59,490 --> 00:14:04,840
+All right now the next level up from the tag is the div..
+
+166
+00:14:04,860 --> 00:14:06,440
+OK because we have a div.
+
+167
+00:14:06,660 --> 00:14:08,030
+That's not what we want to remove.
+
+168
+00:14:08,040 --> 00:14:11,320
+Either we want to move the ally which is another level up.
+
+169
+00:14:11,520 --> 00:14:16,460
+So we want to do dot parent dot parent dot remove.
+
+170
+00:14:16,530 --> 00:14:17,610
+And that should do it.
+
+171
+00:14:17,850 --> 00:14:28,410
+OK and then we'll do our materialized toast like that and we'll just say to do removed and save.
+
+172
+00:14:28,760 --> 00:14:36,620
+And now if we go down and click the X it goes away we get to do removed we can add it to do and then
+
+173
+00:14:36,620 --> 00:14:37,420
+delete it.
+
+174
+00:14:37,430 --> 00:14:39,620
+All right so that functionality is done.
+
+175
+00:14:42,040 --> 00:14:44,900
+So now let's just add a simple footer.
+
+176
+00:14:45,100 --> 00:14:47,130
+Real quick before we end this video.
+
+177
+00:14:47,290 --> 00:15:00,910
+So under the section we're going to do for her will be for our dog S. dot blue dot Darkon dash too and
+
+178
+00:15:00,910 --> 00:15:07,450
+we want to do white text and we want to center it.
+
+179
+00:15:07,980 --> 00:15:16,420
+OK and we're just going to put a paragraph we're going to say Mad Men panel copyrights and then we'll
+
+180
+00:15:16,420 --> 00:15:22,850
+do ampersand copy 20 18.
+
+181
+00:15:23,910 --> 00:15:25,390
+And there you go.
+
+182
+00:15:25,390 --> 00:15:30,670
+All right so in the next video we're going to do is add our little floating button here so that we can
+
+183
+00:15:30,700 --> 00:15:31,990
+add posts.
+
+184
+00:15:32,060 --> 00:15:38,450
+It'll take us to the post categories and user page things like that.
+
+185
+00:15:38,890 --> 00:15:42,210
+I'm sorry not the page is going to open up a modal for each one.
+
+186
+00:15:42,340 --> 00:15:44,040
+OK so we'll get to that next.
+

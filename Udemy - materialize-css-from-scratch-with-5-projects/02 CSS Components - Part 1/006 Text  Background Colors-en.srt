@@ -1,0 +1,392 @@
+1
+00:00:00,640 --> 00:00:05,420
+All right in this video we're going to take a look at collar's So that's one thing that materializes
+
+2
+00:00:05,420 --> 00:00:08,550
+is really good with colors are so many to choose from.
+
+3
+00:00:08,550 --> 00:00:14,070
+There's different shades of colors we can use and this is for text as well as background colors for
+
+4
+00:00:14,070 --> 00:00:16,050
+just about any element.
+
+5
+00:00:16,050 --> 00:00:21,180
+All right so what I have is just a bunch of paragraphs they all they all the same dummy text inside
+
+6
+00:00:21,180 --> 00:00:24,400
+of them and we're going to look at some of the color classes.
+
+7
+00:00:24,480 --> 00:00:27,040
+Now first thing we'll look at is text colors.
+
+8
+00:00:27,050 --> 00:00:34,590
+OK so for text colors we're going to give these classes of a color name so let's say red and then dash
+
+9
+00:00:34,590 --> 00:00:35,460
+text.
+
+10
+00:00:35,460 --> 00:00:40,280
+So if I go ahead and save that you'll see that that is now read text.
+
+11
+00:00:40,320 --> 00:00:40,680
+All right.
+
+12
+00:00:40,680 --> 00:00:49,430
+So let's add some other colors here so I'll say class equals and let's do blue dash text.
+
+13
+00:00:50,030 --> 00:00:58,010
+All right so for this one let's say we'll do orange dash.
+
+14
+00:00:58,150 --> 00:00:58,840
+TEXT
+
+15
+00:01:03,340 --> 00:01:05,440
+And it's two green text
+
+16
+00:01:10,800 --> 00:01:11,610
+yellow.
+
+17
+00:01:11,790 --> 00:01:18,060
+So these are kind of the standard colors are the just the more common colors.
+
+18
+00:01:18,060 --> 00:01:22,440
+There's some other ones as well that aren't so common that I'll show you in a minute.
+
+19
+00:01:22,440 --> 00:01:24,060
+So we have purple
+
+20
+00:01:26,790 --> 00:01:33,120
+and many frameworks just have like four or five colors there's just a ton with materialize so we have
+
+21
+00:01:33,420 --> 00:01:34,080
+pink
+
+22
+00:01:40,560 --> 00:01:47,430
+and we have gray.
+
+23
+00:01:47,650 --> 00:02:01,700
+And for this one here it's two brown text and we also have white text.
+
+24
+00:02:02,130 --> 00:02:02,610
+All right.
+
+25
+00:02:02,620 --> 00:02:06,280
+So let's go ahead and save that and you can see all these different colors.
+
+26
+00:02:06,280 --> 00:02:09,890
+We have the white text you can't see because it's on a white background.
+
+27
+00:02:10,090 --> 00:02:14,810
+But if you have a dark background color you're going to want to use white text.
+
+28
+00:02:15,130 --> 00:02:18,280
+Ok so we also have some less common colors.
+
+29
+00:02:18,490 --> 00:02:19,870
+So one of these
+
+30
+00:02:22,420 --> 00:02:24,330
+is Deep Purple.
+
+31
+00:02:24,640 --> 00:02:32,470
+So if we say deep Dasch purple Dasch text and say You see it's kind of a different purple than this
+
+32
+00:02:32,470 --> 00:02:34,480
+one here.
+
+33
+00:02:34,540 --> 00:02:43,690
+And we also have indigo so I'll say Indigo Dasch text and save and that gives us kind of a different
+
+34
+00:02:43,690 --> 00:02:49,840
+color purple or Indigo of cyan.
+
+35
+00:02:50,010 --> 00:02:53,920
+So science texts we have teal
+
+36
+00:02:58,080 --> 00:02:59,220
+Teall text
+
+37
+00:03:02,310 --> 00:03:03,220
+we have lime
+
+38
+00:03:09,550 --> 00:03:15,760
+we have Amber dash texts and we can do like green
+
+39
+00:03:19,490 --> 00:03:21,880
+if we got the class there.
+
+40
+00:03:31,280 --> 00:03:35,630
+And then for this paragraph here let's do deep orange
+
+41
+00:03:40,930 --> 00:03:46,450
+and then for this final one we're going to do a blue gray.
+
+42
+00:03:46,450 --> 00:03:50,590
+So blue the gray dash text.
+
+43
+00:03:50,590 --> 00:03:59,140
+So save that and I can see we have a whole nother group of less common colors I call them.
+
+44
+00:03:59,170 --> 00:04:06,570
+OK so if you want to look more into the different colors if you go to the materialize documentation
+
+45
+00:04:08,850 --> 00:04:14,280
+let's see it's click on this and go to I think it's CSSA color.
+
+46
+00:04:15,360 --> 00:04:17,460
+And you see all the different color palette.
+
+47
+00:04:17,460 --> 00:04:20,050
+So we have red paint.
+
+48
+00:04:20,100 --> 00:04:24,960
+So these are just basically all the colors reviews purple deep purple blue.
+
+49
+00:04:25,110 --> 00:04:31,550
+I'm pretty sure I used all of them cyan of light blue and then use that
+
+50
+00:04:33,860 --> 00:04:38,840
+green we use that lime so all the different color palettes and we're going to get into the different
+
+51
+00:04:38,840 --> 00:04:41,200
+shades as well but white and red.
+
+52
+00:04:41,210 --> 00:04:43,860
+Now what I want to do is look at background colors.
+
+53
+00:04:43,970 --> 00:04:51,230
+So what I'll do is copy all the standard colored paragraphs and I'm going to go down here and I'm just
+
+54
+00:04:51,230 --> 00:04:54,220
+going to replace this here.
+
+55
+00:04:54,260 --> 00:04:58,300
+All these paragraphs and then just remove the word text
+
+56
+00:05:01,270 --> 00:05:06,640
+OK and what that does is it makes the background that color not the text.
+
+57
+00:05:06,640 --> 00:05:10,760
+If you want the text color then you need to include just dash text.
+
+58
+00:05:10,930 --> 00:05:18,790
+If not it'll do the background so let's go back and save and I can see we have our background colors.
+
+59
+00:05:18,990 --> 00:05:19,320
+All right.
+
+60
+00:05:19,330 --> 00:05:26,470
+Now there is some padding to these paragraphs because for this file I just added a style of five pixel
+
+61
+00:05:26,470 --> 00:05:27,230
+padding.
+
+62
+00:05:27,490 --> 00:05:31,910
+If we didn't have this then we wouldn't have as much space around the graph.
+
+63
+00:05:32,230 --> 00:05:37,360
+But I figured that adding that may makes it look a little better and you can see the color a little
+
+64
+00:05:37,360 --> 00:05:38,010
+better.
+
+65
+00:05:38,260 --> 00:05:41,820
+All right so that's how we can add the background colors.
+
+66
+00:05:41,870 --> 00:05:48,970
+Now if you have for instance let's say this purple background you probably are probably going to want
+
+67
+00:05:48,970 --> 00:05:50,500
+white text on that.
+
+68
+00:05:50,650 --> 00:05:58,260
+So we could go ahead and also add the class of white dash text and save and now we have white text.
+
+69
+00:05:58,350 --> 00:05:58,570
+All right.
+
+70
+00:05:58,570 --> 00:06:01,880
+And you can do any color text save for this yellow.
+
+71
+00:06:01,960 --> 00:06:07,060
+We wanted to do green tax which will look really ugly but we can do it.
+
+72
+00:06:07,210 --> 00:06:08,200
+OK.
+
+73
+00:06:08,290 --> 00:06:15,610
+And then we also have our less common colors backgrounds so what I'll do is copy those and we'll just
+
+74
+00:06:15,610 --> 00:06:23,500
+replace these standard paragraphs and just remove the word text from all of these so I'll go ahead and
+
+75
+00:06:23,500 --> 00:06:31,030
+use some vias code magic I can do I can do control D-NV s code it'll just select all of those and I'll
+
+76
+00:06:31,030 --> 00:06:32,780
+just delete them.
+
+77
+00:06:32,890 --> 00:06:34,540
+All right so I'll save that.
+
+78
+00:06:34,570 --> 00:06:39,720
+And now we have our background colors with these less calming colors.
+
+79
+00:06:39,730 --> 00:06:43,300
+All right so now let's take a look at Darkon and Litan.
+
+80
+00:06:44,010 --> 00:06:50,520
+So let's take this first paragraph and let's add a class of red and save.
+
+81
+00:06:50,530 --> 00:06:53,050
+All right so it gives us a red background.
+
+82
+00:06:53,050 --> 00:07:02,860
+Now we have different levels of Darkon enlightened so I'm going to go ahead and say Darkon actually
+
+83
+00:07:02,860 --> 00:07:05,400
+I'll leave this one at red so we can see the difference.
+
+84
+00:07:05,440 --> 00:07:14,160
+But then this next one here I'm going to add a class of red again and then dark and Dash 1.
+
+85
+00:07:14,170 --> 00:07:18,790
+All right so if I save that you'll see that it's slightly darker than the regular red.
+
+86
+00:07:19,180 --> 00:07:27,980
+And then for this one will again say red and will say dark and Dash 2 for this one let's say red whoops
+
+87
+00:07:28,110 --> 00:07:30,200
+we need a class.
+
+88
+00:07:30,430 --> 00:07:34,690
+So will save red and dark and dash 3.
+
+89
+00:07:34,870 --> 00:07:36,070
+And it goes up to four.
+
+90
+00:07:36,070 --> 00:07:42,670
+So this one will be red and dark and dash four and save.
+
+91
+00:07:42,670 --> 00:07:47,500
+And I can see it just gets darker as it goes up as the number goes up.
+
+92
+00:07:47,500 --> 00:07:53,350
+And at the same time we have lightening noon so I'm going to just copy all of these and go ahead and
+
+93
+00:07:53,350 --> 00:07:59,470
+paste these here and I'm just going to change the dark and so again I'll do control d to select all
+
+94
+00:07:59,470 --> 00:08:07,150
+these darkens and change them to lighten and save and I can see that they get progressively lighter
+
+95
+00:08:07,180 --> 00:08:09,140
+as the number goes up.
+
+96
+00:08:09,520 --> 00:08:11,280
+OK so that's it for colors.
+
+97
+00:08:11,290 --> 00:08:18,220
+Guys we have a lot of options so you can add colors to buttons to divs paragraphs anything at all.
+
+98
+00:08:18,220 --> 00:08:20,110
+All right so I will see you in the next video.
+

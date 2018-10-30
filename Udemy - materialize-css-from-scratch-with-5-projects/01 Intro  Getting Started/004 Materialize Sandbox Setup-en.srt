@@ -1,0 +1,380 @@
+1
+00:00:00,450 --> 00:00:06,560
+All right guys so before we move on to the next section and get to work on MacIan dematerialize framework.
+
+2
+00:00:06,570 --> 00:00:14,100
+I just want you to set up the sandbox OK so the sandbox is a collection of HTL files that we have one
+
+3
+00:00:14,100 --> 00:00:19,920
+for each section and each I'm sorry one for each lecturer and each lecturer will cover a certain aspect.
+
+4
+00:00:19,920 --> 00:00:26,820
+So for instance Section 2 Lecture 1 is on typography and you can see the file name here to one typography
+
+5
+00:00:26,820 --> 00:00:32,760
+daughter each team now and we have things like headings paragraphs block quotes stuff we're going to
+
+6
+00:00:32,760 --> 00:00:38,270
+go over we're going to add some materialize markup some classes and talk about it.
+
+7
+00:00:38,520 --> 00:00:43,710
+That will be one lecture and then the next one will be on text and background colors.
+
+8
+00:00:43,710 --> 00:00:47,980
+You can see the name of this file is to underscore two colors on each team.
+
+9
+00:00:48,150 --> 00:00:52,940
+And we look at the different colors the dark and then light and classes things like that.
+
+10
+00:00:52,950 --> 00:00:58,800
+So for each lecture will have a different page that we're going to edit and look at the classes and
+
+11
+00:00:58,800 --> 00:00:59,820
+so on.
+
+12
+00:00:59,820 --> 00:01:04,040
+All right so section 2 and 3 will be on CSSA components.
+
+13
+00:01:04,140 --> 00:01:10,120
+So things like cards and tables and forms things like that.
+
+14
+00:01:10,140 --> 00:01:17,070
+And then four and five will be on javascript's So for instance the carousel will look at the collapsible
+
+15
+00:01:17,070 --> 00:01:23,060
+tabs things like that Parallax so different different javascript features.
+
+16
+00:01:23,060 --> 00:01:26,820
+So this is basically the end result of the sandbox.
+
+17
+00:01:26,990 --> 00:01:31,540
+OK and this will be included in your in this particular lecture's files.
+
+18
+00:01:31,620 --> 00:01:34,910
+But what's really important is the starter version of it.
+
+19
+00:01:34,920 --> 00:01:39,180
+So you'll have a zip file called materialize sandbox starter.
+
+20
+00:01:39,180 --> 00:01:40,980
+That's what you want to download.
+
+21
+00:01:40,980 --> 00:01:46,740
+All right I have it right here the zip files so what I want you to do is create a folder somewhere on
+
+22
+00:01:46,740 --> 00:01:56,220
+your computer and just call it materialize underscore sandbox OK and open that empty folder.
+
+23
+00:01:56,550 --> 00:02:00,630
+And then we're going to take all the files from the start of version.
+
+24
+00:02:00,630 --> 00:02:01,040
+OK.
+
+25
+00:02:01,050 --> 00:02:07,870
+So it should look like this are going to grab everything here and just bring it over all right now this
+
+26
+00:02:07,870 --> 00:02:12,070
+is your sandbox to work with for the next few sections.
+
+27
+00:02:12,100 --> 00:02:17,310
+So what I'm going to do is just open this with the code which is the text editor I'm using.
+
+28
+00:02:17,620 --> 00:02:23,570
+Feel free to use any other text editor I would suggest having the files on the side here though.
+
+29
+00:02:23,860 --> 00:02:27,280
+All right so let's quickly take a look at the structure.
+
+30
+00:02:27,280 --> 00:02:33,280
+So like I said we have an HMO file basically for every lecture for the next four sections.
+
+31
+00:02:33,430 --> 00:02:39,530
+And if we look at the folders here we have a local version of materialized CSX.
+
+32
+00:02:39,730 --> 00:02:45,890
+At this time we're using version zero point one hundred point two which is the latest from materialise
+
+33
+00:02:45,890 --> 00:02:47,690
+CSSA dot com.
+
+34
+00:02:47,770 --> 00:02:51,960
+Now Version 1 is in alpha and at some point that will be stable.
+
+35
+00:02:52,060 --> 00:02:57,300
+When that happens this course will be updated updated very soon after that.
+
+36
+00:02:57,310 --> 00:03:04,330
+But for now no matter what the latest version is I would suggest using the version that comes in the
+
+37
+00:03:04,330 --> 00:03:07,230
+sandbox just so you don't run into any issues.
+
+38
+00:03:07,500 --> 00:03:10,080
+And then the course will be updated later on.
+
+39
+00:03:10,330 --> 00:03:17,230
+OK we also have just a style CSSA And in case we need any extra styles but I don't I don't think we
+
+40
+00:03:17,230 --> 00:03:24,050
+actually do need that Faunce that's just the folder for the fonts that comes with materialized.
+
+41
+00:03:24,160 --> 00:03:29,410
+If I were to go to materialize CSSA dot com and download the package this is what we get.
+
+42
+00:03:29,620 --> 00:03:36,970
+OK excluding the images the images are something that I added for cards and things like that so we just
+
+43
+00:03:36,970 --> 00:03:40,790
+have some high quality images to work with.
+
+44
+00:03:40,810 --> 00:03:46,690
+OK in the javascript folder we just have the general materialized in a file javascript.
+
+45
+00:03:46,730 --> 00:03:49,200
+We're obviously not going to touch this file.
+
+46
+00:03:49,300 --> 00:03:53,140
+We just need to include it for any javascript.
+
+47
+00:03:53,170 --> 00:03:57,780
+OK we also need to include Jey query but we're going to use a CDN for that.
+
+48
+00:03:58,120 --> 00:04:03,400
+So to look at one of these files they're all basically formatted the same as far as like the head.
+
+49
+00:04:03,430 --> 00:04:10,120
+Things like that we're in we're bringing in the material Icahn's library materialise has its own icon
+
+50
+00:04:10,120 --> 00:04:11,100
+library.
+
+51
+00:04:11,110 --> 00:04:13,620
+We're bringing that in from Google API eyes.
+
+52
+00:04:13,720 --> 00:04:20,850
+We're also importing the material I CSSA file from the local version that we have in the CSSA folder.
+
+53
+00:04:21,010 --> 00:04:23,950
+We're importing the styles CSSA file.
+
+54
+00:04:24,040 --> 00:04:28,260
+We have a viewport for responsiveness and mobile devices.
+
+55
+00:04:28,480 --> 00:04:34,270
+And then down here we just have the title of the of whatever the lecturer is.
+
+56
+00:04:34,270 --> 00:04:36,100
+OK you're not going to touch any of this.
+
+57
+00:04:36,100 --> 00:04:37,570
+This is just the title.
+
+58
+00:04:37,570 --> 00:04:39,320
+And then this is the menu.
+
+59
+00:04:39,550 --> 00:04:44,360
+OK so this is that menu you saw with all the different links to the different lectures.
+
+60
+00:04:44,380 --> 00:04:47,920
+So what you want to do is go down to where it says start here.
+
+61
+00:04:48,220 --> 00:04:54,040
+OK nothing above start here do you need to touch ok unless we're specifically adding something maybe
+
+62
+00:04:54,040 --> 00:04:56,390
+in a style or something like that above.
+
+63
+00:04:56,470 --> 00:05:01,600
+But generally you're going to want to just scroll down to where it says Start here and then down here
+
+64
+00:05:01,600 --> 00:05:02,560
+you'll see it says.
+
+65
+00:05:02,560 --> 00:05:05,310
+And here I should put some spaces in there.
+
+66
+00:05:05,560 --> 00:05:08,670
+OK so we'll be working with everything in between.
+
+67
+00:05:08,890 --> 00:05:11,170
+And some things like headings.
+
+68
+00:05:11,230 --> 00:05:15,280
+You'll see there's nothing here we'll just start from scratch and put in our headings.
+
+69
+00:05:15,370 --> 00:05:17,290
+Some things actually have some.
+
+70
+00:05:17,290 --> 00:05:21,130
+Some tags and content and we'll just add our classes and so on.
+
+71
+00:05:21,130 --> 00:05:23,940
+So you can learn about all the different classes.
+
+72
+00:05:24,190 --> 00:05:31,480
+All right and then down at the bottom we just have a query included are materialized javascript and
+
+73
+00:05:31,700 --> 00:05:33,610
+oh this test right here.
+
+74
+00:05:33,820 --> 00:05:35,840
+That won't be there for your version.
+
+75
+00:05:35,870 --> 00:05:37,790
+That was just something I was testing out.
+
+76
+00:05:38,080 --> 00:05:42,610
+And then here is where we're just initializing the dropdown menu.
+
+77
+00:05:42,760 --> 00:05:49,900
+So you don't have to worry about this now in some in some lectures we will have to add some javascript
+
+78
+00:05:49,900 --> 00:05:54,100
+especially for 4 and 5 sections 4 and 5.
+
+79
+00:05:54,160 --> 00:05:56,990
+So that's where we'll add javascript down here.
+
+80
+00:05:57,040 --> 00:05:59,080
+So we have javascript's start here.
+
+81
+00:05:59,110 --> 00:06:05,890
+So I tried to lay it out in a very simple way that's understandable and if we look at the next file
+
+82
+00:06:05,890 --> 00:06:07,570
+you'll see it's very similar.
+
+83
+00:06:07,570 --> 00:06:13,080
+If we go down after the menu it's start here and this is where we'll be working.
+
+84
+00:06:13,120 --> 00:06:13,470
+All right.
+
+85
+00:06:13,480 --> 00:06:17,970
+And down here you can see if we have some javascript to add will put it down here.
+
+86
+00:06:18,460 --> 00:06:19,180
+OK.
+
+87
+00:06:19,180 --> 00:06:20,500
+So that's all I'll be doing.
+
+88
+00:06:20,500 --> 00:06:24,160
+Guys this is how the next four sections are going to work.
+
+89
+00:06:24,220 --> 00:06:28,560
+Once we get through the sandbox we're going to start to build some real projects or I'd.
+
+90
+00:06:28,570 --> 00:06:35,320
+But I'm doing the sandbox will really teach you what's available with materialize as well as get you
+
+91
+00:06:35,320 --> 00:06:42,370
+familiar with the syntax with the classes with what we can do with javascript initialization things
+
+92
+00:06:42,370 --> 00:06:43,150
+like that.
+
+93
+00:06:43,330 --> 00:06:45,640
+OK so in the next section we're going to start.
+
+94
+00:06:45,640 --> 00:06:50,830
+And we're going to get into basic typography alignment things like that.
+
+95
+00:06:50,860 --> 00:06:52,460
+So I will see you in the next video.
+

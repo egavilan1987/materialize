@@ -1,0 +1,516 @@
+1
+00:00:00,570 --> 00:00:04,690
+All right so now we're going to take a look at one of the most important parts of any framework and
+
+2
+00:00:04,680 --> 00:00:06,190
+that's the grid system.
+
+3
+00:00:06,270 --> 00:00:09,510
+So the materialized grid is pretty easy to use.
+
+4
+00:00:09,510 --> 00:00:14,570
+One thing I want to do before we get started is go into the head you see the style tags.
+
+5
+00:00:14,580 --> 00:00:20,700
+We're just going to add the style for a collage class of box because I want to make the grid I want
+
+6
+00:00:20,700 --> 00:00:22,590
+you to be able to see the columns better.
+
+7
+00:00:22,590 --> 00:00:30,600
+So we're going to have a class box with a background of light gray which is F for three times and then
+
+8
+00:00:30,600 --> 00:00:32,540
+we're going to have just some padding.
+
+9
+00:00:32,670 --> 00:00:39,320
+So we'll say 10 pixels padding and then we're going to just text a line to the center.
+
+10
+00:00:39,650 --> 00:00:49,350
+OK so save that and we'll go down to where it says Start here and we're going to first look at non-responsive
+
+11
+00:00:49,380 --> 00:00:55,960
+grids meaning that whatever columns we put it's going to be the same for all screen sizes.
+
+12
+00:00:55,970 --> 00:00:56,300
+OK.
+
+13
+00:00:56,310 --> 00:01:03,020
+Now all grids should be wrapped in the class of row just like bootstrap if you're familiar with bootstrap.
+
+14
+00:01:03,270 --> 00:01:08,550
+And then what I want is 12 one column divs So we're going to have the class of call.
+
+15
+00:01:08,550 --> 00:01:11,150
+We're also going to have the class of S1.
+
+16
+00:01:11,430 --> 00:01:11,810
+OK.
+
+17
+00:01:11,810 --> 00:01:23,330
+Now as for small we basically have four sizes we have small we have medium large and extra large.
+
+18
+00:01:23,420 --> 00:01:24,200
+OK.
+
+19
+00:01:24,690 --> 00:01:28,530
+Now if we just too small it basically propagates up.
+
+20
+00:01:28,530 --> 00:01:29,430
+So any.
+
+21
+00:01:29,430 --> 00:01:36,810
+If we say small one it's also going to be medium one large one extra large one it's going to be just
+
+22
+00:01:36,810 --> 00:01:40,040
+a non-responsive grade it's going to always be the same.
+
+23
+00:01:40,050 --> 00:01:45,450
+So in here I'm going to put our box class in I'm just going to put the number one Actually I'll leave
+
+24
+00:01:45,450 --> 00:01:48,560
+that blank and then I'm just going to copy this down.
+
+25
+00:01:48,930 --> 00:01:58,770
+So let's do 12 of these so two three four five six seven eight nine 10 11 12 and save and you can see
+
+26
+00:01:58,910 --> 00:02:18,890
+that we have 12 columns I'm just going to put numbers in here so 1 2 3 4 5 6 7 8 9 and 10 11 and 12.
+
+27
+00:02:19,210 --> 00:02:19,530
+All right.
+
+28
+00:02:19,540 --> 00:02:26,900
+So there our 12 column div and no matter what screen size I have it on it's always going to be 12 columns.
+
+29
+00:02:27,200 --> 00:02:33,190
+OK so let's do one example for let's say three four column divs.
+
+30
+00:02:33,190 --> 00:02:41,710
+So we'd have our row and then we would do call and we'd say ask for a member of this 12 all together.
+
+31
+00:02:41,710 --> 00:02:43,750
+So four times three is 12.
+
+32
+00:02:43,750 --> 00:02:49,870
+So if we want three of them three full columns and we want it to be an ask for an inside here we'll
+
+33
+00:02:49,870 --> 00:02:58,870
+do dot box and we'll say 1 and then what I'll do is just grab this and let's make two more of these
+
+34
+00:02:59,710 --> 00:03:07,810
+and we'll just change this to three and we'll change this to two and save.
+
+35
+00:03:07,810 --> 00:03:12,290
+And then we go Oh so now we have three four column divs.
+
+36
+00:03:12,430 --> 00:03:17,620
+So let's say we want to do two six column divs if you guys want to pause it and try and come back.
+
+37
+00:03:17,620 --> 00:03:21,070
+You can do that but it's really easy.
+
+38
+00:03:21,070 --> 00:03:26,900
+We're just going to do call and let's do x 6.
+
+39
+00:03:27,000 --> 00:03:38,370
+Ok so I have 2 6 column divs let's say box and one will do the same thing here so call six.
+
+40
+00:03:38,590 --> 00:03:42,510
+And inside here will two box and two.
+
+41
+00:03:42,730 --> 00:03:43,480
+And there we go.
+
+42
+00:03:43,520 --> 00:03:46,630
+Now we have two six column dips.
+
+43
+00:03:47,440 --> 00:03:54,220
+OK and if we wanted to do an 8 and 4 so like a side bar in the main area that's really easy we'll just
+
+44
+00:03:54,220 --> 00:04:03,310
+do a row and then we'll do a class of call and lets 2 8 8 be call
+
+45
+00:04:07,360 --> 00:04:09,670
+and we'll do what we call it.
+
+46
+00:04:09,670 --> 00:04:10,530
+Box
+
+47
+00:04:14,890 --> 00:04:18,640
+is called dots and this one will be s for
+
+48
+00:04:23,090 --> 00:04:23,720
+and then we go.
+
+49
+00:04:23,730 --> 00:04:25,700
+So now we have eight and four.
+
+50
+00:04:25,700 --> 00:04:26,030
+All right.
+
+51
+00:04:26,030 --> 00:04:31,340
+So as I said these these will stay the same no matter what the screen size.
+
+52
+00:04:31,340 --> 00:04:39,130
+Now if you wanted to make a responsive grade have inhabit different for multiple sizes for instance
+
+53
+00:04:39,200 --> 00:04:42,310
+let's take it
+
+54
+00:04:45,900 --> 00:04:57,740
+let's take our first example which is 12 one column does so I'll just grab that actually know what I'll
+
+55
+00:04:57,740 --> 00:04:58,710
+do.
+
+56
+00:05:00,010 --> 00:05:10,890
+Let's let's grab all of these so we'll grab the 12 one columns the three four columns and the two six
+
+57
+00:05:10,890 --> 00:05:16,200
+columns and we'll grab all of them and paste them in here.
+
+58
+00:05:16,520 --> 00:05:22,470
+But I'm going to get rid of these and the rid of the comments because they're going to change based
+
+59
+00:05:22,470 --> 00:05:24,720
+on size screen size.
+
+60
+00:05:24,720 --> 00:05:36,340
+So for this usually what we would do is we keep the or we change this to one if we wanted a 12 column.
+
+61
+00:05:36,450 --> 00:05:45,960
+So it's a medium size screens and up will be it'll be a 12 column row so no change at all to M1.
+
+62
+00:05:46,340 --> 00:05:54,410
+But if we get to small screens obviously I mean that's just it's too squished in there so let's change
+
+63
+00:05:54,410 --> 00:06:00,110
+it to x 12 where the column takes up the entire thing.
+
+64
+00:06:00,410 --> 00:06:11,840
+OK so it will be stacked so we'll just go ahead and add in as 12 like that.
+
+65
+00:06:11,980 --> 00:06:19,630
+I don't think I've ever even used a 12 column div but just to show you can know if I go when I make
+
+66
+00:06:19,630 --> 00:06:21,160
+this smaller.
+
+67
+00:06:21,160 --> 00:06:23,890
+When we get to small screens eight stacks.
+
+68
+00:06:23,910 --> 00:06:29,280
+OK so it makes it responsive if I get to here.
+
+69
+00:06:29,280 --> 00:06:31,500
+Now it's back to 12.
+
+70
+00:06:31,500 --> 00:06:39,410
+All right so let's go ahead and do this one here and we'll say instead of S-4 will say M four for a
+
+71
+00:06:39,410 --> 00:06:48,270
+medium and then we'll say x 12 which will make it stack because the small screens will take up all 12.
+
+72
+00:06:49,260 --> 00:06:51,580
+All right so if I go ahead and make the smaller.
+
+73
+00:06:51,720 --> 00:06:55,720
+Now I can see that this is now stacking on small screens.
+
+74
+00:06:56,130 --> 00:06:58,800
+OK so that makes that responsive.
+
+75
+00:06:59,250 --> 00:07:06,090
+Let's see four Actually we don't need to do this one is pretty much the same thing but for this one
+
+76
+00:07:06,090 --> 00:07:09,240
+here I'm going to add a bunch of different sizes.
+
+77
+00:07:09,390 --> 00:07:14,970
+So we'll have s 12 if it's a small screen.
+
+78
+00:07:14,970 --> 00:07:18,960
+Now if it's a medium screen let's do six and six.
+
+79
+00:07:19,260 --> 00:07:22,040
+So I've 2 six column divs.
+
+80
+00:07:22,140 --> 00:07:29,910
+If it's a large screen then let's do let's save the large screen we'll do nine
+
+81
+00:07:32,480 --> 00:07:33,980
+yeah we'll do.
+
+82
+00:07:33,980 --> 00:07:38,070
+Actually no it's 2 8 and 4.
+
+83
+00:07:38,800 --> 00:07:39,280
+OK.
+
+84
+00:07:39,280 --> 00:07:46,780
+And then if it's an extra large so say extra large and we'll do nine and we'll do three.
+
+85
+00:07:47,060 --> 00:07:52,820
+OK so this is a very responsive grid so let's save We'll start at the small screen.
+
+86
+00:07:53,000 --> 00:07:57,260
+So we're looking at the bottom one here you can see it stacked on small screens.
+
+87
+00:07:57,260 --> 00:08:03,640
+We get to see the medium screen and now it's six and six.
+
+88
+00:08:03,640 --> 00:08:05,580
+OK so it's two six columns.
+
+89
+00:08:05,750 --> 00:08:15,550
+If we get two large screens which is still not there right here now it's nine and 3.
+
+90
+00:08:15,860 --> 00:08:22,930
+And then if we get to extra large which is what make it really big now it's 8 and 4.
+
+91
+00:08:23,290 --> 00:08:23,840
+OK.
+
+92
+00:08:23,960 --> 00:08:24,980
+I'm sorry it's the opposite.
+
+93
+00:08:24,980 --> 00:08:31,360
+It was 8 and 4 with large and it's 9 and 3 with extra large OK.
+
+94
+00:08:31,360 --> 00:08:34,890
+So this is a very that's a very responsive grid row.
+
+95
+00:08:36,890 --> 00:08:44,250
+So another thing we can do is we can use push and poll to kind of switch the positions of the columns.
+
+96
+00:08:44,390 --> 00:08:53,060
+So we give you an example I'll put in a row and I'm going to put a class of call let's do s will say
+
+97
+00:08:53,100 --> 00:08:58,940
+s 7 which will just be 7 for all all sizes.
+
+98
+00:08:59,300 --> 00:09:08,090
+And then actually we'll just do that for now and then we'll say Daut box and 1 and then for this one
+
+99
+00:09:08,090 --> 00:09:16,510
+we'll do call S-5 and we'll save box 2 and save.
+
+100
+00:09:16,520 --> 00:09:18,640
+So we're looking at this bottom one here.
+
+101
+00:09:18,650 --> 00:09:23,600
+Now if I wanted to just switch these but not change the markup around what I could do is just add a
+
+102
+00:09:23,600 --> 00:09:29,970
+class of push and then say I want S-5 on this one.
+
+103
+00:09:30,140 --> 00:09:36,930
+And then this will save push and we'll do seven and save.
+
+104
+00:09:37,170 --> 00:09:37,680
+I'm sorry.
+
+105
+00:09:37,690 --> 00:09:39,980
+Paul has seven.
+
+106
+00:09:40,040 --> 00:09:41,950
+So he should have Push and Pull.
+
+107
+00:09:42,080 --> 00:09:43,460
+And now they're reversed.
+
+108
+00:09:43,460 --> 00:09:51,730
+So now to actually has is on this side and the one is on this side.
+
+109
+00:09:52,200 --> 00:10:00,990
+So this one gets pushed into the S-5 this one gets pushed into the seven all I should say pulled into
+
+110
+00:10:00,990 --> 00:10:02,230
+the seven.
+
+111
+00:10:02,640 --> 00:10:06,450
+OK another thing that will we'll deal with is offsets.
+
+112
+00:10:06,480 --> 00:10:12,450
+So if you don't want to take up all 12 like let's say you only want a six column div but you want to
+
+113
+00:10:12,450 --> 00:10:17,110
+move it into the middle and this is used often for like log and page.
+
+114
+00:10:17,310 --> 00:10:25,290
+So what we would do is create a row and we would create our column and let's say six.
+
+115
+00:10:25,590 --> 00:10:32,070
+And then what we'll do is we'll say offset and let's say offset 3.
+
+116
+00:10:32,510 --> 00:10:33,050
+OK.
+
+117
+00:10:33,060 --> 00:10:41,550
+And here we'll just put our box and we'll just we'll say log in and save and then we go.
+
+118
+00:10:41,550 --> 00:10:44,110
+So what happens is we have a six column div.
+
+119
+00:10:44,130 --> 00:10:48,620
+But we pushed it over or we offset it by three columns.
+
+120
+00:10:48,630 --> 00:10:49,010
+All right.
+
+121
+00:10:49,020 --> 00:10:53,470
+If I offset it by four then it's going to get pushed over a little more.
+
+122
+00:10:53,580 --> 00:10:58,300
+OK if I offset it by six it's going to go all the way to the other side.
+
+123
+00:10:58,530 --> 00:10:58,880
+OK.
+
+124
+00:10:58,890 --> 00:11:04,620
+But a lot of times if you're doing a log and you'll do like you'll make it right in the middle.
+
+125
+00:11:04,620 --> 00:11:04,980
+All right.
+
+126
+00:11:04,980 --> 00:11:10,320
+So I think that's going to be the guys we're going to be using the grid system a lot not just in the
+
+127
+00:11:10,320 --> 00:11:15,320
+projects but even in later sandbox lectures.
+
+128
+00:11:15,330 --> 00:11:20,610
+So this is something that we're going to kind of drill into your head as we go through the course.
+
+129
+00:11:20,610 --> 00:11:22,430
+All right thanks for watching and I will see.
+

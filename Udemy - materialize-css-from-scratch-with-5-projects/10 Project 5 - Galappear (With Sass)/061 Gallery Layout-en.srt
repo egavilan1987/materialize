@@ -1,0 +1,528 @@
+1
+00:00:00,810 --> 00:00:01,310
+All right guys.
+
+2
+00:00:01,320 --> 00:00:05,950
+Now we're going to create the gallery section or the gallery images.
+
+3
+00:00:06,090 --> 00:00:18,490
+So what we'll do is go under the header in the index page and let's say Section main and we'll say Section
+
+4
+00:00:19,410 --> 00:00:27,350
+class section and then we also give it section Dasch making.
+
+5
+00:00:27,400 --> 00:00:33,840
+All right so basically in here we're going to have a container and then we're going to have three rows.
+
+6
+00:00:33,940 --> 00:00:36,670
+So this is going to be row 1.
+
+7
+00:00:36,760 --> 00:00:39,740
+So let's say class row.
+
+8
+00:00:39,790 --> 00:00:49,000
+I'm also going to give it a class of row Dash 1 and then we're going to have to call them let's say
+
+9
+00:00:49,670 --> 00:00:50,810
+6.
+
+10
+00:00:51,190 --> 00:01:00,340
+So medium 6 in let's say hide on small dash only and the reason I'm putting this is because I don't
+
+11
+00:01:00,340 --> 00:01:03,580
+want this text to show on small screens.
+
+12
+00:01:03,760 --> 00:01:11,800
+So this is going to have a class of I Am G content OK it's going to be the content for the image which
+
+13
+00:01:11,800 --> 00:01:20,500
+will have the H-3 and I'm just using fake words here like Dila gourd for the for the name of the project
+
+14
+00:01:20,500 --> 00:01:32,410
+or whatever it is and then let's do Warum 20 and then we want to go let's see under this column that
+
+15
+00:01:32,410 --> 00:01:38,510
+we just created and we want to do another column 6.
+
+16
+00:01:39,040 --> 00:01:43,520
+And then this will be a card.
+
+17
+00:01:43,930 --> 00:01:50,500
+So say does class card it's going to have a card image class.
+
+18
+00:01:50,500 --> 00:02:00,030
+Inside here we'll have our actual image which is going to be in our I am g folder in the gallery folder
+
+19
+00:02:00,640 --> 00:02:03,510
+and it's going to be abstract.
+
+20
+00:02:03,640 --> 00:02:09,160
+One dot J Pag.
+
+21
+00:02:09,810 --> 00:02:10,450
+All right.
+
+22
+00:02:10,720 --> 00:02:12,350
+Let's see.
+
+23
+00:02:12,730 --> 00:02:16,120
+And then underneath the image will have a span.
+
+24
+00:02:16,480 --> 00:02:27,320
+And this is going to have a class of card title and will say Dila Goerge and then under that will have
+
+25
+00:02:27,320 --> 00:02:34,280
+an eight tag and this is going to be a floating button so we're going to do BT and dash floating.
+
+26
+00:02:34,280 --> 00:02:35,390
+Let's also do
+
+27
+00:02:37,760 --> 00:02:46,160
+Half-Way dash FHB which is going to allow it to basically be like in the middle of the image and the
+
+28
+00:02:46,160 --> 00:02:48,060
+content of the card.
+
+29
+00:02:48,290 --> 00:02:51,380
+So Half-Way fab will also do a wave's effect
+
+30
+00:02:54,230 --> 00:02:59,420
+and will do waves dash light.
+
+31
+00:02:59,510 --> 00:03:03,120
+Let's do red will make it a red button.
+
+32
+00:03:03,350 --> 00:03:05,330
+And it's also going to be a motile trigger.
+
+33
+00:03:05,330 --> 00:03:08,210
+So I'm just going to put that class for now as well.
+
+34
+00:03:08,210 --> 00:03:09,990
+So quite a few classes.
+
+35
+00:03:10,130 --> 00:03:12,990
+And then inside here we want an icon.
+
+36
+00:03:12,990 --> 00:03:14,350
+Whoops.
+
+37
+00:03:15,020 --> 00:03:23,480
+This is actually going to go to abstract one which will be a modal and inside the tag we're going to
+
+38
+00:03:23,480 --> 00:03:24,620
+have an icon
+
+39
+00:03:28,570 --> 00:03:30,460
+which will be the Add button.
+
+40
+00:03:30,460 --> 00:03:32,920
+The ADD icon.
+
+41
+00:03:33,330 --> 00:03:33,680
+All right.
+
+42
+00:03:33,720 --> 00:03:41,240
+And then underneath the card image which ends right here we're going to have the card contents
+
+43
+00:03:44,210 --> 00:03:47,470
+in the card content is going to have the star ratings.
+
+44
+00:03:47,470 --> 00:03:52,960
+OK so it's going to be the star icon so we're going to put a paragraph and then just have a bunch of
+
+45
+00:03:52,960 --> 00:03:54,690
+icons.
+
+46
+00:03:54,910 --> 00:04:04,630
+So not class Tiriel icons and is going to be a star and we're going to just copy this down.
+
+47
+00:04:04,620 --> 00:04:07,510
+We're going to do five of them.
+
+48
+00:04:07,510 --> 00:04:09,140
+So let's save that.
+
+49
+00:04:09,520 --> 00:04:10,890
+And it should look like that.
+
+50
+00:04:13,010 --> 00:04:15,580
+Now for the body text.
+
+51
+00:04:15,620 --> 00:04:20,750
+What I'm going to do is create what's called a mixin or actually you know we're going to use a function
+
+52
+00:04:20,750 --> 00:04:22,110
+a SAS function.
+
+53
+00:04:22,400 --> 00:04:26,500
+And I wanted to look at the background color and see how dark it is.
+
+54
+00:04:26,600 --> 00:04:34,330
+If it's dark enough then I want it to have white text if it's light then I wanted to have dark text.
+
+55
+00:04:34,400 --> 00:04:44,830
+So the way that we can do this is a go up here and it's a text color function.
+
+56
+00:04:45,110 --> 00:04:53,780
+And to make create a function we can say at function I'm going to call it set text color ok it's going
+
+57
+00:04:53,780 --> 00:04:54,860
+to take an
+
+58
+00:04:58,490 --> 00:05:00,790
+see it's going to take in a color
+
+59
+00:05:03,680 --> 00:05:10,490
+so we put a parameter and then we can do an if statement by saying at if
+
+60
+00:05:13,600 --> 00:05:17,560
+and we can use a method called lightness.
+
+61
+00:05:17,630 --> 00:05:26,870
+We're going to say if whiteness of the color that's passed in is greater than 50 then we want to return
+
+62
+00:05:30,320 --> 00:05:31,720
+the color black
+
+63
+00:05:34,350 --> 00:05:36,690
+OK else.
+
+64
+00:05:36,780 --> 00:05:47,010
+So I want to say at als that we want to return the color white OK.
+
+65
+00:05:47,110 --> 00:05:59,020
+Now we can go into our body and we can say we want the color to be set text color and then what you
+
+66
+00:05:59,020 --> 00:06:04,390
+pass in the background whatever is being used as the background color which in this case is the primary
+
+67
+00:06:04,390 --> 00:06:05,760
+color variable.
+
+68
+00:06:07,690 --> 00:06:15,650
+All right so if I save that now the text is white because this is dark enough to have white text the
+
+69
+00:06:15,680 --> 00:06:20,960
+whiteness is is it's less than 50.
+
+70
+00:06:21,140 --> 00:06:29,330
+If I were to go into my variables and change the the background color to white it's just too white and
+
+71
+00:06:29,330 --> 00:06:30,020
+save
+
+72
+00:06:33,050 --> 00:06:36,530
+I guess white isn't a valid option.
+
+73
+00:06:36,770 --> 00:06:39,390
+Now is not a color for Litan.
+
+74
+00:06:39,560 --> 00:06:43,340
+All right so let's do.
+
+75
+00:06:43,700 --> 00:06:46,150
+All right so it's two Teale but let's do Litan
+
+76
+00:06:48,990 --> 00:06:53,150
+Leitung four which would be really like.
+
+77
+00:06:53,230 --> 00:06:55,170
+And now you can see the text is dark.
+
+78
+00:06:55,180 --> 00:07:00,670
+OK so it's going to look at that background color and the text color will change depending on that which
+
+79
+00:07:00,670 --> 00:07:05,740
+I think is really powerful because then you can change the background color without having to worry
+
+80
+00:07:05,740 --> 00:07:08,730
+about the next color.
+
+81
+00:07:08,770 --> 00:07:13,220
+So let's put that back to dark and to save.
+
+82
+00:07:13,230 --> 00:07:16,390
+And now the text goes back to white.
+
+83
+00:07:16,470 --> 00:07:18,560
+All right.
+
+84
+00:07:18,880 --> 00:07:27,220
+Now let's add some more SS Actually before we do that let's add the rest of the content here.
+
+85
+00:07:27,280 --> 00:07:36,470
+So we're going to copy let's see for the second row let's just copy this whole row which ends here.
+
+86
+00:07:37,140 --> 00:07:37,430
+Abse
+
+87
+00:07:40,160 --> 00:07:41,540
+So grab all that
+
+88
+00:07:46,210 --> 00:07:48,130
+and this is going to be row to
+
+89
+00:07:50,680 --> 00:07:58,160
+change the class to row to and fro row to where it's going to be reversed.
+
+90
+00:07:58,420 --> 00:08:02,730
+I want to have the image and stuff on this side and the text on this side.
+
+91
+00:08:02,920 --> 00:08:05,720
+So I'm going to grab everything that's in this column
+
+92
+00:08:09,110 --> 00:08:15,640
+X yowled will do is take this div this column right here cut it and move it below.
+
+93
+00:08:15,690 --> 00:08:16,320
+This one
+
+94
+00:08:21,050 --> 00:08:25,710
+them will change the image too abstract too.
+
+95
+00:08:26,360 --> 00:08:28,620
+And we're going to change the name to
+
+96
+00:08:31,760 --> 00:08:32,950
+Al RSA.
+
+97
+00:08:33,050 --> 00:08:38,600
+And if you're wondering where I get these names there was a there's an online fake word generator which
+
+98
+00:08:38,600 --> 00:08:45,060
+I used I'm going to change this abstract to and see what else.
+
+99
+00:08:45,080 --> 00:08:46,110
+Right here.
+
+100
+00:08:46,140 --> 00:08:50,480
+Want to change this to Allergist's as well.
+
+101
+00:08:50,480 --> 00:08:51,940
+So let's save that.
+
+102
+00:08:52,070 --> 00:08:53,330
+And there we go.
+
+103
+00:08:53,780 --> 00:08:54,100
+All right.
+
+104
+00:08:54,110 --> 00:08:56,240
+And don't worry about it we can't see the stars.
+
+105
+00:08:56,240 --> 00:08:57,430
+Don't worry about that yet.
+
+106
+00:08:57,470 --> 00:08:58,550
+We'll fix that.
+
+107
+00:08:58,820 --> 00:09:02,360
+And now the last one is going to have the same format as the first row.
+
+108
+00:09:02,360 --> 00:09:10,210
+So again let's copy the first row which ends here.
+
+109
+00:09:10,410 --> 00:09:11,810
+See here.
+
+110
+00:09:11,810 --> 00:09:20,450
+Copy that will go below the second row and paste that in and change this to row 3.
+
+111
+00:09:20,450 --> 00:09:22,200
+Change this to three.
+
+112
+00:09:22,430 --> 00:09:30,960
+And as far as the title it's going to be record.
+
+113
+00:09:31,780 --> 00:09:34,470
+Abstract 3.
+
+114
+00:09:34,900 --> 00:09:44,560
+This will be abstract 3 and will change the title here and save.
+
+115
+00:09:44,560 --> 00:09:44,920
+All right.
+
+116
+00:09:44,920 --> 00:09:45,770
+There we go.
+
+117
+00:09:45,940 --> 00:09:58,820
+So now we're going to go to the C Ss and let's add a class for our out of style for image content.
+
+118
+00:10:00,860 --> 00:10:03,700
+And I'm actually going to display Flack's here.
+
+119
+00:10:05,690 --> 00:10:12,850
+We say display flex and flex direction will be call them.
+
+120
+00:10:12,850 --> 00:10:14,480
+So it's going to go vertical.
+
+121
+00:10:14,710 --> 00:10:16,950
+And then we'll justify to the center
+
+122
+00:10:21,020 --> 00:10:27,060
+and we'll set the height to 300 pixels.
+
+123
+00:10:27,980 --> 00:10:33,380
+OK so that's just what it did is it move the text down into the middle here.
+
+124
+00:10:33,500 --> 00:10:33,820
+All right.
+
+125
+00:10:33,830 --> 00:10:37,420
+Now the card content which is this.
+
+126
+00:10:38,690 --> 00:10:43,140
+I want that to have a color of the primary color.
+
+127
+00:10:43,310 --> 00:10:44,990
+So we're going to use that variable
+
+128
+00:10:48,200 --> 00:10:53,210
+so save and now the stars are green.
+
+129
+00:10:53,760 --> 00:10:59,070
+All right so in the next video will do is implement the Modals we want to click on these buttons and
+
+130
+00:10:59,070 --> 00:11:01,050
+have a mode open for each one.
+
+131
+00:11:01,200 --> 00:11:02,960
+We'll also add the footer.
+
+132
+00:11:02,970 --> 00:11:04,620
+All right so I'll see in the next lecture.
+

@@ -1,0 +1,580 @@
+1
+00:00:00,900 --> 00:00:06,420
+All right guys so in the last video we created the full screen Hetter here.
+
+2
+00:00:06,420 --> 00:00:11,460
+Now what I want to do is before we move onto the boxes down here I want to implement the scroll fire
+
+3
+00:00:11,850 --> 00:00:19,230
+to kind of feed in this text when we enter and also make the nav bar solid when we scroll which we're
+
+4
+00:00:19,230 --> 00:00:23,750
+actually not really going to be able to test yet because there's no we have no scrolling.
+
+5
+00:00:24,150 --> 00:00:26,890
+Well I guess you could put a margin top or something.
+
+6
+00:00:27,150 --> 00:00:38,220
+But let's let's let's go down to and then each team will go down to the javascript area and let's see
+
+7
+00:00:38,280 --> 00:00:44,110
+we'll go right here and we'll say scroll fire.
+
+8
+00:00:44,670 --> 00:00:48,740
+So a scroll fire we need a variable.
+
+9
+00:00:48,880 --> 00:00:54,480
+Let's create our options which is going to be an array.
+
+10
+00:00:54,510 --> 00:01:01,760
+So first of all do the fade in of the text member I gave the text the class of main text.
+
+11
+00:01:01,830 --> 00:01:09,720
+So this is going to take a selector and it's going to be the class of main hash text and we're going
+
+12
+00:01:09,720 --> 00:01:14,150
+to set the offset to zero.
+
+13
+00:01:14,940 --> 00:01:19,980
+And let's say for a callback we'll have a function
+
+14
+00:01:22,670 --> 00:01:24,900
+that will take in the element
+
+15
+00:01:27,590 --> 00:01:31,690
+like that and then all we have to do is say materialize
+
+16
+00:01:34,080 --> 00:01:45,630
+materialized and then we're going to use fade in image and then pass in our money sign parentheses and
+
+17
+00:01:45,630 --> 00:01:47,410
+then the element.
+
+18
+00:01:48,260 --> 00:01:54,570
+OK now the offset just means that we want we don't want to scroll for it to fade and we just wanted
+
+19
+00:01:54,570 --> 00:01:57,200
+to fade in right away.
+
+20
+00:01:57,210 --> 00:02:05,720
+So then after the options array here we want to say materialize Daut scroll fire
+
+21
+00:02:09,500 --> 00:02:12,880
+and we want to pass in those options.
+
+22
+00:02:13,580 --> 00:02:15,930
+So let's save that and there we go.
+
+23
+00:02:15,930 --> 00:02:18,140
+So now when we reload it fades it
+
+24
+00:02:21,040 --> 00:02:23,330
+now for the nav bar.
+
+25
+00:02:23,330 --> 00:02:34,640
+All we have to do is add in another objects to these options and we can actually just copy this and
+
+26
+00:02:34,640 --> 00:02:35,480
+paste that in.
+
+27
+00:02:35,480 --> 00:02:42,410
+So now we're going to say selector and it's going to be the now bar fixed class.
+
+28
+00:02:42,500 --> 00:02:46,440
+So now our fix is in the offset.
+
+29
+00:02:46,460 --> 00:02:49,170
+I'm going to say fifteen hundred.
+
+30
+00:02:50,100 --> 00:02:56,630
+OK so when we get to that position this is that's when this will run and what we want to do is we can
+
+31
+00:02:56,630 --> 00:02:58,460
+get rid of this.
+
+32
+00:02:58,580 --> 00:03:01,850
+We actually don't even need to pass in this element here.
+
+33
+00:03:01,880 --> 00:03:07,390
+We're going to take the Nav. using Jay queery.
+
+34
+00:03:07,790 --> 00:03:13,610
+We're going to take the now and we're going to remove the class of transparent
+
+35
+00:03:16,580 --> 00:03:20,660
+OK not only do we want to do that but we want to add a class.
+
+36
+00:03:20,670 --> 00:03:24,790
+I guess we could just chain it on like this.
+
+37
+00:03:24,900 --> 00:03:38,000
+So I say add class of blue gray and also Darkon dash 3 or whatever color you want it to be.
+
+38
+00:03:38,280 --> 00:03:44,670
+So if we save that we're not going to see any difference yet because it has to hit this point before
+
+39
+00:03:44,670 --> 00:03:46,690
+this actually takes effect.
+
+40
+00:03:47,370 --> 00:03:53,050
+But what I could do to test it out is go to the each team now and go right here and let's just put a
+
+41
+00:03:53,050 --> 00:03:56,450
+div and we'll put a style
+
+42
+00:04:00,540 --> 00:04:05,560
+and let's say height equals
+
+43
+00:04:08,840 --> 00:04:10,410
+weight angle to do height.
+
+44
+00:04:10,410 --> 00:04:12,030
+He calls
+
+45
+00:04:14,360 --> 00:04:21,700
+say 700 when a scene equals C Ss.
+
+46
+00:04:21,710 --> 00:04:23,160
+OK so save that.
+
+47
+00:04:23,180 --> 00:04:23,810
+And then
+
+48
+00:04:26,380 --> 00:04:29,140
+seven hundred pixels.
+
+49
+00:04:29,660 --> 00:04:31,490
+OK so now if I scroll down
+
+50
+00:04:34,360 --> 00:04:35,090
+and work
+
+51
+00:04:38,460 --> 00:04:42,780
+it's to sixteen hundred
+
+52
+00:04:48,400 --> 00:04:50,180
+that's not working either.
+
+53
+00:04:52,060 --> 00:04:53,320
+So Nav.
+
+54
+00:04:56,010 --> 00:05:04,530
+remove class add class.
+
+55
+00:05:04,760 --> 00:05:07,360
+Know let's see if this is actually firing off.
+
+56
+00:05:07,360 --> 00:05:17,880
+I'm going to say materialize Daut toast.
+
+57
+00:05:18,160 --> 00:05:19,490
+Let's try that.
+
+58
+00:05:19,960 --> 00:05:21,450
+So a reload.
+
+59
+00:05:21,460 --> 00:05:22,710
+Scroll down.
+
+60
+00:05:22,720 --> 00:05:23,010
+All right.
+
+61
+00:05:23,020 --> 00:05:24,660
+So we're getting the toast.
+
+62
+00:05:24,870 --> 00:05:26,660
+It's just this isn't working.
+
+63
+00:05:26,770 --> 00:05:32,160
+I haven't used J-curve in quite a while so maybe we can't do that.
+
+64
+00:05:33,830 --> 00:05:37,490
+Let's try that.
+
+65
+00:05:37,900 --> 00:05:42,620
+Get rid of that toast.
+
+66
+00:05:42,750 --> 00:05:46,860
+That didn't work either.
+
+67
+00:05:50,730 --> 00:05:52,610
+What did I do wrong.
+
+68
+00:05:55,470 --> 00:05:58,680
+Oh I don't have coats in here.
+
+69
+00:06:01,940 --> 00:06:04,460
+Quotes.
+
+70
+00:06:04,470 --> 00:06:05,020
+There we go.
+
+71
+00:06:05,040 --> 00:06:07,380
+All right so that's working good.
+
+72
+00:06:07,620 --> 00:06:12,140
+So I'm going to just get rid of that this Stiv right here.
+
+73
+00:06:12,180 --> 00:06:13,920
+That was just for testing.
+
+74
+00:06:13,920 --> 00:06:14,190
+All right.
+
+75
+00:06:14,190 --> 00:06:17,610
+So we know that those two features are now working.
+
+76
+00:06:17,610 --> 00:06:19,110
+So let's create the boxes.
+
+77
+00:06:19,110 --> 00:06:26,900
+Now we're going to go under the header and we'll say Section boxes.
+
+78
+00:06:26,910 --> 00:06:30,470
+So it's going to be a section.
+
+79
+00:06:30,850 --> 00:06:35,130
+I will give it a class of Section dash boxes.
+
+80
+00:06:35,130 --> 00:06:41,140
+Notice I'm not giving it a regular section class because I don't want any padding I wanted I wanted
+
+81
+00:06:41,170 --> 00:06:45,290
+to be basically full with I wanted to take up everything.
+
+82
+00:06:45,720 --> 00:06:48,220
+I do want to add a class of center though.
+
+83
+00:06:48,270 --> 00:06:48,540
+What's
+
+84
+00:06:53,140 --> 00:06:53,480
+right.
+
+85
+00:06:53,510 --> 00:06:56,780
+And then inside here let's put a row.
+
+86
+00:06:57,290 --> 00:07:04,150
+OK we're going to use a grid we're going to say call let's do call x 12.
+
+87
+00:07:04,490 --> 00:07:07,990
+And then on medium screens it'll be six.
+
+88
+00:07:08,450 --> 00:07:12,650
+And on large screens it will be three.
+
+89
+00:07:13,330 --> 00:07:21,540
+And let's make this one blue with white text and we're going to give it a class of box as well.
+
+90
+00:07:21,820 --> 00:07:24,460
+And inside here we're going to have an icon.
+
+91
+00:07:24,790 --> 00:07:33,530
+So it's saying material dash icons are going to be medium sized And this or this one's going to be show
+
+92
+00:07:33,550 --> 00:07:35,620
+under score card.
+
+93
+00:07:36,320 --> 00:07:36,730
+OK.
+
+94
+00:07:36,730 --> 00:07:41,930
+And then age four we're going to say grow your business.
+
+95
+00:07:42,580 --> 00:07:48,610
+And then a paragraph and let's do Lorem 15
+
+96
+00:07:51,470 --> 00:07:53,470
+actually would sue Lorem Tony
+
+97
+00:07:56,190 --> 00:07:57,400
+hers.
+
+98
+00:07:58,000 --> 00:08:10,130
+So if I copy the column that's right here let's put in for three more so we have one two three four.
+
+99
+00:08:10,450 --> 00:08:12,280
+And then we're just going to change some stuff up.
+
+100
+00:08:12,280 --> 00:08:17,560
+So the second one I want to be purple something to change the color.
+
+101
+00:08:17,560 --> 00:08:30,300
+We're going to change the icon to people and then we'll change the heading to professional advisors.
+
+102
+00:08:34,370 --> 00:08:37,670
+And let's see this one here.
+
+103
+00:08:37,890 --> 00:08:50,260
+I'm going to change the color to teal so I'll say teal will change the icon to varified underscore user.
+
+104
+00:08:50,490 --> 00:08:58,000
+And then the H for is going to say six here your company.
+
+105
+00:08:58,500 --> 00:08:58,830
+All right.
+
+106
+00:08:58,840 --> 00:09:04,010
+And then finally the last one no change from blue to Amber.
+
+107
+00:09:04,440 --> 00:09:14,010
+Let's also do dark and for all make it darker and then the icon will be a count underscore balance and
+
+108
+00:09:14,010 --> 00:09:16,100
+then the H four is going to say
+
+109
+00:09:18,300 --> 00:09:24,400
+multiply your income so let's save that.
+
+110
+00:09:24,420 --> 00:09:26,440
+And that's what it looks like.
+
+111
+00:09:26,460 --> 00:09:27,040
+Let's see.
+
+112
+00:09:27,090 --> 00:09:28,380
+Why is that.
+
+113
+00:09:29,750 --> 00:09:36,110
+Icon not showing our show chart not card.
+
+114
+00:09:36,940 --> 00:09:37,310
+OK.
+
+115
+00:09:37,310 --> 00:09:38,510
+So there we go.
+
+116
+00:09:38,540 --> 00:09:45,830
+Now what I'm going to do is go to we're going to go to CSSA because I don't I want to add a bunch of
+
+117
+00:09:45,830 --> 00:09:57,650
+padding here so in the CSX let's add a class of box let's say padding 40 pixels on the top and bottom
+
+118
+00:09:57,650 --> 00:10:03,380
+10 pixels on the left and right and I'm going to add an important flag so that we make sure that that
+
+119
+00:10:03,380 --> 00:10:08,410
+gets overwritten and then the H for in the box.
+
+120
+00:10:09,500 --> 00:10:20,300
+I just want to add padding bottom of 30 pixels so save that and take a look and that looks pretty good.
+
+121
+00:10:20,390 --> 00:10:30,340
+And if we resize this when we get here we get them side by side and then here we get them stacked.
+
+122
+00:10:30,480 --> 00:10:38,630
+All right now let's work on the media query because somehow when this is very small like that I don't
+
+123
+00:10:38,630 --> 00:10:42,280
+want this to take up this whole area that's just too much.
+
+124
+00:10:42,500 --> 00:10:45,660
+So let's create a media query.
+
+125
+00:10:51,070 --> 00:10:54,100
+Yeah I will say media.
+
+126
+00:10:56,520 --> 00:11:07,200
+And then let's say men with I'm sorry Max width of 600 pixels.
+
+127
+00:11:07,390 --> 00:11:09,130
+Then we want the main header
+
+128
+00:11:12,820 --> 00:11:20,160
+We want the height to only take up 50 VH remember it it takes up a hundred by the fall but now when
+
+129
+00:11:20,170 --> 00:11:22,680
+it's less than 600 I'll save that.
+
+130
+00:11:22,690 --> 00:11:27,630
+Now it's only 50 viewport Heights which is what I want.
+
+131
+00:11:29,960 --> 00:11:30,280
+All right.
+
+132
+00:11:30,290 --> 00:11:31,630
+Good.
+
+133
+00:11:32,720 --> 00:11:37,850
+And then another thing I want to do is just make sure that there is no more see how this margin below
+
+134
+00:11:37,850 --> 00:11:43,220
+these boxes we have the class of Section boxes.
+
+135
+00:11:43,220 --> 00:11:47,120
+I'm just going to grab on to that in the C Ss right here.
+
+136
+00:11:52,780 --> 00:11:58,610
+And we're going to say margin bottom zero.
+
+137
+00:11:58,780 --> 00:12:02,160
+Hey we're going to say that's important.
+
+138
+00:12:03,060 --> 00:12:04,800
+OK so that gets rid of that.
+
+139
+00:12:04,950 --> 00:12:10,580
+Oh what.
+
+140
+00:12:11,150 --> 00:12:12,360
+That should work.
+
+141
+00:12:12,350 --> 00:12:12,880
+So.
+
+142
+00:12:13,030 --> 00:12:16,630
+Oh you know what we didn't put Roe.
+
+143
+00:12:16,650 --> 00:12:20,970
+It should be the ROE because that's what the margins actually on.
+
+144
+00:12:20,970 --> 00:12:25,500
+All right so that's going to be it for this video guys in the next video we're going to start to work
+
+145
+00:12:25,500 --> 00:12:29,100
+our way down and we're going to do the about page the about section.
+

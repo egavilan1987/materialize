@@ -1,0 +1,540 @@
+1
+00:00:00,430 --> 00:00:04,950
+All right in this video we're going to take a look at collections which are a big part of materialize
+
+2
+00:00:04,980 --> 00:00:09,900
+a lot of times you're going to have lists of data especially if you're building like an application
+
+3
+00:00:09,900 --> 00:00:15,760
+that fetches from an API you might want to display that data that comes back inside of a collection.
+
+4
+00:00:15,780 --> 00:00:22,140
+So we have some markup here it just looks horrible by default without any of the classes or anything.
+
+5
+00:00:22,140 --> 00:00:26,340
+So we're going to work on this we're going to start with the just standard collection.
+
+6
+00:00:26,500 --> 00:00:31,240
+OK we're in the 2 6 collections age Tim I'll file and to create a collection.
+
+7
+00:00:31,230 --> 00:00:34,310
+All we have to do is add a class of collection.
+
+8
+00:00:34,530 --> 00:00:39,750
+And these are similar to lists groups in Bootstrap where you'd have a class of lists group and then
+
+9
+00:00:39,750 --> 00:00:47,250
+you'd have a class of lists group item well in materialise we just want a class of collection item.
+
+10
+00:00:47,840 --> 00:00:53,430
+OK so pretty much the same kind of thing.
+
+11
+00:00:53,700 --> 00:00:56,900
+A collection item.
+
+12
+00:01:10,470 --> 00:01:12,290
+All right.
+
+13
+00:01:12,700 --> 00:01:14,150
+And let's save that.
+
+14
+00:01:14,360 --> 00:01:18,330
+And there we go so that looks a lot better than it did before.
+
+15
+00:01:18,640 --> 00:01:21,080
+And that's just a basic collection item.
+
+16
+00:01:21,080 --> 00:01:24,710
+Now you may want to have a collection item as a link.
+
+17
+00:01:24,720 --> 00:01:27,650
+So kind of like a menu maybe a side menu.
+
+18
+00:01:27,800 --> 00:01:40,340
+In this case we'd have a div and we'd give it a class of collection and then for each tag here we'd
+
+19
+00:01:40,340 --> 00:01:44,030
+have a class of collection item.
+
+20
+00:01:44,600 --> 00:01:48,770
+OK so basically the same classes just different elements.
+
+21
+00:01:49,240 --> 00:01:52,310
+And I'll just copy this make this a little quicker.
+
+22
+00:01:57,850 --> 00:01:58,760
+OK.
+
+23
+00:01:58,820 --> 00:02:01,620
+And let's see the badges.
+
+24
+00:02:01,630 --> 00:02:04,380
+I'm just going get rid of that for now.
+
+25
+00:02:04,380 --> 00:02:05,710
+We'll do that after.
+
+26
+00:02:05,800 --> 00:02:06,690
+So let's save.
+
+27
+00:02:06,690 --> 00:02:11,310
+And now you can see we have kind of like a side menu we have a collection links.
+
+28
+00:02:11,330 --> 00:02:11,690
+All right.
+
+29
+00:02:11,720 --> 00:02:21,020
+Now badges are just like little if you want a little box with maybe these are our categories of blog
+
+30
+00:02:21,020 --> 00:02:25,260
+posts and you might want to have the number of posts in each category.
+
+31
+00:02:25,310 --> 00:02:37,460
+That's where a badge comes in handy so we'd have a span and then we would do class equals badge and
+
+32
+00:02:37,460 --> 00:02:41,350
+actually you know class equals badge.
+
+33
+00:02:41,600 --> 00:02:45,100
+And then let's save that see what that looks like.
+
+34
+00:02:47,180 --> 00:02:49,970
+Second 44
+
+35
+00:02:53,230 --> 00:03:01,120
+Oh we get to give this class of collection item.
+
+36
+00:03:01,670 --> 00:03:02,090
+OK.
+
+37
+00:03:02,100 --> 00:03:05,510
+So it's just basically just putting a number over here.
+
+38
+00:03:05,520 --> 00:03:08,230
+Now we want to make it look a little bit fancier.
+
+39
+00:03:08,430 --> 00:03:10,030
+What we could do.
+
+40
+00:03:10,400 --> 00:03:13,080
+We need our classic election for this a tag.
+
+41
+00:03:13,320 --> 00:03:20,720
+And then in this span let's do class badge and also do new and save.
+
+42
+00:03:20,730 --> 00:03:27,040
+And what that does is it basically gives it a background here.
+
+43
+00:03:27,240 --> 00:03:34,350
+And it also puts in new and it's helpful because you wouldn't have to put in the word new programmatically
+
+44
+00:03:34,350 --> 00:03:40,940
+you could just have just the number and then materialized takes care of putting in the word new.
+
+45
+00:03:40,980 --> 00:03:46,200
+All right so let's take a look at a whole collection with a header.
+
+46
+00:03:46,200 --> 00:03:53,540
+So what we would do is have a UL and give it a class of collection just like above.
+
+47
+00:03:53,670 --> 00:04:01,510
+But we would also have a class of with Dasch not with w i th with header.
+
+48
+00:04:01,670 --> 00:04:02,190
+OK.
+
+49
+00:04:02,220 --> 00:04:12,050
+And then for this first ally it would have a class of collection dash Hetter.
+
+50
+00:04:12,110 --> 00:04:12,440
+All right.
+
+51
+00:04:12,450 --> 00:04:19,270
+In the rest of these will have classes of collection item just like any other collection.
+
+52
+00:04:24,080 --> 00:04:27,850
+All right so let's go ahead and save that.
+
+53
+00:04:27,920 --> 00:04:34,410
+And now if we look down here we have this header that says items and then we have all the items underneath.
+
+54
+00:04:34,970 --> 00:04:38,340
+OK so we also have something called secondary content
+
+55
+00:04:41,230 --> 00:04:45,870
+and looks like I have an extra or I forgot my angle bracket right here.
+
+56
+00:04:46,560 --> 00:04:47,320
+OK.
+
+57
+00:04:47,320 --> 00:04:50,120
+For secondary content the UL.
+
+58
+00:04:50,530 --> 00:04:57,020
+We're going to do again collection and then with Hetter need a class though.
+
+59
+00:05:05,600 --> 00:05:17,570
+And then this list item will have a class of collection header and say items and then each of these
+
+60
+00:05:17,570 --> 00:05:20,930
+allies will have a collection item class.
+
+61
+00:05:21,110 --> 00:05:27,640
+And now under the first item here or under whatever text is here we have an eight tag and we're going
+
+62
+00:05:27,640 --> 00:05:34,460
+to give this a tag class of secondary content.
+
+63
+00:05:36,710 --> 00:05:37,180
+OK.
+
+64
+00:05:37,190 --> 00:05:40,100
+And then the secondary content is going to be an icon.
+
+65
+00:05:40,100 --> 00:05:45,530
+I'm going to make it a close eye on making an X so let's say it was something you could delete
+
+66
+00:05:51,960 --> 00:05:52,880
+it all right.
+
+67
+00:05:52,880 --> 00:05:58,790
+So if I save that now you see we have a collection item with an X over here and just to shorten this
+
+68
+00:05:58,790 --> 00:06:09,110
+up let's take this ally and let's see we have three more so we'll go one two three and I'll just change
+
+69
+00:06:09,110 --> 00:06:13,200
+this to second third.
+
+70
+00:06:15,920 --> 00:06:21,590
+And fourth they're all going to have the same X icons so that's fine.
+
+71
+00:06:21,620 --> 00:06:27,110
+All right so now we just have a collection with some delete icons over here.
+
+72
+00:06:29,040 --> 00:06:36,660
+Now we can also do Avatar content or Avatar collections where we can have like either an icon on the
+
+73
+00:06:36,660 --> 00:06:42,080
+side or an out an image we could form an image we're just going to use icons.
+
+74
+00:06:42,090 --> 00:06:45,180
+We're going to pretend this is like an address book type thing.
+
+75
+00:06:45,450 --> 00:06:54,890
+So we'll go ahead and give this you all a class of collection and this ally will be abse
+
+76
+00:06:59,390 --> 00:07:03,690
+class collection and or a collection item.
+
+77
+00:07:03,960 --> 00:07:06,260
+And then also avatar.
+
+78
+00:07:06,260 --> 00:07:08,510
+All right and I'm just going to copy that.
+
+79
+00:07:10,270 --> 00:07:12,970
+OK and then the icon underneath.
+
+80
+00:07:13,060 --> 00:07:16,690
+Let's make this a Contax icon.
+
+81
+00:07:19,450 --> 00:07:26,260
+And we're going to give this a couple classes in addition to material icons because I want it to be
+
+82
+00:07:26,260 --> 00:07:26,950
+blue.
+
+83
+00:07:27,040 --> 00:07:34,320
+And I also wanted to be a circle k so we can give this a circle class and then we're going to leave.
+
+84
+00:07:34,390 --> 00:07:41,970
+Actually the span we're going to give it a class of title which I think just makes it a little bigger
+
+85
+00:07:41,970 --> 00:07:46,070
+or a little more prominent and then that stuff will stay.
+
+86
+00:07:46,090 --> 00:07:49,860
+No need for for any classes on that.
+
+87
+00:07:49,870 --> 00:07:52,520
+That's a tag this will be the secondary content
+
+88
+00:07:58,550 --> 00:08:06,620
+that should be secondary Dasch content and let's make this a great icon.
+
+89
+00:08:13,290 --> 00:08:15,530
+Or if I save that.
+
+90
+00:08:15,550 --> 00:08:18,510
+There we go so that looks pretty good.
+
+91
+00:08:18,610 --> 00:08:23,110
+You know what I'm going to do instead of having to type all that out let's just copy the whole ally
+
+92
+00:08:24,970 --> 00:08:30,680
+and we'll just replace these three other guys so I'll paste that in.
+
+93
+00:08:30,780 --> 00:08:37,930
+That's one two three and then we'll just change the names.
+
+94
+00:08:39,550 --> 00:08:48,520
+So say Steve Smith.
+
+95
+00:08:48,750 --> 00:08:50,160
+Hey Karen
+
+96
+00:08:57,230 --> 00:09:06,320
+and I will say Mary Williams and Mary and we'll just leave the same phone number.
+
+97
+00:09:06,420 --> 00:09:10,220
+Not a big deal just want to show you how it's formatted so that looks pretty good.
+
+98
+00:09:11,250 --> 00:09:11,950
+All right.
+
+99
+00:09:12,090 --> 00:09:19,650
+So one other thing I wanted to show you that isn't really relevant to collection's is having a badge
+
+100
+00:09:19,860 --> 00:09:25,280
+inside of a dropdown OK because we also mentioned badges and this in this lecture.
+
+101
+00:09:25,350 --> 00:09:30,240
+So we're just going to have basically a button that has a drop down and we can put a badge inside of
+
+102
+00:09:30,240 --> 00:09:37,590
+it so let's do a tag with the class of B.T. And and we're also going to give it a class of dropdown
+
+103
+00:09:38,040 --> 00:09:41,560
+dash button.
+
+104
+00:09:41,630 --> 00:09:42,120
+OK.
+
+105
+00:09:42,120 --> 00:09:44,910
+And then we're going to give it a data activates
+
+106
+00:09:48,700 --> 00:09:50,160
+because the sidebar
+
+107
+00:09:52,620 --> 00:10:03,030
+So our data activates I'm going to set this to drop down one and inside here let's just say drop down
+
+108
+00:10:05,070 --> 00:10:06,810
+and let's put an icon.
+
+109
+00:10:06,810 --> 00:10:08,760
+I'm going to go on the next line.
+
+110
+00:10:12,530 --> 00:10:23,570
+And this will be an arrow underscore this drop underscored down so if I saved that.
+
+111
+00:10:23,580 --> 00:10:34,570
+Now we have this drop down in let's see for the HGF I'm just going to do a hash in a exclamation so
+
+112
+00:10:34,570 --> 00:10:36,270
+it doesn't go anywhere.
+
+113
+00:10:36,280 --> 00:10:43,840
+Now underneath that let's create our UL with the ID of draw down 1 K because that's what we use for
+
+114
+00:10:43,840 --> 00:10:46,120
+the data activates.
+
+115
+00:10:46,120 --> 00:10:48,080
+So inside here.
+
+116
+00:10:48,270 --> 00:10:53,850
+And this actually also has to have a class of dropdown content.
+
+117
+00:10:56,950 --> 00:10:57,340
+OK.
+
+118
+00:10:57,350 --> 00:11:00,320
+So I will put in an ally.
+
+119
+00:11:01,250 --> 00:11:10,200
+And inside the ally will have an eight tag and let's say this is item 1.
+
+120
+00:11:11,100 --> 00:11:15,200
+Shall just go ahead and make a couple of these
+
+121
+00:11:21,410 --> 00:11:22,150
+proofs.
+
+122
+00:11:22,260 --> 00:11:23,070
+Sorry about that
+
+123
+00:11:28,800 --> 00:11:36,680
+all right so the Subi for three and two for save that.
+
+124
+00:11:36,870 --> 00:11:44,610
+Now we have our drop down now if we wanted to put a badge in one of these we could go inside the tag
+
+125
+00:11:45,270 --> 00:11:52,190
+and we could say spanne class badge and I'll say 44.
+
+126
+00:11:52,230 --> 00:11:54,080
+All right we could also do a new badge
+
+127
+00:11:57,140 --> 00:12:02,570
+so we could say spand class badge and new.
+
+128
+00:12:03,350 --> 00:12:05,270
+And we'll say three.
+
+129
+00:12:05,270 --> 00:12:07,960
+All right so let's save and there we go.
+
+130
+00:12:08,180 --> 00:12:15,950
+So if you had like a directory site or something like that you add new new items or new posts you could
+
+131
+00:12:15,950 --> 00:12:18,140
+use these badges.
+
+132
+00:12:18,140 --> 00:12:23,240
+All right so that's going to be IT guys that is collections and badges in the next video we're going
+
+133
+00:12:23,240 --> 00:12:23,510
+to.
+
+134
+00:12:23,610 --> 00:12:29,690
+We're going to work on a really important part of materialized or any framework and that is the grid
+
+135
+00:12:29,690 --> 00:12:30,240
+system.
+

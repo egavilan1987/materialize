@@ -1,0 +1,728 @@
+1
+00:00:00,630 --> 00:00:06,140
+All right let's get started on the KwaZulu theme so we're going to create a new folder for our project
+
+2
+00:00:06,320 --> 00:00:13,810
+and create it on my desktop and I'm going to call it KwaZulu and same thing we did with the travel Velle
+
+3
+00:00:13,820 --> 00:00:15,850
+we're going to grab from the theme starter.
+
+4
+00:00:15,930 --> 00:00:22,080
+So going to open that up and I'm just going to grab everything in there and just copy it and then just
+
+5
+00:00:22,080 --> 00:00:26,400
+bring it over to our folder here.
+
+6
+00:00:26,530 --> 00:00:27,030
+OK.
+
+7
+00:00:27,030 --> 00:00:35,140
+And then we're going to open this folder with vs code OK so I'm not going to go through the files because
+
+8
+00:00:35,140 --> 00:00:37,190
+we already did that in the last project.
+
+9
+00:00:37,190 --> 00:00:39,160
+Just very simple stuff.
+
+10
+00:00:39,160 --> 00:00:44,950
+Let's open up the index each team now and we are going to need font Awesome again because we're using
+
+11
+00:00:44,950 --> 00:00:50,860
+social icons and material icons does not provide those at least yet.
+
+12
+00:00:50,950 --> 00:00:53,080
+So it's open up our browser.
+
+13
+00:00:53,350 --> 00:00:55,170
+And let's go to fun.
+
+14
+00:00:55,180 --> 00:00:56,240
+Awesome.
+
+15
+00:00:59,750 --> 00:01:01,740
+And we'll go to get started.
+
+16
+00:01:01,760 --> 00:01:08,300
+And we just want to grab our script tag right here for our SVGA icons and I'll go ahead and put those
+
+17
+00:01:08,300 --> 00:01:13,480
+right under the materialize icons.
+
+18
+00:01:13,550 --> 00:01:13,900
+OK.
+
+19
+00:01:13,910 --> 00:01:19,070
+Now we're going to go down and go into the body here.
+
+20
+00:01:19,200 --> 00:01:20,690
+Get rid of our each one.
+
+21
+00:01:20,960 --> 00:01:26,520
+And this is going to be the header and it's going to include the nav bar.
+
+22
+00:01:26,520 --> 00:01:33,290
+So let's create Let's use a header tag and we use the class of main header.
+
+23
+00:01:34,150 --> 00:01:39,710
+OK because you may have multiple headers in on a Web site you may have an article header and use this
+
+24
+00:01:39,710 --> 00:01:43,720
+tag so it's a good idea to give it a special class or ID.
+
+25
+00:01:44,090 --> 00:01:52,460
+OK now inside here we're going to have our Nav. and we're going to give it a class of transparent which
+
+26
+00:01:52,460 --> 00:01:55,090
+does just that makes it transparent.
+
+27
+00:01:55,310 --> 00:01:58,900
+Inside here it's give are now a container.
+
+28
+00:01:58,940 --> 00:02:06,170
+Let's do our NAV wrapper so you'll see some repetitiveness here but I really don't want to do copying
+
+29
+00:02:06,170 --> 00:02:07,270
+and pasting.
+
+30
+00:02:07,280 --> 00:02:12,380
+I think it's better to kind of repeat yourself and drill it into your brain so that when you do have
+
+31
+00:02:12,380 --> 00:02:18,710
+to create a nav bar you don't have to keep going back to either the sandbox or the documentation.
+
+32
+00:02:18,740 --> 00:02:21,560
+You can just go ahead and create it.
+
+33
+00:02:21,620 --> 00:02:27,490
+All right so now we need our brand logo.
+
+34
+00:02:28,060 --> 00:02:37,300
+So in here we'll give it the name which is KwaZulu And now we want our mobile now button or link.
+
+35
+00:02:37,300 --> 00:02:45,090
+So it's going to be in a tag with the class of button Dasch collapse.
+
+36
+00:02:45,100 --> 00:02:51,370
+And remember it has to have a special attribute of data activates.
+
+37
+00:02:52,360 --> 00:02:54,750
+And we're going to call it mobile now.
+
+38
+00:02:55,390 --> 00:03:01,660
+Just like we did in the last project and for the icon here I'm actually going to use a font.
+
+39
+00:03:01,660 --> 00:03:11,740
+Awesome icons so I'm going to say I dot FAA and then also a class of FAA dash bars which is the same
+
+40
+00:03:11,740 --> 00:03:16,370
+basically the same icon as the menu in the materialize icons.
+
+41
+00:03:16,740 --> 00:03:20,410
+OK under the tag here we are going to put our menu.
+
+42
+00:03:20,410 --> 00:03:23,610
+Are you well which is going to have a class of rights.
+
+43
+00:03:23,650 --> 00:03:34,560
+And we're also going to do hide on medium and down and we'll try our links.
+
+44
+00:03:34,600 --> 00:03:37,210
+So see this one is going to be our home link.
+
+45
+00:03:37,210 --> 00:03:43,020
+So it's two and a tag and it's going to go to indexed all aged him now.
+
+46
+00:03:43,240 --> 00:03:45,580
+We're actually doing separate pages here.
+
+47
+00:03:45,580 --> 00:03:50,130
+We're not doing like a single landing page with hash tags.
+
+48
+00:03:50,680 --> 00:03:53,510
+So that will go to index each tomorrow.
+
+49
+00:03:53,770 --> 00:03:58,480
+And then what I'll do is copy this down two more times.
+
+50
+00:03:58,480 --> 00:04:09,380
+So this one will be the solutions and it's actually going to go to a page called solutions Daut each
+
+51
+00:04:09,390 --> 00:04:09,900
+DML.
+
+52
+00:04:09,910 --> 00:04:14,920
+And then this one is going to be the sign up that will go to sign up each team that all
+
+53
+00:04:18,950 --> 00:04:23,450
+and then I'm going to put another ally on me just save and format.
+
+54
+00:04:23,450 --> 00:04:25,820
+So it's put another ally.
+
+55
+00:04:26,810 --> 00:04:31,760
+And inside here I'll put another a tag but this is going to have it's going to be a button so I'm going
+
+56
+00:04:31,760 --> 00:04:36,380
+to give a class of between and also a class of purple
+
+57
+00:04:39,350 --> 00:04:45,520
+K and then this is going to be our log button which will open a motel but we're not going to do that
+
+58
+00:04:45,520 --> 00:04:50,150
+just yet we close up.
+
+59
+00:04:50,210 --> 00:04:54,840
+OK so now what we want to do is we want our social media link.
+
+60
+00:04:54,840 --> 00:05:03,640
+So again we're going to put some more list items here so this will go to we'll just have a go to Facebook
+
+61
+00:05:08,530 --> 00:05:10,230
+and then inside the ATAC.
+
+62
+00:05:10,240 --> 00:05:19,630
+We want the icon for Facebook which is FHB and then F.A. dash Facebook.
+
+63
+00:05:20,260 --> 00:05:25,080
+OK so we'll do the same thing for let's do Twitter and Instagram.
+
+64
+00:05:25,180 --> 00:05:30,890
+So I'm just going to copy these down to more so this will be Twitter
+
+65
+00:05:34,120 --> 00:05:36,480
+and then this one
+
+66
+00:05:39,200 --> 00:05:46,980
+will be Instagram.
+
+67
+00:05:47,730 --> 00:05:48,640
+All right.
+
+68
+00:05:48,930 --> 00:05:50,220
+And let's save that.
+
+69
+00:05:50,220 --> 00:05:51,010
+Let's take a look.
+
+70
+00:05:51,000 --> 00:05:55,530
+So I'm going to just open with live server.
+
+71
+00:05:55,570 --> 00:06:01,720
+All right now it's transparent so we can't see anything because we don't have our background image.
+
+72
+00:06:01,890 --> 00:06:05,070
+So you can get the image from the project files.
+
+73
+00:06:05,070 --> 00:06:15,150
+What I'm going to do is just open my folder up so it's the desk top KwaZulu images and I'm going to
+
+74
+00:06:15,150 --> 00:06:18,770
+bring the image over.
+
+75
+00:06:18,900 --> 00:06:21,500
+Give me a second here.
+
+76
+00:06:24,940 --> 00:06:25,240
+All right.
+
+77
+00:06:25,240 --> 00:06:27,970
+So this is actually going to be quite a few images.
+
+78
+00:06:28,030 --> 00:06:32,770
+What I would suggest is grabbing them all from the project files now and getting it over with.
+
+79
+00:06:32,770 --> 00:06:34,950
+So that's what I'm going to do.
+
+80
+00:06:35,080 --> 00:06:36,360
+I'm going to paste them all in.
+
+81
+00:06:36,370 --> 00:06:39,870
+And if we take a look.
+
+82
+00:06:39,900 --> 00:06:45,210
+So this is the main background right here for the showcase but then we have all the programming language
+
+83
+00:06:45,210 --> 00:06:47,680
+logos the about Logo.
+
+84
+00:06:47,850 --> 00:06:50,740
+These two which are for the overlays.
+
+85
+00:06:50,910 --> 00:06:53,000
+So you want all these images.
+
+86
+00:06:53,050 --> 00:06:59,710
+All right now it's still not going to show because we didn't add any CSSA to show the image in the background.
+
+87
+00:07:00,090 --> 00:07:06,540
+So let's let's go ahead and finish our now Wajir first and then we'll do that.
+
+88
+00:07:06,540 --> 00:07:09,000
+All right so that these are the main links.
+
+89
+00:07:09,000 --> 00:07:14,440
+Now under this well we want to have the UL for our side nav.
+
+90
+00:07:15,330 --> 00:07:16,680
+So let's go ahead and do that.
+
+91
+00:07:16,680 --> 00:07:21,010
+We'll say well class of side nav.
+
+92
+00:07:22,080 --> 00:07:32,170
+And we need to give this an ID which should match the data activates which we gave mobile nav and I'm
+
+93
+00:07:32,170 --> 00:07:35,780
+also going to put an H for in here with.
+
+94
+00:07:35,920 --> 00:07:46,120
+So should have put a class in I'm going to do purple text and I'm going to do text Darkon for.
+
+95
+00:07:46,390 --> 00:07:46,880
+OK.
+
+96
+00:07:46,930 --> 00:07:51,880
+And let's also Center it and then it's just going to have the template name or the the website name
+
+97
+00:07:51,880 --> 00:07:55,250
+which is KwaZulu like that.
+
+98
+00:07:55,270 --> 00:07:55,600
+All right.
+
+99
+00:07:55,600 --> 00:08:01,240
+And then under that I'm going to put in ally which is going to have a divider which is just kind of
+
+100
+00:08:01,240 --> 00:08:07,760
+like a line across so it's going to be a div with the class of divider like that.
+
+101
+00:08:07,760 --> 00:08:08,080
+All right.
+
+102
+00:08:08,080 --> 00:08:17,050
+And then we'll go ahead and put in our main links which are these three Salone to copy home solutions
+
+103
+00:08:17,050 --> 00:08:20,700
+and sign up and put those right under the divider.
+
+104
+00:08:20,920 --> 00:08:28,570
+Except they're going to use icons here as well so inside the tag here I'll put an eye tag with the class
+
+105
+00:08:28,570 --> 00:08:42,700
+of F.A. and the class of F.A. dash home UPS dash home that in let's see let's change the color let's
+
+106
+00:08:42,700 --> 00:08:51,710
+say gray text and let's say text Darkon for the icon.
+
+107
+00:08:51,730 --> 00:08:58,990
+And then I'm going to copy that I tag put it in here hand in here and we're going to change the solutions
+
+108
+00:08:58,990 --> 00:09:07,000
+icon to F.A. dash KOG and then the last one will be F.A. dash users
+
+109
+00:09:09,730 --> 00:09:10,350
+OK.
+
+110
+00:09:10,670 --> 00:09:12,890
+Then we're going to have another divider.
+
+111
+00:09:12,890 --> 00:09:17,330
+So why would the classic divider.
+
+112
+00:09:17,330 --> 00:09:24,980
+And then finally we're going to have a logon button here as well so it will be inside of an ally and
+
+113
+00:09:25,000 --> 00:09:31,620
+a tag with the classes and also the class of purple.
+
+114
+00:09:34,700 --> 00:09:36,680
+And we're going to say log in
+
+115
+00:09:40,150 --> 00:09:46,140
+all right let's save that and now it will do is go.
+
+116
+00:09:47,080 --> 00:09:47,670
+Let's see.
+
+117
+00:09:47,680 --> 00:09:53,050
+Let's go to our main CSSA file so that we can get that background image showing.
+
+118
+00:09:53,980 --> 00:09:56,920
+So remember our header has a class of main Hetter
+
+119
+00:09:59,610 --> 00:10:05,570
+and we're going to give that background you are l of I m g.
+
+120
+00:10:05,590 --> 00:10:07,710
+Actually it's good to be dot dot slash.
+
+121
+00:10:07,710 --> 00:10:14,200
+I m g because we need to go outside of the CSSA folder and then it's going to be what did I call that
+
+122
+00:10:14,200 --> 00:10:15,130
+actually.
+
+123
+00:10:15,170 --> 00:10:21,900
+Background So background dog J pack.
+
+124
+00:10:21,950 --> 00:10:23,220
+OK.
+
+125
+00:10:23,640 --> 00:10:28,890
+Now the hetter I'm going to set.
+
+126
+00:10:29,060 --> 00:10:35,710
+Let's actually set some other background properties so background size I want the image to cover and
+
+127
+00:10:35,720 --> 00:10:42,530
+then for the position background position I want it to be centered.
+
+128
+00:10:43,180 --> 00:10:43,640
+OK.
+
+129
+00:10:43,640 --> 00:10:46,210
+And then we're going to give this some men height
+
+130
+00:10:49,880 --> 00:10:57,470
+we're going to do a min height of 600 pixels for the header and let's make sure that the color is white
+
+131
+00:10:59,000 --> 00:10:59,950
+and save.
+
+132
+00:10:59,960 --> 00:11:01,480
+And there we go.
+
+133
+00:11:01,480 --> 00:11:03,730
+So looks pretty good.
+
+134
+00:11:04,130 --> 00:11:07,360
+So we might as well do the content within the header.
+
+135
+00:11:07,520 --> 00:11:12,880
+So where we want to go is right under the Nav. but still within the header.
+
+136
+00:11:13,370 --> 00:11:22,490
+And actually we'll say showcase here and we're going to do a class of showcase and let's also do a class
+
+137
+00:11:22,490 --> 00:11:29,480
+of container because we want to we want to contain everything with inside and we'll do a row.
+
+138
+00:11:29,960 --> 00:11:37,190
+It's going to be a full 12 column row so we'll just call as 12
+
+139
+00:11:39,940 --> 00:11:41,140
+actually know what.
+
+140
+00:11:41,150 --> 00:11:43,640
+On medium screens I want it to be 10.
+
+141
+00:11:43,640 --> 00:11:46,470
+I don't want it to reach all the way across.
+
+142
+00:11:46,490 --> 00:11:52,760
+So we're going to do m 10 but we will also want to offset it by one because we want it to be in the
+
+143
+00:11:52,760 --> 00:11:53,490
+middle.
+
+144
+00:11:53,540 --> 00:11:57,690
+So we'll say offset dash and 1.
+
+145
+00:11:58,070 --> 00:11:58,700
+OK.
+
+146
+00:11:58,940 --> 00:12:08,480
+And then we just want to center everything and then inside here we'll put in h 5 and we'll say welcome
+
+147
+00:12:08,900 --> 00:12:12,540
+to cause do.
+
+148
+00:12:12,560 --> 00:12:22,310
+And then we're going to have an H one and we're going to say build for the future and then just a paragraph
+
+149
+00:12:22,310 --> 00:12:24,020
+of dummy text so do.
+
+150
+00:12:24,020 --> 00:12:28,180
+Let's see will do Warum 15.
+
+151
+00:12:29,240 --> 00:12:32,120
+OK and then we're going to have a couple line breaks.
+
+152
+00:12:33,740 --> 00:12:41,560
+Those couple line breaks and then let's do a couple lengths formatted as buttons.
+
+153
+00:12:41,580 --> 00:12:48,390
+So this is going to have a class of between DTN large.
+
+154
+00:12:48,540 --> 00:12:55,320
+We're also going to do white and let's do purple text.
+
+155
+00:12:56,550 --> 00:12:57,020
+OK.
+
+156
+00:12:57,030 --> 00:13:05,670
+And then this is going to go to the solutions dot h team l page and the text for this is just going
+
+157
+00:13:05,670 --> 00:13:08,180
+to say learn more.
+
+158
+00:13:08,640 --> 00:13:13,890
+All right now we're going to do is copy this link.
+
+159
+00:13:13,890 --> 00:13:18,620
+We're going to have another one next to it which is going to go to the sign up page.
+
+160
+00:13:18,830 --> 00:13:20,540
+So sign up each team now.
+
+161
+00:13:20,730 --> 00:13:27,140
+And we're going to change the color to purple and change the text to white.
+
+162
+00:13:27,240 --> 00:13:33,610
+So white text and we'll change the actual text to sign up.
+
+163
+00:13:34,320 --> 00:13:37,660
+All right so let's save that case.
+
+164
+00:13:37,670 --> 00:13:40,160
+That looks pretty good.
+
+165
+00:13:41,340 --> 00:13:49,650
+Let's see I want to move it down let's go to our main CSSA file and let's say main header and we want
+
+166
+00:13:49,650 --> 00:13:52,100
+to attach the showcase.
+
+167
+00:13:52,740 --> 00:14:02,820
+And we want to add a padding talk of 110 pixels and save and that'll move it down.
+
+168
+00:14:03,140 --> 00:14:06,630
+All right and I think I think that should do it.
+
+169
+00:14:06,630 --> 00:14:09,800
+One other thing I want to do is have an active link.
+
+170
+00:14:09,980 --> 00:14:16,080
+The active class isn't going to show all of the transparent nav bar.
+
+171
+00:14:16,080 --> 00:14:19,210
+So what we'll do is any link that's active.
+
+172
+00:14:19,650 --> 00:14:25,470
+So this index right here I'm going to give this a class of active dash
+
+173
+00:14:28,090 --> 00:14:29,610
+link like that.
+
+174
+00:14:29,610 --> 00:14:38,190
+And then we're going to style it ourselves so we'll go back and let's say Daut active link and I'm just
+
+175
+00:14:38,190 --> 00:14:45,100
+going to give it a color of that like pinkish purple ish color so it's going to be a hex value of d
+
+176
+00:14:45,100 --> 00:14:51,380
+8 for 7 for 1.
+
+177
+00:14:51,720 --> 00:14:54,090
+And we're also going to make the font weight.
+
+178
+00:14:54,090 --> 00:14:54,690
+Bold
+
+179
+00:14:57,840 --> 00:14:58,740
+and save.
+
+180
+00:14:58,740 --> 00:15:02,560
+And now you see that the home has that pinkish purplish color.
+
+181
+00:15:02,940 --> 00:15:05,400
+All right so I think that's a pretty good start.
+
+182
+00:15:05,820 --> 00:15:10,880
+And the next video we're going to continue on with the icon boxes and then we'll go from there.
+

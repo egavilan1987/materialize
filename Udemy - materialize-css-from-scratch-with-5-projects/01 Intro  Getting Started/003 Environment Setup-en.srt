@@ -1,0 +1,496 @@
+1
+00:00:00,630 --> 00:00:04,660
+All right so we're going to go ahead and set up our environment now since this is a front end course
+
+2
+00:00:04,670 --> 00:00:10,050
+so we don't need any databases or anything difficult like that in this video we're just setting up a
+
+3
+00:00:10,050 --> 00:00:14,720
+text editor and we're going to be using Visual Studio code for this course.
+
+4
+00:00:14,760 --> 00:00:20,940
+Now you don't have to use VS code if you want to use atom or Sublime Text or web storm or some other
+
+5
+00:00:20,940 --> 00:00:23,460
+editor that's absolutely fine.
+
+6
+00:00:23,460 --> 00:00:30,300
+But if you want to follow along to a T then I would suggest using VS code along with the couple of extensions
+
+7
+00:00:30,300 --> 00:00:32,610
+that I'm going to install as well.
+
+8
+00:00:32,610 --> 00:00:37,110
+All right so you can go to cocotte Visual Studio dot com and just download it.
+
+9
+00:00:37,140 --> 00:00:42,120
+It is completely cross-platform so it doesn't matter if you're on Windows Mac or Linux.
+
+10
+00:00:42,120 --> 00:00:47,550
+Ok I already have it downloaded so I'm just going to go ahead and open the windows cause I'm going to
+
+11
+00:00:47,550 --> 00:00:56,740
+open up the setup file and we're just going to go through the install a real quick.
+
+12
+00:00:57,100 --> 00:01:02,050
+I already had installed at one point so I guess I already had the folder created but we're just going
+
+13
+00:01:02,050 --> 00:01:02,830
+to click next.
+
+14
+00:01:02,830 --> 00:01:06,030
+Now you want to choose these two options right here.
+
+15
+00:01:06,040 --> 00:01:11,170
+This is going to make it so that when you right click a folder or a file you'll be able to open it with
+
+16
+00:01:11,170 --> 00:01:16,600
+Visual Studio code which is pretty handy right.
+
+17
+00:01:16,690 --> 00:01:20,790
+So just get that set up OK so that's all set.
+
+18
+00:01:20,790 --> 00:01:23,850
+Let's go ahead and watch visuals to your code.
+
+19
+00:01:25,850 --> 00:01:32,550
+And you should see your welcome page here I'm just going to close that up and what I want to do first.
+
+20
+00:01:32,570 --> 00:01:38,630
+Basically I want to set up a couple settings a couple of preferences and then install a couple extensions.
+
+21
+00:01:38,630 --> 00:01:45,890
+So let's first go to File preferences settings or hit Control comma or command comma and basically the
+
+22
+00:01:45,890 --> 00:01:52,490
+settings file is one big case file so they're just key value pairs of different categories.
+
+23
+00:01:52,490 --> 00:01:54,410
+There's only a couple of things that I want to change.
+
+24
+00:01:54,410 --> 00:01:58,090
+One is my font size so that you guys can see this better.
+
+25
+00:01:58,100 --> 00:02:02,200
+So to change a setting you'll see it says Ed. font size 14.
+
+26
+00:02:02,300 --> 00:02:07,760
+I'm going to click the little pencil icon and say copy to settings and what it will do is move it over
+
+27
+00:02:07,760 --> 00:02:14,120
+here to the custom area where we can actually edit it so I'm going to change it to 26 and hit Control
+
+28
+00:02:14,150 --> 00:02:15,980
+s or command.
+
+29
+00:02:15,980 --> 00:02:20,600
+If you're on a Mac and it'll save it automatically and you can see it kicks in.
+
+30
+00:02:20,660 --> 00:02:26,090
+All right so another thing I want to change is my tab size so I'm going to click the little pencil icon
+
+31
+00:02:26,090 --> 00:02:32,930
+and change it from 4 to 2 so that way our code isn't so spread out and then I also want to turn on word
+
+32
+00:02:32,930 --> 00:02:38,600
+wrap so I'm going to search for the word wrap in the search bar and you can see added or word wrap is
+
+33
+00:02:38,600 --> 00:02:39,170
+off.
+
+34
+00:02:39,170 --> 00:02:45,860
+I'm going to go ahead and set that to on and just click click save and retry and then it puts it over
+
+35
+00:02:45,860 --> 00:02:47,900
+here and turns it on.
+
+36
+00:02:47,930 --> 00:02:52,320
+All right so let's go ahead and save that control ass and close out.
+
+37
+00:02:52,490 --> 00:02:56,900
+And now we're going to install a couple of extensions so we're going to click this icon at the bottom
+
+38
+00:02:56,900 --> 00:02:57,440
+here.
+
+39
+00:02:57,620 --> 00:03:00,910
+This is where you can search for extensions and so on.
+
+40
+00:03:00,920 --> 00:03:08,300
+So we basically want two extensions One is live server which is right here so when I click the little
+
+41
+00:03:08,300 --> 00:03:15,380
+green install button and it'll install and this is so that we can take in each HTML file and we can
+
+42
+00:03:15,380 --> 00:03:19,400
+open it on our local host rather than on our file system.
+
+43
+00:03:19,400 --> 00:03:24,950
+And it also gives us autoload functionality so as soon as we save it will update and I won't have to
+
+44
+00:03:24,950 --> 00:03:26,140
+keep reloading it.
+
+45
+00:03:26,140 --> 00:03:28,040
+It's very very helpful.
+
+46
+00:03:28,100 --> 00:03:33,620
+So once it's installed you just want to click this reload button and it reloads your editor.
+
+47
+00:03:33,710 --> 00:03:36,290
+All right the next thing I want to install is prettier.
+
+48
+00:03:36,310 --> 00:03:42,530
+So we're going to search for prettier and prettier as a code formatter and basically what I want to
+
+49
+00:03:42,530 --> 00:03:46,960
+do is configure it so that it will fix things on save.
+
+50
+00:03:47,120 --> 00:03:53,030
+OK so if we for instance if we're missing a semi-colon in our CSSA if we save it will automatically
+
+51
+00:03:53,030 --> 00:03:56,650
+at it and it will also format our code nice and neat.
+
+52
+00:03:56,780 --> 00:04:01,700
+That way all everyone's code will match and it just makes things much easier.
+
+53
+00:04:01,700 --> 00:04:03,110
+So we're going to install that
+
+54
+00:04:06,290 --> 00:04:09,690
+and you can see it's quite popular there's $1 million downloads
+
+55
+00:04:12,710 --> 00:04:16,430
+OK so once that's installed you just want to click reload again.
+
+56
+00:04:20,030 --> 00:04:24,530
+And then those are the only two extensions that we need at least for now.
+
+57
+00:04:24,710 --> 00:04:32,930
+So next thing I want to do is go back to my settings or preferences or preferences settings and we need
+
+58
+00:04:32,930 --> 00:04:42,860
+in order for prettier to auto save or auto edits are correct when we save we need to search for.
+
+59
+00:04:43,440 --> 00:04:48,480
+Let's see what it is it's I believe it's format on save.
+
+60
+00:04:49,220 --> 00:04:54,080
+So search for format right here edit or format on save as set defaults.
+
+61
+00:04:54,080 --> 00:04:59,540
+I'm going to go ahead and set that to true so it gets put over here and we'll save that with control
+
+62
+00:04:59,710 --> 00:05:01,030
+or command us.
+
+63
+00:05:01,430 --> 00:05:07,890
+And then the other thing that I want to change I'm going to search for prettier and we want.
+
+64
+00:05:08,360 --> 00:05:10,100
+Well actually this is completely optional.
+
+65
+00:05:10,100 --> 00:05:12,910
+I prefer single quotes in my javascript.
+
+66
+00:05:12,950 --> 00:05:18,290
+We will be doing a little bit of Javascript and if I do if we don't change this all single quotes will
+
+67
+00:05:18,290 --> 00:05:19,900
+turn to double quotes.
+
+68
+00:05:19,910 --> 00:05:22,380
+So this right here pretty or single quote.
+
+69
+00:05:22,400 --> 00:05:26,760
+I'm going to set to True but it's completely up to you if you want to use that or not.
+
+70
+00:05:27,050 --> 00:05:28,970
+OK I'm going to save.
+
+71
+00:05:28,970 --> 00:05:32,380
+And that looks good so go ahead and close this up.
+
+72
+00:05:32,630 --> 00:05:35,500
+And that should be all the settings we need for now.
+
+73
+00:05:35,930 --> 00:05:40,480
+So now I want to do is just test a couple of things out.
+
+74
+00:05:40,500 --> 00:05:45,590
+I'm going to just create an on each team I'll file right on my desk top.
+
+75
+00:05:45,680 --> 00:05:46,930
+You don't have to save this.
+
+76
+00:05:47,070 --> 00:05:48,810
+You don't have to keep this or anything.
+
+77
+00:05:48,830 --> 00:05:51,990
+It's not going to be in the files it's just a test some things.
+
+78
+00:05:52,010 --> 00:05:58,220
+So we're going to say open with code you should have that if you chose those two options in the beginning.
+
+79
+00:05:58,220 --> 00:06:00,930
+All right so we're in the index each time I'll file.
+
+80
+00:06:00,950 --> 00:06:03,690
+Now another thing I want to mention is Emmett.
+
+81
+00:06:03,700 --> 00:06:07,380
+So it is just a fantastic program.
+
+82
+00:06:07,410 --> 00:06:14,150
+It's it's a it's an extension for most editors but it's included by default with the code so it's not
+
+83
+00:06:14,150 --> 00:06:17,330
+something we have to install it's already here.
+
+84
+00:06:17,330 --> 00:06:23,170
+But if you're using atom or Sublime Text or something like that I would highly suggest installing it.
+
+85
+00:06:23,240 --> 00:06:27,220
+It allows us to do things like put in an exclamation and hit tab.
+
+86
+00:06:27,410 --> 00:06:33,290
+And it gives us basically just head body tags a whole each time I lay out if we want to do tags like
+
+87
+00:06:33,290 --> 00:06:40,160
+let's say in H-1 we could just do H-1 tab it'll give us a beginning and ending H-1 if we wanted to add
+
+88
+00:06:40,160 --> 00:06:48,110
+an ID we could do hash lets say test tab it'll give us an idea of test if we wanted a class we could
+
+89
+00:06:48,110 --> 00:06:53,870
+do Daut test or whatever we want the class name and it'll give us that class.
+
+90
+00:06:53,870 --> 00:07:00,710
+Now if we want a div we could do div dot tests for a class of test but we don't even need to put the
+
+91
+00:07:00,710 --> 00:07:07,220
+word div if if that's what we want we can just do dot test tab and it will give us a div with the class
+
+92
+00:07:07,220 --> 00:07:07,720
+of test.
+
+93
+00:07:07,720 --> 00:07:12,570
+Same thing with ID if we wanted an idea of test we could go ahead and do that.
+
+94
+00:07:12,740 --> 00:07:15,010
+So Emmon is very very helpful.
+
+95
+00:07:15,080 --> 00:07:21,890
+We could do things like let's say we wanted 10 allys we could do ally times 10 and tab and that gives
+
+96
+00:07:21,890 --> 00:07:28,070
+us 10 allys it's just it really makes things much easier and I'd highly recommend it if you're not already
+
+97
+00:07:28,070 --> 00:07:28,970
+using it.
+
+98
+00:07:28,970 --> 00:07:34,010
+And I will be using it throughout the course so I wanted to show you that so that you don't get confused
+
+99
+00:07:34,010 --> 00:07:35,870
+when you see me doing things like that.
+
+100
+00:07:37,100 --> 00:07:42,290
+OK another thing I wanted to do is just test out the live server so I'll just put an H-1 in here and
+
+101
+00:07:42,290 --> 00:07:46,350
+just say hello world and save.
+
+102
+00:07:46,460 --> 00:07:53,420
+And then if you install life server you should be able to right click and say open with live server
+
+103
+00:07:53,960 --> 00:07:56,300
+and you can see that it opens our file up.
+
+104
+00:07:56,300 --> 00:07:59,100
+So I'm just going to snap these over.
+
+105
+00:07:59,330 --> 00:08:07,010
+Now notice that the in the U R L bar it's at our loopback address which is 1 2 7 0 0 1 that's your local
+
+106
+00:08:07,010 --> 00:08:11,040
+host and it's on port 5500 by default.
+
+107
+00:08:11,040 --> 00:08:11,440
+All right.
+
+108
+00:08:11,440 --> 00:08:16,820
+Now what's nice about this is that if I change something here if I change this to.
+
+109
+00:08:17,030 --> 00:08:22,310
+Hello there and just save it automatically reloads I don't have to keep reloading it.
+
+110
+00:08:22,310 --> 00:08:24,320
+So that's really nice.
+
+111
+00:08:24,320 --> 00:08:24,650
+All right.
+
+112
+00:08:24,650 --> 00:08:28,120
+So I would highly recommend that you use something like this.
+
+113
+00:08:28,250 --> 00:08:35,250
+Most most braue are text editors have something like this for instance Adam has Adam live server.
+
+114
+00:08:35,300 --> 00:08:37,950
+It just makes things much easier and more efficient.
+
+115
+00:08:39,170 --> 00:08:40,820
+All right so that's all I wanted to do.
+
+116
+00:08:40,820 --> 00:08:46,850
+Now that we have everything set up on do you want to stop the server you can see right down here where
+
+117
+00:08:46,850 --> 00:08:48,690
+it says port 5500.
+
+118
+00:08:48,740 --> 00:08:51,600
+Just click that and that'll stop the server.
+
+119
+00:08:51,800 --> 00:08:52,220
+OK.
+
+120
+00:08:52,230 --> 00:08:54,930
+And if I reload now it won't work.
+
+121
+00:08:54,950 --> 00:09:00,050
+So in the next video what I want to do is start to set up our sandbox so we're going to have a bunch
+
+122
+00:09:00,050 --> 00:09:05,910
+of files I already pre-made that are ready to go and ready to start.
+
+123
+00:09:05,910 --> 00:09:14,430
+Learn start looking at the syntax for materialize the classes the javascript components all that stuff.
+
+124
+00:09:14,480 --> 00:09:17,170
+So we'll get into setting that up in the next video.
+
